@@ -237,11 +237,29 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Latin Grammy Awards: The fashion, moments, winners and performances - Reuters",
+      "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
+      "datetime": 1794611744,
+      "headlineKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 - Reuters",
+      "summaryKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 Reuters"
+    },
+    {
+      "headline": "US Air Force responds to suspected drone activity over UK airbase - Reuters",
+      "summary": "US Air Force responds to suspected drone activity over UK airbase Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5",
+      "datetime": 1794609282,
+      "headlineKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 로이터 통신",
+      "summaryKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 최신"
+    },
+    {
       "headline": "US grounds flights nationwide after air traffic control communications outage - Reuters",
       "summary": "US grounds flights nationwide after air traffic control communications outage Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
-      "datetime": 1794608571,
+      "datetime": 1794609060,
       "headlineKo": "항공 교통 관제 통신 중단 후 미국 지상 비행 전국적으로 - 로이터 통신",
       "summaryKo": "항공 교통 관제 통신 중단 후 미국 전역 비행 - 최신"
     },
@@ -271,15 +289,6 @@ const MARKET_DATA = {
       "datetime": 1794603985,
       "headlineKo": "그들은 '허니팟' 사기를 피하도록 사람들을 교육합니다. 그들이 발견하는 일반적인 위험 신호는 다음과 같습니다.",
       "summaryKo": "기업 보안 회사는 허니팟 및 기타 사회 공학 공격에 대비하기 위한 전략에 대해 회사와 직원을 교육합니다."
-    },
-    {
-      "headline": "US air force responds to suspected drone activity over UK airbase - Reuters",
-      "summary": "US air force responds to suspected drone activity over UK airbase Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5",
-      "datetime": 1794603467,
-      "headlineKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 로이터 통신",
-      "summaryKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 최신"
     },
     {
       "headline": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794595445,
       "headlineKo": "Goldman Sachs는 Anthropic의 IPO를 두 번이나 현금화할 것으로 보입니다. 방법과 다른 사람이 원하는 것은 다음과 같습니다.",
       "summaryKo": "Goldman은 제안을 공동 주도하는 동시에 이번 거래로 창출되는 수십억 달러의 새로운 부를 관리할 기회도 원합니다. 유일한 것이 아닙니다."
-    },
-    {
-      "headline": "The common theme driving stocks lower — plus, 3 trades and another we want to make",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/13/the-common-theme-driving-stocks-lower-plus-3-trades-and-another-we-want-to-make.html",
-      "datetime": 1794592623,
-      "headlineKo": "주식 하락을 주도하는 공통 테마 — 게다가 3건의 거래와 우리가 원하는 또 다른 거래",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794610898.95922,
+  "_news_last_success_at": 1794614478.6840343,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794610886.2070725,
-  "_updated_label": "2026-11-14 08:02",
-  "_last_attempt_at": 1794610886.2070725,
-  "_last_success_at": 1794610886.2070725,
+  "_fetched_at": 1794614467.2475457,
+  "_updated_label": "2026-11-14 09:01",
+  "_last_attempt_at": 1794614467.2475457,
+  "_last_success_at": 1794614467.2475457,
   "_collection_status": "ok",
   "_collection_errors": []
 };
