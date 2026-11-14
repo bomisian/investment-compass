@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -5.470374133997691,
-        "ret3m": 4.996189338343671,
-        "ret6m": 4.803255058884348,
-        "ret1y": 1.1709465225862692,
+        "ret1m": -5.270733942811267,
+        "ret3m": 5.217934205323949,
+        "ret6m": 5.0245924616851845,
+        "ret1y": 1.3846127348582815,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -17.482399243253756,
-        "ret3m": -26.206985267512085,
-        "ret6m": -12.962509912859199,
-        "ret1y": 72.84011667715313,
+        "ret1m": -17.669478731711074,
+        "ret3m": -26.3742848414366,
+        "ret6m": -13.159836652521829,
+        "ret1y": 72.44826281426411,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -14.20388821228844,
-        "ret3m": -27.412916355553328,
-        "ret6m": -18.894256614662307,
-        "ret1y": 82.86949133213632,
+        "ret1m": -13.292052069299153,
+        "ret3m": -26.641465004180166,
+        "ret6m": -18.03226943736742,
+        "ret1y": 84.8130177714148,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -7.174938423953181,
-        "ret3m": -18.596888255582833,
-        "ret6m": -19.325386139729883,
-        "ret1y": 18.272505880165003,
+        "ret1m": -9.872516317784708,
+        "ret3m": -20.96253424603485,
+        "ret6m": -21.669861341231034,
+        "ret1y": 14.835402883481152,
         "winRate": null,
         "count": 12
       }
@@ -229,8 +229,8 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.6075978876515179,
-    "corrPctRank": 39.079497907949786,
+    "corr60": 0.6058902403027195,
+    "corrPctRank": 38.57740585774059,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.6914286895151784,
     "corrMax5y": 0.9306761077384692
@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
-      "datetime": 1794617144,
+      "datetime": 1794622544,
       "headlineKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 - Reuters",
       "summaryKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 Reuters"
     },
@@ -255,15 +255,6 @@ const MARKET_DATA = {
       "summaryKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 최신"
     },
     {
-      "headline": "US grounds flights nationwide after air traffic control communications outage - Reuters",
-      "summary": "US grounds flights nationwide after air traffic control communications outage Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
-      "datetime": 1794609060,
-      "headlineKo": "항공 교통 관제 통신 중단 후 미국 지상 비행 전국적으로 - 로이터 통신",
-      "summaryKo": "항공 교통 관제 통신 중단 후 미국 전역 비행 - 최신"
-    },
-    {
       "headline": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
       "summary": "Researchers from the Digital Inquiry Group say that two habits that take just \"a few seconds up front\" can help keep you from being \"duped\" online.",
       "source": "CNBC",
@@ -271,6 +262,15 @@ const MARKET_DATA = {
       "datetime": 1794607615,
       "headlineKo": "해커들이 바이낸스에서 63억 달러를 훔쳤습니다. '몇 초'가 걸리는 2가지 습관은 유사한 함정을 피하는 데 도움이 될 수 있습니다",
       "summaryKo": "Digital Inquiry Group의 연구원들은 \"앞으로 몇 초만 투자하면\" 온라인에서 \"속는\" 일을 방지하는 데 도움이 되는 두 가지 습관이 있다고 말합니다."
+    },
+    {
+      "headline": "US to resume flights after air traffic communications failure sparks chaos - Reuters",
+      "summary": "US to resume flights after air traffic communications failure sparks chaos Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
+      "datetime": 1794605880,
+      "headlineKo": "미국, 항공 교통 통신 실패로 인해 혼란이 촉발된 후 비행 재개 - 로이터",
+      "summaryKo": "미국, 항공 교통 통신 실패로 인해 혼란이 촉발된 후 비행 재개 - 최신"
     },
     {
       "headline": "Iran's IRGC says two tankers hit sea mines in Hormuz - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794622598.7451215,
+  "_news_last_success_at": 1794626628.6494327,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794622590.9110796,
-  "_updated_label": "2026-11-14 11:17",
-  "_last_attempt_at": 1794622590.9110796,
-  "_last_success_at": 1794622590.9110796,
+  "_fetched_at": 1794626618.434898,
+  "_updated_label": "2026-11-14 12:24",
+  "_last_attempt_at": 1794626618.434898,
+  "_last_success_at": 1794626618.434898,
   "_collection_status": "ok",
   "_collection_errors": []
 };
