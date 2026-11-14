@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "datetime": 1794657601,
+      "headlineKo": "에릭 트럼프가 지원하는 로봇 군인 스타트업은 창업자가 집을 구입하기 위해 회사로부터 460만 달러를 빌린 후 직원에게 급여를 지급할 수 없습니다",
+      "summaryKo": "Eric Trump가 지원하는 로봇 스타트업 Foundation Future Industries는 CEO Sankaet Pathak이 460만 달러의 회사 대출에 대한 조사를 받자 현금이 부족하고 급여도 누락되었습니다."
+    },
+    {
+      "headline": "Meet the seven co-founders of Anthropic",
+      "summary": "Four researchers, a former journalist, a public policymaker, and an engineer founded Anthropic in 2021. They're now poised to become multi-billionaires.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+      "datetime": 1794657601,
+      "headlineKo": "Anthropic의 7명의 공동 창립자를 만나보세요",
+      "summaryKo": "전직 언론인, 공공 정책 입안자, 엔지니어로 구성된 4명의 연구원이 2021년에 Anthropic을 설립했습니다. 그들은 이제 억만장자가 될 준비가 되어 있습니다."
+    },
+    {
       "headline": "Latin Grammy Awards: The fashion, moments, winners and performances - Reuters",
       "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794603259,
       "headlineKo": "예멘 후티 반군이 자잔에서 사우디군을 향해 미사일을 발사했다고 밝혔습니다.",
       "summaryKo": "예멘 후티 반군이 자잔에서 사우디군을 향해 미사일을 발사했다고 밝혔습니다."
-    },
-    {
-      "headline": "Hassett denies report he's leaving White House: 'Not true'",
-      "summary": "National Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
-      "datetime": 1794599957,
-      "headlineKo": "하셋, 백악관을 떠난다는 보도에 대해 '사실이 아니다'라고 부인",
-      "summaryKo": "케빈 하셋 국가경제위원회 위원장은 향후 몇 주 내에 백악관을 떠날 것이라는 보도에 대해 냉담한 반응을 보였다."
-    },
-    {
-      "headline": "Many people ignore these ‘early red flags’ in romance scams, says Harvard-trained psychologist",
-      "summary": "Psychologist and relationship expert Dr. Sabrina Romanoff shares her best advice for how to spot a romance scammer.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/11/13/psychologist-many-people-ignore-5-early-red-flags-in-romance-scams.html",
-      "datetime": 1794599292,
-      "headlineKo": "많은 사람들이 로맨스 사기에 대한 이러한 '초기 위험 신호'를 무시한다고 하버드에서 훈련받은 심리학자는 말합니다.",
-      "summaryKo": "심리학자이자 인간관계 전문가인 사브리나 로마노프(Sabrina Romanoff) 박사가 로맨스 사기꾼을 식별하는 방법에 대한 최선의 조언을 공유합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794655314.4762058,
+  "_news_last_success_at": 1794659172.4823678,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794655305.5842702,
-  "_updated_label": "2026-11-14 20:22",
-  "_last_attempt_at": 1794655305.5842702,
-  "_last_success_at": 1794655305.5842702,
+  "_fetched_at": 1794659161.3523316,
+  "_updated_label": "2026-11-14 21:26",
+  "_last_attempt_at": 1794659161.3523316,
+  "_last_success_at": 1794659161.3523316,
   "_collection_status": "ok",
   "_collection_errors": []
 };
