@@ -1,6 +1,6 @@
 // build_104_drawdown_type.py 자동 생성 -- 설명용, 예측 신호 아님
 window.DRAWDOWN_TYPE = {
-  "generated": "2026-11-15T02:17:44",
+  "generated": "2026-11-15T02:51:09",
   "consensus_as_of": "2026-11-15",
   "method": "104 -- 현재 워치리스트 '하락 유형' 분류(설명용 표시, 예측 신호 아님). [2026-10-11 재구성판 -- 원본 스크립트 소실 확인 후 method 설명+ORCL 샘플 1건 근거로 재구성, 코드 상단 docstring 참고] forward_90d: 최근 90일 가격 변화 vs NTM EPS 추정치 변화(선행 PER 변화). trailing_since_high: 52주 종가 고점 -> 지금, SEC EDGAR 분기 희석 EPS 합산 TTM 변화. 범주(허용오차 5%p): A 가격만 조정(이익 유지) / B 이익↓·가격 더↓(배수 하락) / C 이익이 가격만큼·더↓(배수 안 낮아짐) / D 적자 / X 자료부족 / N 가격 하락 없음. 네트워크: SEC EDGAR만 사용.",
   "rows": {
@@ -9,7 +9,7 @@ window.DRAWDOWN_TYPE = {
       "score": 0,
       "dd52": -5.74,
       "ma200pct": 18.68,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 523.8800048828125,
@@ -60,7 +60,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -26.54,
       "ma200pct": -12.62,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 295.7699890136719,
@@ -111,7 +111,7 @@ window.DRAWDOWN_TYPE = {
       "score": 0,
       "dd52": -6.11,
       "ma200pct": 9.02,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 266.6600036621094,
@@ -162,7 +162,7 @@ window.DRAWDOWN_TYPE = {
       "score": 1,
       "dd52": -17.48,
       "ma200pct": 1.73,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 641.6900024414062,
@@ -213,7 +213,7 @@ window.DRAWDOWN_TYPE = {
       "score": 0,
       "dd52": 0.0,
       "ma200pct": 18.26,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 356.2699890136719,
@@ -264,7 +264,7 @@ window.DRAWDOWN_TYPE = {
       "score": 2,
       "dd52": -20.34,
       "ma200pct": 1.96,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 390.2200012207031,
@@ -315,7 +315,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -49.49,
       "ma200pct": -18.66,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 125.3499984741211,
@@ -366,7 +366,7 @@ window.DRAWDOWN_TYPE = {
       "score": 2,
       "dd52": -18.18,
       "ma200pct": 10.03,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 217.83999633789062,
@@ -417,7 +417,7 @@ window.DRAWDOWN_TYPE = {
       "score": 2,
       "dd52": -19.64,
       "ma200pct": 9.28,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 167.99000549316406,
@@ -468,7 +468,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -31.93,
       "ma200pct": -20.25,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 162.85000610351562,
@@ -519,7 +519,7 @@ window.DRAWDOWN_TYPE = {
       "score": 1,
       "dd52": -17.76,
       "ma200pct": 26.22,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 534.0599975585938,
@@ -570,7 +570,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -27.94,
       "ma200pct": -5.56,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 347.010009765625,
@@ -621,7 +621,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -31.29,
       "ma200pct": 1.33,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 172.47000122070312,
@@ -672,7 +672,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -56.64,
       "ma200pct": -18.16,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 190.52999877929688,
@@ -723,7 +723,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -50.46,
       "ma200pct": -16.17,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 156.75999450683594,
@@ -774,7 +774,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -57.67,
       "ma200pct": -31.74,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 59.65999984741211,
@@ -825,7 +825,7 @@ window.DRAWDOWN_TYPE = {
       "score": 2,
       "dd52": -17.92,
       "ma200pct": -1.07,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 398.7300109863281,
@@ -870,7 +870,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -24.85,
       "ma200pct": -6.68,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 1495.1600341796875,
@@ -915,7 +915,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -48.76,
       "ma200pct": -17.03,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 370.5,
@@ -966,7 +966,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -47.86,
       "ma200pct": -20.41,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 225.9199981689453,
@@ -1017,7 +1017,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -49.51,
       "ma200pct": -16.2,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 152.32000732421875,
@@ -1068,7 +1068,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -35.87,
       "ma200pct": 1.66,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 778.3099975585938,
@@ -1119,7 +1119,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -62.1,
       "ma200pct": -30.99,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 885.010009765625,
@@ -1170,7 +1170,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -60.38,
       "ma200pct": -29.94,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 295.6499938964844,
@@ -1221,7 +1221,7 @@ window.DRAWDOWN_TYPE = {
       "score": 1,
       "dd52": -8.97,
       "ma200pct": 17.89,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 197.2899932861328,
@@ -1272,7 +1272,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -48.9,
       "ma200pct": -26.5,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 218.14999389648438,
@@ -1323,7 +1323,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -47.36,
       "ma200pct": -26.69,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 596.6199951171875,
@@ -1374,7 +1374,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -31.64,
       "ma200pct": -15.62,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 803.1300048828125,
@@ -1425,7 +1425,7 @@ window.DRAWDOWN_TYPE = {
       "score": 2,
       "dd52": -25.99,
       "ma200pct": 0.65,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 280.20001220703125,
@@ -1476,7 +1476,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -26.18,
       "ma200pct": -12.45,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 133.00999450683594,
@@ -1527,7 +1527,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -23.26,
       "ma200pct": -11.27,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 352.9700012207031,
@@ -1578,7 +1578,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -23.33,
       "ma200pct": -4.78,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 602.010009765625,
@@ -1629,7 +1629,7 @@ window.DRAWDOWN_TYPE = {
       "score": 3,
       "dd52": -21.67,
       "ma200pct": -10.03,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 436.9800109863281,
@@ -1680,7 +1680,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -46.29,
       "ma200pct": -25.59,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 202.07000732421875,
@@ -1731,7 +1731,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -55.8,
       "ma200pct": -36.7,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 135.66000366210938,
@@ -1782,7 +1782,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -51.71,
       "ma200pct": -24.64,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 528.2899780273438,
@@ -1833,7 +1833,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -30.13,
       "ma200pct": -15.39,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 659.3599853515625,
@@ -1884,7 +1884,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -46.17,
       "ma200pct": -30.67,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 1112.5,
@@ -1935,7 +1935,7 @@ window.DRAWDOWN_TYPE = {
       "score": 4,
       "dd52": -44.49,
       "ma200pct": -14.11,
-      "spy_dd": -3.19,
+      "spy_dd": -3.17,
       "forward_90d": {
         "status": "OK",
         "price_now": 191.99000549316406,
