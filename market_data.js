@@ -282,15 +282,6 @@ const MARKET_DATA = {
       "summaryKo": "전직 언론인, 공공 정책 입안자, 엔지니어로 구성된 4명의 연구원이 2021년에 Anthropic을 설립했습니다. 그들은 이제 억만장자가 될 준비가 되어 있습니다."
     },
     {
-      "headline": "Latin Grammy Awards: The fashion, moments, winners and performances - Reuters",
-      "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
-      "datetime": 1794656886,
-      "headlineKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 - Reuters",
-      "summaryKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 Reuters"
-    },
-    {
       "headline": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
       "summary": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say Reuters",
       "source": "Reuters",
@@ -343,18 +334,27 @@ const MARKET_DATA = {
       "datetime": 1794607615,
       "headlineKo": "해커들이 바이낸스에서 63억 달러를 훔쳤습니다. '몇 초'가 걸리는 2가지 습관은 유사한 함정을 피하는 데 도움이 될 수 있습니다",
       "summaryKo": "Digital Inquiry Group의 연구원들은 \"앞으로 몇 초만 투자하면\" 온라인에서 \"속는\" 일을 방지하는 데 도움이 되는 두 가지 습관이 있다고 말합니다."
+    },
+    {
+      "headline": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
+      "summary": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
+      "datetime": 1794606402,
+      "headlineKo": "미국, 석유와 원자재의 자유로운 이동을 허용하기 위해 해운법 면제 기간을 90일 연장 - Reuters",
+      "summaryKo": "미국, 석유와 상품의 자유로운 이동을 허용하기 위해 해운법 면제를 90일 연장 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794674754.9484234,
+  "_news_last_success_at": 1794678582.5874517,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794674746.8548715,
-  "_updated_label": "2026-11-15 01:46",
-  "_last_attempt_at": 1794674746.8548715,
-  "_last_success_at": 1794674746.8548715,
+  "_fetched_at": 1794678574.4914918,
+  "_updated_label": "2026-11-15 02:50",
+  "_last_attempt_at": 1794678574.4914918,
+  "_last_success_at": 1794678574.4914918,
   "_collection_status": "ok",
   "_collection_errors": []
 };
