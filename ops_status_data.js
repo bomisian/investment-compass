@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-11T07:35:42+09:00",
+  "generatedAt": "2026-11-15T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-11 07:09"
+      "detail": "2026-11-15 07:03"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 26분 전부터)"
+      "detail": "'buy_signal_telegram' 진행 중(2분 전 시작)"
     },
     {
       "key": "loop_count",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-11-10 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-13 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-11 07:08 생성 → 거래일 2026-11-10 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-15 07:02 생성 → 거래일 2026-11-13 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 27일째(기준 14일)"
+      "detail": "COHR 31일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -70,15 +70,15 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "smart_money_quarter",
-      "status": "unknown",
+      "status": "green",
       "label": "13F 신규 분기 반영",
-      "detail": "아직 확인 시점 전(2026-11-15부터 확인)"
+      "detail": "41개 전부 2026-09-30 이후 분기로 반영됨"
     },
     {
       "key": "smart_money_quarter_auto",
-      "status": "unknown",
+      "status": "red",
       "label": "13F 자동 수집 실행",
-      "detail": "아직 실행 기록 없음(수집 창 전이거나 최초 실행 전)"
+      "detail": "2026-11-15 실행 실패: 110_collect 실패(rc=3): 다른 110 실행이 진행 중 -- 이번 실행 건너뜀"
     },
     {
       "key": "evidence_10q_crosscheck",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(19일), FIX(20일), BE(20일), HUBB(15일), STX(15일), GEV(14일), HUBB(14일), VRT(14일), MSFT(14일), GOOGL(14일), KLAC(14일), VRT(14일), GOOGL(13일), PWR(13일), EME(13일), AMZN(13일), INTC(13일), KLAC(13일), SNDK(13일), STX(13일), AMZN(12일), INTC(12일), SNDK(12일), MRVL(9일), LITE(9일), AAPL(9일), PLTR(9일), PLTR(8일), AAPL(8일), ETN(8일), AMD(8일), ANET(8일), LITE(8일), MOD(8일), AMD(7일), ANET(7일), MOD(7일), QCOM(7일), ARM(7일), COHR(7일), EME(13일), VST(5일), CEG(2일), VST(2일), CEG(2일), TSM(1일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(23일), FIX(24일), BE(24일), HUBB(19일), STX(19일), GEV(18일), HUBB(18일), VRT(18일), MSFT(18일), GOOGL(18일), KLAC(18일), VRT(18일), GOOGL(17일), PWR(17일), EME(17일), AMZN(17일), INTC(17일), KLAC(17일), SNDK(17일), STX(17일), AMZN(16일), INTC(16일), SNDK(16일), MRVL(13일), LITE(13일), AAPL(13일), PLTR(13일), PLTR(12일), AAPL(12일), ETN(12일), AMD(12일), ANET(12일), LITE(12일), MOD(12일), AMD(11일), ANET(11일), MOD(11일), QCOM(11일), ARM(11일), COHR(11일), EME(17일), VST(9일), CEG(6일), VST(6일), CEG(6일), TSM(5일), TSM(3일), TSM(2일), AMAT(3일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -102,25 +102,25 @@ const OPS_STATUS_DATA = {
       "key": "quarterly_cashflow_gap",
       "status": "green",
       "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
-      "detail": "비어 있음(아직 기다리는 중): CEG Q3'26(2026-11-11부터 0거래일)"
+      "detail": "비어 있음(아직 기다리는 중): AMAT Q4'26(2026-11-15부터 0거래일)"
     },
     {
       "key": "ttm_eps_rule",
-      "status": "green",
+      "status": "yellow",
       "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
-      "detail": "분기 합 29종목 · 기존 값·없음 10종목 · 적정가 변화 8종목"
+      "detail": "분기 합 31종목 · 기존 값·없음 8종목 · 적정가 변화 9종목 / 자동 복귀(검증 미완): VRT"
     },
     {
       "key": "earnings_reflection",
       "status": "yellow",
       "label": "실적 반영 상태(가격지도)",
-      "detail": "가격지도 반영 대기 1종목: MRVL(11/02 발표, 최신 2026-09-30 / 반영 2026-08-01) / EPS 컨센서스가 발표 전 추정치 1종목: CEG"
+      "detail": "가격지도 반영 대기 1종목: AMAT(11/12 발표, 최신 2026-12-31 / 반영 2026-07-26) / EPS 컨센서스가 발표 전 추정치 1종목: AMAT"
     },
     {
       "key": "wacc_roic",
       "status": "green",
       "label": "자본 효율(ROIC·WACC) 계산",
-      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 4.88%(2026-11-09, fresh) · 생성 2026-11-11T06:37"
+      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 5.1%(2026-11-12, fresh) · 생성 2026-11-14T06:22"
     },
     {
       "key": "required_tools",
@@ -132,13 +132,13 @@ const OPS_STATUS_DATA = {
       "key": "price_map_daily_run",
       "status": "green",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-11-10(기대 2026-11-10, 실행 2026-11-11 06:37:08)"
+      "detail": "마지막 성공 세션 2026-11-13(기대 2026-11-13, 실행 2026-11-14 06:22:14)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-11 07:08 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-15 07:33 KST 정상 갱신(실패 0개)"
     }
   ]
 };
