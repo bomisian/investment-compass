@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Juice your growth and save on taxes in this workplace investment account",
+      "summary": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+      "datetime": 1794665297,
+      "headlineKo": "이 직장 투자 계좌로 성장을 촉진하고 세금을 절약하세요",
+      "summaryKo": "2027년 등록 시즌이 계속됨에 따라 건강 저축 계좌를 갖춘 공제액이 높은 의료 혜택 플랜이 많은 고용주의 메뉴에 포함됩니다."
+    },
+    {
       "headline": "Retailers are turning to entertainment to win shoppers’ attention",
       "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794606402,
       "headlineKo": "미국, 석유와 원자재의 자유로운 이동을 허용하기 위해 해운법 면제 기간을 90일 연장 - Reuters",
       "summaryKo": "미국, 석유와 상품의 자유로운 이동을 허용하기 위해 해운법 면제를 90일 연장 - 최신"
-    },
-    {
-      "headline": "US to resume flights after air traffic network failure sparks chaos - Reuters",
-      "summary": "US to resume flights after air traffic network failure sparks chaos Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
-      "datetime": 1794605880,
-      "headlineKo": "미국, 항공 교통 네트워크 장애로 인해 혼란이 촉발된 후 비행 재개 - Reuters",
-      "summaryKo": "미국, 항공 교통 네트워크 장애로 인해 혼란이 촉발된 후 비행 재개 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794662969.0132425,
+  "_news_last_success_at": 1794666791.0371153,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794662956.6298294,
-  "_updated_label": "2026-11-14 22:29",
-  "_last_attempt_at": 1794662956.6298294,
-  "_last_success_at": 1794662956.6298294,
+  "_fetched_at": 1794666781.822307,
+  "_updated_label": "2026-11-14 23:33",
+  "_last_attempt_at": 1794666781.822307,
+  "_last_success_at": 1794666781.822307,
   "_collection_status": "ok",
   "_collection_errors": []
 };
