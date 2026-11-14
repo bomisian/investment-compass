@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "summary": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+      "datetime": 1794682119,
+      "headlineKo": "엔비디아의 리더십 위기는 AI 거래를 뒤흔든다. 포트폴리오를 조정하는 방법은 다음과 같습니다.",
+      "summaryKo": "이러한 혼란에도 불구하고 S&P 500은 주간 2.5% 상승했고, 기술주 중심의 나스닥은 2.3% 상승했습니다."
+    },
+    {
       "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
       "summary": "A real estate investment in markets across the U.S. called 'industrial outdoor storage' is attracting Wall Street giants including Brookfield and Blackstone.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794607615,
       "headlineKo": "해커들이 바이낸스에서 63억 달러를 훔쳤습니다. '몇 초'가 걸리는 2가지 습관은 유사한 함정을 피하는 데 도움이 될 수 있습니다",
       "summaryKo": "Digital Inquiry Group의 연구원들은 \"앞으로 몇 초만 투자하면\" 온라인에서 \"속는\" 일을 방지하는 데 도움이 되는 두 가지 습관이 있다고 말합니다."
-    },
-    {
-      "headline": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
-      "summary": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
-      "datetime": 1794606402,
-      "headlineKo": "미국, 석유와 원자재의 자유로운 이동을 허용하기 위해 해운법 면제 기간을 90일 연장 - Reuters",
-      "summaryKo": "미국, 석유와 상품의 자유로운 이동을 허용하기 위해 해운법 면제를 90일 연장 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794682348.2390478,
+  "_news_last_success_at": 1794686082.056061,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794682340.8192089,
-  "_updated_label": "2026-11-15 03:52",
-  "_last_attempt_at": 1794682340.8192089,
-  "_last_success_at": 1794682340.8192089,
+  "_fetched_at": 1794686074.145231,
+  "_updated_label": "2026-11-15 04:55",
+  "_last_attempt_at": 1794686074.145231,
+  "_last_success_at": 1794686074.145231,
   "_collection_status": "ok",
   "_collection_errors": []
 };
