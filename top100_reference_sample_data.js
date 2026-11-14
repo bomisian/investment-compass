@@ -6,10 +6,10 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
   "benchmarkNote": "TOP100 유니버스는 섹터 ETF가 지정돼 있지 않아 전부 SPY 대비로 계산함",
   "minSampleForRate": 20,
   "aggregate": {
-    "n": 2,
-    "label": "표본 부족(2개)",
-    "hit_rate": 50.0,
-    "avg_excess": -3.23
+    "n": 4,
+    "label": "표본 부족(4개)",
+    "hit_rate": 25.0,
+    "avg_excess": -10.26
   },
   "rows": [
     {
@@ -29,19 +29,27 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
       "excess": 13.24,
       "hit": true,
       "benchmark": "SPY"
-    }
-  ],
-  "skipped": [
+    },
     {
       "t": "PANW",
       "d": "2026-10-16",
-      "reason": "SPY 20거래일 뒤 데이터 아직 없음"
+      "ret": -5.78,
+      "benchmark_ret": -1.18,
+      "excess": -4.59,
+      "hit": false,
+      "benchmark": "SPY"
     },
     {
       "t": "MRVL",
       "d": "2026-10-16",
-      "reason": "20거래일 뒤 데이터 아직 없음"
-    },
+      "ret": -31.19,
+      "benchmark_ret": -1.18,
+      "excess": -30.01,
+      "hit": false,
+      "benchmark": "SPY"
+    }
+  ],
+  "skipped": [
     {
       "t": "APH",
       "d": "2026-10-20",
