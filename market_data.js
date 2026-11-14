@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Retailers are turning to entertainment to win shoppers’ attention",
+      "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+      "datetime": 1794661201,
+      "headlineKo": "소매업체는 쇼핑객의 관심을 끌기 위해 엔터테인먼트로 전환하고 있습니다.",
+      "summaryKo": "청중의 관심을 끌기 위한 경쟁이 가속화됨에 따라 소매업체는 점점 더 엔터테인먼트 스튜디오에 투자하고 구축하고 있습니다."
+    },
+    {
       "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
       "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
       "source": "CNBC",
@@ -259,9 +268,36 @@ const MARKET_DATA = {
       "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
-      "datetime": 1794649545,
+      "datetime": 1794656886,
       "headlineKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 - Reuters",
       "summaryKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 Reuters"
+    },
+    {
+      "headline": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
+      "summary": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
+      "datetime": 1794654250,
+      "headlineKo": "트럼프는 고문들에게 새로운 도발이 없다면 이란 공격을 보류할 수 있다고 말했다고 소식통은 전했습니다.",
+      "summaryKo": "트럼프 대통령은 고문들에게 새로운 도발이 없다면 이란 공격을 보류할 수도 있다고 말했다고 소식통이 로이터를 통해 전했다."
+    },
+    {
+      "headline": "Iran's navy says oil tanker on fire after hitting mine in Hormuz - Reuters",
+      "summary": "Iran's navy says oil tanker on fire after hitting mine in Hormuz Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
+      "datetime": 1794652290,
+      "headlineKo": "이란 해군, 호르무즈 기뢰에 충돌한 유조선에 화재 발생 - 로이터 통신",
+      "summaryKo": "이란 해군, 호르무즈에서 기뢰와 충돌한 유조선에 불이 붙었다고 밝혔습니다."
+    },
+    {
+      "headline": "Rubio assails international court in speech to conservative legal group - Reuters",
+      "summary": "Rubio assails international court in speech to conservative legal group Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblc1UEZaUHNzR0QzV051c0Nid3k2WWI3Y1RFNm00LW4wTm83X0Y5MlFRU29fZ0RvYnJFVURiMV96VS1HWmZnV1BkUW16MHJYdXdRbjJSOTJERzh5NXhiRGxjNUkwRDVwNjUxdHF3cXRKN21GNUVELWx2VHpMeHpUYjdjZWY3SFZ6QWs0MWh4cXFnUk1aMFMtT1NIMEl0VTJfcGFOalFvUG41ck5wczB3?oc=5",
+      "datetime": 1794618360,
+      "headlineKo": "루비오, 보수 법률 단체에 연설하며 국제 법원 공격 - 로이터",
+      "summaryKo": "루비오, 보수 법률 단체와의 연설에서 국제 법원을 공격 - 로이터"
     },
     {
       "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
@@ -307,54 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794605880,
       "headlineKo": "미국, 항공 교통 네트워크 장애로 인해 혼란이 촉발된 후 비행 재개 - Reuters",
       "summaryKo": "미국, 항공 교통 네트워크 장애로 인해 혼란이 촉발된 후 비행 재개 - 최신"
-    },
-    {
-      "headline": "US Congress Democrats plot 'must-have' victories in 2027 - Reuters",
-      "summary": "US Congress Democrats plot 'must-have' victories in 2027 Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbGhnekxYN2VBbGp2T1R2em5qV2ZVQ0FHa0tYWGRGNWZqUkoySzVhdU9yRUN0TzRWSXBsaHVla0dPT0U5RTAxMUlIcUloZzhFUnJ3MTNMQWMwWGt5QVNOTWxhTloweWpOb2JXcnd6cy1oblAxenl4WmtNNXJTaHc5QU1uUDE3cU1PbUJPUGUyLVpnaUxJRUxMeTE1SGRCWjNJeUU3NFM3WQ?oc=5",
-      "datetime": 1794605755,
-      "headlineKo": "미국 의회 민주당, 2027년 '필수' 승리 계획 - 로이터",
-      "summaryKo": "미국 의회 민주당은 2027년에 '필수' 승리를 계획합니다."
-    },
-    {
-      "headline": "Iran's IRGC says two tankers hit sea mines in Hormuz - Reuters",
-      "summary": "Iran's IRGC says two tankers hit sea mines in Hormuz Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVUydG1mRVVtRzVScWR6N19NejF5VXVuUDlqaGxSSHdJN1hmYlBtZHRJMDNWbUJVSUMyRTBRM252dzFjSmtZOHlLYmg4Y2pqLXVrSndiS3dVLWVBa0tESWJtZW05MUprVkpXTE5sQXV0aXJRR1dQQ3FmWHk0SHpoSmQzRUZmRFZCaXdjLURicWxtRk1tSnZ1dEM2UTI1b1RmTzdwRw?oc=5",
-      "datetime": 1794604495,
-      "headlineKo": "이란 IRGC는 유조선 2척이 호르무즈 해저 기뢰에 충돌했다고 밝혔습니다.",
-      "summaryKo": "이란 IRGC는 유조선 2척이 호르무즈 해저 기뢰에 충돌했다고 밝혔습니다."
-    },
-    {
-      "headline": "They train people to avoid 'honeypot' scams—here are the common red flags they spot: 'It feels so good to be wanted'",
-      "summary": "Corporate security firms train companies and their employees on strategies for being vigilant against honeypots, and other social engineering attacks.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/11/13/honeypot-scam-red-flags.html",
-      "datetime": 1794603985,
-      "headlineKo": "그들은 '허니팟' 사기를 피하도록 사람들을 교육합니다. 그들이 발견하는 일반적인 위험 신호는 다음과 같습니다.",
-      "summaryKo": "기업 보안 회사는 허니팟 및 기타 사회 공학 공격에 대비하기 위한 전략에 대해 회사와 직원을 교육합니다."
-    },
-    {
-      "headline": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan - Reuters",
-      "summary": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5",
-      "datetime": 1794603259,
-      "headlineKo": "예멘 후티 반군이 자잔에서 사우디군을 향해 미사일을 발사했다고 밝혔습니다.",
-      "summaryKo": "예멘 후티 반군이 자잔에서 사우디군을 향해 미사일을 발사했다고 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794659172.4823678,
+  "_news_last_success_at": 1794662969.0132425,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794659161.3523316,
-  "_updated_label": "2026-11-14 21:26",
-  "_last_attempt_at": 1794659161.3523316,
-  "_last_success_at": 1794659161.3523316,
+  "_fetched_at": 1794662956.6298294,
+  "_updated_label": "2026-11-14 22:29",
+  "_last_attempt_at": 1794662956.6298294,
+  "_last_success_at": 1794662956.6298294,
   "_collection_status": "ok",
   "_collection_errors": []
 };
