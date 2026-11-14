@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 103.41100311279297,
+      "current": 103.41000366210938,
       "prevClose": 103.16999816894531,
-      "changeAbs": 0.24100494384765625,
-      "changePct": 0.23359983340602591,
-      "pctRank": 59.58631662688943,
+      "changeAbs": 0.2400054931640625,
+      "changePct": 0.23263109181318697,
+      "pctRank": 59.427207637231504,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
-      "high1y": 103.41100311279297,
+      "high1y": 103.41000366210938,
       "drawdown1y": 0.0,
-      "ma20": 102.08255119323731,
-      "ma60": 101.05135014851888,
-      "chg1m": 1.4110031127929688,
-      "chg3m": 3.7710037231445312,
-      "chg1mPct": 1.383336385091146,
-      "chg3mPct": 3.784628408514723,
+      "ma20": 102.08250122070312,
+      "ma60": 101.05133349100748,
+      "chg1m": 1.410003662109375,
+      "chg3m": 3.7700042724609375,
+      "chg1mPct": 1.3823565314797794,
+      "chg3mPct": 3.7836253468028445,
       "lastDate": "2026-11-13",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -215,10 +215,10 @@ const MARKET_DATA = {
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -9.872516317784708,
-        "ret3m": -20.96253424603485,
-        "ret6m": -21.669861341231034,
-        "ret1y": 14.835402883481152,
+        "ret1m": -9.871131357531858,
+        "ret3m": -20.96131970254509,
+        "ret6m": -21.668657667010805,
+        "ret1y": 14.837167522436069,
         "winRate": null,
         "count": 12
       }
@@ -244,6 +244,15 @@ const MARKET_DATA = {
       "datetime": 1794622544,
       "headlineKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 - Reuters",
       "summaryKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 Reuters"
+    },
+    {
+      "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
+      "summary": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUazd4SFcxMFVWUTl6VmRVOE5QR0ZjNWRXY19qWTVuRUthUXhDS3UybmZnQmFHSHVRV20wdXJwTUlKUTlGVU42N1B4bkVwSjI4bkdJeG94aFpxX01NUTdyWUJOUVZHSHlXZkxGZXlsTWhjSmUwRXoyRklMekIycXlEUk1pM1NpNjJp?oc=5",
+      "datetime": 1794615720,
+      "headlineKo": "백악관 \"트럼프, 푸틴·시과 목요일 핵무기 감축 제안할 것\" - 로이터 통신",
+      "summaryKo": "트럼프, 목요일 푸틴·시진핑과 핵무기 감축 제안, 백악관 발표 로이터"
     },
     {
       "headline": "US Air Force responds to suspected drone activity over UK airbase - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794598972,
       "headlineKo": "Nvidia는 Huang을 영구적으로 교체할 검색 회사를 선택하지 않았다고 이사회는 CNBC에 전했습니다.",
       "summaryKo": "Nvidia 이사회가 Huang의 영구적인 계승자로 누구를 선택할 것인지에 대한 추측이 맴돌고 있습니다."
-    },
-    {
-      "headline": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack - Reuters",
-      "summary": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTGE3d2YwNy1ONlliXzNCVDNiZU01WlB3YUdPMEZwOHJpNS1UWEtvZ3hhM1hWOGN2REsxbEw1SzNERlk3eTVfUTdlOEFJYVAwNXVjT25jczJDRE9iTE5DYjlxNnQ3UlJRVDlRdU1UeHhNZ1NUWnBVU2w2TjZLWTg5emhUZ2RVVXowVWZuMnBiTlhtWlhxUDkxODkzNVlfeGlGbVlYV0todlRQc1JZSXIyVXpsVU1WRDFFU2QxTA?oc=5",
-      "datetime": 1794596317,
-      "headlineKo": "터키와 카타르, 상호방위협정 체결, 공격에 대한 통일된 입장 약속 - 로이터 통신",
-      "summaryKo": "터키, 카타르, 상호방위협정 체결, 공격에 대한 통일된 입장 약속 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794630963.0778346,
+  "_news_last_success_at": 1794634978.139438,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794630950.905524,
-  "_updated_label": "2026-11-14 13:36",
-  "_last_attempt_at": 1794630950.905524,
-  "_last_success_at": 1794630950.905524,
+  "_fetched_at": 1794634955.037589,
+  "_updated_label": "2026-11-14 14:43",
+  "_last_attempt_at": 1794634955.037589,
+  "_last_success_at": 1794634955.037589,
   "_collection_status": "ok",
   "_collection_errors": []
 };
