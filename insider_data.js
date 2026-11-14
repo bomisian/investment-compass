@@ -379,6 +379,46 @@ const INSIDER_DATA = {
       {
         "name": "Olivan Javier",
         "share": 408,
+        "transactionPrice": 631.03,
+        "transactionDate": "2026-11-09",
+        "filingDate": "2026-11-12",
+        "code": "S"
+      },
+      {
+        "name": "Olivan Javier",
+        "share": 82,
+        "transactionPrice": 631.03,
+        "transactionDate": "2026-11-09",
+        "filingDate": "2026-11-12",
+        "code": "S"
+      },
+      {
+        "name": "Olivan Javier",
+        "share": 57,
+        "transactionPrice": 631.03,
+        "transactionDate": "2026-11-09",
+        "filingDate": "2026-11-12",
+        "code": "S"
+      },
+      {
+        "name": "Olivan Javier",
+        "share": 82,
+        "transactionPrice": 631.03,
+        "transactionDate": "2026-11-09",
+        "filingDate": "2026-11-12",
+        "code": "S"
+      },
+      {
+        "name": "Olivan Javier",
+        "share": 946,
+        "transactionPrice": 631.03,
+        "transactionDate": "2026-11-09",
+        "filingDate": "2026-11-12",
+        "code": "S"
+      },
+      {
+        "name": "Olivan Javier",
+        "share": 408,
         "transactionPrice": 614.15,
         "transactionDate": "2026-11-02",
         "filingDate": "2026-11-04",
@@ -495,53 +535,21 @@ const INSIDER_DATA = {
         "transactionDate": "2026-10-26",
         "filingDate": "2026-10-28",
         "code": "S"
-      },
-      {
-        "name": "Olivan Javier",
-        "share": 82,
-        "transactionPrice": 640,
-        "transactionDate": "2026-10-26",
-        "filingDate": "2026-10-28",
-        "code": "S"
-      },
-      {
-        "name": "Olivan Javier",
-        "share": 57,
-        "transactionPrice": 640,
-        "transactionDate": "2026-10-26",
-        "filingDate": "2026-10-28",
-        "code": "S"
-      },
-      {
-        "name": "Olivan Javier",
-        "share": 82,
-        "transactionPrice": 640,
-        "transactionDate": "2026-10-26",
-        "filingDate": "2026-10-28",
-        "code": "S"
-      },
-      {
-        "name": "Olivan Javier",
-        "share": 946,
-        "transactionPrice": 640,
-        "transactionDate": "2026-10-26",
-        "filingDate": "2026-10-28",
-        "code": "S"
-      },
-      {
-        "name": "Olivan Javier",
-        "share": 408,
-        "transactionPrice": 707.2,
-        "transactionDate": "2026-10-19",
-        "filingDate": "2026-10-21",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1794576841.7124166,
-    "_updated_label": "2026-11-13"
+    "_fetched_at": 1794649088.9299412,
+    "_updated_label": "2026-11-14"
   },
   "AAPL": {
     "transactions": [
+      {
+        "name": "Newstead Jennifer",
+        "share": 2399,
+        "transactionPrice": 351.36,
+        "transactionDate": "2026-11-10",
+        "filingDate": "2026-11-12",
+        "code": "S"
+      },
       {
         "name": "Newstead Jennifer",
         "share": 2399,
@@ -693,18 +701,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-09-08",
         "filingDate": "2026-09-10",
         "code": "S"
-      },
-      {
-        "name": "Newstead Jennifer",
-        "share": 1439,
-        "transactionPrice": 317.01,
-        "transactionDate": "2026-09-01",
-        "filingDate": "2026-09-03",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1794576841.7124166,
-    "_updated_label": "2026-11-13"
+    "_fetched_at": 1794649088.9299412,
+    "_updated_label": "2026-11-14"
   },
   "TSLA": {
     "transactions": [
@@ -755,8 +755,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794574727.3760269,
-    "_updated_label": "2026-11-13"
+    "_fetched_at": 1794649088.9299412,
+    "_updated_label": "2026-11-14"
   },
   "CRM": {
     "transactions": [
@@ -3264,8 +3264,8 @@ const INSIDER_DATA = {
   },
   "EME": {
     "transactions": [],
-    "_fetched_at": 1794576841.7124166,
-    "_updated_label": "2026-11-13"
+    "_fetched_at": 1794649088.9299412,
+    "_updated_label": "2026-11-14"
   },
   "FIX": {
     "transactions": [
