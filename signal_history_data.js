@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794649088.8345168,
+  "generatedAt": 1794651251.138644,
   "records": {
     "AAPL": [
       {
@@ -21501,6 +21501,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ETN": [
+      {
+        "changedAt": 1794651251.138644,
+        "dataAsOf": 0,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.7,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "중요 뉴스 분석 기준점 생성",
+        "newsHeadline": null,
+        "newsUrl": null,
+        "eventId": null,
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.0, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": null}"
+      },
       {
         "changedAt": 1794587102.8802319,
         "dataAsOf": 1794413583,
@@ -53310,6 +53339,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1794651251.138644,
+        "dataAsOf": 1794636577,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 1.22
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.88,
+            "after": 1.4
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.1,
+            "after": -3.15
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "이제 일부 고객만 Tesla Cybercab을 구매할 수 있습니다. 하지만 여기에는 문제가 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=72c7920c276a459b5425da3e26305a6b4e638e7182a411d1fc28eda70a3b62ea",
+        "eventId": "6f2722b328e6b3242c52",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.4, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.15, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"6f2722b328e6b3242c52\"}"
+      },
+      {
         "changedAt": 1794628843.1543574,
         "dataAsOf": 1794605522,
         "changes": [
@@ -55079,41 +55137,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=60133aeb982309e8301b5283a3d3effb082ec1f309ad7d0112729532a151236a",
         "eventId": "4ee68785ed7fc498de6f",
         "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.4, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -1.92, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.8, \"before\": -1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4ee68785ed7fc498de6f\"}"
-      },
-      {
-        "changedAt": 1792621344.9874613,
-        "dataAsOf": 1792604487,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.22,
-            "after": 0.35
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.1,
-            "after": -1.4
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.1,
-            "after": -1.92
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.75,
-            "after": -1.92
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Intel’s $28B Ohio Chip Project Hits Construction Milestone After Years Of Delays — Arizona Fab Targets 2028 Start",
-        "newsUrl": "https://finnhub.io/api/news?id=09a241c5532847859dd335abef472930a78c2640d951d6c94ea750d0fc53fe6f",
-        "eventId": "7f609b4b4352b6534aff",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.92, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.92, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7f609b4b4352b6534aff\"}"
       }
     ],
     "TSM": [

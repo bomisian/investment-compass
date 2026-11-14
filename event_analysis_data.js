@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794649088.8345168,
+  "generatedAt": 1794651251.138644,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794605483,
       "signal": "우호적 변화",
       "netScore": 9.59,
@@ -230,7 +230,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794604221,
       "signal": "주의 강화",
       "netScore": -3.22,
@@ -451,7 +451,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794608639,
       "signal": "우호적 변화",
       "netScore": 2.94,
@@ -631,7 +631,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794577988,
       "signal": "우호적 변화",
       "netScore": 3.49,
@@ -783,7 +783,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794505533,
       "signal": "주의 강화",
       "netScore": -9.58,
@@ -920,21 +920,21 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1794649088.8345168,
-      "dataAsOf": 1794605522,
+      "updatedAt": 1794651251.138644,
+      "dataAsOf": 1794636577,
       "signal": "주의 강화",
-      "netScore": -3.7,
+      "netScore": -3.5,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.7,
-          "level": "중립"
+          "score": 1.22,
+          "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": 0.88,
-          "level": "중립"
+          "score": 1.4,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -953,7 +953,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.1,
+          "score": -3.15,
           "level": "주의"
         },
         "shortTermMomentum": {
@@ -968,6 +968,34 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "6f2722b328e6b3242c52",
+          "headline": "이제 일부 고객만 Tesla Cybercab을 구매할 수 있습니다. 하지만 여기에는 문제가 있습니다.",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1794636577,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=72c7920c276a459b5425da3e26305a6b4e638e7182a411d1fc28eda70a3b62ea",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "36168133e44b82a181f5",
+          "headline": "SpaceX는 빠르면 12월에 Tesla와의 거래를 발표할 수 있습니다. SpaceX Stock에 미치는 영향은 다음과 같습니다.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1794605522,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=882d12c8e6596107fe416d9105b141280cd2c613f78b549cdc8c3972aa2571e8",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        },
         {
           "eventId": "ac273f18e51f25778335",
           "headline": "SpaceX는 빠르면 12월에 Tesla와의 거래를 발표할 수 있습니다. SpaceX Stock에 미치는 영향은 다음과 같습니다.",
@@ -1040,12 +1068,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 5,
+      "unverifiedEvidenceCount": 7,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794588981,
       "signal": "중립·확인 대기",
       "netScore": 0.98,
@@ -1170,7 +1198,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794544499,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -1238,7 +1266,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794580670,
       "signal": "주의 강화",
       "netScore": -5.1,
@@ -1349,7 +1377,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794605483,
       "signal": "중립·확인 대기",
       "netScore": -0.36,
@@ -1565,7 +1593,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794599102,
       "signal": "우호적 변화",
       "netScore": 8.63,
@@ -1778,7 +1806,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794597037,
       "signal": "중립·확인 대기",
       "netScore": -1.67,
@@ -1902,7 +1930,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794619862,
       "signal": "주의 강화",
       "netScore": -7.15,
@@ -2090,7 +2118,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794461193,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2160,7 +2188,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794605461,
       "signal": "우호적 변화",
       "netScore": 5.6,
@@ -2340,7 +2368,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794517919,
       "signal": "우호적 변화",
       "netScore": 7.9,
@@ -2493,7 +2521,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794495600.0,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -2585,7 +2613,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2639,7 +2667,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794541349,
       "signal": "중립·확인 대기",
       "netScore": -0.57,
@@ -2748,7 +2776,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794511397,
       "signal": "주의 강화",
       "netScore": -2.3,
@@ -2831,7 +2859,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794484941,
       "signal": "주의 강화",
       "netScore": -2.3,
@@ -2913,7 +2941,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794619862,
       "signal": "우호적 변화",
       "netScore": 2.31,
@@ -3127,7 +3155,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794502565,
       "signal": "주의 강화",
       "netScore": -3.22,
@@ -3235,7 +3263,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794504182,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -3318,7 +3346,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794497177,
       "signal": "중립·확인 대기",
       "netScore": 0.49,
@@ -3400,7 +3428,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794423220,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -3469,7 +3497,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794588033,
       "signal": "우호적 변화",
       "netScore": 6.38,
@@ -3649,7 +3677,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794461704,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -3748,7 +3776,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794515726,
       "signal": "주의 강화",
       "netScore": -2.23,
@@ -3875,7 +3903,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794501334,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -3942,20 +3970,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1794649088.8345168,
-      "dataAsOf": 1794413583,
+      "updatedAt": 1794651251.138644,
+      "dataAsOf": 0,
       "signal": "중립·확인 대기",
-      "netScore": 1.4,
+      "netScore": 0.0,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 0.7,
+          "score": 0.0,
           "level": "중립"
         },
         "valuationBurden": {
@@ -3980,7 +4008,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "insiderSignal": {
@@ -3989,29 +4017,14 @@ const EVENT_ANALYSIS_DATA = {
           "level": "중립"
         }
       },
-      "evidence": [
-        {
-          "eventId": "8f2a87f5dcdd141da2c7",
-          "headline": "Eaton(ETN), 새로운 비즈니스 제트기에 유압 및 연료 시스템 공급 예정",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1794413583,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=1a01ad3601a29ac4786e510b4e0ac799e789cf26a647fe8c3ddcafc96a80526c",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        }
-      ],
+      "evidence": [],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 1,
+      "unverifiedEvidenceCount": 0,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794463924,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -4080,7 +4093,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4134,7 +4147,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794515726,
       "signal": "중립·확인 대기",
       "netScore": -0.47,
@@ -4228,7 +4241,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794501136,
       "signal": "주의 강화",
       "netScore": -2.52,
@@ -4311,7 +4324,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4365,7 +4378,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 1794576600,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4434,7 +4447,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4488,7 +4501,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1794649088.8345168,
+      "updatedAt": 1794651251.138644,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

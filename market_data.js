@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
-      "datetime": 1794644145,
+      "datetime": 1794649545,
       "headlineKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 - Reuters",
       "summaryKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 Reuters"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794646907.1367064,
+  "_news_last_success_at": 1794651259.243574,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794646897.162009,
-  "_updated_label": "2026-11-14 18:02",
-  "_last_attempt_at": 1794646897.162009,
-  "_last_success_at": 1794646897.162009,
+  "_fetched_at": 1794651251.3612852,
+  "_updated_label": "2026-11-14 19:14",
+  "_last_attempt_at": 1794651251.3612852,
+  "_last_success_at": 1794651251.3612852,
   "_collection_status": "ok",
   "_collection_errors": []
 };
