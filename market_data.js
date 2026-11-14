@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -4.167156434110952,
-        "ret3m": 3.8421873035772602,
-        "ret6m": 5.192532524985527,
-        "ret1y": -0.024825687410845454,
+        "ret1m": -5.470374133997691,
+        "ret3m": 4.996189338343671,
+        "ret6m": 4.803255058884348,
+        "ret1y": 1.1709465225862692,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -15.51955531615603,
-        "ret3m": -22.04869905346335,
-        "ret6m": -13.130114537471238,
-        "ret1y": 80.78348677190618,
+        "ret1m": -17.482399243253756,
+        "ret3m": -26.206985267512085,
+        "ret6m": -12.962509912859199,
+        "ret1y": 72.84011667715313,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -12.636416168769593,
-        "ret3m": -19.19776757042404,
-        "ret6m": -17.34215717430554,
-        "ret1y": 94.3649288929814,
+        "ret1m": -14.20388821228844,
+        "ret3m": -27.412916355553328,
+        "ret6m": -18.894256614662307,
+        "ret1y": 82.86949133213632,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -12.36003451936143,
-        "ret3m": -20.56653338756321,
-        "ret6m": -24.77217211992634,
-        "ret1y": 13.683704181557733,
+        "ret1m": -7.174938423953181,
+        "ret3m": -18.596888255582833,
+        "ret6m": -19.325386139729883,
+        "ret1y": 18.272505880165003,
         "winRate": null,
         "count": 12
       }
@@ -229,10 +229,10 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.5981774738991152,
-    "corrPctRank": 36.515912897822446,
+    "corr60": 0.6075978876515179,
+    "corrPctRank": 39.079497907949786,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6920016419806374,
+    "corrMedian5y": 0.6914286895151784,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
-      "datetime": 1794611744,
+      "datetime": 1794617144,
       "headlineKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 - Reuters",
       "summaryKo": "라틴 그래미상: 패션, 순간, 수상자 및 공연 Reuters"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794618749.724799,
+  "_news_last_success_at": 1794622598.7451215,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794618741.8256197,
-  "_updated_label": "2026-11-14 10:12",
-  "_last_attempt_at": 1794618741.8256197,
-  "_last_success_at": 1794618741.8256197,
+  "_fetched_at": 1794622590.9110796,
+  "_updated_label": "2026-11-14 11:17",
+  "_last_attempt_at": 1794622590.9110796,
+  "_last_success_at": 1794622590.9110796,
   "_collection_status": "ok",
   "_collection_errors": []
 };
