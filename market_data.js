@@ -26,21 +26,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us10y": {
-      "current": 5.154000282287598,
+      "current": 5.1539998054504395,
       "prevClose": 5.103000164031982,
-      "changeAbs": 0.051000118255615234,
-      "changePct": 0.9994143957722122,
+      "changeAbs": 0.05099964141845703,
+      "changePct": 0.999405051520931,
       "pctRank": 98.72509960159363,
       "min5y": 1.343000054359436,
       "max5y": 5.310999870300293,
       "high1y": 5.310999870300293,
-      "drawdown1y": -2.956121104251097,
-      "ma20": 4.991000032424926,
-      "ma60": 5.003033328056335,
-      "chg1m": 0.06500005722045898,
-      "chg3m": 0.43000030517578125,
-      "chg1mPct": 1.2772657564502554,
-      "chg3mPct": 9.102462050363453,
+      "drawdown1y": -2.956130082544639,
+      "ma20": 4.991000008583069,
+      "ma60": 5.00303332010905,
+      "chg1m": 0.06499958038330078,
+      "chg3m": 0.42999982833862305,
+      "chg1mPct": 1.2772563864927564,
+      "chg3mPct": 9.102451956435415,
       "lastDate": "2026-11-13",
       "bars": 1255,
       "symbol": "^TNX",
@@ -187,7 +187,7 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 1.0320000648498535,
+  "yieldSpread": 1.0319995880126953,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794634978.139438,
+  "_news_last_success_at": 1794638827.6609094,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794634955.037589,
-  "_updated_label": "2026-11-14 14:43",
-  "_last_attempt_at": 1794634955.037589,
-  "_last_success_at": 1794634955.037589,
+  "_fetched_at": 1794638818.001634,
+  "_updated_label": "2026-11-14 15:47",
+  "_last_attempt_at": 1794638818.001634,
+  "_last_success_at": 1794638818.001634,
   "_collection_status": "ok",
   "_collection_errors": []
 };
