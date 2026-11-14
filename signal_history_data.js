@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794668700.8266678,
+  "generatedAt": 1794670760.507881,
   "records": {
     "AAPL": [
       {
@@ -23112,6 +23112,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "FIX": [
       {
+        "changedAt": 1794670760.507881,
+        "dataAsOf": 1794447482,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": -0.52
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": -0.52
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "CoreWeave가 AI의 전력 부족 문제를 지적하며 BE 주가가 7월 이후 최대 일일 상승폭 기록 – 하지만 소매 투자자들은 '빠른 해결책'에 대해 경고",
+        "newsUrl": "https://finnhub.io/api/news?id=cf1ce8f4b771f0b8541bffa94d589b29808352f24105a7e0055011f4d8c6bbd8",
+        "eventId": "272e31186c377993f4e8",
+        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"272e31186c377993f4e8\"}"
+      },
+      {
         "changedAt": 1794626618.2390711,
         "dataAsOf": 0,
         "changes": [
@@ -26126,6 +26161,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "GOOGL": [
       {
+        "changedAt": 1794670760.507881,
+        "dataAsOf": 1794661562,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -1.75
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "이번 주에 Advanced Micro Devices 주식이 급등한 이유",
+        "newsUrl": "https://finnhub.io/api/news?id=75b390dd9bfecc1d4f534213a580ccb6ce30eba954dd4c70c79973270af95635",
+        "eventId": "059562c9164b4f998115",
+        "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"059562c9164b4f998115\"}"
+      },
+      {
         "changedAt": 1794628843.1543574,
         "dataAsOf": 1794604221,
         "changes": [
@@ -27829,35 +27881,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ca315ceb1c09466e33895c42865dbdf07fb056318ad7781267a642d1f54b9938",
         "eventId": "ec689f09a585d4788173",
         "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.05, \"before\": 1.75, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"ec689f09a585d4788173\"}"
-      },
-      {
-        "changedAt": 1793421285.8035066,
-        "dataAsOf": 1793404740,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.75,
-            "after": 0.87
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 3.15,
-            "after": 1.75
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.32,
-            "after": -3.5
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "알파벳: 12% 하락 후 부품 가치는 주당 약 337달러입니다",
-        "newsUrl": "https://finnhub.io/api/news?id=43a4f26ac3240435c2568b2fc90b657f94943587c9948e752362827b99e66689",
-        "eventId": "8085f97dbf2dc072ed97",
-        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 1.75, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.75, \"before\": 3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.5, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"8085f97dbf2dc072ed97\"}"
       }
     ],
     "HUBB": [
@@ -39999,6 +40022,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1794670760.507881,
+        "dataAsOf": 1794656532,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.2,
+            "after": 4.72
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.85,
+            "after": 4.38
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "Nvidia의 임시 CEO는 OpenAI에 대한 \"2,500억 달러의 신용 백스톱\"을 추진했습니다. 오라클은 가장 큰 위험에 처해 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=5b7710d61d7db496e8117296004420f7c7659a9c4201be7d1dcb97b3ff6d2720",
+        "eventId": "82fe986ba132ba0da4d8",
+        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 4.2, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 4.38, \"before\": 3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"82fe986ba132ba0da4d8\"}"
+      },
+      {
         "changedAt": 1794655305.3704855,
         "dataAsOf": 1794650440,
         "changes": [
@@ -41330,38 +41376,26 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=13111bd22aeb92c2abbbd84fa29f44e8eaee8fbfcdfabb5cb74c6dd09f5f7365",
         "eventId": "c578eaf61266d71d236e",
         "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.03, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 4.2, \"before\": 2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c578eaf61266d71d236e\"}"
-      },
-      {
-        "changedAt": 1793953629.855837,
-        "dataAsOf": 1793930341,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 5,
-            "after": 4.03
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.15,
-            "after": -4.2
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.38,
-            "after": 2.98
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Micron Technology vs. Western Digital: Which Tech Stock Is the Better Buy for 2027?",
-        "newsUrl": "https://finnhub.io/api/news?id=cad5a0d0aabf166e04c6f05f1b808b2de09cb5e716162287109f5d0ae4509acd",
-        "eventId": "b069410a3b357091d8d3",
-        "fingerprint": "{\"changes\": [{\"after\": 4.03, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.2, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.98, \"before\": 4.38, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b069410a3b357091d8d3\"}"
       }
     ],
     "NVDA": [
+      {
+        "changedAt": 1794670760.507881,
+        "dataAsOf": 1794656532,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.88,
+            "after": 1.4
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "Nvidia의 임시 CEO는 OpenAI에 대한 \"2,500억 달러의 신용 백스톱\"을 추진했습니다. 오라클은 가장 큰 위험에 처해 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=5b7710d61d7db496e8117296004420f7c7659a9c4201be7d1dcb97b3ff6d2720",
+        "eventId": "82fe986ba132ba0da4d8",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 0.88, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"82fe986ba132ba0da4d8\"}"
+      },
       {
         "changedAt": 1794655305.3704855,
         "dataAsOf": 1794650440,
@@ -42868,29 +42902,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=1678ad4fdf3a05760e3d4d811aaf665e3b7abb80d3da778d6def39ed545eae5a",
         "eventId": "a39a46f96b4ede5168cc",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.0, \"before\": -0.53, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a39a46f96b4ede5168cc\"}"
-      },
-      {
-        "changedAt": 1794269248.3082206,
-        "dataAsOf": 1794260688,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.35,
-            "after": 1.57
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.1,
-            "after": -0.53
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "오늘 알파벳 주식이 상승한 이유",
-        "newsUrl": "https://finnhub.io/api/news?id=1678ad4fdf3a05760e3d4d811aaf665e3b7abb80d3da778d6def39ed545eae5a",
-        "eventId": "a39a46f96b4ede5168cc",
-        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.53, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a39a46f96b4ede5168cc\"}"
       }
     ],
     "ORCL": [

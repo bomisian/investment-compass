@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+      "summary": "A real estate investment in markets across the U.S. called 'industrial outdoor storage' is attracting Wall Street giants including Brookfield and Blackstone.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+      "datetime": 1794669297,
+      "headlineKo": "임대료 상승으로 월스트리트 자금이 미국 전역의 산업용 실외 창고 투자로 유입됩니다.",
+      "summaryKo": "'산업용 실외 창고'로 불리는 미국 전역 시장의 부동산 투자가 브룩필드, 블랙스톤 등 월스트리트 거대 기업들을 끌어들이고 있다."
+    },
+    {
       "headline": "Juice your growth and save on taxes in this workplace investment account",
       "summary": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794607615,
       "headlineKo": "해커들이 바이낸스에서 63억 달러를 훔쳤습니다. '몇 초'가 걸리는 2가지 습관은 유사한 함정을 피하는 데 도움이 될 수 있습니다",
       "summaryKo": "Digital Inquiry Group의 연구원들은 \"앞으로 몇 초만 투자하면\" 온라인에서 \"속는\" 일을 방지하는 데 도움이 되는 두 가지 습관이 있다고 말합니다."
-    },
-    {
-      "headline": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
-      "summary": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
-      "datetime": 1794606402,
-      "headlineKo": "미국, 석유와 원자재의 자유로운 이동을 허용하기 위해 해운법 면제 기간을 90일 연장 - Reuters",
-      "summaryKo": "미국, 석유와 상품의 자유로운 이동을 허용하기 위해 해운법 면제를 90일 연장 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794666791.0371153,
+  "_news_last_success_at": 1794670769.785314,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794666781.822307,
-  "_updated_label": "2026-11-14 23:33",
-  "_last_attempt_at": 1794666781.822307,
-  "_last_success_at": 1794666781.822307,
+  "_fetched_at": 1794670760.7366579,
+  "_updated_label": "2026-11-15 00:39",
+  "_last_attempt_at": 1794670760.7366579,
+  "_last_success_at": 1794670760.7366579,
   "_collection_status": "ok",
   "_collection_errors": []
 };
