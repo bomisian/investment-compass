@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Bahrain issues first threat alerts since September as Iran says it attacked US base - Reuters",
+      "summary": "Bahrain issues first threat alerts since September as Iran says it attacked US base Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS2FyaWZZTTd4ZWFoWFdoTnFNVmpjakdwQUVnZ0UtMEY5MFc1dEFBeGd4UmczdGh1ektRTHBjRGxBOVlVQy1XV3NOdV9MbWotQkNVa1NBdmJaUloya1VhR2FEUTN3QkgwZ1JRN00wME5tc243TmZHU20zdlpaUHR2Q2lyby0tUkJsR0w5N1lXclI4ZWI5RTdfbjB2d1hxMXVjOVp4MlJPOF9IcjIxSE1JWWx3?oc=5",
+      "datetime": 1794716700,
+      "headlineKo": "바레인, 이란의 미군 기지 공격 발표로 9월 이후 첫 위협 경보 발령 - 로이터 통신",
+      "summaryKo": "바레인, 이란이 미군 기지를 공격했다고 발표한 이후 9월 이후 첫 번째 위협 경보 발령 - 최신"
+    },
+    {
       "headline": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province - Reuters",
       "summary": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province Reuters",
       "source": "Reuters",
@@ -255,13 +264,13 @@ const MARKET_DATA = {
       "summaryKo": "이란 해군, 호르무즈 기뢰 공격 후 유조선 3척에 불이 붙었다고 밝혔습니다."
     },
     {
-      "headline": "Hamas says senior armed commander killed in Israeli strike - Reuters",
-      "summary": "Hamas says senior armed commander killed in Israeli strike Reuters",
+      "headline": "Senior Hamas commander killed in Israeli strike in Gaza - Reuters",
+      "summary": "Senior Hamas commander killed in Israeli strike in Gaza Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
       "datetime": 1794695460,
-      "headlineKo": "하마스 \"이스라엘 공습으로 무장 고위사령관 사망\" - 로이터",
-      "summaryKo": "하마스 \"이스라엘 공습으로 무장 고위사령관 사망\" - 중앙일보"
+      "headlineKo": "이스라엘 가자지구 공습으로 하마스 고위 사령관 사망 - 로이터 통신",
+      "summaryKo": "이스라엘 가자지구 공습으로 하마스 고위 사령관 사망 - 최신"
     },
     {
       "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794654250,
       "headlineKo": "트럼프는 고문들에게 새로운 도발이 없다면 이란 공격을 보류할 수 있다고 말했다고 소식통은 전했습니다.",
       "summaryKo": "트럼프 대통령은 고문들에게 새로운 도발이 없다면 이란 공격을 보류할 수도 있다고 말했다고 소식통이 로이터를 통해 전했다."
-    },
-    {
-      "headline": "Rubio assails international court in speech to conservative legal group - Reuters",
-      "summary": "Rubio assails international court in speech to conservative legal group Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblc1UEZaUHNzR0QzV051c0Nid3k2WWI3Y1RFNm00LW4wTm83X0Y5MlFRU29fZ0RvYnJFVURiMV96VS1HWmZnV1BkUW16MHJYdXdRbjJSOTJERzh5NXhiRGxjNUkwRDVwNjUxdHF3cXRKN21GNUVELWx2VHpMeHpUYjdjZWY3SFZ6QWs0MWh4cXFnUk1aMFMtT1NIMEl0VTJfcGFOalFvUG41ck5wczB3?oc=5",
-      "datetime": 1794618360,
-      "headlineKo": "루비오, 보수 법률 단체에 연설하며 국제 법원 공격 - 로이터",
-      "summaryKo": "루비오, 보수 법률 단체와의 연설에서 국제 법원을 공격 - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794725924.3169196,
+  "_news_last_success_at": 1794729769.9563491,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794725911.0273795,
-  "_updated_label": "2026-11-15 15:59",
-  "_last_attempt_at": 1794725911.0273795,
-  "_last_success_at": 1794725911.0273795,
+  "_fetched_at": 1794729755.2549012,
+  "_updated_label": "2026-11-15 17:03",
+  "_last_attempt_at": 1794729755.2549012,
+  "_last_success_at": 1794729755.2549012,
   "_collection_status": "ok",
   "_collection_errors": []
 };
