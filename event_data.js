@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794747687.9831316,
+  "generatedAt": 1794747956.343441,
   "events": [
     {
       "id": "3fe8414a94e0ab61ed96",
@@ -2556,83 +2556,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "6860b5c16549479eea4d",
-      "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "QCOM",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm Is Cheap Enough to Hold Through 2030",
-      "headlineKo": "Qualcomm은 2030년까지 보유할 수 있을 만큼 저렴합니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b9913346c60325dafc96705f3c76b421a2481863318635784462a51f64e965c8",
-        "publishedAt": 1794656402,
-        "collectedAt": 1794725879.7978387
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Qualcomm은 2030년까지 보유할 수 있을 만큼 저렴합니다 | The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 Bitcoi",
-        "이러한 성장은 급성장하는 데이터 센터 시장에 달려 있지 않습니다.",
-        "2029 회계연도 경영진의 수익 목표의 10배 미만으로 거래되는 주식은 저렴해 보입니다."
-      ],
-      "marketInterpretation": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 10 times, 2.64%, $173.53 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "QCOM에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 10 times, 2.64%, $173.53 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QCOM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 기간·최소구매 조건",
-        "연도별 매출 인식",
-        "수주잔고·취소 조건"
-      ]
-    },
-    {
       "id": "4f45bf13d3b1b29aefca",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -3416,7 +3339,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "regulatory_legal_export",
       "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "MU",
+      "primaryTicker": "QCOM",
       "relatedTickers": [
         "MU",
         "QCOM",
@@ -3447,21 +3370,21 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f47f411a630062af4d2336f5e280ac06f3a4cbaf84e7e96dfdb2f5ab8223ffa4",
         "publishedAt": 1794619862,
-        "collectedAt": 1794743717.081428
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Qualcomm: 2027년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $67,224.00 -2.9% -$2,006.41 SPCX $139.11 -0.",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $65,479.00 -2.1% -$1,432.99 SPCX $139.11 -0.",
         "퀄컴의 스마트폰 사업이 정체되면서 데이터센터와 자동차 분야로 진출하고 있다."
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 2.52%, 2.64%, $778.31 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "MU에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "QCOM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -3473,11 +3396,11 @@ const EVENT_DATA = {
       "whyItMatters": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 2.52%, 2.64%, $778.31 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "MU",
+          "ticker": "QCOM",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -6290,7 +6213,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=48306ae54db9acb50e0ede9aff8674d0c41c65dcb1b2b78501bf05444310e54c",
         "publishedAt": 1794587331,
-        "collectedAt": 1794725879.7978387
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8398,7 +8321,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=742c20d3f7f7ffa7c56f96a80ab93caa91ee1ff4068a64417b36121adb695da0",
         "publishedAt": 1794561783,
-        "collectedAt": 1794725879.7978387
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11853,7 +11776,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5b859a74d1131e583434c2588bfd6fafcd3f0a45612ca3bef0890df73041672",
         "publishedAt": 1794505620,
-        "collectedAt": 1794725879.7978387
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12190,7 +12113,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0a8eee368dc656423940d4328f7719038e17277a8e299e56e6dd306f95406d1e",
         "publishedAt": 1794504420,
-        "collectedAt": 1794725879.7978387
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13681,7 +13604,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85479a559ba0f656a7c76b24e5803afd8afd109604be8bc18b88ba8b9f891a1d",
         "publishedAt": 1794498062,
-        "collectedAt": 1794725879.7978387
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14687,7 +14610,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=71815c6e8648ee39e0084e0f642659626391ece445d57c8322f953a200d06b38",
         "publishedAt": 1794489888,
-        "collectedAt": 1794725879.7978387
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15777,7 +15700,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3967cb2dad9b9fb260365798a9bda484ae8c78ea4a9118f976cfccfe8d621d1b",
         "publishedAt": 1794480780,
-        "collectedAt": 1794725879.7978387
+        "collectedAt": 1794747928.9792898
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17891,6 +17814,93 @@ const EVENT_DATA = {
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
       ]
+    },
+    {
+      "id": "316cea81605c7e101c45",
+      "schemaVersion": 1,
+      "eventType": "supply_chain",
+      "eventLabel": "공급망 문제",
+      "primaryTicker": "GOOGL",
+      "relatedTickers": [
+        "GOOGL",
+        "NVDA",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Google",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Alphabet",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Nvidia and Alphabet Just Agreed to Buy $10 Billion Each of Anthropic Stock at Its IPO Price",
+      "headlineKo": "Nvidia와 Alphabet은 IPO 가격으로 각각 100억 달러 규모의 Anthropic 주식을 구매하기로 합의했습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=13132d03c5b8d69d4f31c02910a3f58b434d3e8ce498d01778b6101fa2f7c561",
+        "publishedAt": 1794438421,
+        "collectedAt": 1794741469.6579647
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Nvidia와 Alphabet, 각각 100억 달러 상당의 Anthropic 주식을 IPO 가격으로 매수하기로 합의 | The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool 가입 S&P 500 7,619.38 +1.3% +98.45 DJI 52,486.49 +0.5",
+        "Google의 이번 인수는 이미 약속한 투자금의 일부를 충당하는 것입니다.",
+        "Nvidia는 회계연도 상반기에 거의 700억 달러의 잉여현금흐름을 창출했습니다."
+      ],
+      "marketInterpretation": [
+        "고객의 공급처 다변화는 공급 안정성에는 긍정적이지만 기존 공급사에는 점유율·가격 협상력 위험이 될 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $70 billion, $70, $78 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "GOOGL에 대한 고객 공급망 다변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "고객이 한 회사에만 의존하지 않으려는 움직임입니다. 기존 공급사의 매출이 바로 줄었다는 뜻은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "고객의 공급처 다변화는 공급 안정성에는 긍정적이지만 기존 공급사에는 점유율·가격 협상력 위험이 될 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $70 billion, $70, $78 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "GOOGL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공급사별 물량 배분",
+        "기존 계약 유지 여부",
+        "다음 실적 고객 집중도"
+      ]
     }
   ],
   "byTicker": {
@@ -18009,7 +18019,8 @@ const EVENT_DATA = {
       "c1fb786780d998ffd927",
       "6a2e4ea4052faeb5ef50",
       "8dc4fd309387f350cd1c",
-      "c7cedee670416fceb515"
+      "c7cedee670416fceb515",
+      "316cea81605c7e101c45"
     ],
     "QQQ": [
       "3fe8414a94e0ab61ed96",
@@ -18026,7 +18037,6 @@ const EVENT_DATA = {
       "d182b8e32addef2e83f6",
       "059562c9164b4f998115",
       "8e7aa3de78c53be48fc3",
-      "6860b5c16549479eea4d",
       "4f45bf13d3b1b29aefca",
       "62b8805462da41e9f516",
       "6f2722b328e6b3242c52",
@@ -18118,7 +18128,6 @@ const EVENT_DATA = {
       "d182b8e32addef2e83f6",
       "059562c9164b4f998115",
       "8e7aa3de78c53be48fc3",
-      "6860b5c16549479eea4d",
       "4f45bf13d3b1b29aefca",
       "62b8805462da41e9f516",
       "6f2722b328e6b3242c52",
@@ -18190,7 +18199,8 @@ const EVENT_DATA = {
       "272e31186c377993f4e8",
       "76c6a55eba78b60e23b1",
       "c7cedee670416fceb515",
-      "d39feafe678b0d2cfb94"
+      "d39feafe678b0d2cfb94",
+      "316cea81605c7e101c45"
     ],
     "VST": [
       "87353c9d4962b7064be5",
@@ -18269,7 +18279,8 @@ const EVENT_DATA = {
       "d250a065e822575c6882",
       "bd3606c499ccb0eea5af",
       "760118681b93e3015046",
-      "e1b16a0809b0e1ebca8f"
+      "e1b16a0809b0e1ebca8f",
+      "316cea81605c7e101c45"
     ],
     "TSM": [
       "3dc458ff08305ceef8c0",
@@ -18416,21 +18427,6 @@ const EVENT_DATA = {
       "fda55be0401c6b000203",
       "c7cedee670416fceb515"
     ],
-    "QCOM": [
-      "6860b5c16549479eea4d",
-      "06b99eb63f6c69c4c094",
-      "6b9a8e56a2dd4390185d",
-      "1ddd0824d7142135352e",
-      "269d35bda6c62a919e9a",
-      "be9e6f065b854a3c9181",
-      "b84eb06be58955c137b7",
-      "6f532e9d6e630e232878",
-      "d5ea178cc90d3492478c",
-      "6bc58a529b4b93b444c6",
-      "963d36b3ef3989c7495b",
-      "18469ed30aece508881f",
-      "e89a2549e3414c51b4b0"
-    ],
     "AMAT": [
       "922493a7d30cf2f6b545",
       "840c4301082d9d32cab9",
@@ -18452,6 +18448,20 @@ const EVENT_DATA = {
       "03e395150661bdf0a719",
       "2d09cfc23ec9723e99a4",
       "c1fb786780d998ffd927"
+    ],
+    "QCOM": [
+      "06b99eb63f6c69c4c094",
+      "6b9a8e56a2dd4390185d",
+      "1ddd0824d7142135352e",
+      "269d35bda6c62a919e9a",
+      "be9e6f065b854a3c9181",
+      "b84eb06be58955c137b7",
+      "6f532e9d6e630e232878",
+      "d5ea178cc90d3492478c",
+      "6bc58a529b4b93b444c6",
+      "963d36b3ef3989c7495b",
+      "18469ed30aece508881f",
+      "e89a2549e3414c51b4b0"
     ],
     "MOD": [
       "c57656216d76fa2ed4c4",
