@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Bahrain issues first threat alerts since September as Iran says it attacked US base - Reuters",
-      "summary": "Bahrain issues first threat alerts since September as Iran says it attacked US base Reuters",
+      "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
+      "summary": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS2FyaWZZTTd4ZWFoWFdoTnFNVmpjakdwQUVnZ0UtMEY5MFc1dEFBeGd4UmczdGh1ektRTHBjRGxBOVlVQy1XV3NOdV9MbWotQkNVa1NBdmJaUloya1VhR2FEUTN3QkgwZ1JRN00wME5tc243TmZHU20zdlpaUHR2Q2lyby0tUkJsR0w5N1lXclI4ZWI5RTdfbjB2d1hxMXVjOVp4MlJPOF9IcjIxSE1JWWx3?oc=5",
       "datetime": 1794716700,
-      "headlineKo": "바레인, 이란의 미군 기지 공격 발표로 9월 이후 첫 위협 경보 발령 - 로이터 통신",
-      "summaryKo": "바레인, 이란이 미군 기지를 공격했다고 발표한 이후 9월 이후 첫 번째 위협 경보 발령 - 최신"
+      "headlineKo": "테헤란이 미군 기지를 공격했다고 말한 바레인,이란의 공습을 요격 - 로이터 통신",
+      "summaryKo": "바레인, 이란의 공습을 요격하다 테헤란이 미군 기지를 공격했다고 밝혔습니다 - 최신"
     },
     {
       "headline": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794729769.9563491,
+  "_news_last_success_at": 1794733650.8356621,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794729755.2549012,
-  "_updated_label": "2026-11-15 17:03",
-  "_last_attempt_at": 1794729755.2549012,
-  "_last_success_at": 1794729755.2549012,
+  "_fetched_at": 1794733640.5910418,
+  "_updated_label": "2026-11-15 18:07",
+  "_last_attempt_at": 1794733640.5910418,
+  "_last_success_at": 1794733640.5910418,
   "_collection_status": "ok",
   "_collection_errors": []
 };
