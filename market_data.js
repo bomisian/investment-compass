@@ -273,6 +273,15 @@ const MARKET_DATA = {
       "summaryKo": "Nvidia와 Anthropic은 AI 거래의 중요한 주에 주목을 받을 것입니다."
     },
     {
+      "headline": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders - Reuters",
+      "summary": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1U5SnRYV0N6dE01QU1sOFNRWHR0WndCRG05bDl3UEhURE1jR01ZZ2p4dmFpb1llajB6QzdpRmp3WUZYSkhRRmhHT0tKY2hfWjN1b0U3UzJuUkZ3N3ZpWlU1Sk1pOWJvZ3cxcVVRVmhycW9ON2R1Um5nR3ZSQUtzTHE5aHlMb28wM2xyMzQtdnZHNUFfMWR4ZVZwN2pfc2RmcTRMTEtfY0NHbEh0dUo4N0g5UHNGTGJ3c1E?oc=5",
+      "datetime": 1794749503,
+      "headlineKo": "호르무즈의 긴장과 후티의 파업으로 인해 걸프 증권거래소는 하락세를 보이고 있습니다 - Reuters",
+      "summaryKo": "호르무즈 긴장과 후티 파업으로 인해 걸프 증권거래소는 하락세를 보이고 있습니다."
+    },
+    {
       "headline": "Yemeni government force retreats from strait in major setback in war against Houthis - Reuters",
       "summary": "Yemeni government force retreats from strait in major setback in war against Houthis Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794696859,
       "headlineKo": "이란 해군, 호르무즈 기뢰 공격 후 유조선 3척에 화재 발생 - 로이터 통신",
       "summaryKo": "이란 해군, 호르무즈 기뢰 공격 후 유조선 3척에 불이 붙었다고 밝혔습니다."
-    },
-    {
-      "headline": "Senior Hamas commander killed in Israeli strike in Gaza - Reuters",
-      "summary": "Senior Hamas commander killed in Israeli strike in Gaza Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
-      "datetime": 1794695460,
-      "headlineKo": "이스라엘 가자지구 공습으로 하마스 고위 사령관 사망 - 로이터 통신",
-      "summaryKo": "이스라엘 가자지구 공습으로 하마스 고위 사령관 사망 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794772830.6942878,
+  "_news_last_success_at": 1794776427.615362,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794772821.4611528,
-  "_updated_label": "2026-11-16 05:00",
-  "_last_attempt_at": 1794772821.4611528,
-  "_last_success_at": 1794772821.4611528,
+  "_fetched_at": 1794776419.580897,
+  "_updated_label": "2026-11-16 06:00",
+  "_last_attempt_at": 1794776419.580897,
+  "_last_success_at": 1794776419.580897,
   "_collection_status": "ok",
   "_collection_errors": []
 };
