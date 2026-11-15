@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
+      "summary": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5",
+      "datetime": 1794769159,
+      "headlineKo": "이란이 바레인을 공습하자 예멘에서 후티 반군이 후퇴 - 로이터 통신",
+      "summaryKo": "이란이 바레인을 공습하자 예멘에서 반후티군이 후퇴하다 - 로이터"
+    },
+    {
+      "headline": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre - Reuters",
+      "summary": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2NSdXVjeDlTU0lLeTAtMGs5RmdHaW0wTVhVbzUwempOYUdlNVB3NXprMGZqYksyVjhLUU1OV250QlczemJOT2tXcVFIZEJYb0dwblVCblExbnFmZkVyeGZnZ0NJY3Z3a3NTcmxUQ21tR0ZsQVdhTTNRNWJaZW5pOEk4RDNEMXN3aExOaEE0QVNzaXV3UTM3ZjlNa2hDenRtajR2aGVGT3RQR0NOSnY1VHQ3czdCSkJWSUgxaFFYNThEUlBBMVpn?oc=5",
+      "datetime": 1794765773,
+      "headlineKo": "예멘 후티 반군이 리야드 공항과 금융 중심지를 향해 탄도미사일을 발사했다고 밝혔습니다.",
+      "summaryKo": "예멘 후티 반군이 리야드 공항과 금융 중심지를 향해 탄도미사일을 발사했다고 밝혔습니다."
+    },
+    {
       "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
       "summary": "Battle for young male voters intensifies after US midterm rebuke of Republicans Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794695460,
       "headlineKo": "이스라엘 가자지구 공습으로 하마스 고위 사령관 사망 - 로이터 통신",
       "summaryKo": "이스라엘 가자지구 공습으로 하마스 고위 사령관 사망 - 최신"
-    },
-    {
-      "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
-      "summary": "Starship Test Flight 15 marks the first time Elon Musk's company has tried to catch both the booster and upper stage of the rocket.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
-      "datetime": 1794691591,
-      "headlineKo": "SpaceX는 역사적으로 처음으로 스타쉽 로켓의 상단 단계를 포착했습니다.",
-      "summaryKo": "Starship Test Flight 15는 Elon Musk의 회사가 로켓의 부스터와 상단 단계를 모두 잡으려고 시도한 최초의 사례입니다."
-    },
-    {
-      "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
-      "summary": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
-      "datetime": 1794682119,
-      "headlineKo": "엔비디아의 리더십 위기는 AI 거래를 뒤흔든다. 포트폴리오를 조정하는 방법은 다음과 같습니다.",
-      "summaryKo": "이러한 혼란에도 불구하고 S&P 500은 주간 2.5% 상승했고, 기술주 중심의 나스닥은 2.3% 상승했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794769087.0702093,
+  "_news_last_success_at": 1794772830.6942878,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794769080.0366135,
-  "_updated_label": "2026-11-16 03:58",
-  "_last_attempt_at": 1794769080.0366135,
-  "_last_success_at": 1794769080.0366135,
+  "_fetched_at": 1794772821.4611528,
+  "_updated_label": "2026-11-16 05:00",
+  "_last_attempt_at": 1794772821.4611528,
+  "_last_success_at": 1794772821.4611528,
   "_collection_status": "ok",
   "_collection_errors": []
 };
