@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
+      "summary": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
+      "datetime": 1794747602,
+      "headlineKo": "Rivian, Lucid, Scout CEO는 중간 선거에서 승리한 후 민주당이 EV 연방 지원을 복원할 것이라고 기대하지 않습니다.",
+      "summaryKo": "EV 제조업체는 수년 동안 워싱턴의 뒤집힌 규제 지원에 맞서 싸워야 했습니다."
+    },
+    {
+      "headline": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
+      "summary": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+      "datetime": 1794747088,
+      "headlineKo": "'우리는 여기서 잤어요.' 항공사들이 지상 정지에서 회복하기 위해 안간힘을 쓰면서 비행 지연이 계속되고 있습니다.",
+      "summaryKo": "연방항공청(Federal Aviation Administration)이 전국적으로 4시간 이상 출발을 금지한 이후 이틀 동안 항공편 운항 중단이 이어졌다."
+    },
+    {
       "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
       "summary": "Battle for young male voters intensifies after US midterm rebuke of Republicans Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794665297,
       "headlineKo": "이 직장 투자 계좌로 성장을 촉진하고 세금을 절약하세요",
       "summaryKo": "2027년 등록 시즌이 계속됨에 따라 건강 저축 계좌를 갖춘 공제액이 높은 의료 혜택 플랜이 많은 고용주의 메뉴에 포함됩니다."
-    },
-    {
-      "headline": "Retailers are turning to entertainment to win shoppers’ attention",
-      "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
-      "datetime": 1794661201,
-      "headlineKo": "소매업체는 쇼핑객의 관심을 끌기 위해 엔터테인먼트로 전환하고 있습니다.",
-      "summaryKo": "청중의 관심을 끌기 위한 경쟁이 가속화됨에 따라 소매업체는 점점 더 엔터테인먼트 스튜디오에 투자하고 구축하고 있습니다."
-    },
-    {
-      "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "datetime": 1794657601,
-      "headlineKo": "에릭 트럼프가 지원하는 로봇 군인 스타트업은 창업자가 집을 구입하기 위해 회사로부터 460만 달러를 빌린 후 직원에게 급여를 지급할 수 없습니다",
-      "summaryKo": "Eric Trump가 지원하는 로봇 스타트업 Foundation Future Industries는 CEO Sankaet Pathak이 460만 달러의 회사 대출에 대한 조사를 받자 현금이 부족하고 급여도 누락되었습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794746016.7465646,
+  "_news_last_success_at": 1794749857.2669287,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794746005.952487,
-  "_updated_label": "2026-11-15 21:34",
-  "_last_attempt_at": 1794746005.952487,
-  "_last_success_at": 1794746005.952487,
+  "_fetched_at": 1794749847.1457884,
+  "_updated_label": "2026-11-15 22:38",
+  "_last_attempt_at": 1794749847.1457884,
+  "_last_success_at": 1794749847.1457884,
   "_collection_status": "ok",
   "_collection_errors": []
 };
