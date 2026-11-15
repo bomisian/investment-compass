@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794719432.9467974,
+  "generatedAt": 1794721848.065931,
   "records": {
     "AAPL": [
       {
@@ -10241,6 +10241,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ASML": [
       {
+        "changedAt": 1794721848.065931,
+        "dataAsOf": 1794694442,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -0.7,
+            "after": -1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": -0.35
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "ASML 대 NVIDIA: 2027년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
+        "newsUrl": "https://finnhub.io/api/news?id=2a652f9ff4264cf0c0451a92ef62c2ddde9638eaa4effc94da3629e4648b211c",
+        "eventId": "048bba1084a07c6a0613",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"048bba1084a07c6a0613\"}"
+      },
+      {
         "changedAt": 1794697741.2905877,
         "dataAsOf": 1794676921,
         "changes": [
@@ -12136,41 +12165,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=a7bd1b7c441656694742776e8d8c93b81cbd0b026c409eac753452dc6d754bc3",
         "eventId": "c427a40b80e88237452b",
         "fingerprint": "{\"changes\": [{\"after\": 0.18, \"before\": -0.17, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.17, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c427a40b80e88237452b\"}"
-      },
-      {
-        "changedAt": 1791460731.0424247,
-        "dataAsOf": 1791443772,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.0,
-            "after": 0.35
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.87,
-            "after": -0.17
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.87,
-            "after": -0.52
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "ASML Holding (ASML)은 Mistral 거래가 이야기를 재구성함에 따라 가치 평가를 테스트합니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=a7bd1b7c441656694742776e8d8c93b81cbd0b026c409eac753452dc6d754bc3",
-        "eventId": "c427a40b80e88237452b",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.17, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"c427a40b80e88237452b\"}"
       }
     ],
     "AVGO": [
@@ -41395,6 +41389,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1794721848.065931,
+        "dataAsOf": 1794707368,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.45,
+            "after": 2.1
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Tesla는 무인 차량 판매에 맞춰 Cybercab에 대한 주요 발표를 합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=338e012d30a344c4ab17d41a803a29240bd9e46362df7220609bc2d202a9a259",
+        "eventId": "cabcdaf27b0a5635d577",
+        "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cabcdaf27b0a5635d577\"}"
+      },
+      {
         "changedAt": 1794719432.9467974,
         "dataAsOf": 1794707368,
         "changes": [
@@ -42846,35 +42857,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=749aebbb0fb4a98a48e8492154cd301098c895a0e5cdbfa3a642d67214010001",
         "eventId": "4c28e4dc74f02cd40fda",
         "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4c28e4dc74f02cd40fda\"}"
-      },
-      {
-        "changedAt": 1794315829.4795039,
-        "dataAsOf": 1794310016,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.22,
-            "after": 0.7
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.1,
-            "after": -1.57
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.57,
-            "after": -2.1
-          }
-        ],
-        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "newsHeadline": "엔비디아, 젠슨 황, 중국 스파이 혐의로 주주들로부터 소송 당함",
-        "newsUrl": "https://finnhub.io/api/news?id=749aebbb0fb4a98a48e8492154cd301098c895a0e5cdbfa3a642d67214010001",
-        "eventId": "4c28e4dc74f02cd40fda",
-        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4c28e4dc74f02cd40fda\"}"
       }
     ],
     "ORCL": [
@@ -49461,6 +49443,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "SNDK": [
       {
+        "changedAt": 1794721848.065931,
+        "dataAsOf": 1794502565,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.35,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.92,
+            "after": -1.22
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.75,
+            "after": -1.4
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "NVIDIA 개편으로 메모리 주식이 강세를 보이면서 Sandisk, Micron, SK Hynix가 3% 하락했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=4f123c4876b6247e8fe02d41b80c176a73a8970b571792239acc8d3500c666b8",
+        "eventId": "06ebe62af6a2907dcf11",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -1.92, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.4, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"06ebe62af6a2907dcf11\"}"
+      },
+      {
         "changedAt": 1794693730.9288845,
         "dataAsOf": 1794683102,
         "changes": [
@@ -51254,35 +51265,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=337d5288f7a5ceda4d3e3c179066ab1231121ca1af5dc8dc88046abccec8dfa7",
         "eventId": "9cf9f800cf713e2e107e",
         "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9cf9f800cf713e2e107e\"}"
-      },
-      {
-        "changedAt": 1793024319.9167335,
-        "dataAsOf": 1792941987,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.1,
-            "after": -1.05
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.15,
-            "after": -2.62
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.8,
-            "after": -1.75
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "AI 스토리지 붐은 끝났는가? SanDisk의 10월 29일 수익이 의심하는 사람들이 틀렸다는 것을 증명할 수 있는 이유",
-        "newsUrl": "https://finnhub.io/api/news?id=0ec9456e3ee3dfc9864d1937e852cc3861caba4d07bcbefd022e1b1e4ca653ab",
-        "eventId": "77eb5e2f1d6720288cdc",
-        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.62, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.75, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"77eb5e2f1d6720288cdc\"}"
       }
     ],
     "STX": [
