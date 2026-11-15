@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794741787.0794468,
+  "generatedAt": 1794743999.5360768,
   "records": {
     "AAPL": [
       {
@@ -3543,6 +3543,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1794743999.5360768,
+        "dataAsOf": 1794709894,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.87,
+            "after": 0.52
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "AMD는 Oppenheimer의 업그레이드와 Nvidia의 혼란으로 일주일 만에 19% 급등: \"수요가 공급보다 높습니다\"",
+        "newsUrl": "https://finnhub.io/api/news?id=81e8c65b30cb42fde67397ae4e3b215990408d18bca07b9cd77c5ae048d0955b",
+        "eventId": "33b4f034e794cf1e8d9b",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"33b4f034e794cf1e8d9b\"}"
+      },
+      {
         "changedAt": 1794739580.5331728,
         "dataAsOf": 1794709894,
         "changes": [
@@ -4874,29 +4891,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=b8ab3bc32bf92e5f71b1516685bf3d43179b5f269e037e36af17cebeb807442f",
         "eventId": "f5bfecfe80c8627d0185",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.02, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"f5bfecfe80c8627d0185\"}"
-      },
-      {
-        "changedAt": 1794089089.974879,
-        "dataAsOf": 1794079059,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 4.72,
-            "after": 5
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.03,
-            "after": 5
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "AI 메모리 붐은 끝나지 않았습니다: 억만장자들이 Western Digital(WDC)을 지지하는 이유",
-        "newsUrl": "https://finnhub.io/api/news?id=1b3359aca23d984d4cbe63e0e42048a8e45d65eec277585ac0069e0bcf6b6e9f",
-        "eventId": "e97337b3666866cb2335",
-        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.72, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 5, \"before\": 4.03, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e97337b3666866cb2335\"}"
       }
     ],
     "AMZN": [
@@ -49449,6 +49443,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "SNDK": [
       {
+        "changedAt": 1794743999.5360768,
+        "dataAsOf": 1794683102,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": -0.35
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.22,
+            "after": -1.92
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -1.75
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Sandisk의 주식분할은 11월 19일부터 적용됩니다. 지금 구매해야 할까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=32956ad26326a160cade0982096b2994add313424f230f83d28e042bf76c2615",
+        "eventId": "c4a54ee0f6625c7ef7d1",
+        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.92, \"before\": -1.22, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.75, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c4a54ee0f6625c7ef7d1\"}"
+      },
+      {
         "changedAt": 1794721848.065931,
         "dataAsOf": 1794502565,
         "changes": [
@@ -51254,23 +51277,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf",
         "eventId": "5dfb13efc4e940739c2a",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.27, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"5dfb13efc4e940739c2a\"}"
-      },
-      {
-        "changedAt": 1793046757.9100661,
-        "dataAsOf": 1793037154,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.75,
-            "after": -2.1
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Bank of America가 메모리에 대해 더욱 긍정적으로 성장함에 따라 Micron은 4% 상승합니다. Western Digital 상승 5%, SanDisk 상승 3%",
-        "newsUrl": "https://finnhub.io/api/news?id=337d5288f7a5ceda4d3e3c179066ab1231121ca1af5dc8dc88046abccec8dfa7",
-        "eventId": "9cf9f800cf713e2e107e",
-        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9cf9f800cf713e2e107e\"}"
       }
     ],
     "STX": [
@@ -53311,6 +53317,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1794743999.5360768,
+        "dataAsOf": 1794707368,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.22,
+            "after": -1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.02,
+            "after": -4.55
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Tesla는 무인 차량 판매에 맞춰 Cybercab에 대한 주요 발표를 합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=338e012d30a344c4ab17d41a803a29240bd9e46362df7220609bc2d202a9a259",
+        "eventId": "cabcdaf27b0a5635d577",
+        "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.55, \"before\": -4.02, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cabcdaf27b0a5635d577\"}"
+      },
+      {
         "changedAt": 1794719432.9467974,
         "dataAsOf": 1794707368,
         "changes": [
@@ -55050,41 +55079,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=1a32ae511329471acda20b1207114e05fe001cf6483bfd786481844cbe82e4f7",
         "eventId": "22aa48b84d3b9d120858",
         "fingerprint": "{\"changes\": [{\"after\": -3.32, \"before\": -2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.38, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.32, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"22aa48b84d3b9d120858\"}"
-      },
-      {
-        "changedAt": 1792797561.471555,
-        "dataAsOf": 1792789916,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -2.45,
-            "after": -2.8
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.87,
-            "after": -1.22
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.97,
-            "after": -3.32
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.45,
-            "after": -2.8
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Tesla 주식은 '통신 문제'로 인해 Apple보다 뒤처져 있다고 투자자 Gary Black이 말했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=1a32ae511329471acda20b1207114e05fe001cf6483bfd786481844cbe82e4f7",
-        "eventId": "22aa48b84d3b9d120858",
-        "fingerprint": "{\"changes\": [{\"after\": -2.8, \"before\": -2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -0.87, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.32, \"before\": -2.97, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.8, \"before\": -2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"22aa48b84d3b9d120858\"}"
       }
     ],
     "TSM": [
@@ -58759,6 +58753,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "VST": [
       {
+        "changedAt": 1794743999.5360768,
+        "dataAsOf": 0,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "중요 뉴스 분석 기준점 생성",
+        "newsHeadline": null,
+        "newsUrl": null,
+        "eventId": null,
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": null}"
+      },
+      {
         "changedAt": 1794562476.835669,
         "dataAsOf": 1794501334,
         "changes": [
@@ -60456,35 +60467,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=7035d6f9bfb2b24033b85023fb3a1c8827b1f03fc5c6f4f1eb02cc7d64be976d",
         "eventId": "51055ef8bed01e64776c",
         "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.32, \"before\": 3.5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.7, \"before\": 0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"51055ef8bed01e64776c\"}"
-      },
-      {
-        "changedAt": 1791253012.7121608,
-        "dataAsOf": 1791243119,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 4.02,
-            "after": 3.5
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": 0.0,
-            "after": -1.05
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 1.4,
-            "after": 0.87
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "VST 주식 4% 추가: 미국 에너지부, Vistra와 42억 달러 규모의 원자력 계약 확인",
-        "newsUrl": "https://finnhub.io/api/news?id=9dc43a244ecf0aafddc4a3c3429b8ba9e0dccdacb586c760be593e4bbb3c5b1d",
-        "eventId": "54ca6cc31d8f76fa288f",
-        "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 4.02, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.87, \"before\": 1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"54ca6cc31d8f76fa288f\"}"
       }
     ],
     "WDC": [
