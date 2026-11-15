@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
+      "summary": "Battle for young male voters intensifies after US midterm rebuke of Republicans Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5",
+      "datetime": 1794741975,
+      "headlineKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들의 투쟁이 격화 - 로이터 통신",
+      "summaryKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들을 위한 싸움이 격렬해졌습니다."
+    },
+    {
       "headline": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - Reuters",
       "summary": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794657601,
       "headlineKo": "에릭 트럼프가 지원하는 로봇 군인 스타트업은 창업자가 집을 구입하기 위해 회사로부터 460만 달러를 빌린 후 직원에게 급여를 지급할 수 없습니다",
       "summaryKo": "Eric Trump가 지원하는 로봇 스타트업 Foundation Future Industries는 CEO Sankaet Pathak이 460만 달러의 회사 대출에 대한 조사를 받자 현금이 부족하고 급여도 누락되었습니다."
-    },
-    {
-      "headline": "Meet the seven co-founders of Anthropic",
-      "summary": "Four researchers, a former journalist, a public policymaker, and an engineer founded Anthropic in 2021. They're now poised to become multi-billionaires.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
-      "datetime": 1794657601,
-      "headlineKo": "Anthropic의 7명의 공동 창립자를 만나보세요",
-      "summaryKo": "전직 언론인, 공공 정책 입안자, 엔지니어로 구성된 4명의 연구원이 2021년에 Anthropic을 설립했습니다. 그들은 이제 억만장자가 될 준비가 되어 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794741797.3853676,
+  "_news_last_success_at": 1794746016.7465646,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794741787.3017302,
-  "_updated_label": "2026-11-15 20:23",
-  "_last_attempt_at": 1794741787.3017302,
-  "_last_success_at": 1794741787.3017302,
+  "_fetched_at": 1794746005.952487,
+  "_updated_label": "2026-11-15 21:34",
+  "_last_attempt_at": 1794746005.952487,
+  "_last_success_at": 1794746005.952487,
   "_collection_status": "ok",
   "_collection_errors": []
 };
