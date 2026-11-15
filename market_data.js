@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israeli military says it struck senior armed Hamas commander - Reuters",
+      "summary": "Israeli military says it struck senior armed Hamas commander Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
+      "datetime": 1794698991,
+      "headlineKo": "이스라엘군, 하마스 고위 사령관 공격했다고 밝혔다 - 로이터 통신",
+      "summaryKo": "이스라엘군, 하마스 고위 무장군 사령관 공격했다고 발표 - 로이터 통신"
+    },
+    {
       "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
       "summary": "Iran's navy says three tankers on fire after hitting mines in Hormuz Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794615720,
       "headlineKo": "백악관 \"트럼프, 푸틴·시과 목요일 핵무기 감축 제안할 것\" - 로이터 통신",
       "summaryKo": "트럼프, 목요일 푸틴·시진핑과 핵무기 감축 제안, 백악관 발표 로이터"
-    },
-    {
-      "headline": "US Air Force responds to suspected drone activity over UK airbase - Reuters",
-      "summary": "US Air Force responds to suspected drone activity over UK airbase Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5",
-      "datetime": 1794609282,
-      "headlineKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 로이터 통신",
-      "summaryKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794700927.21885,
+  "_news_last_success_at": 1794705257.5543964,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794700918.8981593,
-  "_updated_label": "2026-11-15 09:02",
-  "_last_attempt_at": 1794700918.8981593,
-  "_last_success_at": 1794700918.8981593,
+  "_fetched_at": 1794705248.0259953,
+  "_updated_label": "2026-11-15 10:14",
+  "_last_attempt_at": 1794705248.0259953,
+  "_last_success_at": 1794705248.0259953,
   "_collection_status": "ok",
   "_collection_errors": []
 };
