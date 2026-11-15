@@ -9,7 +9,7 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
     "n": 4,
     "label": "표본 부족(4개)",
     "hit_rate": 25.0,
-    "avg_excess": -10.26
+    "avg_excess": -10.27
   },
   "rows": [
     {
@@ -34,8 +34,8 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
       "t": "PANW",
       "d": "2026-10-16",
       "ret": -5.78,
-      "benchmark_ret": -1.18,
-      "excess": -4.59,
+      "benchmark_ret": -1.16,
+      "excess": -4.61,
       "hit": false,
       "benchmark": "SPY"
     },
@@ -43,8 +43,8 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
       "t": "MRVL",
       "d": "2026-10-16",
       "ret": -31.19,
-      "benchmark_ret": -1.18,
-      "excess": -30.01,
+      "benchmark_ret": -1.16,
+      "excess": -30.03,
       "hit": false,
       "benchmark": "SPY"
     }
