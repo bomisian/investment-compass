@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-15T07:35:42+09:00",
+  "generatedAt": "2026-11-16T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-15 07:03"
+      "detail": "2026-11-16 07:35"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "'buy_signal_telegram' 진행 중(2분 전 시작)"
+      "detail": "대기 중(다음 주기, 0분 전부터)"
     },
     {
       "key": "loop_count",
@@ -42,13 +42,13 @@ const OPS_STATUS_DATA = {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-15 07:02 생성 → 거래일 2026-11-13 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-16 07:34 생성 → 거래일 2026-11-13 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 31일째(기준 14일)"
+      "detail": "COHR 32일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -78,7 +78,7 @@ const OPS_STATUS_DATA = {
       "key": "smart_money_quarter_auto",
       "status": "red",
       "label": "13F 자동 수집 실행",
-      "detail": "2026-11-15 실행 실패: 110_collect 실패(rc=3): 다른 110 실행이 진행 중 -- 이번 실행 건너뜀"
+      "detail": "2026-11-16 실행 실패: 110_collect 실패(rc=3): 다른 110 실행이 진행 중 -- 이번 실행 건너뜀"
     },
     {
       "key": "evidence_10q_crosscheck",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(23일), FIX(24일), BE(24일), HUBB(19일), STX(19일), GEV(18일), HUBB(18일), VRT(18일), MSFT(18일), GOOGL(18일), KLAC(18일), VRT(18일), GOOGL(17일), PWR(17일), EME(17일), AMZN(17일), INTC(17일), KLAC(17일), SNDK(17일), STX(17일), AMZN(16일), INTC(16일), SNDK(16일), MRVL(13일), LITE(13일), AAPL(13일), PLTR(13일), PLTR(12일), AAPL(12일), ETN(12일), AMD(12일), ANET(12일), LITE(12일), MOD(12일), AMD(11일), ANET(11일), MOD(11일), QCOM(11일), ARM(11일), COHR(11일), EME(17일), VST(9일), CEG(6일), VST(6일), CEG(6일), TSM(5일), TSM(3일), TSM(2일), AMAT(3일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(24일), FIX(25일), BE(25일), HUBB(20일), STX(20일), GEV(19일), HUBB(19일), VRT(19일), MSFT(19일), GOOGL(19일), KLAC(19일), VRT(19일), GOOGL(18일), PWR(18일), EME(18일), AMZN(18일), INTC(18일), KLAC(18일), SNDK(18일), STX(18일), AMZN(17일), INTC(17일), SNDK(17일), MRVL(14일), LITE(14일), AAPL(14일), PLTR(14일), PLTR(13일), AAPL(13일), ETN(13일), AMD(13일), ANET(13일), LITE(13일), MOD(13일), AMD(12일), ANET(12일), MOD(12일), QCOM(12일), ARM(12일), COHR(12일), EME(18일), VST(10일), CEG(7일), VST(7일), CEG(7일), TSM(6일), TSM(4일), TSM(3일), AMAT(4일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -138,7 +138,7 @@ const OPS_STATUS_DATA = {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-15 07:33 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-16 07:34 KST 정상 갱신(실패 0개)"
     }
   ]
 };
