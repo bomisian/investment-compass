@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
+      "summary": "Iran's navy says three tankers on fire after hitting mines in Hormuz Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
+      "datetime": 1794696859,
+      "headlineKo": "이란 해군, 호르무즈 기뢰 공격 후 유조선 3척에 화재 발생 - 로이터 통신",
+      "summaryKo": "이란 해군, 호르무즈 기뢰 공격 후 유조선 3척에 불이 붙었다고 밝혔습니다."
+    },
+    {
       "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
       "summary": "Starship Test Flight 15 marks the first time Elon Musk's company has tried to catch both the booster and upper stage of the rocket.",
       "source": "CNBC",
@@ -309,15 +318,6 @@ const MARKET_DATA = {
       "summaryKo": "트럼프 대통령은 고문들에게 새로운 도발이 없다면 이란 공격을 보류할 수도 있다고 말했다고 소식통이 로이터를 통해 전했다."
     },
     {
-      "headline": "Iran's navy says oil tanker on fire after hitting mine in Hormuz - Reuters",
-      "summary": "Iran's navy says oil tanker on fire after hitting mine in Hormuz Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
-      "datetime": 1794652290,
-      "headlineKo": "이란 해군, 호르무즈 기뢰에 충돌한 유조선에 화재 발생 - 로이터 통신",
-      "summaryKo": "이란 해군, 호르무즈에서 기뢰와 충돌한 유조선에 불이 붙었다고 밝혔습니다."
-    },
-    {
       "headline": "Rubio assails international court in speech to conservative legal group - Reuters",
       "summary": "Rubio assails international court in speech to conservative legal group Reuters",
       "source": "Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794697237.1720536,
+  "_news_last_success_at": 1794700927.21885,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794697229.98257,
-  "_updated_label": "2026-11-15 08:01",
-  "_last_attempt_at": 1794697229.98257,
-  "_last_success_at": 1794697229.98257,
+  "_fetched_at": 1794700918.8981593,
+  "_updated_label": "2026-11-15 09:02",
+  "_last_attempt_at": 1794700918.8981593,
+  "_last_success_at": 1794700918.8981593,
   "_collection_status": "ok",
   "_collection_errors": []
 };
