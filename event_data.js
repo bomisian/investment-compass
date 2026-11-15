@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794723987.0245583,
+  "generatedAt": 1794725910.774267,
   "events": [
     {
       "id": "cabcdaf27b0a5635d577",
@@ -2127,7 +2127,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b9913346c60325dafc96705f3c76b421a2481863318635784462a51f64e965c8",
         "publishedAt": 1794656402,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2886,7 +2886,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "regulatory_legal_export",
       "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "QCOM",
+      "primaryTicker": "MU",
       "relatedTickers": [
         "MU",
         "QCOM",
@@ -2917,21 +2917,21 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f47f411a630062af4d2336f5e280ac06f3a4cbaf84e7e96dfdb2f5ab8223ffa4",
         "publishedAt": 1794619862,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794721586.235996
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Qualcomm: 2027년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $64,029.00 -6.0% -$4,067.71 SPCX $139.11 -0.",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $67,224.00 -2.9% -$2,006.41 SPCX $139.11 -0.",
         "퀄컴의 스마트폰 사업이 정체되면서 데이터센터와 자동차 분야로 진출하고 있다."
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 2.52%, 2.64%, $778.31 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "QCOM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "MU에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -2943,11 +2943,11 @@ const EVENT_DATA = {
       "whyItMatters": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 2.52%, 2.64%, $778.31 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "QCOM",
+          "ticker": "MU",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -5838,7 +5838,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=48306ae54db9acb50e0ede9aff8674d0c41c65dcb1b2b78501bf05444310e54c",
         "publishedAt": 1794587331,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7946,7 +7946,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=742c20d3f7f7ffa7c56f96a80ab93caa91ee1ff4068a64417b36121adb695da0",
         "publishedAt": 1794561783,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11401,7 +11401,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5b859a74d1131e583434c2588bfd6fafcd3f0a45612ca3bef0890df73041672",
         "publishedAt": 1794505620,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11738,7 +11738,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0a8eee368dc656423940d4328f7719038e17277a8e299e56e6dd306f95406d1e",
         "publishedAt": 1794504420,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13232,7 +13232,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85479a559ba0f656a7c76b24e5803afd8afd109604be8bc18b88ba8b9f891a1d",
         "publishedAt": 1794498062,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14238,7 +14238,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=71815c6e8648ee39e0084e0f642659626391ece445d57c8322f953a200d06b38",
         "publishedAt": 1794489888,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15384,7 +15384,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3967cb2dad9b9fb260365798a9bda484ae8c78ea4a9118f976cfccfe8d621d1b",
         "publishedAt": 1794480780,
-        "collectedAt": 1794700823.8458033
+        "collectedAt": 1794725879.7978387
       },
       "confirmedFacts": [],
       "reportedClaims": [
