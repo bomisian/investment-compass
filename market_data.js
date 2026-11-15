@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
+      "summary": "Battle for young male voters intensifies after US midterm rebuke of Republicans Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5",
+      "datetime": 1794759535,
+      "headlineKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들의 투쟁이 격화 - 로이터 통신",
+      "summaryKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들을 위한 싸움이 격렬해졌습니다."
+    },
+    {
       "headline": "3 big things we're watching in the stock market in the week ahead",
       "summary": "Nvidia and Anthropic will share the spotlight in a pivotal week for the AI trade.",
       "source": "CNBC",
@@ -273,13 +282,13 @@ const MARKET_DATA = {
       "summaryKo": "연방항공청(Federal Aviation Administration)이 전국적으로 4시간 이상 출발을 금지한 이후 이틀 동안 항공편 운항 중단이 이어졌다."
     },
     {
-      "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
-      "summary": "Battle for young male voters intensifies after US midterm rebuke of Republicans Reuters",
+      "headline": "Jordan sentences three men to death over deadly church attack - Reuters",
+      "summary": "Jordan sentences three men to death over deadly church attack Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5",
-      "datetime": 1794741975,
-      "headlineKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들의 투쟁이 격화 - 로이터 통신",
-      "summaryKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들을 위한 싸움이 격렬해졌습니다."
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSW5qZzl5QmYwRkpOaUNfQlVXU1FOdEhVX0RUWEtsYjU5a3ZfWEJGS3R4MjVRYlVha3ZrcWpnQVV1SHQ0c09qY0V2U2RscnZUNjlaVjUwYW1GN2pfMjNHNE1LemRjUEZTSGlQY3JhcUNFTjhOYlNDZkVQTzFVbHZ1elgzX01md3BoRG0tam4zVEFha2tnUjU5TlllRmtrb09PMHFQVFZmNXNWSm9wTVRPYUFn?oc=5",
+      "datetime": 1794739903,
+      "headlineKo": "요르단, 교회 공격으로 남성 3명에 사형 선고 - 로이터",
+      "summaryKo": "요르단, 치명적인 교회 공격 혐의로 남성 3명에 사형 선고 - 최신"
     },
     {
       "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794682119,
       "headlineKo": "엔비디아의 리더십 위기는 AI 거래를 뒤흔든다. 포트폴리오를 조정하는 방법은 다음과 같습니다.",
       "summaryKo": "이러한 혼란에도 불구하고 S&P 500은 주간 2.5% 상승했고, 기술주 중심의 나스닥은 2.3% 상승했습니다."
-    },
-    {
-      "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
-      "summary": "A real estate investment in markets across the U.S. called 'industrial outdoor storage' is attracting Wall Street giants including Brookfield and Blackstone.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
-      "datetime": 1794669297,
-      "headlineKo": "임대료 상승으로 월스트리트 자금이 미국 전역의 산업용 실외 창고 투자로 유입됩니다.",
-      "summaryKo": "'산업용 실외 창고'로 불리는 미국 전역 시장의 부동산 투자가 브룩필드, 블랙스톤 등 월스트리트 거대 기업들을 끌어들이고 있다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794761428.4175715,
+  "_news_last_success_at": 1794765281.8730876,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794761421.1194777,
-  "_updated_label": "2026-11-16 01:50",
-  "_last_attempt_at": 1794761421.1194777,
-  "_last_success_at": 1794761421.1194777,
+  "_fetched_at": 1794765273.1820905,
+  "_updated_label": "2026-11-16 02:55",
+  "_last_attempt_at": 1794765273.1820905,
+  "_last_success_at": 1794765273.1820905,
   "_collection_status": "ok",
   "_collection_errors": []
 };
