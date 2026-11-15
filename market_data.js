@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - Reuters",
+      "summary": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5",
+      "datetime": 1794732022,
+      "headlineKo": "예멘 정부군, 바브엘만데브 해협 인근 지역에서 철수, 후티 반군 장악 - 로이터 통신",
+      "summaryKo": "예멘 정부군, 바브엘만데브 해협 인근 지역에서 철수, 후티 반군 장악 Reuters"
+    },
+    {
       "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
       "summary": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794657601,
       "headlineKo": "Anthropic의 7명의 공동 창립자를 만나보세요",
       "summaryKo": "전직 언론인, 공공 정책 입안자, 엔지니어로 구성된 4명의 연구원이 2021년에 Anthropic을 설립했습니다. 그들은 이제 억만장자가 될 준비가 되어 있습니다."
-    },
-    {
-      "headline": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
-      "summary": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
-      "datetime": 1794654250,
-      "headlineKo": "트럼프는 고문들에게 새로운 도발이 없다면 이란 공격을 보류할 수 있다고 말했다고 소식통은 전했습니다.",
-      "summaryKo": "트럼프 대통령은 고문들에게 새로운 도발이 없다면 이란 공격을 보류할 수도 있다고 말했다고 소식통이 로이터를 통해 전했다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794733650.8356621,
+  "_news_last_success_at": 1794737490.58865,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794733640.5910418,
-  "_updated_label": "2026-11-15 18:07",
-  "_last_attempt_at": 1794733640.5910418,
-  "_last_success_at": 1794733640.5910418,
+  "_fetched_at": 1794737481.6921422,
+  "_updated_label": "2026-11-15 19:11",
+  "_last_attempt_at": 1794737481.6921422,
+  "_last_success_at": 1794737481.6921422,
   "_collection_status": "ok",
   "_collection_errors": []
 };
