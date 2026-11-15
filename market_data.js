@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "3 big things we're watching in the stock market in the week ahead",
+      "summary": "Nvidia and Anthropic will share the spotlight in a pivotal week for the AI trade.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "datetime": 1794756380,
+      "headlineKo": "앞으로 일주일 동안 주식 시장에서 주목해야 할 3가지 주요 사항",
+      "summaryKo": "Nvidia와 Anthropic은 AI 거래의 중요한 주에 주목을 받을 것입니다."
+    },
+    {
+      "headline": "Yemeni government force retreats from strait in major setback in war against Houthis - Reuters",
+      "summary": "Yemeni government force retreats from strait in major setback in war against Houthis Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5",
+      "datetime": 1794749098,
+      "headlineKo": "예멘 정부군, 후티 반군과의 전쟁에서 큰 좌절로 해협에서 후퇴 - 로이터",
+      "summaryKo": "예멘 정부군, 후티 반군과의 전쟁에서 큰 좌절로 해협에서 후퇴 - 최신"
+    },
+    {
       "headline": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
       "summary": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
       "source": "CNBC",
@@ -262,15 +280,6 @@ const MARKET_DATA = {
       "datetime": 1794741975,
       "headlineKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들의 투쟁이 격화 - 로이터 통신",
       "summaryKo": "미국의 공화당 중간 질책 이후 젊은 남성 유권자들을 위한 싸움이 격렬해졌습니다."
-    },
-    {
-      "headline": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - Reuters",
-      "summary": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5",
-      "datetime": 1794732022,
-      "headlineKo": "예멘 정부군, 바브엘만데브 해협 인근 지역에서 철수, 후티 반군 장악 - 로이터 통신",
-      "summaryKo": "예멘 정부군, 바브엘만데브 해협 인근 지역에서 철수, 후티 반군 장악 Reuters"
     },
     {
       "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794669297,
       "headlineKo": "임대료 상승으로 월스트리트 자금이 미국 전역의 산업용 실외 창고 투자로 유입됩니다.",
       "summaryKo": "'산업용 실외 창고'로 불리는 미국 전역 시장의 부동산 투자가 브룩필드, 블랙스톤 등 월스트리트 거대 기업들을 끌어들이고 있다."
-    },
-    {
-      "headline": "Juice your growth and save on taxes in this workplace investment account",
-      "summary": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
-      "datetime": 1794665297,
-      "headlineKo": "이 직장 투자 계좌로 성장을 촉진하고 세금을 절약하세요",
-      "summaryKo": "2027년 등록 시즌이 계속됨에 따라 건강 저축 계좌를 갖춘 공제액이 높은 의료 혜택 플랜이 많은 고용주의 메뉴에 포함됩니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794753729.4545143,
+  "_news_last_success_at": 1794757548.5007873,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794753719.678013,
-  "_updated_label": "2026-11-15 23:42",
-  "_last_attempt_at": 1794753719.678013,
-  "_last_success_at": 1794753719.678013,
+  "_fetched_at": 1794757538.3950176,
+  "_updated_label": "2026-11-16 00:46",
+  "_last_attempt_at": 1794757538.3950176,
+  "_last_success_at": 1794757538.3950176,
   "_collection_status": "ok",
   "_collection_errors": []
 };

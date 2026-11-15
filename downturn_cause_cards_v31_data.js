@@ -23,7 +23,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "note2": "사업 전제상 우려(영업이익률, 규제크레딧 매출 급감 등)는 이 카드가 아니라 시장 기대충족 판정에서 별도로 다룹니다",
    "tag": null,
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -4.2,
     "dd60_days_ago": 13,
     "dd60_note": "최근 60거래일 고점 대비 -4.2% (13거래일 전 고점)",
@@ -95,7 +95,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "S&P 신용등급 하향(2026-07-09, BBB→BBB-) 및 복수 애널리스트 목표가 동시 하향은 원문·1차 출처 확보 전까지 보조 설명으로만 표시(미확인 정보)",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -22.9,
     "dd60_days_ago": 48,
     "dd60_note": "최근 60거래일 고점 대비 -22.9% (48거래일 전 고점)",
@@ -107,9 +107,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "sector_etf": "XLK",
      "stock_return_pct": -22.9,
      "market_part_pct": -1.5,
-     "sector_part_pct": -7.9,
+     "sector_part_pct": -7.8,
      "individual_part_pct": -13.5,
-     "note": "최근 48거래일 - 시장(SPY) -1.5%p + 섹터(XLK, 시장 제외) -7.9%p + 개별 -13.5%p"
+     "note": "최근 48거래일 - 시장(SPY) -1.5%p + 섹터(XLK, 시장 제외) -7.8%p + 개별 -13.5%p"
     },
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
@@ -159,7 +159,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "next_check": "하락 시점과 연결되는 공식 공시(실적 외 사건) 또는 섹터 동반 하락 여부 확인, 다음 분기 조정영업마진 회복 여부 확인되면 재평가",
    "tag": null,
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -10.0,
     "dd60_days_ago": 28,
     "dd60_note": "최근 60거래일 고점 대비 -10.0% (28거래일 전 고점)",
@@ -171,9 +171,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "sector_etf": "XLI",
      "stock_return_pct": -10.0,
      "market_part_pct": -3.2,
-     "sector_part_pct": 1.6,
+     "sector_part_pct": 1.5,
      "individual_part_pct": -8.3,
-     "note": "최근 28거래일 - 시장(SPY) -3.2%p + 섹터(XLI, 시장 제외) 1.6%p + 개별 -8.3%p"
+     "note": "최근 28거래일 - 시장(SPY) -3.2%p + 섹터(XLI, 시장 제외) 1.5%p + 개별 -8.3%p"
     },
     "eps_direction": "혼조",
     "eps_note": "숫자 변화와 상·하향 횟수의 방향이 엇갈림",
@@ -222,7 +222,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "next_check": "가격 하락의 구체적 촉발 요인 확인(헤드라인 순손실 반응인지, Foundry 외부고객·보조금 관련 다른 요인인지), RSI 38 이하 진입 시 재평가",
    "tag": null,
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -53.2,
     "dd60_days_ago": 36,
     "dd60_note": "최근 60거래일 고점 대비 -53.2% (36거래일 전 고점)",
@@ -289,7 +289,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "최근 3거래일 하락의 직접 촉발 요인 미확인 — 조사 예산 소진으로 중단, 추가 조사 가능",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -35.1,
     "dd60_days_ago": 28,
     "dd60_note": "최근 60거래일 고점 대비 -35.1% (28거래일 전 고점)",
@@ -347,7 +347,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "next_check": "다음 1~2개 분기 연속 Data Centers 마진 회복, FCF 플러스 재전환, 재고 정상화 중 2개 이상 확인되면 '일시 부담 가능'으로 재분류 후 재평가",
    "tag": null,
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -31.5,
     "dd60_days_ago": 35,
     "dd60_note": "최근 60거래일 고점 대비 -31.5% (35거래일 전 고점)",
@@ -359,9 +359,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "sector_etf": "XLI",
      "stock_return_pct": -31.5,
      "market_part_pct": -2.2,
-     "sector_part_pct": 1.3,
+     "sector_part_pct": 1.2,
      "individual_part_pct": -30.5,
-     "note": "최근 35거래일 - 시장(SPY) -2.2%p + 섹터(XLI, 시장 제외) 1.3%p + 개별 -30.5%p"
+     "note": "최근 35거래일 - 시장(SPY) -2.2%p + 섹터(XLI, 시장 제외) 1.2%p + 개별 -30.5%p"
     },
     "eps_direction": "혼조",
     "eps_note": "숫자 변화와 상·하향 횟수의 방향이 엇갈림",
@@ -423,7 +423,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "price_expectation_gap 판단은 실시간 컨센서스 EPS 수정치가 아닌 애널리스트 목표가 변화를 대리지표로 사용함. Investor Day 투자자 프레젠테이션 원문 전체 수치는 직접 확인하지 못함",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -17.6,
     "dd60_days_ago": 50,
     "dd60_note": "최근 60거래일 고점 대비 -17.6% (50거래일 전 고점)",
@@ -434,10 +434,10 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "window_days": 50,
      "sector_etf": "IGV",
      "stock_return_pct": -17.6,
-     "market_part_pct": -2.5,
-     "sector_part_pct": -2.9,
+     "market_part_pct": -2.4,
+     "sector_part_pct": -3.0,
      "individual_part_pct": -12.2,
-     "note": "최근 50거래일 - 시장(SPY) -2.5%p + 섹터(IGV, 시장 제외) -2.9%p + 개별 -12.2%p"
+     "note": "최근 50거래일 - 시장(SPY) -2.4%p + 섹터(IGV, 시장 제외) -3.0%p + 개별 -12.2%p"
     },
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
@@ -499,7 +499,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Macquarie 하향의 정확한 날짜는 2차 소스로만 확인(원 리포트 미확인). Non-GAAP 매출총이익률은 8-K 공시 수치에서 직접 역산한 값",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -7.8,
     "dd60_days_ago": 27,
     "dd60_note": "최근 60거래일 고점 대비 -7.8% (27거래일 전 고점)",
@@ -510,10 +510,10 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "window_days": 27,
      "sector_etf": "SMH",
      "stock_return_pct": -7.8,
-     "market_part_pct": -3.0,
+     "market_part_pct": -2.9,
      "sector_part_pct": -19.2,
      "individual_part_pct": 14.3,
-     "note": "최근 27거래일 - 시장(SPY) -3.0%p + 섹터(SMH, 시장 제외) -19.2%p + 개별 14.3%p"
+     "note": "최근 27거래일 - 시장(SPY) -2.9%p + 섹터(SMH, 시장 제외) -19.2%p + 개별 14.3%p"
     },
     "eps_direction": "보합",
     "eps_note": "거의 변화 없음",
@@ -575,7 +575,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "BofA의 Underperform 등급 부여 정확한 발표일 미확정. 중국向 수출통제의 QCOM 직접 영향 규모는 1차 소스로 확인되지 않음",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -14.6,
     "dd60_days_ago": 35,
     "dd60_note": "최근 60거래일 고점 대비 -14.6% (35거래일 전 고점)",
@@ -587,9 +587,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "sector_etf": "SMH",
      "stock_return_pct": -14.6,
      "market_part_pct": -2.2,
-     "sector_part_pct": -17.5,
+     "sector_part_pct": -17.6,
      "individual_part_pct": 5.1,
-     "note": "최근 35거래일 - 시장(SPY) -2.2%p + 섹터(SMH, 시장 제외) -17.5%p + 개별 5.1%p"
+     "note": "최근 35거래일 - 시장(SPY) -2.2%p + 섹터(SMH, 시장 제외) -17.6%p + 개별 5.1%p"
     },
     "eps_direction": "하향",
     "eps_note": "전망치가 내려가는 중",
@@ -650,7 +650,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "SoftBank 지분 매각 관련 2026년 최신 동향 미확인. China 수출규제가 이번 하락과 직접 관련 있는지도 확인되지 않음. 9월 말 급락의 'OpenAI 트레이닝 중단설'은 원 소스 미확인으로 신뢰도 낮음",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -42.8,
     "dd60_days_ago": 38,
     "dd60_note": "최근 60거래일 고점 대비 -42.8% (38거래일 전 고점)",
@@ -722,7 +722,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Q3 신규 수주 수치 미공개",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -19.9,
     "dd60_days_ago": 30,
     "dd60_note": "최근 60거래일 고점 대비 -19.9% (30거래일 전 고점)",
@@ -793,7 +793,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "6월 정확한 가격 레벨에 대해 2차 소스 간 다소 불일치 있음",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -31.7,
     "dd60_days_ago": 29,
     "dd60_note": "최근 60거래일 고점 대비 -31.7% (29거래일 전 고점)",
@@ -804,10 +804,10 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "window_days": 29,
      "sector_etf": "SMH",
      "stock_return_pct": -31.7,
-     "market_part_pct": -2.7,
+     "market_part_pct": -2.6,
      "sector_part_pct": -20.6,
      "individual_part_pct": -8.5,
-     "note": "최근 29거래일 - 시장(SPY) -2.7%p + 섹터(SMH, 시장 제외) -20.6%p + 개별 -8.5%p"
+     "note": "최근 29거래일 - 시장(SPY) -2.6%p + 섹터(SMH, 시장 제외) -20.6%p + 개별 -8.5%p"
     },
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
@@ -862,7 +862,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "이번 하락 구간을 설명하는 단일 확정 1차 소스 촉발 요인을 찾지 못함",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -35.0,
     "dd60_days_ago": 30,
     "dd60_note": "최근 60거래일 고점 대비 -35.0% (30거래일 전 고점)",
@@ -931,7 +931,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": null,
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -26.4,
     "dd60_days_ago": 30,
     "dd60_note": "최근 60거래일 고점 대비 -26.4% (30거래일 전 고점)",
@@ -1001,7 +1001,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": null,
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -29.1,
     "dd60_days_ago": 31,
     "dd60_note": "최근 60거래일 고점 대비 -29.1% (31거래일 전 고점)",
@@ -1013,9 +1013,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "sector_etf": "SMH",
      "stock_return_pct": -29.1,
      "market_part_pct": -1.3,
-     "sector_part_pct": -19.9,
+     "sector_part_pct": -20.0,
      "individual_part_pct": -7.9,
-     "note": "최근 31거래일 - 시장(SPY) -1.3%p + 섹터(SMH, 시장 제외) -19.9%p + 개별 -7.9%p"
+     "note": "최근 31거래일 - 시장(SPY) -1.3%p + 섹터(SMH, 시장 제외) -20.0%p + 개별 -7.9%p"
     },
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
@@ -1069,7 +1069,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "주가 순환성(cyclicality) 우려를 제기하는 Seeking Alpha 기사 제목을 확인했으나 본문 내용은 검증하지 못함",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -53.1,
     "dd60_days_ago": 38,
     "dd60_note": "최근 60거래일 고점 대비 -53.1% (38거래일 전 고점)",
@@ -1139,7 +1139,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Toshiba 증설 구체 수치는 2차 소스만 확인됨",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -38.7,
     "dd60_days_ago": 47,
     "dd60_note": "최근 60거래일 고점 대비 -38.7% (47거래일 전 고점)",
@@ -1209,7 +1209,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "FY2027 EPS 컨센서스 +16% 상향은 2차 소스만 확인됨",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -35.5,
     "dd60_days_ago": 28,
     "dd60_note": "최근 60거래일 고점 대비 -35.5% (28거래일 전 고점)",
@@ -1282,7 +1282,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": null,
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -22.0,
     "dd60_days_ago": 28,
     "dd60_note": "최근 60거래일 고점 대비 -22.0% (28거래일 전 고점)",
@@ -1354,7 +1354,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "실적 발표 당일 하락률이 2차 소스 간 -11%~-17%로 불일치",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -30.5,
     "dd60_days_ago": 48,
     "dd60_note": "최근 60거래일 고점 대비 -30.5% (48거래일 전 고점)",
@@ -1420,7 +1420,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "다수 항목이 조사 예산 소진으로 미검증 상태 — 추가 확인 필요",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -44.1,
     "dd60_days_ago": 31,
     "dd60_note": "최근 60거래일 고점 대비 -44.1% (31거래일 전 고점)",
@@ -1432,9 +1432,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "sector_etf": "SMH",
      "stock_return_pct": -44.1,
      "market_part_pct": -1.3,
-     "sector_part_pct": -19.9,
+     "sector_part_pct": -20.0,
      "individual_part_pct": -22.9,
-     "note": "최근 31거래일 - 시장(SPY) -1.3%p + 섹터(SMH, 시장 제외) -19.9%p + 개별 -22.9%p"
+     "note": "최근 31거래일 - 시장(SPY) -1.3%p + 섹터(SMH, 시장 제외) -20.0%p + 개별 -22.9%p"
     },
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
@@ -1489,7 +1489,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Q3 2026 실적 발표일/결과는 조사 예산 소진으로 확인하지 못함",
    "auto": {
-    "generated_at": "2026-11-15T00:15:40+09:00",
+    "generated_at": "2026-11-16T00:15:40+09:00",
     "dd60": -38.8,
     "dd60_days_ago": 28,
     "dd60_note": "최근 60거래일 고점 대비 -38.8% (28거래일 전 고점)",
@@ -1501,9 +1501,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
      "sector_etf": "XLI",
      "stock_return_pct": -38.8,
      "market_part_pct": -3.2,
-     "sector_part_pct": 1.6,
+     "sector_part_pct": 1.5,
      "individual_part_pct": -37.2,
-     "note": "최근 28거래일 - 시장(SPY) -3.2%p + 섹터(XLI, 시장 제외) 1.6%p + 개별 -37.2%p"
+     "note": "최근 28거래일 - 시장(SPY) -3.2%p + 섹터(XLI, 시장 제외) 1.5%p + 개별 -37.2%p"
     },
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
