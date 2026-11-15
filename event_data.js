@@ -1,8 +1,147 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794783964.0221367,
+  "generatedAt": 1794785993.2654603,
   "events": [
+    {
+      "id": "f013cb8ef16f21e9c07a",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "NVDA",
+      "relatedTickers": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors.",
+      "headlineKo": "엔비디아 CEO 젠슨 황(Jensen Huang)이 스톡 탱크직을 사임합니다. 투자자를 위한 다음 단계는 다음과 같습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d3898f1e3229a07a933fc07025b85d127ffc6a8f81d5131e8f343d69df2088aa",
+        "publishedAt": 1794777602,
+        "collectedAt": 1794785829.6427693
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "엔비디아 CEO 젠슨 황(Jensen Huang)이 스톡 탱크직을 사임합니다.",
+        "투자자를 위한 다음 단계는 다음과 같습니다.",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $65,104.00 +2.3% +$1,437.27 SPCX $139.11 -0."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 2.01%, 5%, 1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "NVDA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 2.01%, 5%, 1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "cb13bf810a12c60eabaa",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "NVDA",
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Jensen Huang Reportedly Weighing Return to Nvidia as Elon Musk Warns “Critical Deals Will Be Lost” Without Him",
+      "headlineKo": "Jensen Huang은 Elon Musk가 자신 없이는 \"중요한 거래가 손실될 것\"이라고 경고함에 따라 Nvidia로의 복귀를 고려하고 있는 것으로 알려졌습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=973909c92e72ffd5efb625dc293f35b835e737a8d83d458283b723fd7e14ae49",
+        "publishedAt": 1794776352,
+        "collectedAt": 1794785829.6427693
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Jensen Huang은 Elon Musk가 자신 없이는 \"중요한 거래가 손실될 것\"이라고 경고함에 따라 Nvidia로의 복귀를 고려하고 있는 것으로 알려졌습니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "positive",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
     {
       "id": "9a5b80534e3c9c9eb85b",
       "schemaVersion": 1,
@@ -195,7 +334,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0e1b35327dc79488576560da01230e2996eabb23ae06cf85ca4a1aa8c6a896a2",
         "publishedAt": 1794755102,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -270,7 +409,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=14d6f22b8cce98a18f4cf2a4c7d6f8f2cf853e8e68e127d3722b0aaefece0d55",
         "publishedAt": 1794754354,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -310,6 +449,110 @@ const EVENT_DATA = {
         "실제 CAPEX 집행",
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "a519468441a9cadc8629",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AVGO",
+      "relatedTickers": [
+        "AMD",
+        "AVGO",
+        "MU",
+        "NVDA",
+        "ORCL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Broadcom",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Broadcom Stock Jumps as Nvidia’s Leadership Crisis Raises a Billion-Dollar Opportunity for Its AI Chip Business",
+      "headlineKo": "Nvidia의 리더십 위기로 인해 AI 칩 사업에 수십억 달러의 기회가 늘어나면서 Broadcom 주가 급등",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=aeaf8cec8305380f97166c7f444e7ab7d22ccbd8bb4e4eb82d6d122ec108924f",
+        "publishedAt": 1794752725,
+        "collectedAt": 1794785829.6427693
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 AVGO의 사업과 관련된 'Broadcom Stock Jumps as Nvidia’s Leadership Crisis Raises a Billion-Dollar Opportunity for Its AI Chip Business' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+      ],
+      "whyItMatters": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
       ]
     },
     {
@@ -499,7 +742,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3ae047f7254b75ec80947bc243793d9a1f3b89ad2bfb906538d314d7620a2303",
         "publishedAt": 1794751380,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -636,7 +879,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=085080e8fea49ccfc95b6d9529e3d067eeca739a00fb426f27df40995d12f239",
         "publishedAt": 1794750154,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -865,7 +1108,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=093ea7368b19730e41e9a9d2ca44ebe685425f7dac7412089ad1cc855f31f00e",
         "publishedAt": 1794719473,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1252,7 +1495,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e7e548da036197d12dc456dcc8b49235efef5922d0ae2988f0fd369b9fada065",
         "publishedAt": 1794706257,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1398,7 +1641,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a962347d3e6a99941545436ffde4ee0f54996106ff2e092842e213550633a765",
         "publishedAt": 1794701912,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1443,7 +1686,7 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         }
       ],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
@@ -1451,7 +1694,7 @@ const EVENT_DATA = {
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
       "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
+      "expectedHorizon": "중기·장기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon (AMZN) Has Its First Binding Union Contract In North America",
@@ -1460,45 +1703,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85f4fc9cde96ed3797b862f92590a40d6914ad415fab0787126ab0568f6e6dbd",
         "publishedAt": 1794697737,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Amazon (AMZN) Has Its First Binding Union Contract In North America",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "Amazon(AMZN), 북미 최초의 구속력 있는 연합 계약 체결"
       ],
-      "marketInterpretation": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "AMZN에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "AMZN",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "positive",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "계약 금액·기간·취소 조건",
-        "수주잔고와 매출 인식 시점",
-        "관련 사업부 매출총이익률"
-      ]
+      "watch": []
     },
     {
       "id": "aff754608d162d02fc12",
@@ -1534,7 +1766,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f108095735710df780cee5d95409e144ce4f3de40be2a78e4c0e20c0bb6ab9a8",
         "publishedAt": 1794697426,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1909,7 +2141,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3d532f2d7cf799ad568610995989a766f8e6320dd76218db06bf94df53f744bb",
         "publishedAt": 1794686816,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2342,7 +2574,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3c31d61f8a9831c0fa8a60b7fe67090c956a93ac2a1d076bfd01a03c6f74bdee",
         "publishedAt": 1794683374,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2706,7 +2938,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0e5b6f1f3bcdf3e10aa6115575ebd127f9a7e22d02e5dab7ce75677221235749",
         "publishedAt": 1794677694,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3045,7 +3277,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=807a87f7586526b1da494ff45999aedcf78c4ab5b77c1a32f2c1ca5e522f47b6",
         "publishedAt": 1794668400,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3219,7 +3451,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=754cf50e5790739bc14cc52bf532059d83a5e09a378df178447a6af05b030e2d",
         "publishedAt": 1794662251,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3705,7 +3937,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2d07ade3dd77a1245eb8851944948953b92d2d49be389af003c925259f4d5ac1",
         "publishedAt": 1794653580,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3776,7 +4008,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2d07ade3dd77a1245eb8851944948953b92d2d49be389af003c925259f4d5ac1",
         "publishedAt": 1794653580,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3865,7 +4097,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=260a66d542789f5534cd567469b0e1d3d6f4d601a47e753e62bc8e4e86dab52c",
         "publishedAt": 1794653192,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4624,7 +4856,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e9c3d7a9a57bdbc8925ca3c545cb5df329024d2b30ac2bfbb041e819042df3bb",
         "publishedAt": 1794608639,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4999,7 +5231,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=de8892ffbae6467e690f5b019f88cf81ff687af9eef424277c82c14142a477c8",
         "publishedAt": 1794604221,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5669,7 +5901,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f25b50d7e18813c5b771a8af6168f7a90d2427c93ce1bcc134deb531f9c209f",
         "publishedAt": 1794598620,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5817,7 +6049,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=44de02eaf3613e73b04dc5d0b3da0d7004775b15d69ae88e7fba83ae20e7447e",
         "publishedAt": 1794598187,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5914,74 +6146,6 @@ const EVENT_DATA = {
       "watch": []
     },
     {
-      "id": "7b4dc10bce5608bdc250",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "AVGO",
-      "relatedTickers": [
-        "AVGO",
-        "NVDA"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Broadcom",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "How Investors May Respond To Broadcom (AVGO) As Nvidia Rivals Gain Attention",
-      "headlineKo": "Nvidia의 경쟁사들이 주목받는 가운데 투자자들이 Broadcom(AVGO)에 어떻게 반응할지",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0363e5581dfbd1d407638bc38557c6f2346527c31b99a2b69e736a7dd9816b81",
-        "publishedAt": 1794597037,
-        "collectedAt": 1794763302.225373
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Nvidia의 경쟁사들이 주목받는 가운데 투자자들이 Broadcom(AVGO)에 어떻게 반응할지"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AVGO",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
       "id": "016a6101e7f9e4673f0a",
       "schemaVersion": 1,
       "eventType": "competitor_supply_contract",
@@ -6023,7 +6187,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0363e5581dfbd1d407638bc38557c6f2346527c31b99a2b69e736a7dd9816b81",
         "publishedAt": 1794597037,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6118,7 +6282,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=54c9e65c2148f98694aec210e32a8507d2a2d62131fc006202a05b6037e49f34",
         "publishedAt": 1794596613,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6454,7 +6618,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=506547b1529a3602bac79bf3bf21a934e913afb39ba30712c4283432daadbb22",
         "publishedAt": 1794594006,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6850,7 +7014,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9950a9f19f7c7216fa1c90b5bf2705b37360226e318ee1c144707e5340f5b965",
         "publishedAt": 1794591206,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6931,7 +7095,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=357c3bf5c546975208750c1697a859bbfd28a7ed7df018edb1c01711b126bff3",
         "publishedAt": 1794590537,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7000,7 +7164,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=22b25eb222e660d74097579353f32a966fc170d1bebc88c5494c348b06160ce6",
         "publishedAt": 1794589382,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7166,7 +7330,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d96ae63c9fbd18e1bf24799a672c4103de289cf79daa2a77b103dbeaab7c6fb0",
         "publishedAt": 1794588795,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7840,7 +8004,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c173865a8ac6aea2a795dce296614328bbc05d8657133ba06949b46840a79ac5",
         "publishedAt": 1794580670,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8330,7 +8494,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0846d361d1711cc6242dd4714c9b91c724c329b376e5c8c2cf57bc1b9c514a67",
         "publishedAt": 1794577988,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8476,7 +8640,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b5dde4a37da7d0c567d69a791bb7c605674f6747f9ccc8dbd2310df87c40d686",
         "publishedAt": 1794577500,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8540,7 +8704,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=1e349471e4862d0bea6f8ca5c071c4f224b6bde2b6dd626a589ab4e800f21f7b",
         "publishedAt": 1794576969,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8596,7 +8760,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=43e26c090b747550f1bcb8d5abe7521c41399da1de62be911bd9739a50199b1b",
         "publishedAt": 1794576600,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8748,7 +8912,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2509ff4c2768fdd9df1d19f88f9c5af252f5edb81be5f4d71c60defb6aa507ed",
         "publishedAt": 1794574620,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8819,7 +8983,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ef409aa6212432facc7993f590e7d191e9f45e7fe375cf688e04bc2719f5d143",
         "publishedAt": 1794571971,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8896,7 +9060,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=25c2f195710ff48a8663c902bf4f7561d0be0d6e9eb19bdefdff7ca2f092e334",
         "publishedAt": 1794571970,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8971,7 +9135,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=31a529e91ac9446cc5c0a5af647cd1751636f6345be5f96b549dcc5bf05d2db0",
         "publishedAt": 1794571130,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9728,7 +9892,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=e824f9a9803297bac50895ecf967bb6f41685bb76ea29a8e3bf1aa73af11a3ec",
         "publishedAt": 1794560871,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9869,7 +10033,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=833a6f714833093edd6e0d7bfbc9d3544e3ee2554542a1dd47106adb6cd64ac0",
         "publishedAt": 1794558067,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10015,7 +10179,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=eb60721151017e5528da60f686f63be8e678d636e2afd83ffbfff23dc601f09e",
         "publishedAt": 1794555033,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10164,7 +10328,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e131fde0e366f2887f087ee50bb84bf1ba10a2d173856d8f9e7552fde9bac136",
         "publishedAt": 1794552780,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10239,7 +10403,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d06a1697db33a04d803101dc98f4634d67b980d492ac1d25095ad4dfa3fcae62",
         "publishedAt": 1794551042,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10375,7 +10539,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=922ed224266cc6ca4b8e932d03868d8dddd50f598c282814c0f19b3f87c62404",
         "publishedAt": 1794544499,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10589,7 +10753,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=65d72a35d6bd8753f397a3e903a5bba97273876b4c189482e737a2395d9d5608",
         "publishedAt": 1794535442,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10810,7 +10974,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=03e62a76460f1a1ba308cbd5a28c7a76bc0a9af898fd8a8c61d174ba7c5ad087",
         "publishedAt": 1794531002,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11102,7 +11266,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9065d293b3155149849b94771ecd903e2f64bab5f1f307bd32ecf4c084ce1640",
         "publishedAt": 1794524759,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11635,7 +11799,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=30d6486b705ef37f36386466b946c2fb61c166e9d34ffb27fcec60fdaf5b0d1d",
         "publishedAt": 1794519644,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11706,7 +11870,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3f042f5d4a7bfd1bf42b48b85d044de506b64dd44db6108852011fbcf66213e6",
         "publishedAt": 1794517919,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11850,7 +12014,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6a0ad236f85932071f5f3753df9df655fb3adfd86ffefc9d9a78e59e211b9feb",
         "publishedAt": 1794515400,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11993,7 +12157,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a46fb39d55b54266e76b9309d454d6035ed336638f521564f117354800c20242",
         "publishedAt": 1794514052,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12219,7 +12383,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fb1f8261682cc3ae4e41206aacd3d0164ca57ce287fbef2ad95d594bb14cb9ba",
         "publishedAt": 1794512888,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12419,7 +12583,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cae127bd6457e6dde2deeb7e8ba39e81ee83c24044d9b1aad88ff36fe105a0b1",
         "publishedAt": 1794512620,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12717,7 +12881,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0554d560d41ffee13b0581798d2297b9d385e6ef8433e37c1b7b5e9ea5f3352c",
         "publishedAt": 1794506361,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14119,7 +14283,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e131fb867fdb6fcb81600962a8fefd5f44cc85f901e0d679dd7e431489db705f",
         "publishedAt": 1794501215,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14718,7 +14882,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0a4ff1215f873825316354607b6b5ef152e3a00c315909ee9597ba54d09204f4",
         "publishedAt": 1794498330,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15362,7 +15526,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac0d7def09f96b03306acc4930017cc3fa9a460b39aeb4a62d1f54d1c02cf085",
         "publishedAt": 1794492900,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15581,7 +15745,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c77ce486609c3f6be61272348bc58ccc687918bd5eabcb91700a94a5c85800f2",
         "publishedAt": 1794491337,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16002,7 +16166,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=23a487eb702b1c0dc012826c7d543f1a0574abee7d500e4152eafcb145e01734",
         "publishedAt": 1794488440,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16309,7 +16473,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=389f4cdfe85d749bf6ff37597534a07e44bacab6fbeb755597bfe451292b7703",
         "publishedAt": 1794485743,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16385,7 +16549,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a382b1040a79d2c34230ed64de0985d74e8a6b4a802fffd940f2ab987a0bc8eb",
         "publishedAt": 1794484942,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16660,7 +16824,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8f6f5839282509b1671235cd2cd896f1ccf13666872c9375c3b66fd4bb04040c",
         "publishedAt": 1794483013,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16739,7 +16903,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=73bdc9d4f10bf2ec95917a945e7dca8e117eb55307bbac0cf4b79771e2eb3774",
         "publishedAt": 1794481991,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17158,7 +17322,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=14faac155e22780b89a1e90afe99212f74c26ed506f94e583792dacf420d03e2",
         "publishedAt": 1794474900,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17430,7 +17594,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=440d801c2e81921326bf944faf3da0031ccea1e639ffa9b4d4b994f796b5a43b",
         "publishedAt": 1794461704,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17511,7 +17675,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2aa6d979b18d9f3b47dd9456f1eec399e8b6bbd44aca1305d6377b419af2e43b",
         "publishedAt": 1794461193,
-        "collectedAt": 1794763302.225373
+        "collectedAt": 1794785829.6427693
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17691,222 +17855,17 @@ const EVENT_DATA = {
         "수주잔고와 매출 인식 시점",
         "관련 사업부 매출총이익률"
       ]
-    },
-    {
-      "id": "98b889d388d9ff537c8a",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "NVDA",
-      "relatedTickers": [
-        "NVDA",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Nvidia's Jensen Huang Is on the Hot Seat. Here's What I'm Doing With My Nvidia Stock",
-      "headlineKo": "Nvidia의 Jensen Huang이 뜨거운 자리에 있습니다. 내 Nvidia 주식으로 무엇을 하고 있는지 살펴보겠습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1c33a527f2bcce6d3319a81f5dbe3385ffc682255200b9bdb38c52a967134c60",
-        "publishedAt": 1794460252,
-        "collectedAt": 1794763302.225373
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Nvidia의 Jensen Huang이 뜨거운 자리에 있습니다.",
-        "내 Nvidia 주식으로 내가 하고 있는 일은 다음과 같습니다 | The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ 증권 고문 + ---% Join The Motley Fool S&P 500 7,619.38 +1.3% +98.45 DJI 52,486.49 +0.5% +254.60 NASDAQ 25,466.19 +1.6% +400.31 비트코인",
-        "투자자는 Nvidia에 과도하게 노출되지 않도록 위험 관리에 집중해야 합니다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 2.87%, 7%, $173.73 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "NVDA에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 2.87%, 7%, $173.73 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
-    },
-    {
-      "id": "c1fb786780d998ffd927",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "AMAT",
-      "relatedTickers": [
-        "AMAT",
-        "AMD",
-        "NVDA",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "NVDA Fallout Pressures Tech Trade As Investors Turn To Cerebras, Applied Materials For Chip Demand Cues",
-      "headlineKo": "NVDA 낙진으로 인해 투자자들이 Cerebras로 눈을 돌리면서 기술 거래에 압력을 가하고 칩 수요 단서용 재료 적용",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7c6818cf3a8cbdf7a8eff07de627d1b95304b771b5d37e495c30b2044137a40f",
-        "publishedAt": 1794459963,
-        "collectedAt": 1794765617.017765
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "NVDA 낙진은 투자자들이 Cerebras로 눈을 돌림에 따라 칩 수요 신호를 위한 재료 적용 AI 에이전트 동향 뉴스 수익 전체 DIA 0.04% SPY 0.47% QQQ 0.91% 추세 NVDA 6.56% RYCEY 0.28% BABA 5.06% ONDS 0.17% NIGHT 8.19% AMD",
-        "NVDA 낙진은 투자자들이 칩 수요 신호를 위해 Cerebras, 응용 재료로 전환함에 따라 기술 거래를 압박합니다. Nvidia 사가가 시장을 장악하고 있는 동안에도 투자자들은 주요 수익을 지켜보고 있습니다.",
-        "뉴욕 증권거래소에서 트레이더들이 일하고 있다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.04%, 0.47%, 0.91% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMAT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.04%, 0.47%, 0.91% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMAT",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
-    "AMD": [
-      "9a5b80534e3c9c9eb85b",
-      "cd72ddbdfb4932e56dc7",
-      "fd900040e825b874d7e4",
-      "33b4f034e794cf1e8d9b",
-      "6493c7aa42d4b842506e",
-      "ccbde4c9780214d7f326",
-      "f8bd9fd63513eb33567f",
-      "059562c9164b4f998115",
-      "82fe986ba132ba0da4d8",
-      "2c46e3f4b714fc0d13a7",
-      "e1be070b2cf74795d557",
-      "1539ffa9e2438f1fbffd",
-      "4ca1d3af8c6e420bfa65",
-      "016a6101e7f9e4673f0a",
-      "c438ffb8da2987366c71",
-      "130b72f439bb4a393879",
-      "4edccf096d009e2221dd",
-      "37a39e83bab3f6a8c93c",
-      "7340ed818a62262bf419",
-      "c5bac73507c22e1772ce",
-      "accf133e08629f3aa007",
-      "10e1e0928d893ade5935",
-      "45b12f4256f060ae9a41",
-      "93047956907679dd0edc",
-      "dffc7cd147bdd3165980",
-      "80ec3c9af88b97787265",
-      "269d35bda6c62a919e9a",
-      "6f532e9d6e630e232878",
-      "1835361c19c99ce6d997",
-      "960bdc07bbaae1327c11",
-      "b7aa68d364eb97485b15",
-      "c512ac3a5f54b4d210a9",
-      "46292896d7ac500d05b3",
-      "759c40ae4a25d7af185c",
-      "e1b16a0809b0e1ebca8f",
-      "69bd33546040db5ac10b",
-      "c1fb786780d998ffd927"
-    ],
-    "AVGO": [
-      "9a5b80534e3c9c9eb85b",
-      "7b4dc10bce5608bdc250",
-      "016a6101e7f9e4673f0a",
-      "e41a652e10ee4e445e35",
-      "5767a8cc6af371ea1b18",
-      "30430e0dd7390797fcbd",
-      "453bf281e929a683ee78",
-      "8e8301b5e938efbd4b76",
-      "6f532e9d6e630e232878",
-      "1835361c19c99ce6d997",
-      "960bdc07bbaae1327c11"
-    ],
     "NVDA": [
+      "f013cb8ef16f21e9c07a",
+      "cb13bf810a12c60eabaa",
       "9a5b80534e3c9c9eb85b",
       "cd72ddbdfb4932e56dc7",
       "3797ffe7c077c7946064",
       "33d2b32b7f1925470bc7",
+      "a519468441a9cadc8629",
       "f8671a25a19c5d2e6961",
       "8457e4c33470280d01cd",
       "3fe8414a94e0ab61ed96",
@@ -17930,7 +17889,6 @@ const EVENT_DATA = {
       "4ca1d3af8c6e420bfa65",
       "ddc670cc48a34e5ba62a",
       "826c841dd9415a11b0d9",
-      "7b4dc10bce5608bdc250",
       "016a6101e7f9e4673f0a",
       "c04f0da99119e44349ba",
       "5767a8cc6af371ea1b18",
@@ -17968,11 +17926,10 @@ const EVENT_DATA = {
       "759c40ae4a25d7af185c",
       "e1b16a0809b0e1ebca8f",
       "7bc3d53f6d25c493471c",
-      "69bd33546040db5ac10b",
-      "98b889d388d9ff537c8a",
-      "c1fb786780d998ffd927"
+      "69bd33546040db5ac10b"
     ],
     "QQQ": [
+      "f013cb8ef16f21e9c07a",
       "9a5b80534e3c9c9eb85b",
       "cd72ddbdfb4932e56dc7",
       "3797ffe7c077c7946064",
@@ -18057,11 +18014,10 @@ const EVENT_DATA = {
       "95bdfea0353e9002989d",
       "7bc3d53f6d25c493471c",
       "69bd33546040db5ac10b",
-      "5bc3361f28ff46235410",
-      "98b889d388d9ff537c8a",
-      "c1fb786780d998ffd927"
+      "5bc3361f28ff46235410"
     ],
     "SPY": [
+      "f013cb8ef16f21e9c07a",
       "9a5b80534e3c9c9eb85b",
       "cd72ddbdfb4932e56dc7",
       "3797ffe7c077c7946064",
@@ -18146,9 +18102,123 @@ const EVENT_DATA = {
       "a0957ea5bbe873a99d4b",
       "7bc3d53f6d25c493471c",
       "69bd33546040db5ac10b",
-      "5bc3361f28ff46235410",
-      "98b889d388d9ff537c8a",
-      "c1fb786780d998ffd927"
+      "5bc3361f28ff46235410"
+    ],
+    "AMD": [
+      "9a5b80534e3c9c9eb85b",
+      "cd72ddbdfb4932e56dc7",
+      "a519468441a9cadc8629",
+      "fd900040e825b874d7e4",
+      "33b4f034e794cf1e8d9b",
+      "6493c7aa42d4b842506e",
+      "ccbde4c9780214d7f326",
+      "f8bd9fd63513eb33567f",
+      "059562c9164b4f998115",
+      "82fe986ba132ba0da4d8",
+      "2c46e3f4b714fc0d13a7",
+      "e1be070b2cf74795d557",
+      "1539ffa9e2438f1fbffd",
+      "4ca1d3af8c6e420bfa65",
+      "016a6101e7f9e4673f0a",
+      "c438ffb8da2987366c71",
+      "130b72f439bb4a393879",
+      "4edccf096d009e2221dd",
+      "37a39e83bab3f6a8c93c",
+      "7340ed818a62262bf419",
+      "c5bac73507c22e1772ce",
+      "accf133e08629f3aa007",
+      "10e1e0928d893ade5935",
+      "45b12f4256f060ae9a41",
+      "93047956907679dd0edc",
+      "dffc7cd147bdd3165980",
+      "80ec3c9af88b97787265",
+      "269d35bda6c62a919e9a",
+      "6f532e9d6e630e232878",
+      "1835361c19c99ce6d997",
+      "960bdc07bbaae1327c11",
+      "b7aa68d364eb97485b15",
+      "c512ac3a5f54b4d210a9",
+      "46292896d7ac500d05b3",
+      "759c40ae4a25d7af185c",
+      "e1b16a0809b0e1ebca8f",
+      "69bd33546040db5ac10b"
+    ],
+    "AVGO": [
+      "9a5b80534e3c9c9eb85b",
+      "a519468441a9cadc8629",
+      "016a6101e7f9e4673f0a",
+      "e41a652e10ee4e445e35",
+      "5767a8cc6af371ea1b18",
+      "30430e0dd7390797fcbd",
+      "453bf281e929a683ee78",
+      "8e8301b5e938efbd4b76",
+      "6f532e9d6e630e232878",
+      "1835361c19c99ce6d997",
+      "960bdc07bbaae1327c11"
+    ],
+    "MU": [
+      "a519468441a9cadc8629",
+      "1cb143776543a72dcd8e",
+      "ccbde4c9780214d7f326",
+      "f8bd9fd63513eb33567f",
+      "82fe986ba132ba0da4d8",
+      "4f45bf13d3b1b29aefca",
+      "2c46e3f4b714fc0d13a7",
+      "e1be070b2cf74795d557",
+      "2eff728c496438cebbd5",
+      "06b99eb63f6c69c4c094",
+      "4ca1d3af8c6e420bfa65",
+      "016a6101e7f9e4673f0a",
+      "130b72f439bb4a393879",
+      "4edccf096d009e2221dd",
+      "c5bac73507c22e1772ce",
+      "399f420ed052a86488f0",
+      "accf133e08629f3aa007",
+      "45b12f4256f060ae9a41",
+      "128fadc7fb38ab57847f",
+      "93047956907679dd0edc",
+      "dffc7cd147bdd3165980",
+      "80ec3c9af88b97787265",
+      "269d35bda6c62a919e9a",
+      "b84eb06be58955c137b7",
+      "06ebe62af6a2907dcf11",
+      "46292896d7ac500d05b3",
+      "c231d9e15d74dc44cc78",
+      "bff5216cdb595808af46",
+      "e1b16a0809b0e1ebca8f",
+      "92af0c56ece9e16bb43e",
+      "5bc3361f28ff46235410"
+    ],
+    "ORCL": [
+      "a519468441a9cadc8629",
+      "c5e6a4a602060eb3a551",
+      "ccbde4c9780214d7f326",
+      "f8bd9fd63513eb33567f",
+      "82fe986ba132ba0da4d8",
+      "2c46e3f4b714fc0d13a7",
+      "e1be070b2cf74795d557",
+      "e29850cb8094157d0033",
+      "4ca1d3af8c6e420bfa65",
+      "016a6101e7f9e4673f0a",
+      "3b377d4f0bb0672034ab",
+      "e192b615a1cb4c92de4c",
+      "130b72f439bb4a393879",
+      "4edccf096d009e2221dd",
+      "c5bac73507c22e1772ce",
+      "9583c91ca890c9b228ec",
+      "46e5bc8e457f6908ee6f",
+      "accf133e08629f3aa007",
+      "45b12f4256f060ae9a41",
+      "1631595e0ee0c59d0eec",
+      "93047956907679dd0edc",
+      "dffc7cd147bdd3165980",
+      "80ec3c9af88b97787265",
+      "2b9eb56b97ca9c066f3e",
+      "269d35bda6c62a919e9a",
+      "4014c150279484359598",
+      "46292896d7ac500d05b3",
+      "e1b16a0809b0e1ebca8f",
+      "b9acefeb69b23a00ed41"
     ],
     "TSLA": [
       "b6eb0b23551936b88ed6",
@@ -18324,68 +18394,6 @@ const EVENT_DATA = {
       "d250a065e822575c6882",
       "69bd33546040db5ac10b"
     ],
-    "MU": [
-      "1cb143776543a72dcd8e",
-      "ccbde4c9780214d7f326",
-      "f8bd9fd63513eb33567f",
-      "82fe986ba132ba0da4d8",
-      "4f45bf13d3b1b29aefca",
-      "2c46e3f4b714fc0d13a7",
-      "e1be070b2cf74795d557",
-      "2eff728c496438cebbd5",
-      "06b99eb63f6c69c4c094",
-      "4ca1d3af8c6e420bfa65",
-      "016a6101e7f9e4673f0a",
-      "130b72f439bb4a393879",
-      "4edccf096d009e2221dd",
-      "c5bac73507c22e1772ce",
-      "399f420ed052a86488f0",
-      "accf133e08629f3aa007",
-      "45b12f4256f060ae9a41",
-      "128fadc7fb38ab57847f",
-      "93047956907679dd0edc",
-      "dffc7cd147bdd3165980",
-      "80ec3c9af88b97787265",
-      "269d35bda6c62a919e9a",
-      "b84eb06be58955c137b7",
-      "06ebe62af6a2907dcf11",
-      "46292896d7ac500d05b3",
-      "c231d9e15d74dc44cc78",
-      "bff5216cdb595808af46",
-      "e1b16a0809b0e1ebca8f",
-      "92af0c56ece9e16bb43e",
-      "5bc3361f28ff46235410"
-    ],
-    "ORCL": [
-      "c5e6a4a602060eb3a551",
-      "ccbde4c9780214d7f326",
-      "f8bd9fd63513eb33567f",
-      "82fe986ba132ba0da4d8",
-      "2c46e3f4b714fc0d13a7",
-      "e1be070b2cf74795d557",
-      "e29850cb8094157d0033",
-      "4ca1d3af8c6e420bfa65",
-      "016a6101e7f9e4673f0a",
-      "3b377d4f0bb0672034ab",
-      "e192b615a1cb4c92de4c",
-      "130b72f439bb4a393879",
-      "4edccf096d009e2221dd",
-      "c5bac73507c22e1772ce",
-      "9583c91ca890c9b228ec",
-      "46e5bc8e457f6908ee6f",
-      "accf133e08629f3aa007",
-      "45b12f4256f060ae9a41",
-      "1631595e0ee0c59d0eec",
-      "93047956907679dd0edc",
-      "dffc7cd147bdd3165980",
-      "80ec3c9af88b97787265",
-      "2b9eb56b97ca9c066f3e",
-      "269d35bda6c62a919e9a",
-      "4014c150279484359598",
-      "46292896d7ac500d05b3",
-      "e1b16a0809b0e1ebca8f",
-      "b9acefeb69b23a00ed41"
-    ],
     "SNDK": [
       "c4a54ee0f6625c7ef7d1",
       "3c79fc7c6bba392d90f0",
@@ -18423,8 +18431,7 @@ const EVENT_DATA = {
       "fbd0ba9ab779b28d3ce2",
       "6f532e9d6e630e232878",
       "03e395150661bdf0a719",
-      "2d09cfc23ec9723e99a4",
-      "c1fb786780d998ffd927"
+      "2d09cfc23ec9723e99a4"
     ],
     "MOD": [
       "c57656216d76fa2ed4c4",

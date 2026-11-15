@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794783964.0489156,
+  "generatedAt": 1794785993.292984,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794751381,
       "signal": "우호적 변화",
       "netScore": 3.91,
@@ -229,7 +229,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794697426,
       "signal": "주의 강화",
       "netScore": -2.66,
@@ -449,20 +449,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794743402,
       "signal": "우호적 변화",
-      "netScore": 5.95,
+      "netScore": 6.65,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 1.75,
+          "score": 1.92,
           "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": 4.55,
+          "score": 4.9,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -487,7 +487,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 1.75,
+          "score": 1.93,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -522,7 +522,7 @@ const EVENT_ANALYSIS_DATA = {
             "longTermCompetitiveness": 1,
             "shortTermMomentum": 1
           },
-          "reason": "회사 실적과의 연결고리 확인"
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
         },
         {
           "eventId": "ccbde4c9780214d7f326",
@@ -640,7 +640,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794750804,
       "signal": "중립·확인 대기",
       "netScore": -1.12,
@@ -846,7 +846,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794743402,
       "signal": "주의 강화",
       "netScore": -4.75,
@@ -956,7 +956,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794752102,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1151,7 +1151,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794634437,
       "signal": "중립·확인 대기",
       "netScore": 0.98,
@@ -1276,7 +1276,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1330,7 +1330,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794580670,
       "signal": "주의 강화",
       "netScore": -6.5,
@@ -1427,15 +1427,15 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1794783964.0489156,
-      "dataAsOf": 1794763000,
-      "signal": "중립·확인 대기",
-      "netScore": 1.28,
-      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
+      "updatedAt": 1794785993.292984,
+      "dataAsOf": 1794776352,
+      "signal": "우호적 변화",
+      "netScore": 3.55,
+      "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 2.45,
+          "score": 2.97,
           "level": "우호적"
         },
         "growth": {
@@ -1465,8 +1465,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.35,
-          "level": "중립"
+          "score": 2.1,
+          "level": "우호적"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -1475,6 +1475,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "cb13bf810a12c60eabaa",
+          "headline": "Jensen Huang은 Elon Musk가 자신 없이는 \"중요한 거래가 손실될 것\"이라고 경고함에 따라 Nvidia로의 복귀를 고려하고 있는 것으로 알려졌습니다.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1794776352,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=973909c92e72ffd5efb625dc293f35b835e737a8d83d458283b723fd7e14ae49",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        },
         {
           "eventId": "9a5b80534e3c9c9eb85b",
           "headline": "AMD 대 Broadcom: NVDA의 Jensen Huang이 사라지고 가장 많은 AI 주식이 승리합니까?",
@@ -1514,6 +1528,19 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "a519468441a9cadc8629",
+          "headline": "Nvidia의 리더십 위기로 인해 AI 칩 사업에 수십억 달러의 기회가 늘어나면서 Broadcom 주가 급등",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1794752725,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=aeaf8cec8305380f97166c7f444e7ab7d22ccbd8bb4e4eb82d6d122ec108924f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
         },
         {
           "eventId": "3fe8414a94e0ab61ed96",
@@ -1608,32 +1635,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 컴퓨팅 수요 확대 가능성"
-        },
-        {
-          "eventId": "82fe986ba132ba0da4d8",
-          "headline": "Nvidia의 임시 CEO는 OpenAI에 대한 \"2,500억 달러의 신용 백스톱\"을 추진했습니다. 오라클은 가장 큰 위험에 처해 있습니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1794656532,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=5b7710d61d7db496e8117296004420f7c7659a9c4201be7d1dcb97b3ff6d2720",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 컴퓨팅 수요 확대 가능성"
-        },
-        {
-          "eventId": "2c46e3f4b714fc0d13a7",
-          "headline": "Sundar Pichai는 Gemini 앱의 월간 사용자 수가 10억 명에 달하는 동안 Alphabet의 클라우드 수익이 지난 분기에 103% 증가했다고 보고했습니다. Google Cloud가 검색보다 더 큰 성장 동력이 되고 있나요?",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1794653580,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=2d07ade3dd77a1245eb8851944948953b92d2d49be389af003c925259f4d5ac1",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 컴퓨팅 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -1642,7 +1643,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794763000,
       "signal": "우호적 변화",
       "netScore": 8.21,
@@ -1703,6 +1704,19 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "a519468441a9cadc8629",
+          "headline": "Nvidia의 리더십 위기로 인해 AI 칩 사업에 수십억 달러의 기회가 늘어나면서 Broadcom 주가 급등",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1794752725,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=aeaf8cec8305380f97166c7f444e7ab7d22ccbd8bb4e4eb82d6d122ec108924f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
         },
         {
           "eventId": "33b4f034e794cf1e8d9b",
@@ -1834,19 +1848,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "c5bac73507c22e1772ce",
-          "headline": "AI 칩 업데이트 - Micron, 투자자 이벤트에서 AI 리더십 강조",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1794569857,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=0d9b346d455f3220475ea12e6bfd8a4c07e840c28901704a84c385871cb7ee7a",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -1855,10 +1856,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794763000,
       "signal": "중립·확인 대기",
-      "netScore": -0.27,
+      "netScore": 0.43,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1868,8 +1869,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.88,
-          "level": "중립"
+          "score": 1.23,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -1893,7 +1894,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "insiderSignal": {
@@ -1913,6 +1914,19 @@ const EVENT_ANALYSIS_DATA = {
           "factorChanges": {
             "growth": 2,
             "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "a519468441a9cadc8629",
+          "headline": "Nvidia의 리더십 위기로 인해 AI 칩 사업에 수십억 달러의 기회가 늘어나면서 Broadcom 주가 급등",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1794752725,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=aeaf8cec8305380f97166c7f444e7ab7d22ccbd8bb4e4eb82d6d122ec108924f",
+          "factorChanges": {
+            "growth": 1,
             "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
@@ -1988,12 +2002,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 6,
+      "unverifiedEvidenceCount": 7,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794717201,
       "signal": "주의 강화",
       "netScore": -5.39,
@@ -2183,7 +2197,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794686042,
       "signal": "주의 강화",
       "netScore": -4.4,
@@ -2281,7 +2295,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794716976,
       "signal": "우호적 변화",
       "netScore": 4.83,
@@ -2447,7 +2461,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794517919,
       "signal": "우호적 변화",
       "netScore": 6.29,
@@ -2558,7 +2572,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794650440,
       "signal": "우호적 변화",
       "netScore": 2.1,
@@ -2650,7 +2664,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794694442,
       "signal": "중립·확인 대기",
       "netScore": -1.12,
@@ -2747,7 +2761,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794648395,
       "signal": "중립·확인 대기",
       "netScore": 1.19,
@@ -2858,7 +2872,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794511397,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2928,7 +2942,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794484941,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2997,8 +3011,8 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1794783964.0489156,
-      "dataAsOf": 1794668702,
+      "updatedAt": 1794785993.292984,
+      "dataAsOf": 1794752725,
       "signal": "우호적 변화",
       "netScore": 7.16,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
@@ -3045,6 +3059,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "a519468441a9cadc8629",
+          "headline": "Nvidia의 리더십 위기로 인해 AI 칩 사업에 수십억 달러의 기회가 늘어나면서 Broadcom 주가 급등",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1794752725,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=aeaf8cec8305380f97166c7f444e7ab7d22ccbd8bb4e4eb82d6d122ec108924f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
         {
           "eventId": "ccbde4c9780214d7f326",
           "headline": "억만장자 Bill Ackman은 Amazon, Microsoft, Meta 및 Alphabet에 대한 월스트리트의 기대에 큰 단절이 있다고 말합니다.",
@@ -3189,28 +3216,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 서버 메모리 수요와 가격 강세"
-        },
-        {
-          "eventId": "c5bac73507c22e1772ce",
-          "headline": "AI 칩 업데이트 - Micron, 투자자 이벤트에서 AI 리더십 강조",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1794569857,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=0d9b346d455f3220475ea12e6bfd8a4c07e840c28901704a84c385871cb7ee7a",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 서버 메모리 수요와 가격 강세"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 24,
+      "unverifiedEvidenceCount": 25,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794683102,
       "signal": "주의 강화",
       "netScore": -4.48,
@@ -3332,7 +3346,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794504182,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3401,7 +3415,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794675662,
       "signal": "중립·확인 대기",
       "netScore": -0.48,
@@ -3484,7 +3498,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3538,7 +3552,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794716976,
       "signal": "우호적 변화",
       "netScore": 4.06,
@@ -3676,7 +3690,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794461704,
       "signal": "주의 강화",
       "netScore": -2.52,
@@ -3761,7 +3775,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794560760,
       "signal": "주의 강화",
       "netScore": -5.51,
@@ -3888,7 +3902,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794501334,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -3955,7 +3969,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4009,7 +4023,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794463924,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -4078,7 +4092,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4132,7 +4146,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794515726,
       "signal": "중립·확인 대기",
       "netScore": -1.87,
@@ -4212,7 +4226,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794603725,
       "signal": "중립·확인 대기",
       "netScore": 0.14,
@@ -4295,7 +4309,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4349,7 +4363,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 1794576600,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4418,7 +4432,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4472,7 +4486,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1794783964.0489156,
+      "updatedAt": 1794785993.292984,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
