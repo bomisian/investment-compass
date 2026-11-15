@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province - Reuters",
+      "summary": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
+      "datetime": 1794711480,
+      "headlineKo": "사우디 주도 연합군, 동부 지역에서 리야드를 향한 미사일과 드론 요격 - 로이터 통신",
+      "summaryKo": "사우디 주도 연합군, 동부 지역에서 리야드를 향한 미사일과 드론을 요격 - 최신"
+    },
+    {
       "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
       "summary": "Iran's navy says three tankers on fire after hitting mines in Hormuz Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794618360,
       "headlineKo": "루비오, 보수 법률 단체에 연설하며 국제 법원 공격 - 로이터",
       "summaryKo": "루비오, 보수 법률 단체와의 연설에서 국제 법원을 공격 - 로이터"
-    },
-    {
-      "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
-      "summary": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUazd4SFcxMFVWUTl6VmRVOE5QR0ZjNWRXY19qWTVuRUthUXhDS3UybmZnQmFHSHVRV20wdXJwTUlKUTlGVU42N1B4bkVwSjI4bkdJeG94aFpxX01NUTdyWUJOUVZHSHlXZkxGZXlsTWhjSmUwRXoyRklMekIycXlEUk1pM1NpNjJp?oc=5",
-      "datetime": 1794615720,
-      "headlineKo": "백악관 \"트럼프, 푸틴·시과 목요일 핵무기 감축 제안할 것\" - 로이터 통신",
-      "summaryKo": "트럼프, 목요일 푸틴·시진핑과 핵무기 감축 제안, 백악관 발표 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794712880.6077712,
+  "_news_last_success_at": 1794716954.6295626,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794712871.9290729,
-  "_updated_label": "2026-11-15 12:21",
-  "_last_attempt_at": 1794712871.9290729,
-  "_last_success_at": 1794712871.9290729,
+  "_fetched_at": 1794716943.6192837,
+  "_updated_label": "2026-11-15 13:29",
+  "_last_attempt_at": 1794716943.6192837,
+  "_last_success_at": 1794716943.6192837,
   "_collection_status": "ok",
   "_collection_errors": []
 };
