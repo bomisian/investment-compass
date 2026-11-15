@@ -237,15 +237,6 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Israeli military says it struck senior armed Hamas commander - Reuters",
-      "summary": "Israeli military says it struck senior armed Hamas commander Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
-      "datetime": 1794698991,
-      "headlineKo": "이스라엘군, 하마스 고위 사령관 공격했다고 밝혔다 - 로이터 통신",
-      "summaryKo": "이스라엘군, 하마스 고위 무장군 사령관 공격했다고 발표 - 로이터 통신"
-    },
-    {
       "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
       "summary": "Iran's navy says three tankers on fire after hitting mines in Hormuz Reuters",
       "source": "Reuters",
@@ -253,6 +244,15 @@ const MARKET_DATA = {
       "datetime": 1794696859,
       "headlineKo": "이란 해군, 호르무즈 기뢰 공격 후 유조선 3척에 화재 발생 - 로이터 통신",
       "summaryKo": "이란 해군, 호르무즈 기뢰 공격 후 유조선 3척에 불이 붙었다고 밝혔습니다."
+    },
+    {
+      "headline": "Hamas says senior armed commander killed in Israeli strike - Reuters",
+      "summary": "Hamas says senior armed commander killed in Israeli strike Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
+      "datetime": 1794695460,
+      "headlineKo": "하마스 \"이스라엘 공습으로 무장 고위사령관 사망\" - 로이터",
+      "summaryKo": "하마스 \"이스라엘 공습으로 무장 고위사령관 사망\" - 중앙일보"
     },
     {
       "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794705257.5543964,
+  "_news_last_success_at": 1794709083.8316805,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794705248.0259953,
-  "_updated_label": "2026-11-15 10:14",
-  "_last_attempt_at": 1794705248.0259953,
-  "_last_success_at": 1794705248.0259953,
+  "_fetched_at": 1794709070.6595535,
+  "_updated_label": "2026-11-15 11:18",
+  "_last_attempt_at": 1794709070.6595535,
+  "_last_success_at": 1794709070.6595535,
   "_collection_status": "ok",
   "_collection_errors": []
 };
