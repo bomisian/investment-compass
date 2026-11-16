@@ -221,8 +221,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 20.9,
     "name": "Amazon.com Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:52"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "TSM": {
     "forwardPE": 18.88111,
@@ -485,8 +485,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 10.89,
     "name": "Advanced Micro Devices, Inc.",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:52"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "INTC": {
     "forwardPE": 36.93003,
@@ -525,8 +525,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": -7.76,
     "name": "Intel Corp",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:52"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "AMAT": {
     "forwardPE": 20.81932,
@@ -949,8 +949,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 53.82,
     "name": "Lam Research Corporation",
     "theme": "반도체 장비",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:52"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "KLAC": {
     "forwardPE": 25.59516,
@@ -1020,7 +1020,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 125927.5,
     "52WeekHigh": 2354.39,
     "52WeekLow": 183,
-    "beta": 4.0498734,
+    "beta": 3.9448903,
     "perBandYears": 1,
     "perBandSource": "universal",
     "perBand5YYears": 1,
@@ -1028,8 +1028,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 132.88,
     "name": "SanDisk Corporation",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:53"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "WDC": {
     "forwardPE": 12.21712,
@@ -1076,12 +1076,12 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-11-17 06:33"
   },
   "ANET": {
-    "forwardPE": 45.12591408624312,
+    "forwardPE": 42.5069687961246,
     "peTTM": 52.453,
     "psTTM": 20.9634,
     "pb": 15.1554,
     "evEbitdaTTM": 46.5609,
-    "pfcfShareTTM": 49.6785,
+    "pfcfShareTTM": 49.6784,
     "operatingMarginTTM": 43.83,
     "revenueGrowthTTMYoy": 40.74,
     "epsGrowthTTMYoy": 41.7,
@@ -1096,7 +1096,7 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 2.4824,
     "longTermDebt/equityQuarterly": 0,
     "totalDebt/totalEquityQuarterly": 0,
-    "marketCapitalization": 249256.66,
+    "marketCapitalization": 249256.64,
     "52WeekHigh": 217.4099,
     "52WeekLow": 114.52,
     "beta": 1.6062709,
@@ -1114,8 +1114,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 33.29,
     "name": "Arista Networks, Inc.",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:53"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "COHR": {
     "forwardPE": 19.31386132210312,
@@ -1508,12 +1508,12 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-11-17 06:33"
   },
   "MOD": {
-    "forwardPE": 25.115259714112586,
-    "peTTM": 55.5986,
-    "psTTM": 1.9892,
-    "pb": 5.8634,
-    "evEbitdaTTM": 23.4157,
-    "pfcfShareTTM": 47.4159,
+    "forwardPE": 24.317332769045322,
+    "peTTM": 53.8322,
+    "psTTM": 1.926,
+    "pb": 5.6771,
+    "evEbitdaTTM": 22.7265,
+    "pfcfShareTTM": 45.9094,
     "operatingMarginTTM": 6.88,
     "revenueGrowthTTMYoy": 35.08,
     "epsGrowthTTMYoy": -31.14,
@@ -1527,12 +1527,12 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 1.3396,
     "longTermDebt/equityQuarterly": 0.5492,
     "totalDebt/totalEquityQuarterly": 0.5885,
-    "marketCapitalization": 7216.694,
+    "marketCapitalization": 6987.4155,
     "52WeekHigh": 323.25,
     "52WeekLow": 87.84,
     "beta": 1.933447,
     "avgPe3Y": 48.7559,
-    "peDeviation3Y": 14.034609144739408,
+    "peDeviation3Y": 10.411662998734519,
     "perBandYears": 5,
     "perBandLow": 0.33741621715598136,
     "perBandHigh": 1.9717611211002382,
@@ -1545,8 +1545,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 7.359999999999999,
     "name": "Modine Manufacturing Company",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:53"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "STX": {
     "forwardPE": 13.41285,
@@ -1640,11 +1640,11 @@ const FUNDAMENTALS_DATA = {
   },
   "FIX": {
     "forwardPE": 19.40473,
-    "peTTM": 23.8516,
-    "psTTM": 3.103,
-    "pb": 11.6699,
-    "evEbitdaTTM": 17.0105,
-    "pfcfShareTTM": 15.9425,
+    "peTTM": 22.9231,
+    "psTTM": 2.9822,
+    "pb": 11.2155,
+    "evEbitdaTTM": 16.3103,
+    "pfcfShareTTM": 15.3218,
     "operatingMarginTTM": 16.7,
     "revenueGrowthTTMYoy": 50.7,
     "epsGrowthTTMYoy": 96.12,
@@ -1659,7 +1659,7 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 1.0941,
     "longTermDebt/equityQuarterly": 0.0131,
     "totalDebt/totalEquityQuarterly": 0.0149,
-    "marketCapitalization": 38921.812,
+    "marketCapitalization": 37406.574,
     "52WeekHigh": 2073.99,
     "52WeekLow": 841.66,
     "beta": 1.6902562,
@@ -1667,7 +1667,7 @@ const FUNDAMENTALS_DATA = {
     "dividendPerShareTTM": 3.0041,
     "dividendGrowthRate5Y": 35.55,
     "avgPe3Y": 27.932266666666663,
-    "peDeviation3Y": -14.609149752735174,
+    "peDeviation3Y": -17.933262368014038,
     "perBandYears": 5,
     "perBandLow": 0.8649807042932947,
     "perBandHigh": 1.1879337514069785,
@@ -1680,8 +1680,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 53.93,
     "name": "Comfort Systems USA, Inc.",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1794793949.578065,
-    "_updated_label": "2026-11-16 10:53"
+    "_fetched_at": 1794866402.42795,
+    "_updated_label": "2026-11-17 07:00"
   },
   "BE": {
     "forwardPE": 55.48702208882062,
