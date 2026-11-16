@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794814142.9697518,
+  "generatedAt": 1794816088.196808,
   "records": {
     "AAPL": [
+      {
+        "changedAt": 1794816088.196808,
+        "dataAsOf": 1794807120,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.0,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.52,
+            "after": 0.17
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.57,
+            "after": -1.22
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Biel Crystal은 iPhone Duo의 주요 UTG 공급업체로 자리매김했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=dda3dba71cd334da0bec7980a84b6cc8b93f8df79e0ef98f368d5d7d46451a48",
+        "eventId": "ebeaba84d10025a94a40",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.17, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ebeaba84d10025a94a40\"}"
+      },
       {
         "changedAt": 1794769079.8196986,
         "dataAsOf": 1794743402,
@@ -1744,41 +1773,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=2ddbb69eed64bf00253e6dafcbd9b3265e2362cd4538dc04cd5ec99df29e8570",
         "eventId": "00f64ca151d0fe9b42da",
         "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.18, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": -1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"00f64ca151d0fe9b42da\"}"
-      },
-      {
-        "changedAt": 1792955295.987516,
-        "dataAsOf": 1792853501,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.87,
-            "after": -0.52
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": 0.0
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.5,
-            "after": -3.15
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.4,
-            "after": -1.05
-          }
-        ],
-        "cause": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험",
-        "newsHeadline": "애플 아이폰18 프로 수요 약세? Jefferies, 배송 시간 단축 및 주문 삭감 보고",
-        "newsUrl": "https://finnhub.io/api/news?id=0f9d8afb174bf7814a0e3ec521c3eeada07c93e767d2da8d5204b1f271a900bb",
-        "eventId": "8459930a96df67ef6057",
-        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"8459930a96df67ef6057\"}"
       }
     ],
     "AMAT": [
@@ -42620,6 +42614,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ORCL": [
       {
+        "changedAt": 1794816088.196808,
+        "dataAsOf": 1794634437,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.4,
+            "after": 1.05
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.8,
+            "after": 2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": -1.05
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "CoreWeave는 20% 상승하고 Oracle을 더 높게 끌어올렸습니다. 판매할 시간인가, 아니면 장전할 시간인가?",
+        "newsUrl": "https://finnhub.io/api/news?id=09479e707e6dfb3360de6ef541f28029c16ec2e6de6821c492ae9461addb1e06",
+        "eventId": "e29850cb8094157d0033",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.1, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e29850cb8094157d0033\"}"
+      },
+      {
         "changedAt": 1794723987.0539584,
         "dataAsOf": 1794634437,
         "changes": [
@@ -44557,35 +44580,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=cf17e68b42722457b7e1e6df14a5718c6d60f2218a391663dcf043aa6ef5061e",
         "eventId": "abdafadef244b7f1dccf",
         "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.45, \"before\": 1.75, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.22, \"before\": 0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"abdafadef244b7f1dccf\"}"
-      },
-      {
-        "changedAt": 1793046757.9100661,
-        "dataAsOf": 1793018716,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.52,
-            "after": 0.87
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.05,
-            "after": 1.75
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.52,
-            "after": 0.87
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "마이크로소프트 대. Oracle: 위험 프로필이 매우 다른 대규모 백로그 행운",
-        "newsUrl": "https://finnhub.io/api/news?id=06bb901fdedfd90f28bd8c955340f5e3bfed489ccc27bbf9874dfb208ae82cae",
-        "eventId": "cc84d02d628a816d97d2",
-        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.75, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.87, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cc84d02d628a816d97d2\"}"
       }
     ],
     "PLTR": [
