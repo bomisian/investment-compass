@@ -89,8 +89,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 70.12,
     "name": "Apple Inc.",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1794795937.1363697,
-    "_updated_label": "2026-11-16 11:25"
+    "_fetched_at": 1794868645.5846903,
+    "_updated_label": "2026-11-17 07:37"
   },
   "GOOGL": {
     "forwardPE": 17.65699,
@@ -841,7 +841,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 137462.84,
     "52WeekHigh": 329.88,
     "52WeekLow": 70.685,
-    "beta": 2.3064997,
+    "beta": 2.3100998,
     "dividendYieldIndicatedAnnual": 0.42834,
     "dividendPerShareTTM": 0.2409,
     "dividendGrowthRate5Y": -0.04,
@@ -859,8 +859,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 12.57,
     "name": "Marvell Technology, Inc.",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794795937.1363697,
-    "_updated_label": "2026-11-16 11:25"
+    "_fetched_at": 1794868645.5846903,
+    "_updated_label": "2026-11-17 07:37"
   },
   "ASML": {
     "forwardPE": 30.59394,
