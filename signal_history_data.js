@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794785993.292984,
+  "generatedAt": 1794787482.405177,
   "records": {
     "AAPL": [
       {
@@ -15387,6 +15387,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "CEG": [
       {
+        "changedAt": 1794787482.405177,
+        "dataAsOf": 1794560760,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.22,
+            "after": -1.92
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.57,
+            "after": -1.92
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "블룸 에너지 vs. 별자리 에너지: 현장 전력 또는 그리드 전력, 데이터 센터의 승리는 무엇입니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=e48c7d6925da7bb9567ab69d7d9f433d8b2ffd7471290df3f302752656f1b6d1",
+        "eventId": "986ec4fb1e27c461a623",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.92, \"before\": -1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.92, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"986ec4fb1e27c461a623\"}"
+      },
+      {
         "changedAt": 1794672882.50767,
         "dataAsOf": 1794560760,
         "changes": [
@@ -17198,47 +17227,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=af1111caa042963090e841f2013640e0e62d7ddc06d7f69343407e14d4f48bf0",
         "eventId": "1cea65b391d97bfe0373",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.67, \"before\": 4.02, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.57, \"before\": 1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1cea65b391d97bfe0373\"}"
-      },
-      {
-        "changedAt": 1791572460.8781345,
-        "dataAsOf": 1791552718,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 2.1,
-            "after": 2.27
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.8,
-            "after": 4.02
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": 0.0
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.45,
-            "after": -1.05
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.7,
-            "after": 1.75
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "별자리 에너지(CEG) 가치 평가: 장기 전력 계약이 프리미엄을 정당화합니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=af1111caa042963090e841f2013640e0e62d7ddc06d7f69343407e14d4f48bf0",
-        "eventId": "1cea65b391d97bfe0373",
-        "fingerprint": "{\"changes\": [{\"after\": 2.27, \"before\": 2.1, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.02, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.05, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.75, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1cea65b391d97bfe0373\"}"
       }
     ],
     "COHR": [
@@ -49238,6 +49226,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "SNDK": [
       {
+        "changedAt": 1794787482.405177,
+        "dataAsOf": 1794683102,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.35,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.75,
+            "after": -2.1
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Sandisk의 주식분할은 11월 19일부터 적용됩니다. 지금 구매해야 할까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=32956ad26326a160cade0982096b2994add313424f230f83d28e042bf76c2615",
+        "eventId": "c4a54ee0f6625c7ef7d1",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c4a54ee0f6625c7ef7d1\"}"
+      },
+      {
         "changedAt": 1794743999.5360768,
         "dataAsOf": 1794683102,
         "changes": [
@@ -51049,29 +51060,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ca93703cc4cde0ad01a05b7c5c0f79dfaccb48a1e197e46812892a259fd305f2",
         "eventId": "ee24b41647754804c633",
         "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.05, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.05, \"before\": -2.27, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.18, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"ee24b41647754804c633\"}"
-      },
-      {
-        "changedAt": 1793069943.9148493,
-        "dataAsOf": 1793049314,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.05,
-            "after": -1.4
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.62,
-            "after": -2.27
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "기술 수익은 이번 주 시장의 가장 큰 이야기입니다. Microsoft, Amazon, Intel, SanDisk 및 Alphabet이 주식 시장의 다음 움직임을 주도할 이유는 다음과 같습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf",
-        "eventId": "5dfb13efc4e940739c2a",
-        "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.27, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"5dfb13efc4e940739c2a\"}"
       }
     ],
     "STX": [
