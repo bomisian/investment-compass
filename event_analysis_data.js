@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794848605.8617609,
+  "generatedAt": 1794850586.0080009,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794827247,
       "signal": "주의 강화",
       "netScore": -10,
@@ -138,7 +138,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "11310f65fcd0ea2415bc",
           "headline": "MSFT SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793113200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm",
@@ -162,7 +162,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794828482,
       "signal": "주의 강화",
       "netScore": -6.57,
@@ -304,7 +304,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "ebdc9ba31b4c67b1ccc6",
           "headline": "GOOGL SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793113200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm",
@@ -328,7 +328,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794827247,
       "signal": "중립·확인 대기",
       "netScore": 0.2,
@@ -417,7 +417,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "e72376e61b33cd2bf6a9",
           "headline": "AMZN SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793199600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
@@ -441,7 +441,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794824347,
       "signal": "주의 강화",
       "netScore": -10,
@@ -651,7 +651,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794150000.0,
       "signal": "주의 강화",
       "netScore": -8.8,
@@ -750,7 +750,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "26ef2091f1d5f3f77aae",
           "headline": "AAPL SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793545200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm",
@@ -774,7 +774,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794825890,
       "signal": "주의 강화",
       "netScore": -2.66,
@@ -861,20 +861,10 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "c06813123f3184e0eb21",
           "headline": "TSLA SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1792508400.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm",
-          "factorChanges": {},
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-        },
-        {
-          "eventId": "57e748ea4345c1a44426",
-          "headline": "TSLA SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
-          "publishedAt": 1790866800.0,
-          "verificationStatus": "confirmed",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/tsla-20261002.htm",
           "factorChanges": {},
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
         },
@@ -889,13 +879,13 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
         }
       ],
-      "confirmedEvidenceCount": 4,
+      "confirmedEvidenceCount": 3,
       "unverifiedEvidenceCount": 2,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793718000.0,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1050,7 +1040,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1792422000.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1125,7 +1115,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793631600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1186,7 +1176,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "b5edbcd361c582cdb2d8",
           "headline": "PLTR SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793545200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm",
@@ -1210,7 +1200,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794828778,
       "signal": "주의 강화",
       "netScore": -3.62,
@@ -1366,7 +1356,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794828778,
       "signal": "중립·확인 대기",
       "netScore": 1.74,
@@ -1453,7 +1443,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "fc2aa7212055b653581b",
           "headline": "AMD SEC Form 8-K 공식 제출",
-          "eventLabel": "매출",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793631600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/amd-20261103.htm",
@@ -1477,7 +1467,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794825302,
       "signal": "중립·확인 대기",
       "netScore": -0.56,
@@ -1580,7 +1570,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794829331,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1613,7 +1603,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -4.22,
+          "score": -3.22,
           "level": "주의"
         },
         "shortTermMomentum": {
@@ -1715,20 +1705,6 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
         },
         {
-          "eventId": "59096d92cb5dccdbbfb7",
-          "headline": "QCOM SEC Form S-3 공식 제출",
-          "eventLabel": "증권등록·투자설명서 제출",
-          "publishedAt": 1790866800.0,
-          "verificationStatus": "confirmed",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926113315/tm2626658d1_s3.htm",
-          "factorChanges": {
-            "valuationBurden": -2,
-            "businessRisk": -1,
-            "shortTermMomentum": -2
-          },
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-        },
-        {
           "eventId": "02acf9fa02ac609b2c28",
           "headline": "QCOM SEC Form 10-Q 공식 제출",
           "eventLabel": "정기 실적 공시",
@@ -1739,13 +1715,13 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
         }
       ],
-      "confirmedEvidenceCount": 7,
+      "confirmedEvidenceCount": 6,
       "unverifiedEvidenceCount": 2,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794686042,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -1898,7 +1874,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794716976,
       "signal": "우호적 변화",
       "netScore": 4.2,
@@ -1997,7 +1973,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "dc36ef4861448ce3506a",
           "headline": "MRVL SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793545200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm",
@@ -2031,7 +2007,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794829331,
       "signal": "주의 강화",
       "netScore": -5.88,
@@ -2134,7 +2110,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "8baf0fc65e7004d617af",
           "headline": "INTC SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793199600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/intc-20261029.htm",
@@ -2158,7 +2134,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794495600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2333,7 +2309,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794694442,
       "signal": "주의 강화",
       "netScore": -2.52,
@@ -2436,7 +2412,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794409200.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2521,7 +2497,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793804400.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2592,7 +2568,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "396fa2979e0c43cb1504",
           "headline": "LRCX SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1792508400.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx-20261021.htm",
@@ -2616,7 +2592,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793890800.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2687,7 +2663,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "b06efb3b1ff9b70f8646",
           "headline": "KLAC SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793113200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000032/klac-20261028.htm",
@@ -2711,7 +2687,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794829331,
       "signal": "중립·확인 대기",
       "netScore": -1.4,
@@ -2840,7 +2816,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794822182,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2915,7 +2891,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "0e7e05bec270df6a6c64",
           "headline": "SNDK SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793199600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndk-20261029.htm",
@@ -2939,7 +2915,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1792681200.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3000,7 +2976,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "a8e19f9a2f8d58db2493",
           "headline": "WDC SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1792594800.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/wdc-20261022.htm",
@@ -3024,7 +3000,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793718000.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3085,7 +3061,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "385d6990a7e0b82ee8bf",
           "headline": "ANET SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793631600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/anet-20261103.htm",
@@ -3109,7 +3085,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793718000.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3194,7 +3170,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794788402,
       "signal": "우호적 변화",
       "netScore": 4.9,
@@ -3306,7 +3282,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "716107b975b46d7039e4",
           "headline": "LITE SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793545200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm",
@@ -3330,7 +3306,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793113200.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3391,7 +3367,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "e59eb968f1b2d7bcdf00",
           "headline": "GEV SEC Form 8-K 공식 제출",
-          "eventLabel": "매출",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793113200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/gev-20261028.htm",
@@ -3415,7 +3391,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794560760,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3514,7 +3490,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794501334,
       "signal": "주의 강화",
       "netScore": -4.75,
@@ -3645,7 +3621,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793631600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3706,7 +3682,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "906231c6728f81e433cb",
           "headline": "ETN SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793631600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn-20261103.htm",
@@ -3750,7 +3726,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793199600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3811,7 +3787,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "b5e57f1873672cd8878a",
           "headline": "PWR SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793199600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526436949/d77812d8k.htm",
@@ -3835,7 +3811,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793113200.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3896,7 +3872,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "61637a64038bd94f5d89",
           "headline": "HUBB SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793026800.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828026067421/hubb-20261027.htm",
@@ -3920,7 +3896,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794495600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3991,7 +3967,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "319a9c9c0b2a19e9f6f1",
           "headline": "VRT SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793113200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/vrt-20261028.htm",
@@ -4035,7 +4011,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794603725,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4144,7 +4120,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793199600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4215,7 +4191,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "e6696bb6cf1a7066c543",
           "headline": "STX SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793026800.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stx-20261027.htm",
@@ -4239,7 +4215,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1794576600,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4304,7 +4280,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "5ffc544a9562ad9701d1",
           "headline": "EME SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1793199600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000132/eme-20261029.htm",
@@ -4338,7 +4314,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1793804400.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4419,7 +4395,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "8297f93631d953b5c859",
           "headline": "FIX SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1792594800.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/fix-20261022x8k.htm",
@@ -4453,7 +4429,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1794848605.8617609,
+      "updatedAt": 1794850586.0080009,
       "dataAsOf": 1792594800.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4514,7 +4490,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "3f8656e225a7284a1b94",
           "headline": "BE SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1792594800.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/be-20261022.htm",
