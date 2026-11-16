@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794787864.1633606,
+  "generatedAt": 1794789768.5011296,
   "events": [
     {
       "id": "f013cb8ef16f21e9c07a",
@@ -2137,12 +2137,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2a652f9ff4264cf0c0451a92ef62c2ddde9638eaa4effc94da3629e4648b211c",
         "publishedAt": 1794694442,
-        "collectedAt": 1794767157.040963
+        "collectedAt": 1794789748.0025737
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "NVIDIA: 2027년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $64,662.00 -1.6% -$1,043.48 SPCX $139.11 -0.",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $64,926.00 +1.9% +$1,219.23 SPCX $139.11 -0.",
         "Nvidia는 인공 지능과 가속 컴퓨팅을 지원하는 고성능 그래픽 프로세서 시장을 장악하고 있습니다."
       ],
       "marketInterpretation": [
@@ -4485,7 +4485,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f7309c8edd90fd4b976cb8ba6d9c28a8f511bec413c4c3d2b91b53f1ef4dc932",
         "publishedAt": 1794648395,
-        "collectedAt": 1794767157.040963
+        "collectedAt": 1794789748.0025737
       },
       "confirmedFacts": [],
       "reportedClaims": [
