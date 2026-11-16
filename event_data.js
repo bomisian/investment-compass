@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794791963.2469628,
+  "generatedAt": 1794794092.2407198,
   "events": [
     {
       "id": "f013cb8ef16f21e9c07a",
@@ -1322,7 +1322,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fe5bdb9b2ab222ac2639d0dbec55ec7c7095ba514f5ca347af1f286a5ee3e4b9",
         "publishedAt": 1794717201,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3927,7 +3927,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b9913346c60325dafc96705f3c76b421a2481863318635784462a51f64e965c8",
         "publishedAt": 1794656402,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4853,12 +4853,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f47f411a630062af4d2336f5e280ac06f3a4cbaf84e7e96dfdb2f5ab8223ffa4",
         "publishedAt": 1794619862,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Qualcomm: 2027년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $64,968.00 -0.6% -$418.65 SPCX $139.11 -0.6%",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,561.67 -0.4% -30.73 DJI 52,347.55 +0.1% +50.46 NASDAQ 25,136.27 -0.9% -229.82 비트코인 $64,771.00 +3.7% +$2,320.91 SPCX $139.11 -0.",
         "퀄컴의 스마트폰 사업이 정체되면서 데이터센터와 자동차 분야로 진출하고 있다."
       ],
       "marketInterpretation": [
@@ -7706,7 +7706,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=48306ae54db9acb50e0ede9aff8674d0c41c65dcb1b2b78501bf05444310e54c",
         "publishedAt": 1794587331,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9814,7 +9814,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=742c20d3f7f7ffa7c56f96a80ab93caa91ee1ff4068a64417b36121adb695da0",
         "publishedAt": 1794561783,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13269,7 +13269,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5b859a74d1131e583434c2588bfd6fafcd3f0a45612ca3bef0890df73041672",
         "publishedAt": 1794505620,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13606,7 +13606,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0a8eee368dc656423940d4328f7719038e17277a8e299e56e6dd306f95406d1e",
         "publishedAt": 1794504420,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15100,7 +15100,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85479a559ba0f656a7c76b24e5803afd8afd109604be8bc18b88ba8b9f891a1d",
         "publishedAt": 1794498062,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16106,7 +16106,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=71815c6e8648ee39e0084e0f642659626391ece445d57c8322f953a200d06b38",
         "publishedAt": 1794489888,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17196,7 +17196,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3967cb2dad9b9fb260365798a9bda484ae8c78ea4a9118f976cfccfe8d621d1b",
         "publishedAt": 1794480780,
-        "collectedAt": 1794770961.370539
+        "collectedAt": 1794794074.1240315
       },
       "confirmedFacts": [],
       "reportedClaims": [
