@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794812047.9246068,
+  "generatedAt": 1794814142.9697518,
   "records": {
     "AAPL": [
       {
@@ -34233,6 +34233,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "META": [
       {
+        "changedAt": 1794814142.9697518,
+        "dataAsOf": 1794750804,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.57,
+            "after": 1.4
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.9,
+            "after": -5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.52,
+            "after": -0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "이탈리아, 메타에 8억500만 유로 벌금 부과 법적 경로가 돈보다 더 중요한 이유",
+        "newsUrl": "https://finnhub.io/api/news?id=a498936e53ea3ed4fdca6a85bd53253ce2a008e36c1be9adb80bf7e4f5e2ebb7",
+        "eventId": "9bdb6fd3899816959f61",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.9, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9bdb6fd3899816959f61\"}"
+      },
+      {
         "changedAt": 1794769079.8196986,
         "dataAsOf": 1794750804,
         "changes": [
@@ -35846,23 +35875,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ec3048848409c77cf4d27a3e67c9a502cd318495aff426b7763c34cf5956b3dd",
         "eventId": "cc5d7380b697223abc84",
         "fingerprint": "{\"changes\": [{\"after\": -3.67, \"before\": -5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.72, \"before\": -5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cc5d7380b697223abc84\"}"
-      },
-      {
-        "changedAt": 1793691977.009911,
-        "dataAsOf": 1793665355,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.7,
-            "after": -1.22
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "S&P 500, Nasdaq 하락, Capex 우려로 기술 투자자 장악, 미국-이란 외교 희망보다 중요 — ORCL, META, PLTR, AAPL 집중",
-        "newsUrl": "https://finnhub.io/api/news?id=e9a70de4daf9bfe53dd942cfad843b8cd4eed3f0a808ef7818d3204090d84f3a",
-        "eventId": "e5b39a9cb95a447f2b23",
-        "fingerprint": "{\"changes\": [{\"after\": -1.22, \"before\": -0.7, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"e5b39a9cb95a447f2b23\"}"
       }
     ],
     "MOD": [
@@ -41184,6 +41196,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1794814142.9697518,
+        "dataAsOf": 1794791600,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -3.15,
+            "after": -3.67
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.75,
+            "after": 1.58
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "소비재 방어주는 SPY, QQQ 반등으로 연속 우승을 6주로 연장: TTD, CHTR, TSLA 선두 상승",
+        "newsUrl": "https://finnhub.io/api/news?id=7ad1076430e5efa8d9006005add6f8a3e9082960c33f3fefeea48bd4df2d7afb",
+        "eventId": "98325ae0b6f8cdc9a713",
+        "fingerprint": "{\"changes\": [{\"after\": -3.67, \"before\": -3.15, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 1.58, \"before\": 1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"98325ae0b6f8cdc9a713\"}"
+      },
+      {
         "changedAt": 1794810101.9850998,
         "dataAsOf": 1794791600,
         "changes": [
@@ -42581,29 +42616,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=1a54c44f1f88ccb6502c88cd88a43ef24e3a5548a22188bb411374717125936e",
         "eventId": "adec62ae9203c21bb113",
         "fingerprint": "{\"changes\": [{\"after\": 3.15, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"adec62ae9203c21bb113\"}"
-      },
-      {
-        "changedAt": 1794387094.6280942,
-        "dataAsOf": 1794371570,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 3.15,
-            "after": 2.8
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.22,
-            "after": -1.57
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "소매 투자자들이 Nvidia 외에도 주목하고 있는 3가지 데이터 센터 인프라 주식",
-        "newsUrl": "https://finnhub.io/api/news?id=57103db5fdc36a4040df1f13c642bf517a1e580c699ea11c8eacfb3c972e481d",
-        "eventId": "be9dd1333dbfc11fdb36",
-        "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"be9dd1333dbfc11fdb36\"}"
       }
     ],
     "ORCL": [
@@ -54841,6 +54853,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSM": [
       {
+        "changedAt": 1794814142.9697518,
+        "dataAsOf": 1794650440,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 1.05
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Taiwan Semiconductor(NYSE:TSM): 고성장과 펀더멘털 개선으로 화면 통과",
+        "newsUrl": "https://finnhub.io/api/news?id=7ba0ccbfb3cca78443e4c8d8eccd3fc8974969819b86a2f569a5dd9a7baa9527",
+        "eventId": "e1be070b2cf74795d557",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.05, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e1be070b2cf74795d557\"}"
+      },
+      {
         "changedAt": 1794763427.2267938,
         "dataAsOf": 1794650440,
         "changes": [
@@ -56586,35 +56621,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d8769948bf75b9817a259e0dd09c5e1abdb2520858ec8c6492318b769b1b7595",
         "eventId": "79304427d2f11eb3a775",
         "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.53, \"before\": -1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.8, \"before\": -3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"79304427d2f11eb3a775\"}"
-      },
-      {
-        "changedAt": 1792079601.6782334,
-        "dataAsOf": 1792069727,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.4,
-            "after": -2.45
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.92,
-            "after": -2.45
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.8,
-            "after": -3.85
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Taiwan Semiconductor Falls 3% Despite Record Quarterly Profit; Intel Drops 4%, AMD Slides 3%",
-        "newsUrl": "https://finnhub.io/api/news?id=4cd73645d6f56b4d48529c06bdfaa6645dfa79677c6dc211dcc1765065b2c7df",
-        "eventId": "ca80eff8e3bb3e563258",
-        "fingerprint": "{\"changes\": [{\"after\": -2.45, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.45, \"before\": -1.92, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.85, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ca80eff8e3bb3e563258\"}"
       }
     ],
     "VRT": [

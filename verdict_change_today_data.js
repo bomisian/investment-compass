@@ -1,5 +1,5 @@
 const VERDICT_CHANGE_TODAY_DATA = {
-  "generatedAt": "2026-11-16T15:55:42+09:00",
+  "generatedAt": "2026-11-16T16:15:40+09:00",
   "prevDate": "2026-11-12",
   "curDate": "2026-11-13",
   "changed": [
