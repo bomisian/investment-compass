@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794950892.8213398,
+  "generatedAt": 1794952865.8990862,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794943860,
       "signal": "주의 강화",
       "netScore": -2.67,
@@ -130,7 +130,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794937508,
       "signal": "중립·확인 대기",
       "netScore": -1.75,
@@ -325,7 +325,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794944267,
       "signal": "중립·확인 대기",
       "netScore": -1.82,
@@ -503,7 +503,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794936066,
       "signal": "주의 강화",
       "netScore": -8.4,
@@ -651,7 +651,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794943294,
       "signal": "중립·확인 대기",
       "netScore": 1.54,
@@ -748,7 +748,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794921681,
       "signal": "주의 강화",
       "netScore": -6.36,
@@ -874,7 +874,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794937533,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -985,7 +985,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794843348,
       "signal": "중립·확인 대기",
       "netScore": -1.61,
@@ -1067,7 +1067,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794942062,
       "signal": "우호적 변화",
       "netScore": 5.59,
@@ -1177,7 +1177,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794943622,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1190,7 +1190,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.88,
+          "score": 0.53,
           "level": "중립"
         },
         "valuationBurden": {
@@ -1215,7 +1215,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -4.9,
+          "score": -5,
           "level": "주의"
         },
         "insiderSignal": {
@@ -1254,6 +1254,20 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
+          "eventId": "7bc72c4e7fb43b37dc3f",
+          "headline": "엔비디아가 지분을 25% 삭감하고 주주들이 소송을 제기함에 따라 인텔 주가는 2.01% 하락했습니다.",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1794942392,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=33386a954dc6c1bc66030c2c58f44ac8ca104e1fac4a4a1fd8124cc1203f0c52",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
           "eventId": "6b42a259a859cd6c0e9a",
           "headline": "Nvidia를 둘러싼 불확실성 속에서 AMD 주식은 매수 대상인가요?",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -1268,7 +1282,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "19dc70f1c6584a175a34",
-          "headline": "Why Sandisk Stock Keeps On Going Down",
+          "headline": "Sandisk 주식이 계속 하락하는 이유",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1794940975,
           "verificationStatus": "needs_confirmation",
@@ -1283,7 +1297,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "29e0d89fc21ccacde857",
-          "headline": "Why Micron Stock Keeps On Going Down",
+          "headline": "마이크론 주식이 계속 하락하는 이유",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1794940041,
           "verificationStatus": "needs_confirmation",
@@ -1325,7 +1339,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "17c7d333d0fd790ed511",
-          "headline": "What Sent Marvell Stock Down Over 7%?",
+          "headline": "Marvell 주식이 7% 이상 하락한 이유는 무엇입니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1794926449,
           "verificationStatus": "needs_confirmation",
@@ -1340,7 +1354,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "718b19cad3c901695137",
-          "headline": "Lam Research Stock Fell Nearly 7%. What Happened?",
+          "headline": "Lam Research 주식은 거의 7% 하락했습니다. 무슨 일이에요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1794926449,
           "verificationStatus": "needs_confirmation",
@@ -1355,7 +1369,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "12e819599c268dc63da7",
-          "headline": "Why Did Arista Networks Stock Lose 5%?",
+          "headline": "Arista Networks 주식이 5% 하락한 이유는 무엇입니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1794926448,
           "verificationStatus": "needs_confirmation",
@@ -1370,7 +1384,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "e2dac4b34c9688c4196d",
-          "headline": "Can Qualcomm Stock Jump 40%?",
+          "headline": "퀄컴 주가 40% 상승할 수 있을까?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1794924824,
           "verificationStatus": "needs_confirmation",
@@ -1381,28 +1395,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "8ea1ce975ab250e0405a",
-          "headline": "워렌 버핏의 버크셔는 2분기 연속 애플 주식을 단 한 주도 매도하지 않았습니다. 지분 가치는 현재 800억 달러에 이릅니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1794923220,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=b899dccb0df67e6419f921bc675f6fccad4c1c15013cd84903d3fabac0d6f393",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 컴퓨팅 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 1,
-      "unverifiedEvidenceCount": 48,
+      "unverifiedEvidenceCount": 49,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794938702,
       "signal": "우호적 변화",
       "netScore": 7.23,
@@ -1617,7 +1618,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794937508,
       "signal": "주의 강화",
       "netScore": -8.19,
@@ -1811,25 +1812,25 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794939602,
       "signal": "주의 강화",
-      "netScore": -7.83,
+      "netScore": -2.03,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.35,
+          "score": 0.7,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 0.0,
+          "score": 0.7,
           "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -3.05,
+          "score": -1.05,
           "level": "주의"
         },
         "customerConcentration": {
@@ -1844,12 +1845,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.92,
+          "score": -1.92,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -3.4,
+          "score": -1.05,
           "level": "주의"
         },
         "insiderSignal": {
@@ -1861,7 +1862,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4621a8023a163e8d6764",
-          "headline": "Qualcomm vs. SK Hynix: Stable Revenue vs. Rapid Acceleration",
+          "headline": "Qualcomm vs. SK Hynix: 안정적인 수익 vs. 빠른 가속화",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1794939602,
           "verificationStatus": "needs_confirmation",
@@ -1875,7 +1876,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "e2dac4b34c9688c4196d",
-          "headline": "Can Qualcomm Stock Jump 40%?",
+          "headline": "퀄컴 주가 40% 상승할 수 있을까?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1794924824,
           "verificationStatus": "needs_confirmation",
@@ -1884,6 +1885,20 @@ const EVENT_ANALYSIS_DATA = {
             "businessRisk": -2,
             "growth": -1,
             "shortTermMomentum": -1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "60785d88c2f18895ff0a",
+          "headline": "Qualcomm과 Cirrascale, 에너지 효율적인 차세대 AI 추론을 발전시키기 위해 협력",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1794924000,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=d0d34ca15a53cd91572fd30e66530cdb7ae9da2723973c7a19addefc9ec7d70e",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
           },
           "reason": "회사 실적과의 연결고리 확인"
         },
@@ -1924,29 +1939,15 @@ const EVENT_ANALYSIS_DATA = {
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/tm2629667d1_8k.htm",
           "factorChanges": {},
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-        },
-        {
-          "eventId": "a748407586d6b5366d91",
-          "headline": "QCOM SEC Form 424B5 공식 제출",
-          "eventLabel": "증권등록·투자설명서 제출",
-          "publishedAt": 1794236400.0,
-          "verificationStatus": "confirmed",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926125254/tm2629187-2_424b5.htm",
-          "factorChanges": {
-            "valuationBurden": -2,
-            "businessRisk": -1,
-            "shortTermMomentum": -2
-          },
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
         }
       ],
-      "confirmedEvidenceCount": 2,
-      "unverifiedEvidenceCount": 4,
+      "confirmedEvidenceCount": 1,
+      "unverifiedEvidenceCount": 5,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794686042,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -2029,7 +2030,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794935101,
       "signal": "우호적 변화",
       "netScore": 7.93,
@@ -2079,7 +2080,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4567b003052495432638",
-          "headline": "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy.",
+          "headline": "Marvell과 Intel은 둘 다 2026년 최고치보다 최소 50% 하락했습니다. 내가 매수할 주식은 1개뿐입니다.",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1794935101,
           "verificationStatus": "needs_confirmation",
@@ -2192,8 +2193,8 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1794950892.8213398,
-      "dataAsOf": 1794935101,
+      "updatedAt": 1794952865.8990862,
+      "dataAsOf": 1794942392,
       "signal": "주의 강화",
       "netScore": -10,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
@@ -2205,7 +2206,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -2.62,
+          "score": -2.98,
           "level": "주의"
         },
         "valuationBurden": {
@@ -2241,8 +2242,22 @@ const EVENT_ANALYSIS_DATA = {
       },
       "evidence": [
         {
+          "eventId": "7bc72c4e7fb43b37dc3f",
+          "headline": "엔비디아가 지분을 25% 삭감하고 주주들이 소송을 제기함에 따라 인텔 주가는 2.01% 하락했습니다.",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1794942392,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=33386a954dc6c1bc66030c2c58f44ac8ca104e1fac4a4a1fd8124cc1203f0c52",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
           "eventId": "4567b003052495432638",
-          "headline": "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy.",
+          "headline": "Marvell과 Intel은 둘 다 2026년 최고치보다 최소 50% 하락했습니다. 내가 매수할 주식은 1개뿐입니다.",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1794935101,
           "verificationStatus": "needs_confirmation",
@@ -2393,29 +2408,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -2
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "0684c3a8bd7fe1f09932",
-          "headline": "인텔, 1400억 달러 규모 주식 전락 후 대규모 소송 직면",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1794829108,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=0e52d376e5d52cfdc41fd728522053f4919924446dea0321a2fa8b9f781a0724",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 12,
+      "unverifiedEvidenceCount": 13,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794936002,
       "signal": "주의 강화",
       "netScore": -6.09,
@@ -2479,7 +2480,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "c39fd97216f25643cf68",
-          "headline": "Applied Materials vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy for 2027?",
+          "headline": "어플라이드 머티리얼즈 vs. 대만 반도체 제조업: 2027년에는 어느 기술주를 매수하는 것이 더 나을까요?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794925382,
           "verificationStatus": "needs_confirmation",
@@ -2524,35 +2525,15 @@ const EVENT_ANALYSIS_DATA = {
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
           "factorChanges": {},
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-        },
-        {
-          "eventId": "ae07fea7d8534bc76db3",
-          "headline": "TSM SEC Form 6-K 공식 제출",
-          "eventLabel": "중요사항 공시",
-          "publishedAt": 1794236400.0,
-          "verificationStatus": "confirmed",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
-          "factorChanges": {},
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-        },
-        {
-          "eventId": "a5837a92d46d8a93d0fb",
-          "headline": "TSM SEC Form 6-K 공식 제출",
-          "eventLabel": "중요사항 공시",
-          "publishedAt": 1794236400.0,
-          "verificationStatus": "confirmed",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm",
-          "factorChanges": {},
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
         }
       ],
-      "confirmedEvidenceCount": 4,
+      "confirmedEvidenceCount": 2,
       "unverifiedEvidenceCount": 3,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794939953,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -2602,7 +2583,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "a99cf0e3d545a3a1e40e",
-          "headline": "ASML Stocks Fall 2.72% as New US Rule Tightens the Chip Supply Chain It Serves",
+          "headline": "새로운 미국 규정으로 인해 칩 공급망이 강화되면서 ASML 주가는 2.72% 하락했습니다.",
           "eventLabel": "공급망 문제",
           "publishedAt": 1794939953,
           "verificationStatus": "needs_confirmation",
@@ -2649,7 +2630,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794925382,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2699,7 +2680,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "c39fd97216f25643cf68",
-          "headline": "Applied Materials vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy for 2027?",
+          "headline": "어플라이드 머티리얼즈 vs. 대만 반도체 제조업: 2027년에는 어느 기술주를 매수하는 것이 더 나을까요?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794925382,
           "verificationStatus": "needs_confirmation",
@@ -2728,7 +2709,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2782,7 +2763,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2836,7 +2817,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794938702,
       "signal": "중립·확인 대기",
       "netScore": 0.13,
@@ -3052,7 +3033,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794918518,
       "signal": "주의 강화",
       "netScore": -2.52,
@@ -3161,7 +3142,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794919844,
       "signal": "주의 강화",
       "netScore": -3.13,
@@ -3256,7 +3237,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3310,21 +3291,21 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1794950892.8213398,
-      "dataAsOf": 1794925071,
+      "updatedAt": 1794952865.8990862,
+      "dataAsOf": 1794927148,
       "signal": "주의 강화",
-      "netScore": -5.04,
+      "netScore": -2.94,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.0,
+          "score": 0.52,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": -1.4,
-          "level": "주의"
+          "score": -0.35,
+          "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -3348,8 +3329,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -1.4,
-          "level": "주의"
+          "score": -0.87,
+          "level": "중립"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -3359,8 +3340,22 @@ const EVENT_ANALYSIS_DATA = {
       },
       "evidence": [
         {
+          "eventId": "b2fd7201b71892d88912",
+          "headline": "트럼프가 거대 기술 로비에도 불구하고 중국 광학 금지를 추진함에 따라 코히런트는 3% 상승",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1794927148,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=be93af0f607ee237b0fcf37eb173ca200793dfcb03f971ec9a2781ff14c8b1e9",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
           "eventId": "249199bd812f772b5639",
-          "headline": "Coherent Jumps 8%, Applied Optoelectronics Climbs 7% as U.S. Pushes Ahead With Curbs on Chinese Optical Gear; Lumentum Gains 4%",
+          "headline": "미국이 중국 광학 장비에 대한 규제를 추진함에 따라 코히런트는 8% 상승하고 응용 광전자공학은 7% 상승합니다. 루멘텀 4% 증가",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794925071,
           "verificationStatus": "needs_confirmation",
@@ -3370,11 +3365,11 @@ const EVENT_ANALYSIS_DATA = {
             "growth": -1,
             "shortTermMomentum": -1
           },
-          "reason": "사업·실적 연결 경로 확인 필요"
+          "reason": "회사 실적과의 연결고리 확인"
         },
         {
           "eventId": "197b35e1cf6cbf6fff83",
-          "headline": "Coherent and Lumentum Shares Rise as US Advances Restrictions on Chinese Data Centre Equipment",
+          "headline": "미국이 중국 데이터 센터 장비에 대한 제한을 강화함에 따라 Coherent 및 Lumentum 주가 상승",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794922798,
           "verificationStatus": "needs_confirmation",
@@ -3402,25 +3397,25 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 3,
+      "unverifiedEvidenceCount": 4,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794935101,
-      "signal": "중립·확인 대기",
-      "netScore": 0.7,
-      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
+      "signal": "우호적 변화",
+      "netScore": 2.8,
+      "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 1.92,
+          "score": 2.45,
           "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": 2.8,
+          "score": 3.85,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -3445,7 +3440,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.52,
+          "score": 0.0,
           "level": "중립"
         },
         "insiderSignal": {
@@ -3457,7 +3452,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4567b003052495432638",
-          "headline": "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy.",
+          "headline": "Marvell과 Intel은 둘 다 2026년 최고치보다 최소 50% 하락했습니다. 내가 매수할 주식은 1개뿐입니다.",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1794935101,
           "verificationStatus": "needs_confirmation",
@@ -3470,8 +3465,22 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
+          "eventId": "b2fd7201b71892d88912",
+          "headline": "트럼프가 거대 기술 로비에도 불구하고 중국 광학 금지를 추진함에 따라 코히런트는 3% 상승",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1794927148,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=be93af0f607ee237b0fcf37eb173ca200793dfcb03f971ec9a2781ff14c8b1e9",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
           "eventId": "249199bd812f772b5639",
-          "headline": "Coherent Jumps 8%, Applied Optoelectronics Climbs 7% as U.S. Pushes Ahead With Curbs on Chinese Optical Gear; Lumentum Gains 4%",
+          "headline": "미국이 중국 광학 장비에 대한 규제를 추진함에 따라 코히런트는 8% 상승하고 응용 광전자공학은 7% 상승합니다. 루멘텀 4% 증가",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794925071,
           "verificationStatus": "needs_confirmation",
@@ -3481,11 +3490,11 @@ const EVENT_ANALYSIS_DATA = {
             "growth": -1,
             "shortTermMomentum": -1
           },
-          "reason": "회사 실적과의 연결고리 확인"
+          "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
           "eventId": "197b35e1cf6cbf6fff83",
-          "headline": "Coherent and Lumentum Shares Rise as US Advances Restrictions on Chinese Data Centre Equipment",
+          "headline": "미국이 중국 데이터 센터 장비에 대한 제한을 강화함에 따라 Coherent 및 Lumentum 주가 상승",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794922798,
           "verificationStatus": "needs_confirmation",
@@ -3594,12 +3603,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 10,
+      "unverifiedEvidenceCount": 11,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794920400,
       "signal": "중립·확인 대기",
       "netScore": 1.05,
@@ -3680,7 +3689,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794931525,
       "signal": "주의 강화",
       "netScore": -3.43,
@@ -3730,7 +3739,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "fc72c63e51cb314b6644",
-          "headline": "Constellation Energy vs. Vistra: Which Utilities Stock Is a Better Buy for 2027?",
+          "headline": "Constellation Energy vs. Vistra: 2027년에는 어느 유틸리티 주식이 더 나은 매수인가요?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794931525,
           "verificationStatus": "needs_confirmation",
@@ -3775,7 +3784,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794943322,
       "signal": "주의 강화",
       "netScore": -4.13,
@@ -3825,7 +3834,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "62f60ba1299198c11265",
-          "headline": "Vistra Is Down 41% From Its High. History Suggests This Is What Happens Next.",
+          "headline": "비스트라는 고점 대비 41% 하락했습니다. 역사는 이것이 다음에 일어날 일임을 암시합니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794943322,
           "verificationStatus": "needs_confirmation",
@@ -3839,7 +3848,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fc72c63e51cb314b6644",
-          "headline": "Constellation Energy vs. Vistra: Which Utilities Stock Is a Better Buy for 2027?",
+          "headline": "Constellation Energy vs. Vistra: 2027년에는 어느 유틸리티 주식이 더 나은 매수인가요?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1794931525,
           "verificationStatus": "needs_confirmation",
@@ -3880,7 +3889,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794923281,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -3949,7 +3958,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794846155,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -4017,7 +4026,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4071,7 +4080,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794928341,
       "signal": "주의 강화",
       "netScore": -2.87,
@@ -4121,7 +4130,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "e6a40d95712fa16126cb",
-          "headline": "Vertiv Holdings Co (VRT) Built An AI Infrastructure Test Lab Ahead Of New Chips",
+          "headline": "Vertiv Holdings Co(VRT), 새로운 칩에 앞서 AI 인프라 테스트 랩 구축",
           "eventLabel": "경쟁사 기술·시장 진입",
           "publishedAt": 1794928341,
           "verificationStatus": "needs_confirmation",
@@ -4176,7 +4185,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794754800.0,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -4255,7 +4264,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794919844,
       "signal": "중립·확인 대기",
       "netScore": 0.14,
@@ -4339,7 +4348,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 1794576600,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4408,7 +4417,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4462,7 +4471,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1794950892.8213398,
+      "updatedAt": 1794952865.8990862,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

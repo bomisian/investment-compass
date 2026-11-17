@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794950892.79991,
+  "generatedAt": 1794952865.8799958,
   "events": [
     {
       "id": "2278c54c71fd1eb5e980",
@@ -480,7 +480,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Vistra Is Down 41% From Its High. History Suggests This Is What Happens Next.",
-      "headlineKo": "",
+      "headlineKo": "비스트라는 고점 대비 41% 하락했습니다. 역사는 이것이 다음에 일어날 일임을 암시합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ad741fb6d212df68ddff9ca710f6f557a0e0708ad79a5d8302a5264993390899",
@@ -679,6 +679,86 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "7bc72c4e7fb43b37dc3f",
+      "schemaVersion": 1,
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
+      "primaryTicker": "INTC",
+      "relatedTickers": [
+        "INTC",
+        "NVDA"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Intel",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Intel Stocks Fall 2.01% as Nvidia Cuts Stake 25% and Shareholders Sue",
+      "headlineKo": "엔비디아가 지분을 25% 삭감하고 주주들이 소송을 제기함에 따라 인텔 주가는 2.01% 하락했습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=33386a954dc6c1bc66030c2c58f44ac8ca104e1fac4a4a1fd8124cc1203f0c52",
+        "publishedAt": 1794942392,
+        "collectedAt": 1794950100.9446285
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Intel Stocks Fall 2.01% as Nvidia Cuts Stake 25% and Shareholders Sue",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "aiInference": [
+        "이 기사는 INTC의 사업과 관련된 'Intel Stocks Fall 2.01% as Nvidia Cuts Stake 25% and Shareholders Sue' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+      ],
+      "whyItMatters": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "다음 실적 매출·EPS",
+        "영업현금흐름과 CAPEX",
+        "회사 공식 가이던스",
+        "주가 반응이 하루 이상 지속되는지"
+      ]
+    },
+    {
       "id": "8a2ed72f9a793a910244",
       "schemaVersion": 1,
       "eventType": "long_term_supply",
@@ -856,7 +936,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Sandisk Stock Keeps On Going Down",
-      "headlineKo": "",
+      "headlineKo": "Sandisk 주식이 계속 하락하는 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4fb041c1c15bd05a46de763f71b90952c7851622bbbbb06f387098ac66965a59",
@@ -934,7 +1014,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Micron Stock Keeps On Going Down",
-      "headlineKo": "",
+      "headlineKo": "마이크론 주식이 계속 하락하는 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0505d8ea64c14700aa485048a6eac7428cb8ca9168202ff815ecd7fdf275826c",
@@ -1003,7 +1083,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "ASML Stocks Fall 2.72% as New US Rule Tightens the Chip Supply Chain It Serves",
-      "headlineKo": "",
+      "headlineKo": "새로운 미국 규정으로 인해 칩 공급망이 강화되면서 ASML 주가는 2.72% 하락했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=32a306d9b11eff04e1fcec512638c89c288789843965943ed3e03608ae58279e",
@@ -1078,7 +1158,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Qualcomm vs. SK Hynix: Stable Revenue vs. Rapid Acceleration",
-      "headlineKo": "",
+      "headlineKo": "Qualcomm vs. SK Hynix: 안정적인 수익 vs. 빠른 가속화",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=13c5ca4a595eccb3e843582118f01d07f4aa9e18ae613e9d8eaf7ed6e33b25af",
@@ -1383,7 +1463,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Sandisk's Earnings Face a New Risk in a Key Chip Market",
-      "headlineKo": "",
+      "headlineKo": "Sandisk의 수익은 주요 칩 시장에서 새로운 위험에 직면",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=74eb905082c563152e21d1ed17492ad4978c7ffd5f73578c27399a1b519c6c59",
@@ -1392,7 +1472,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Sandisk's Earnings Face a New Risk in a Key Chip Market"
+        "Sandisk의 수익은 주요 칩 시장에서 새로운 위험에 직면"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -1790,7 +1870,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Bernstein Cut Its Constellation Energy Target to $293. It Still Sees 5% Upside",
-      "headlineKo": "",
+      "headlineKo": "Bernstein은 Constellation Energy 목표를 293달러로 줄였습니다. 여전히 5% 상승여력 보인다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ffefd7179cb2601a0be262fd89b1ee37c6840447994874f41421c28915e9ae73",
@@ -2168,7 +2248,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy.",
-      "headlineKo": "",
+      "headlineKo": "Marvell과 Intel은 둘 다 2026년 최고치보다 최소 50% 하락했습니다. 내가 매수할 주식은 1개뿐입니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=50ab8b8781645d44f0b10f90c647f1ac9835618020dbe42299f5f987796968a4",
@@ -2378,7 +2458,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "SanDisk and Micron Fall 4% as GF Securities Cuts NAND Price Forecast and Warns of a Glut; SK Hynix Dips",
-      "headlineKo": "",
+      "headlineKo": "GF 증권이 NAND 가격 전망을 하향 조정하고 공급 과잉을 경고하면서 SanDisk와 Micron은 4% 하락했습니다. SK하이닉스 딥스",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=38286f2033adc286b86bb07cf90453b317ef17023db0c446d8e83ead4002ffdf",
@@ -2387,7 +2467,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "SanDisk and Micron Fall 4% as GF Securities Cuts NAND Price Forecast and Warns of a Glut; SK Hynix Dips"
+        "GF 증권이 NAND 가격 전망을 하향 조정하고 공급 과잉을 경고하면서 SanDisk와 Micron은 4% 하락했습니다. SK하이닉스 딥스"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -2437,7 +2517,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Constellation Energy vs. Vistra: Which Utilities Stock Is a Better Buy for 2027?",
-      "headlineKo": "",
+      "headlineKo": "Constellation Energy vs. Vistra: 2027년에는 어느 유틸리티 주식이 더 나은 매수인가요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6051352d8c45b82ec0e6e6beb4ab347af35207c95e7589afc8b8c50e17d48e8d",
@@ -2573,7 +2653,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Vistra Keeps Sliding: Why BMO Sees 51% Upside",
-      "headlineKo": "",
+      "headlineKo": "Vistra의 계속 하락세: BMO가 51% 상승 여력을 보이는 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d4151ad6b578155f7d1abff30e8a840b4b5f8fcb99904261f535940abb423ba7",
@@ -2642,7 +2722,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Could Vertiv Actually Climb 99%? Or Is Bernstein Totally Wrong?",
-      "headlineKo": "",
+      "headlineKo": "Vertiv가 실제로 99% 상승할 수 있을까요? 아니면 번스타인이 완전히 틀렸는가?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9421cff44747dc08d34770df67fbbeffdeb4187481706ecbfbcd58b33a0c4291",
@@ -2711,7 +2791,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Vertiv Holdings Co (VRT) Built An AI Infrastructure Test Lab Ahead Of New Chips",
-      "headlineKo": "",
+      "headlineKo": "Vertiv Holdings Co(VRT), 새로운 칩에 앞서 AI 인프라 테스트 랩 구축",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2840987c078f23eeaaabfb82a8d352f32f5a57d6aebc806118735caee173022c",
@@ -2720,7 +2800,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Vertiv Holdings Co (VRT) Built An AI Infrastructure Test Lab Ahead Of New Chips"
+        "Vertiv Holdings Co(VRT), 새로운 칩에 앞서 AI 인프라 테스트 랩 구축"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -2769,7 +2849,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Arm Could Become a Much Bigger AI Winner by 2030. Here’s the Case",
-      "headlineKo": "",
+      "headlineKo": "Arm은 2030년까지 훨씬 더 큰 AI 승자가 될 수 있습니다. 사례는 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0458435b7c331a26f014dab12807843ed9bea4dd558600fec0fbc403e320b1f0",
@@ -3017,6 +3097,76 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "b2fd7201b71892d88912",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "COHR",
+      "relatedTickers": [
+        "COHR",
+        "LITE"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Coherent Rises 3% as Trump Presses Ahead With Chinese Optics Ban Despite Big Tech Lobbying",
+      "headlineKo": "트럼프가 거대 기술 로비에도 불구하고 중국 광학 금지를 추진함에 따라 코히런트는 3% 상승",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=be93af0f607ee237b0fcf37eb173ca200793dfcb03f971ec9a2781ff14c8b1e9",
+        "publishedAt": 1794927148,
+        "collectedAt": 1794952817.889784
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "트럼프가 거대 기술 로비에도 불구하고 중국 광학 금지를 추진함에 따라 코히런트 주가 3% 상승 | TIKR.com General Investing Coherent는 거대 기술 로비 바비 산카고윗(Bobby Sankhagowit)에도 불구하고 트럼프가 중국 광학 금지를 추진함에 따라 3% 상승했습니다. • 4분",
+        "중국 공급업체를 교체하는 데 최대 10년이 걸릴 수 있는 것으로 알려졌으며 Coherent, Lumentum 및 Applied Optoelectronics는 해당 수요를 놓고 경쟁할 수 있습니다.",
+        "Coherent는 2027 회계연도가 기본적으로 예약이 완료되었다고 밝혔으므로 그 이익은 용량을 얼마나 빨리 추가하는지에 따라 달라집니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 3%, 2%, $15.79 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "COHR에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 3%, 2%, $15.79 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "COHR",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
+    },
+    {
       "id": "17c7d333d0fd790ed511",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -3052,7 +3202,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "What Sent Marvell Stock Down Over 7%?",
-      "headlineKo": "",
+      "headlineKo": "Marvell 주식이 7% 이상 하락한 이유는 무엇입니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6bd62e6298bafbef47deee2ce8e2a08e34e81e983168c5cb724c70f9e1a241a9",
@@ -3130,7 +3280,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Lam Research Stock Fell Nearly 7%. What Happened?",
-      "headlineKo": "",
+      "headlineKo": "Lam Research 주식은 거의 7% 하락했습니다. 무슨 일이에요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bbd180d1aa7cc8e87169d747ed527a0c88025c094e700eff469d618393c74f07",
@@ -3208,7 +3358,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Did Arista Networks Stock Lose 5%?",
-      "headlineKo": "",
+      "headlineKo": "Arista Networks 주식이 5% 하락한 이유는 무엇입니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b79b72f8eb0b4144da281aa488c77933f405e737f134b00c42c4218c8df639b0",
@@ -3280,7 +3430,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Applied Materials vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy for 2027?",
-      "headlineKo": "",
+      "headlineKo": "어플라이드 머티리얼즈 vs. 대만 반도체 제조업: 2027년에는 어느 기술주를 매수하는 것이 더 나을까요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=092251e5898b5ac2bbf9a802355ee3004f9a45be0919b0aa5f2ab76d0eea7982",
@@ -3332,7 +3482,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "regulatory_legal_export",
       "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "LITE",
+      "primaryTicker": "COHR",
       "relatedTickers": [
         "COHR",
         "LITE",
@@ -3352,26 +3502,26 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Coherent Jumps 8%, Applied Optoelectronics Climbs 7% as U.S. Pushes Ahead With Curbs on Chinese Optical Gear; Lumentum Gains 4%",
-      "headlineKo": "",
+      "headlineKo": "미국이 중국 광학 장비에 대한 규제를 추진함에 따라 코히런트는 8% 상승하고 응용 광전자공학은 7% 상승합니다. 루멘텀 4% 증가",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a5240ccbfb3c9b1cd517680be0718dc3da5add3c2212db434c3f6843789aec21",
         "publishedAt": 1794925071,
-        "collectedAt": 1794950100.9446285
+        "collectedAt": 1794952817.889784
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Coherent Jumps 8%, Applied Optoelectronics Climbs 7% as U.S.",
-        "Pushes Ahead With Curbs on Chinese Optical Gear; Lumentum Gains 4% - 24/7 Wall St.",
-        "Skip to content ❚❚ ● Markets open At close S&P 500 7,348.00 −1.00% Dow Jones 50,778.90 −1.62% Nasdaq 100 27,051.40 −0.65% Russell 2000 2,706.28 −1.33% S&P 500 7,348.00 −1.00% Dow Jones 50,778.90 −1.62% Nasdaq 100 27,051.40 −0.65% Russell 20"
+        "Coherent는 미국에서 8% 상승, Applied Optoelectronics는 7% 상승",
+        "중국 광학 장비에 대한 억제 조치 추진; Lumentum은 24/7 Wall St.에서 4%를 얻습니다.",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,363.80 −0.79% Dow Jones 50,817.40 −1.55% Nasdaq 100 27,183.90 −0.16% Russell 2000 2,709.38 −1.21% S&P 500 7,363.80 −0.79% 다우존스 50,817.40 −1.55% 나스닥 100 27,183.90 −0.16% 러셀 20"
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 8%, 7%, 4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "LITE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "LITE에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "COHR에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -3383,11 +3533,11 @@ const EVENT_DATA = {
       "whyItMatters": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 8%, 7%, 4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "LITE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "LITE",
+          "ticker": "COHR",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -3435,7 +3585,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Can Qualcomm Stock Jump 40%?",
-      "headlineKo": "",
+      "headlineKo": "퀄컴 주가 40% 상승할 수 있을까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=35149d46d3082ed7f69b2ace1473c09e745b2aa52bd3f05852c568f4fb6c3a56",
@@ -3506,7 +3656,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Cisco Is Cheaper, Arista Is The Better Business",
-      "headlineKo": "",
+      "headlineKo": "Cisco는 더 저렴하고 Arista는 더 나은 비즈니스입니다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bf9054ad0624583e71ea5d4fb0c195f9c9ad90d1b6248eec2917ab65a551efd2",
@@ -3551,6 +3701,80 @@ const EVENT_DATA = {
         "공식 매출·EPS 가이던스",
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
+      ]
+    },
+    {
+      "id": "60785d88c2f18895ff0a",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "QCOM",
+      "relatedTickers": [
+        "QCOM"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Qualcomm",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Qualcomm and Cirrascale Collaborate to Advance Next-Generation, Energy-Efficient AI Inference",
+      "headlineKo": "Qualcomm과 Cirrascale, 에너지 효율적인 차세대 AI 추론을 발전시키기 위해 협력",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d0d34ca15a53cd91572fd30e66530cdb7ae9da2723973c7a19addefc9ec7d70e",
+        "publishedAt": 1794924000,
+        "collectedAt": 1794950100.9446285
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Qualcomm and Cirrascale Collaborate to Advance Next-Generation, Energy-Efficient AI Inference",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "aiInference": [
+        "이 기사는 QCOM의 사업과 관련된 'Qualcomm and Cirrascale Collaborate to Advance Next-Generation, Energy-Efficient AI Inference' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+      ],
+      "whyItMatters": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QCOM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "다음 실적 매출·EPS",
+        "영업현금흐름과 CAPEX",
+        "회사 공식 가이던스",
+        "주가 반응이 하루 이상 지속되는지"
       ]
     },
     {
@@ -3748,7 +3972,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Coherent and Lumentum Shares Rise as US Advances Restrictions on Chinese Data Centre Equipment",
-      "headlineKo": "",
+      "headlineKo": "미국이 중국 데이터 센터 장비에 대한 제한을 강화함에 따라 Coherent 및 Lumentum 주가 상승",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b74f87f880450bbf413c5c1b78eab1ff98e4d709e0be8ce80862cd531754fdb0",
@@ -4183,7 +4407,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2889fa7a98508bc1193068d763898cb033ace990e7fa550a589a86f809d21b65",
         "publishedAt": 1794920492,
-        "collectedAt": 1794930443.1672595
+        "collectedAt": 1794952817.889784
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5579,7 +5803,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d26de029fe02a97ea745094b67fc6ff4cef2bd1318e3b7ccd087f1e6746e6a47",
         "publishedAt": 1794908437,
-        "collectedAt": 1794930443.1672595
+        "collectedAt": 1794952817.889784
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11341,17 +11565,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=19de83e061863c2f512ed5247a7d0b4e275f0b00268dcedc2772e42470e1dda6",
         "publishedAt": 1794841090,
-        "collectedAt": 1794930443.1672595
+        "collectedAt": 1794952817.889784
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "오늘의 주식 시장: Nvidia가 Jensen Huang 없이 첫 수익을 올리면서 Nasdaq-100은 1% 하락했습니다. - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,365.30 −0.77% Dow Jones 51,087.20 −1.03% Nasdaq 100 26,978.60 −0.92% Russell 2000 2,722.68 −0.73% S&P 500 7,365.30 −0.77% 다우존스 51,087.20 −1.03% 나스닥 100 26,978.60 −0.92% 러셀 20",
+        "오늘 주식 시장: Nvidia가 Jensen Huang 없이 첫 수익을 내면서 Nasdaq-100은 1% 하락했습니다. - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,354.20 −0.92% Dow Jones 50,774.90 −1.63% Nasdaq 100 27,115.40 −0.41% Russell 2000 2,708.78 −1.24% S&P 500 7,354.20 −0.92% 다우존스 50,774.90 −1.63% 나스닥 100 27,115.40 −0.41% 러셀 20",
         "© Spencer Platt / Getty Images News via Getty Images 칩 주식은 개장 전에 월스트리트를 하락세로 끌어내렸고 Nasdaq-100이 대부분의 히트를 치고 있었습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 1%, 0.77%, 1.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1%, 0.92%, 1.63% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -11366,7 +11590,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 1%, 0.77%, 1.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1%, 0.92%, 1.63% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -11635,7 +11859,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3ad731b274c1c63aab6cccd69bfc3d79c80f2956cfa22ef9da581ea1a46dd4e5",
         "publishedAt": 1794839554,
-        "collectedAt": 1794930443.1672595
+        "collectedAt": 1794952817.889784
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13925,7 +14149,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b5fbbf2a52d4b4682074a95f99b6f457c4c18bb96e5b5ee0b46cce7b30c5b8cf",
         "publishedAt": 1794804422,
-        "collectedAt": 1794930443.1672595
+        "collectedAt": 1794952817.889784
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15639,7 +15863,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=baa4debb5bb231c3f00245d0cd0b925b5e079df88f29b2f7d0e6bd67944185d3",
         "publishedAt": 1794596584,
-        "collectedAt": 1794930443.1672595
+        "collectedAt": 1794952817.889784
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17261,197 +17485,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "a748407586d6b5366d91",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "증권등록·투자설명서 제출",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "QCOM"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "high",
-        "score": 100,
-        "kind": "official",
-        "reason": "SEC 제출 원문"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "내용 확인 필요",
-      "verificationStatus": "confirmed",
-      "headline": "QCOM SEC Form 424B5 filed",
-      "headlineKo": "QCOM SEC Form 424B5 공식 제출",
-      "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926125254/tm2629187-2_424b5.htm",
-        "publishedAt": 1794236400.0,
-        "collectedAt": 1794940337.5859618
-      },
-      "confirmedFacts": [
-        "QCOM가 2026-11-10에 SEC Form 424B5을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
-      ],
-      "reportedClaims": [],
-      "marketInterpretation": [
-        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
-      ],
-      "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
-      ],
-      "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QCOM",
-          "direction": "중립·원문 확인",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "basis": "official_filing"
-        }
-      ],
-      "watch": [
-        "실제 발행 여부와 주식 수",
-        "발행가격·워런트·전환 조건",
-        "조달 자금 사용처와 완전희석 EPS"
-      ],
-      "earningsEvidence": null
-    },
-    {
-      "id": "ae07fea7d8534bc76db3",
-      "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
-      "primaryTicker": "TSM",
-      "relatedTickers": [
-        "TSM"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "high",
-        "score": 100,
-        "kind": "official",
-        "reason": "SEC 제출 원문"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "내용 확인 필요",
-      "verificationStatus": "confirmed",
-      "headline": "TSM SEC Form 6-K filed",
-      "headlineKo": "TSM SEC Form 6-K 공식 제출",
-      "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
-        "publishedAt": 1794236400.0,
-        "collectedAt": 1794940337.5859618
-      },
-      "confirmedFacts": [
-        "TSM가 2026-11-10에 SEC Form 6-K을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 가이던스·전망 · 자금조달·증권발행 · CAPEX·투자"
-      ],
-      "reportedClaims": [],
-      "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
-      ],
-      "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
-      ],
-      "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
-      ],
-      "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSM",
-          "direction": "중립·원문 확인",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "basis": "official_filing"
-        }
-      ],
-      "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
-      ],
-      "earningsEvidence": null
-    },
-    {
-      "id": "a5837a92d46d8a93d0fb",
-      "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
-      "primaryTicker": "TSM",
-      "relatedTickers": [
-        "TSM"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "high",
-        "score": 100,
-        "kind": "official",
-        "reason": "SEC 제출 원문"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "내용 확인 필요",
-      "verificationStatus": "confirmed",
-      "headline": "TSM SEC Form 6-K filed",
-      "headlineKo": "TSM SEC Form 6-K 공식 제출",
-      "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm",
-        "publishedAt": 1794236400.0,
-        "collectedAt": 1794940337.5859618
-      },
-      "confirmedFacts": [
-        "TSM가 2026-11-10에 SEC Form 6-K을 제출했습니다."
-      ],
-      "reportedClaims": [],
-      "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
-      ],
-      "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
-      ],
-      "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
-      ],
-      "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSM",
-          "direction": "중립·원문 확인",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "basis": "official_filing"
-        }
-      ],
-      "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
-      ],
-      "earningsEvidence": null
     }
   ],
   "byTicker": {
@@ -17460,6 +17493,7 @@ const EVENT_DATA = {
       "b9abca2bdbcd67b54acc",
       "337e1e256c8131eefb8b",
       "0e010b4ce88dbdfd5bb9",
+      "7bc72c4e7fb43b37dc3f",
       "6b42a259a859cd6c0e9a",
       "19dc70f1c6584a175a34",
       "29e0d89fc21ccacde857",
@@ -17759,6 +17793,24 @@ const EVENT_DATA = {
       "2de0bcef4572d6466e87",
       "bc2167dd131740429f5b"
     ],
+    "INTC": [
+      "7bc72c4e7fb43b37dc3f",
+      "4567b003052495432638",
+      "f47accc178f7081ec6a8",
+      "4ed295fdb9a1d90d85f9",
+      "dcb843a7ef535888b0c9",
+      "1ce77744b4df8eaa76be",
+      "488a2856d095a1e7b2bd",
+      "0e27fca9beec730f8d37",
+      "cbec0954b09828b4f0b5",
+      "1acf5b9c3899d029370f",
+      "1b178a1bf0b95a39e5b7",
+      "b027713d6a1cdcc95008",
+      "e9db5583b6bca746d828",
+      "1355dc098be9ec94162e",
+      "72a777659b1fa9078597",
+      "0684c3a8bd7fe1f09932"
+    ],
     "PLTR": [
       "8a2ed72f9a793a910244",
       "86222e244592d3773dae",
@@ -17866,12 +17918,12 @@ const EVENT_DATA = {
     "QCOM": [
       "4621a8023a163e8d6764",
       "e2dac4b34c9688c4196d",
+      "60785d88c2f18895ff0a",
       "46077c587fd23b835840",
       "b7e3802ae84d931d7949",
       "3d95f8417013f9999973",
       "34eb6a3aa1444869771d",
-      "6bc58a529b4b93b444c6",
-      "a748407586d6b5366d91"
+      "6bc58a529b4b93b444c6"
     ],
     "ORCL": [
       "154f0256ce3f04aa5b2f",
@@ -17954,29 +18006,11 @@ const EVENT_DATA = {
       "7393a89d049e048e4bdb",
       "3dc458ff08305ceef8c0",
       "3737363b2475623334f2",
-      "0ad454e998a76dedc1b0",
-      "ae07fea7d8534bc76db3",
-      "a5837a92d46d8a93d0fb"
-    ],
-    "INTC": [
-      "4567b003052495432638",
-      "f47accc178f7081ec6a8",
-      "4ed295fdb9a1d90d85f9",
-      "dcb843a7ef535888b0c9",
-      "1ce77744b4df8eaa76be",
-      "488a2856d095a1e7b2bd",
-      "0e27fca9beec730f8d37",
-      "cbec0954b09828b4f0b5",
-      "1acf5b9c3899d029370f",
-      "1b178a1bf0b95a39e5b7",
-      "b027713d6a1cdcc95008",
-      "e9db5583b6bca746d828",
-      "1355dc098be9ec94162e",
-      "72a777659b1fa9078597",
-      "0684c3a8bd7fe1f09932"
+      "0ad454e998a76dedc1b0"
     ],
     "LITE": [
       "4567b003052495432638",
+      "b2fd7201b71892d88912",
       "249199bd812f772b5639",
       "197b35e1cf6cbf6fff83",
       "71d809d4849140850800",
@@ -18015,6 +18049,14 @@ const EVENT_DATA = {
       "61029359415450de3acd",
       "970425ee8c73d961bcd0"
     ],
+    "COHR": [
+      "b2fd7201b71892d88912",
+      "249199bd812f772b5639",
+      "197b35e1cf6cbf6fff83",
+      "71d809d4849140850800",
+      "85e2e50150dff802d2d8",
+      "cb6e6934b0feec954a28"
+    ],
     "LRCX": [
       "718b19cad3c901695137"
     ],
@@ -18032,13 +18074,6 @@ const EVENT_DATA = {
       "cb5768adb4deab06d036",
       "7f951137c36c4f57f727",
       "3170428ca0e1fa890986"
-    ],
-    "COHR": [
-      "249199bd812f772b5639",
-      "197b35e1cf6cbf6fff83",
-      "71d809d4849140850800",
-      "85e2e50150dff802d2d8",
-      "cb6e6934b0feec954a28"
     ],
     "ETN": [
       "86371e5c73d706ce9df6",
