@@ -72,11 +72,11 @@ const DATA_STATUS = {
     "market": {
       "label": "시장환경",
       "status": "ok",
-      "lastAttemptAt": 1794920447.6696196,
-      "lastSuccessAt": 1794920447.6696196,
-      "lastPartialSuccessAt": 1794920447.6696196,
-      "lastFetchedAt": 1794920447.67019,
-      "oldestFetchedAt": 1794920447.67019,
+      "lastAttemptAt": 1794920458.4186053,
+      "lastSuccessAt": 1794920458.4186053,
+      "lastPartialSuccessAt": 1794920458.4186053,
+      "lastFetchedAt": 1794920458.4187992,
+      "oldestFetchedAt": 1794920458.4187992,
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
       "lastError": null,
@@ -89,9 +89,9 @@ const DATA_STATUS = {
     "prices": {
       "label": "가격·차트",
       "status": "ok",
-      "lastAttemptAt": 1794920485.5854075,
-      "lastSuccessAt": 1794920485.5854075,
-      "lastPartialSuccessAt": 1794920485.5854075,
+      "lastAttemptAt": 1794920494.818018,
+      "lastSuccessAt": 1794920494.818018,
+      "lastPartialSuccessAt": 1794920494.818018,
       "lastFetchedAt": 1794864903.7571692,
       "oldestFetchedAt": 1794864903.7571692,
       "warningAfterHours": 6,
@@ -106,8 +106,8 @@ const DATA_STATUS = {
     "businessAnalysis": {
       "label": "기업분석",
       "status": "delayed",
-      "lastAttemptAt": 1794920485.7301555,
-      "lastSuccessAt": 1794920485.7301555,
+      "lastAttemptAt": 1794920494.946446,
+      "lastSuccessAt": 1794920494.946446,
       "lastFetchedAt": 1794867077.747066,
       "oldestFetchedAt": 1794867077.747066,
       "dataAsOfLabel": "2026-11-17 07:11",
@@ -124,10 +124,10 @@ const DATA_STATUS = {
     "events": {
       "label": "중요 이벤트",
       "status": "ok",
-      "lastAttemptAt": 1794920447.3912768,
-      "lastSuccessAt": 1794920447.3912768,
-      "lastFetchedAt": 1794920447.3912768,
-      "oldestFetchedAt": 1794920447.3912768,
+      "lastAttemptAt": 1794920458.177005,
+      "lastSuccessAt": 1794920458.177005,
+      "lastFetchedAt": 1794920458.177005,
+      "oldestFetchedAt": 1794920458.177005,
       "dataAsOfLabel": "2026-11-17",
       "expectedItems": 1,
       "availableItems": 1,
@@ -140,10 +140,10 @@ const DATA_STATUS = {
     "eventAnalysis": {
       "label": "뉴스 반영 기업분석",
       "status": "ok",
-      "lastAttemptAt": 1794920447.4147987,
-      "lastSuccessAt": 1794920447.4147987,
-      "lastFetchedAt": 1794920447.4147987,
-      "oldestFetchedAt": 1794920447.4147987,
+      "lastAttemptAt": 1794920458.199972,
+      "lastSuccessAt": 1794920458.199972,
+      "lastFetchedAt": 1794920458.199972,
+      "oldestFetchedAt": 1794920458.199972,
       "dataAsOfLabel": "2026-11-17",
       "expectedItems": 39,
       "availableItems": 39,
@@ -156,9 +156,9 @@ const DATA_STATUS = {
     "sigma": {
       "label": "시그마(옵션 IV)",
       "status": "ok",
-      "lastAttemptAt": 1794920485.6573882,
-      "lastSuccessAt": 1794920485.6573882,
-      "lastPartialSuccessAt": 1794920485.6573882,
+      "lastAttemptAt": 1794920494.8770237,
+      "lastSuccessAt": 1794920494.8770237,
+      "lastPartialSuccessAt": 1794920494.8770237,
       "lastFetchedAt": 1794591146.0261786,
       "oldestFetchedAt": 1794591146.0261786,
       "warningAfterHours": 6,
@@ -173,9 +173,9 @@ const DATA_STATUS = {
     "secFilings": {
       "label": "SEC 공식 공시",
       "status": "ok",
-      "lastAttemptAt": 1794920392.9691496,
-      "lastSuccessAt": 1794920392.9691496,
-      "lastPartialSuccessAt": 1794920392.9691496,
+      "lastAttemptAt": 1794920417.9806716,
+      "lastSuccessAt": 1794920417.9806716,
+      "lastPartialSuccessAt": 1794920417.9806716,
       "lastFetchedAt": 1794918471.9177098,
       "oldestFetchedAt": 1794918471.9177098,
       "dataAsOfLabel": "2026-11-16",
@@ -219,10 +219,10 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1794920485.7301555,
+  "generatedAt": 1794920494.946446,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
   },
-  "buildGeneratedAt": "2026-11-17 22:01:25"
+  "buildGeneratedAt": "2026-11-17 22:01:34"
 };
