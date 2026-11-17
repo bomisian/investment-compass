@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794905345.9822738,
+  "generatedAt": 1794907249.8407738,
   "events": [
     {
       "id": "cfd98d84dee37f4365ee",
@@ -5194,17 +5194,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=19de83e061863c2f512ed5247a7d0b4e275f0b00268dcedc2772e42470e1dda6",
         "publishedAt": 1794841090,
-        "collectedAt": 1794884116.7467601
+        "collectedAt": 1794907232.2713947
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "오늘 주식 시장: Nvidia가 Jensen Huang 없이 첫 수익을 내면서 Nasdaq-100은 1% 하락했습니다. - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,429.60 +0.10% Dow Jones 51,528.10 −0.17% Nasdaq 100 27,359.70 +0.48% Russell 2000 2,739.93 −0.10% S&P 500 7,429.60 +0.10% 다우존스 51,528.10 −0.17% 나스닥 100 27,359.70 +0.48% 러셀 20",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,390.60 −0.43% Dow Jones 51,363.10 −0.49% Nasdaq 100 27,111.00 −0.43% Russell 2000 2,729.43 −0.48% S&P 500 7,390.60 −0.43% 다우존스 51,363.10 −0.49% 나스닥 100 27,111.00 −0.43% 러셀 20",
         "© Spencer Platt / Getty Images News via Getty Images 칩 주식은 개장 전에 월스트리트를 하락세로 끌어내렸고 Nasdaq-100이 대부분의 히트를 치고 있었습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 1%, 0.10%, 0.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1%, 0.43%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -5219,7 +5219,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 1%, 0.10%, 0.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1%, 0.43%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -5488,7 +5488,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3ad731b274c1c63aab6cccd69bfc3d79c80f2956cfa22ef9da581ea1a46dd4e5",
         "publishedAt": 1794839554,
-        "collectedAt": 1794884116.7467601
+        "collectedAt": 1794907232.2713947
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7649,7 +7649,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b5fbbf2a52d4b4682074a95f99b6f457c4c18bb96e5b5ee0b46cce7b30c5b8cf",
         "publishedAt": 1794804422,
-        "collectedAt": 1794884116.7467601
+        "collectedAt": 1794907232.2713947
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9372,7 +9372,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=baa4debb5bb231c3f00245d0cd0b925b5e079df88f29b2f7d0e6bd67944185d3",
         "publishedAt": 1794596584,
-        "collectedAt": 1794884116.7467601
+        "collectedAt": 1794907232.2713947
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13188,7 +13188,7 @@ const EVENT_DATA = {
               "variancePct": 2.2,
               "actualEndDate": "2026-09-27",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -13593,7 +13593,7 @@ const EVENT_DATA = {
               "variancePct": 3.36,
               "actualEndDate": "2025-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -13613,7 +13613,7 @@ const EVENT_DATA = {
               "variancePct": 3.41,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -13633,7 +13633,7 @@ const EVENT_DATA = {
               "variancePct": 2.01,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -13653,7 +13653,7 @@ const EVENT_DATA = {
               "variancePct": 3.31,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -13673,7 +13673,7 @@ const EVENT_DATA = {
               "variancePct": 3.06,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14073,7 +14073,7 @@ const EVENT_DATA = {
               "variancePct": 6.28,
               "actualEndDate": "2025-09-27",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14093,7 +14093,7 @@ const EVENT_DATA = {
               "variancePct": 6.98,
               "actualEndDate": "2025-12-27",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14113,7 +14113,7 @@ const EVENT_DATA = {
               "variancePct": 4.62,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14133,7 +14133,7 @@ const EVENT_DATA = {
               "variancePct": 2.9,
               "actualEndDate": "2026-09-26",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14285,7 +14285,7 @@ const EVENT_DATA = {
               "variancePct": 2.95,
               "actualEndDate": "2024-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14305,7 +14305,7 @@ const EVENT_DATA = {
               "variancePct": 2.81,
               "actualEndDate": "2025-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14325,7 +14325,7 @@ const EVENT_DATA = {
               "variancePct": 5.86,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14345,7 +14345,7 @@ const EVENT_DATA = {
               "variancePct": 10.84,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -15357,7 +15357,7 @@ const EVENT_DATA = {
               "variancePct": 7.0,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -15756,7 +15756,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -15783,7 +15783,7 @@ const EVENT_DATA = {
               "variancePct": 1.01,
               "actualEndDate": "2026-09-26",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16660,7 +16660,7 @@ const EVENT_DATA = {
               "variancePct": 16.35,
               "actualEndDate": "2026-01-02",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16680,7 +16680,7 @@ const EVENT_DATA = {
               "variancePct": 29.35,
               "actualEndDate": "2026-04-03",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16700,7 +16700,7 @@ const EVENT_DATA = {
               "variancePct": 12.06,
               "actualEndDate": "2026-07-03",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16720,7 +16720,7 @@ const EVENT_DATA = {
               "variancePct": 4.56,
               "actualEndDate": "2026-10-02",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17150,7 +17150,7 @@ const EVENT_DATA = {
               "variancePct": -72.63,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -17917,7 +17917,7 @@ const EVENT_DATA = {
               "variancePct": 2.31,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17937,7 +17937,7 @@ const EVENT_DATA = {
               "variancePct": 3.4,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -18145,7 +18145,7 @@ const EVENT_DATA = {
               "variancePct": -72.69,
               "actualEndDate": "2025-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -18165,7 +18165,7 @@ const EVENT_DATA = {
               "variancePct": -69.98,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -18185,7 +18185,7 @@ const EVENT_DATA = {
               "variancePct": -79.01,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -18205,7 +18205,7 @@ const EVENT_DATA = {
               "variancePct": -75.32,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794905345.8536825,
+              "settledAt": 1794907249.7191265,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
