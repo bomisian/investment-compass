@@ -72,45 +72,45 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.27999877929688,
-      "prevClose": 88.55999755859375,
-      "changeAbs": -3.279998779296875,
-      "changePct": -3.7037024274156476,
-      "pctRank": 71.36038186157518,
+      "current": 85.2699966430664,
+      "prevClose": 85.72000122070312,
+      "changeAbs": -0.45000457763671875,
+      "changePct": -0.5249703350774493,
+      "pctRank": 71.30365659777425,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.497564335149757,
-      "ma20": 94.8129997253418,
-      "ma60": 93.80766716003419,
-      "chg1m": -16.1300048828125,
-      "chg3m": 0.339996337890625,
-      "chg1mPct": -15.905733458561427,
-      "chg3mPct": 0.4002782294775221,
-      "lastDate": "2026-11-16",
-      "bars": 1257,
+      "drawdown1y": -24.506419701684244,
+      "ma20": 94.00899963378906,
+      "ma60": 93.81933377583822,
+      "chg1m": -18.39000701904297,
+      "chg3m": -0.5600051879882812,
+      "chg1mPct": -17.740696864132012,
+      "chg3mPct": -0.6524585530017574,
+      "lastDate": "2026-11-17",
+      "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 103.58599853515625,
+      "current": 103.61399841308594,
       "prevClose": 103.41000366210938,
-      "changeAbs": 0.175994873046875,
-      "changePct": 0.17019134205036446,
-      "pctRank": 61.49562450278441,
+      "changeAbs": 0.2039947509765625,
+      "changePct": 0.1972679080866415,
+      "pctRank": 61.97295147175815,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
-      "high1y": 103.58599853515625,
+      "high1y": 103.61399841308594,
       "drawdown1y": 0.0,
-      "ma20": 102.16280097961426,
-      "ma60": 101.13110008239747,
-      "chg1m": 1.746002197265625,
-      "chg3m": 3.9359970092773438,
-      "chg1mPct": 1.7144562647789556,
-      "chg3mPct": 3.9498213236405952,
-      "lastDate": "2026-11-16",
+      "ma20": 102.16420097351075,
+      "ma60": 101.13156674702962,
+      "chg1m": 1.7740020751953125,
+      "chg3m": 3.9639968872070312,
+      "chg1mPct": 1.741950254308166,
+      "chg3mPct": 3.9779195449160016,
+      "lastDate": "2026-11-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,23 +118,23 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 3865.199951171875,
-      "prevClose": 3886.300048828125,
-      "changeAbs": -21.10009765625,
-      "changePct": -0.5429353727490116,
-      "pctRank": 77.34499205087441,
+      "current": 3853.300048828125,
+      "prevClose": 3853.0,
+      "changeAbs": 0.300048828125,
+      "changePct": 0.007787407945107709,
+      "pctRank": 77.2835583796664,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -27.324006803840916,
-      "ma20": 4020.4599853515624,
-      "ma60": 4233.544978841146,
-      "chg1m": -315.900146484375,
-      "chg3m": -555.400146484375,
-      "chg1mPct": -7.555431324436729,
-      "chg3mPct": -12.56390838833944,
-      "lastDate": "2026-11-16",
-      "bars": 1258,
+      "drawdown1y": -27.54775647596516,
+      "ma20": 4005.3849853515626,
+      "ma60": 4219.266650390625,
+      "chg1m": -306.800048828125,
+      "chg3m": -691.999755859375,
+      "chg1mPct": -7.374823721212199,
+      "chg3mPct": -15.224512916523702,
+      "lastDate": "2026-11-17",
+      "bars": 1259,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -5.215900848504407,
-        "ret3m": 2.7644606389144677,
-        "ret6m": 2.33237820903891,
-        "ret1y": 1.529005684245921,
+        "ret1m": -5.270733942811267,
+        "ret3m": 5.217934205323949,
+        "ret6m": 5.0245924616851845,
+        "ret1y": 1.3846127348582815,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -18.559273971178104,
-        "ret3m": -26.764674540496745,
-        "ret6m": -16.133964161239334,
-        "ret1y": 69.87252048165826,
+        "ret1m": -17.669478731711074,
+        "ret3m": -26.3742848414366,
+        "ret6m": -13.159836652521829,
+        "ret1y": 72.44826281426411,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -14.36967156931842,
-        "ret3m": -24.908310713890224,
-        "ret6m": -19.83694846093913,
-        "ret1y": 87.7048785298067,
+        "ret1m": -13.292052069299153,
+        "ret3m": -26.641465004180166,
+        "ret6m": -18.03226943736742,
+        "ret1y": 84.8130177714148,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -11.204485467529778,
-        "ret3m": -19.439401816657654,
-        "ret6m": -21.113935724802502,
-        "ret1y": 17.72677783209291,
+        "ret1m": -9.871131357531858,
+        "ret3m": -20.96131970254509,
+        "ret6m": -21.668657667010805,
+        "ret1y": 14.837167522436069,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,31 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.6306234494655507,
-    "corrPctRank": 41.70854271356784,
+    "corr60": 0.6058902403027195,
+    "corrPctRank": 38.64207879295893,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.6905785638361294,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Celebrity style at the Governors Awards - Reuters",
+      "summary": "Celebrity style at the Governors Awards Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWpxQXhYUjlmNXV4eUZfdWFvZmFqc2xMdW9PZU1oR0JKN29mVFRQci1JQXFvbzF4VWZCTDV4ZzJPTnVlVU01a2JpajlaYnVEYTRadlJIWGFKSTBrdnJ0bWxqSW0tQnprZ3VfSVFHVFJveG5YbEpKTGFLN1VwdGZqOUZlNA?oc=5",
+      "datetime": 1794873750,
+      "headlineKo": "거버너스 시상식의 연예인 스타일 - Reuters",
+      "summaryKo": "거버너스 시상식의 연예인 스타일 Reuters"
+    },
+    {
+      "headline": "Trump says he might meet with North Korea's Kim Jong Un in China - Reuters",
+      "summary": "Trump says he might meet with North Korea's Kim Jong Un in China Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9IeVFRVnVQTV9YVzNZVHUyT0F3aElTeTFQMFU2X05QUXR3c01hVVlrTEotZjVhU3YwNFZuTlUyZDVfM2pTTjNGTHR1Q25GalEtUFByZTFKLUd4TV84UU9vUngxd245SktvQ00tbWNOMDZ0WkRoVDV3OXh6UWxMZ0t3aWVuSC01U2VYclVHX2k1ZnpnTHFTSTh3bw?oc=5",
+      "datetime": 1794871951,
+      "headlineKo": "트럼프, 중국에서 북한 김정은과 만날 수도 있다고 말했다 - 로이터",
+      "summaryKo": "트럼프, 중국에서 북한 김정은과 만날 수도 있다고 말했다 - 로이터"
+    },
     {
       "headline": "United Airlines reports system outage affecting departing flights",
       "summary": "United Airlines said Monday that a widespread system outage was affecting departing flights.",
@@ -244,6 +262,15 @@ const MARKET_DATA = {
       "datetime": 1794868968,
       "headlineKo": "유나이티드 항공, 출발 항공편에 영향을 미치는 시스템 중단 보고",
       "summaryKo": "유나이티드 항공(United Airlines)은 월요일 광범위한 시스템 중단이 출발 항공편에 영향을 미치고 있다고 밝혔습니다."
+    },
+    {
+      "headline": "Trump approval holds near career low at 32%, Reuters/Ipsos poll finds - Reuters",
+      "summary": "Trump approval holds near career low at 32%, Reuters/Ipsos poll finds Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpsOFJNT0Q1TUExNXF1cUJ6b1ExaTFpTFptdnluUVRMR1RvNDFkQlpLa3ZxeUxRM0kxOEJyQVJkeTJIOHBxTjhlQ05nUmp6dVQ2emVBclZ3TTJLbERHeUpRTkIwMmFLaG1VeVA1UU91Yk5UZFFaU2dZVFFCNzY1RXNTRjFCTHhpRGhWQksxQndNNHZZT1hGX1RQMGtVS25GNGQ4T2VmOHZmSHNl?oc=5",
+      "datetime": 1794868384,
+      "headlineKo": "트럼프 지지율은 32%로 경력 최저치에 가깝다고 Reuters/Ipsos 여론조사 결과 - Reuters",
+      "summaryKo": "트럼프 지지율은 32%로 경력 최저치에 가깝습니다. Reuters/Ipsos 여론조사에 따르면 Reuters"
     },
     {
       "headline": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
@@ -255,6 +282,15 @@ const MARKET_DATA = {
       "summaryKo": "Berkshire Hathaway는 3분기에 여러 주식 포지션을 추가하고 Bank of America를 포함한 다른 주식 포지션을 줄였습니다."
     },
     {
+      "headline": "PODCAST: Huang petition, James Bond, Trump in Asia (Updated) - Reuters",
+      "summary": "PODCAST: Huang petition, James Bond, Trump in Asia (Updated) Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRGQyZXZ3UFM5bWs0cDNVSllOQ3RJc3NaWEVOa3BjSHNHWEQzb242LUROZjJlTkFMVzN5Qm11TUJ6Z2hFYW92TWRhamJMVTVaVmNqMWxuenYtVm9HbVlHRlB2VUcyRTAyY3FubHBFSU1rZEVSOFk0X2dPOHp2NThrVm9xWEJHYy1wRy1TSVQ2bU9Hd3FCTG9yaU5hZVp6SkU?oc=5",
+      "datetime": 1794866969,
+      "headlineKo": "팟캐스트: 황 청원, 제임스 본드, 트럼프 인 아시아(업데이트) - 로이터",
+      "summaryKo": "팟캐스트: 황 청원, 제임스 본드, 트럼프 인 아시아(업데이트) 로이터"
+    },
+    {
       "headline": "US to curb China's access to AI chips as Trump heads to Asia - Reuters",
       "summary": "US to curb China's access to AI chips as Trump heads to Asia Reuters",
       "source": "Reuters",
@@ -264,6 +300,15 @@ const MARKET_DATA = {
       "summaryKo": "트럼프가 아시아로 향함에 따라 미국은 중국의 AI 칩 접근을 억제할 것입니다."
     },
     {
+      "headline": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin - Reuters",
+      "summary": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaEFSNlFrUU5OZ21iTTZkZUtzWU04LU1mWFpXLU9LNXMxelFic2QtYU5oNTNWaXAzZjQwTEpSY0JySU00ZU10TkRKazBHOWhIWmlmeUw5dFh4MTJwNmU1WGp4dE5Ia2toeUZlanUyaW5GVHN3dlJ0dFMydU1kZzRrZjgzT0FoRDFRV1hYMFIyaGxSanpyUnl5aEp6SVFMQ3A0MHAtcHY0Q19jUHlvalJvbmVtV2tLdGs4YUo3RHlR?oc=5",
+      "datetime": 1794866289,
+      "headlineKo": "러시아 푸틴 대통령이 APEC 정상회담에 참석하면 북한 지도자를 만날 수도 있다고 인테르팍스가 크렘린궁을 인용해 - 로이터 통신",
+      "summaryKo": "러시아 푸틴 대통령, APEC 정상회담에 참석하면 북한 지도자 만날 수도 있다고 인테르팍스 인용 크렘린 로이터통신"
+    },
+    {
       "headline": "JPMorgan Chase says temporary software bug is affecting consumer banking",
       "summary": "CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
       "source": "CNBC",
@@ -271,6 +316,15 @@ const MARKET_DATA = {
       "datetime": 1794865370,
       "headlineKo": "JPMorgan Chase는 일시적인 소프트웨어 버그가 소비자 금융에 영향을 미친다고 말합니다.",
       "summaryKo": "CNBC의 Eamon Javers는 악의적인 행위자가 관련되었다는 징후가 없으며 버그가 동시에 여러 은행에 영향을 미친다는 징후도 없다고 보고했습니다."
+    },
+    {
+      "headline": "Iran's Isfahan security official says no hostile aircraft detected in airspace - Reuters",
+      "summary": "Iran's Isfahan security official says no hostile aircraft detected in airspace Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMVRuYzhlNFNVYUVWV1FWNUlWNC0tV2UwWTd4Y1l5LXZzMWVNQm4ySlV1Z0NrMmdrR3M5YzloMm0yMl9PaDRZcC1GckpGX05Jc2xKSWN0Rm5lLU5xa2wzR1NtRERsekZneE1YNEczNXN0NXhwWDFBR1BGeTBlby15QTFWN3RZc0xmV0hPUXhjWFU1ZXhxSDdtVHVkUW9lQVRrYWpVZUtlaUkxZnJUQXJXSkYxLWpLZWpGbE9WNUVWNnBSSHlvSDJJ?oc=5",
+      "datetime": 1794863006,
+      "headlineKo": "이란 이스파한 보안 관리 \"공역에서 적군 항공기 탐지되지 않았다\" - 로이터 통신",
+      "summaryKo": "이란 이스파한 보안 관리, 영공에서 적군 항공기 탐지되지 않았다고 밝혔습니다 - 최신"
     },
     {
       "headline": "Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia",
@@ -289,72 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794858265,
       "headlineKo": "짐 크레이머(Jim Cramer)는 J&J가 주식 시장에서 '효과가 있는 것에 대한 은유'라고 말합니다.",
       "summaryKo": "존슨앤드존슨(Johnson & Johnson)은 투자자들이 변동성이 큰 AI 거래를 꺼리면서 주식이 좋은 성적을 거두는 대표적인 예입니다."
-    },
-    {
-      "headline": "Market's Nvidia obsession obscuring an opportunity in this name",
-      "summary": "Investors might be overlooking Disney earnings.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
-      "datetime": 1794855409,
-      "headlineKo": "이 이름의 기회를 가리는 시장의 Nvidia 집착",
-      "summaryKo": "투자자들은 디즈니의 수익을 간과하고 있을 수도 있습니다."
-    },
-    {
-      "headline": "Robert Pattinson cast as next James Bond",
-      "summary": "Pattinson has been in major films this year including Christopher Nolan's \"The Odyssey\" and will soon appear in \"Dune: Part Three.\"",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
-      "datetime": 1794849951,
-      "headlineKo": "로버트 패틴슨, 차기 제임스 본드 캐스팅",
-      "summaryKo": "패틴슨은 올해 크리스토퍼 놀란 감독의 '오디세이'를 비롯한 주요 영화에 출연했으며 곧 '듄: 파트 3'에도 출연할 예정이다."
-    },
-    {
-      "headline": "Bank of Canada Governor Macklem to step down once term ends in 2027 - Reuters",
-      "summary": "Bank of Canada Governor Macklem to step down once term ends in 2027 Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOExHMHhYSmZUdF9OVlBnTkQ4N29jLTA4RmFPa09hdTgzMHQ0UlhYRkZmcHU3S19ZckE1MURrQU43U3FQOU9ENTdGZHZBTUZvT2hNcExZcWVPTUUzWEhtX1BvX3lpXzVXQktFMTBybkRMaTdsM3FfVFZnYTlnUVhRSGRob2paU0JMcXA1NmxKUjI0UkRGQmVSbFhuOVliZDYwbFhXZ2ZnanpBR1lmOGc?oc=5",
-      "datetime": 1794849398,
-      "headlineKo": "매클럼 캐나다 중앙은행 총재, 2027년 임기 종료 후 사임 - Reuters",
-      "summaryKo": "맥클럼 캐나다 중앙은행 총재, 2027년 임기 종료 후 사임 - 로이터"
-    },
-    {
-      "headline": "Trump says he might meet with North Korea's Kim Jong Un in China - Reuters",
-      "summary": "Trump says he might meet with North Korea's Kim Jong Un in China Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9IeVFRVnVQTV9YVzNZVHUyT0F3aElTeTFQMFU2X05QUXR3c01hVVlrTEotZjVhU3YwNFZuTlUyZDVfM2pTTjNGTHR1Q25GalEtUFByZTFKLUd4TV84UU9vUngxd245SktvQ00tbWNOMDZ0WkRoVDV3OXh6UWxMZ0t3aWVuSC01U2VYclVHX2k1ZnpnTHFTSTh3bw?oc=5",
-      "datetime": 1794849346,
-      "headlineKo": "트럼프, 중국에서 북한 김정은과 만날 수도 있다고 말했다 - 로이터",
-      "summaryKo": "트럼프, 중국에서 북한 김정은과 만날 수도 있다고 말했다 - 로이터"
-    },
-    {
-      "headline": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling - Reuters",
-      "summary": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUlTdkFxaWpmd0tNUXA5WXRMbmQydm9xVGtYVXYwbnAxVWx3QnZfOUdJS2YwUkFmRWV3TkRHclFKdEZzcFlKLUlGSXhQQ1VBZUFENE9pSWdzRHBsYzg1QVA5am4weVVXeUJHZzF3OGZuVnZ6dmZlbmxUZExnREs4NEMwUFFFMGRsN2N4VThtbUZFS21hblF2bXEzQk5pR3k4SDJBZVhLTDEtT0V3UHN0dnRpWkZKNEk?oc=5",
-      "datetime": 1794846501,
-      "headlineKo": "이라크 내 이란 대리인은 석유 밀수로 수억 달러를 벌어들인다 - 로이터 통신",
-      "summaryKo": "이라크 내 이란 대리인은 석유 밀수를 통해 수억 달러를 벌어들였습니다."
-    },
-    {
-      "headline": "U.S. crude oil declines to $87 a barrel on recovering Middle East exports",
-      "summary": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-      "datetime": 1794845187,
-      "headlineKo": "미국 원유는 중동 수출 회복으로 배럴당 87달러로 하락",
-      "summaryKo": "4분기 석유 과잉이 예상되면서 유가는 하락세를 보이고 있다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794873681.5127099,
+  "_news_last_success_at": 1794878021.9300506,
   "fgi": {
     "score": 31.0190476190476,
     "rating": "fear"
   },
-  "_fetched_at": 1794873674.1513703,
-  "_updated_label": "2026-11-17 09:01",
-  "_last_attempt_at": 1794873674.1513703,
-  "_last_success_at": 1794873674.1513703,
+  "_fetched_at": 1794878006.7065222,
+  "_updated_label": "2026-11-17 10:14",
+  "_last_attempt_at": 1794878006.7065222,
+  "_last_success_at": 1794878006.7065222,
   "_collection_status": "ok",
   "_collection_errors": []
 };
