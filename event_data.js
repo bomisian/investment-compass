@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794928450.6778135,
+  "generatedAt": 1794930465.843337,
   "events": [
     {
       "id": "86371e5c73d706ce9df6",
@@ -539,7 +539,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "regulatory_legal_export",
       "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "LITE",
+      "primaryTicker": "COHR",
       "relatedTickers": [
         "COHR",
         "LITE"
@@ -562,7 +562,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2889fa7a98508bc1193068d763898cb033ace990e7fa550a589a86f809d21b65",
         "publishedAt": 1794920492,
-        "collectedAt": 1794927998.7524612
+        "collectedAt": 1794930443.1672595
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -574,7 +574,7 @@ const EVENT_DATA = {
         "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
       ],
       "aiInference": [
-        "이 기사는 LITE의 사업과 관련된 'Coherent, Lumentum jump as US presses ahead with China equipment curbs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+        "이 기사는 COHR의 사업과 관련된 'Coherent, Lumentum jump as US presses ahead with China equipment curbs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
@@ -590,7 +590,7 @@ const EVENT_DATA = {
       ],
       "impacts": [
         {
-          "ticker": "LITE",
+          "ticker": "COHR",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -1927,7 +1927,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "earnings_result",
       "eventLabel": "실적 발표",
-      "primaryTicker": "SPY",
+      "primaryTicker": "QQQ",
       "relatedTickers": [
         "AMZN",
         "NVDA",
@@ -1958,7 +1958,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d26de029fe02a97ea745094b67fc6ff4cef2bd1318e3b7ccd087f1e6746e6a47",
         "publishedAt": 1794908437,
-        "collectedAt": 1794927998.7524612
+        "collectedAt": 1794930443.1672595
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1967,10 +1967,10 @@ const EVENT_DATA = {
       ],
       "marketInterpretation": [
         "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "SPY에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
@@ -1982,11 +1982,11 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "SPY",
+          "ticker": "QQQ",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -7668,17 +7668,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=19de83e061863c2f512ed5247a7d0b4e275f0b00268dcedc2772e42470e1dda6",
         "publishedAt": 1794841090,
-        "collectedAt": 1794907232.2713947
+        "collectedAt": 1794930443.1672595
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "오늘 주식 시장: Nvidia가 Jensen Huang 없이 첫 수익을 내면서 Nasdaq-100은 1% 하락했습니다. - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,390.60 −0.43% Dow Jones 51,363.10 −0.49% Nasdaq 100 27,111.00 −0.43% Russell 2000 2,729.43 −0.48% S&P 500 7,390.60 −0.43% 다우존스 51,363.10 −0.49% 나스닥 100 27,111.00 −0.43% 러셀 20",
+        "오늘의 주식 시장: Nvidia가 Jensen Huang 없이 첫 수익을 올리면서 Nasdaq-100은 1% 하락했습니다. - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,365.30 −0.77% Dow Jones 51,087.20 −1.03% Nasdaq 100 26,978.60 −0.92% Russell 2000 2,722.68 −0.73% S&P 500 7,365.30 −0.77% 다우존스 51,087.20 −1.03% 나스닥 100 26,978.60 −0.92% 러셀 20",
         "© Spencer Platt / Getty Images News via Getty Images 칩 주식은 개장 전에 월스트리트를 하락세로 끌어내렸고 Nasdaq-100이 대부분의 히트를 치고 있었습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 1%, 0.43%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1%, 0.77%, 1.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -7693,7 +7693,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 1%, 0.43%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1%, 0.77%, 1.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -7962,7 +7962,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3ad731b274c1c63aab6cccd69bfc3d79c80f2956cfa22ef9da581ea1a46dd4e5",
         "publishedAt": 1794839554,
-        "collectedAt": 1794907232.2713947
+        "collectedAt": 1794930443.1672595
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10217,7 +10217,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b5fbbf2a52d4b4682074a95f99b6f457c4c18bb96e5b5ee0b46cce7b30c5b8cf",
         "publishedAt": 1794804422,
-        "collectedAt": 1794907232.2713947
+        "collectedAt": 1794930443.1672595
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11942,7 +11942,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=baa4debb5bb231c3f00245d0cd0b925b5e079df88f29b2f7d0e6bd67944185d3",
         "publishedAt": 1794596584,
-        "collectedAt": 1794907232.2713947
+        "collectedAt": 1794930443.1672595
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15769,7 +15769,7 @@ const EVENT_DATA = {
               "variancePct": 2.2,
               "actualEndDate": "2026-09-27",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16174,7 +16174,7 @@ const EVENT_DATA = {
               "variancePct": 3.36,
               "actualEndDate": "2025-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16194,7 +16194,7 @@ const EVENT_DATA = {
               "variancePct": 3.41,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16214,7 +16214,7 @@ const EVENT_DATA = {
               "variancePct": 2.01,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16234,7 +16234,7 @@ const EVENT_DATA = {
               "variancePct": 3.31,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16254,7 +16254,7 @@ const EVENT_DATA = {
               "variancePct": 3.06,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16654,7 +16654,7 @@ const EVENT_DATA = {
               "variancePct": 6.28,
               "actualEndDate": "2025-09-27",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16674,7 +16674,7 @@ const EVENT_DATA = {
               "variancePct": 6.98,
               "actualEndDate": "2025-12-27",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16694,7 +16694,7 @@ const EVENT_DATA = {
               "variancePct": 4.62,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16714,7 +16714,7 @@ const EVENT_DATA = {
               "variancePct": 2.9,
               "actualEndDate": "2026-09-26",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16866,7 +16866,7 @@ const EVENT_DATA = {
               "variancePct": 2.95,
               "actualEndDate": "2024-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16886,7 +16886,7 @@ const EVENT_DATA = {
               "variancePct": 2.81,
               "actualEndDate": "2025-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16906,7 +16906,7 @@ const EVENT_DATA = {
               "variancePct": 5.86,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16926,7 +16926,7 @@ const EVENT_DATA = {
               "variancePct": 10.84,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17938,7 +17938,7 @@ const EVENT_DATA = {
               "variancePct": 7.0,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1794928450.5335586,
+              "settledAt": 1794930465.6980119,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
