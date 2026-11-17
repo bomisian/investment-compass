@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-17T07:35:41+09:00",
+  "generatedAt": "2026-11-18T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-17 07:07"
+      "detail": "2026-11-18 07:32"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 28분 전부터)"
+      "detail": "대기 중(다음 주기, 3분 전부터)"
     },
     {
       "key": "loop_count",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-11-16 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-17 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-17 07:06 생성 → 거래일 2026-11-16 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-18 07:32 생성 → 거래일 2026-11-17 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 33일째(기준 14일)"
+      "detail": "COHR 34일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -78,7 +78,7 @@ const OPS_STATUS_DATA = {
       "key": "smart_money_quarter_auto",
       "status": "red",
       "label": "13F 자동 수집 실행",
-      "detail": "2026-11-17 실행 실패: 110_collect 실패(rc=3): 다른 110 실행이 진행 중 -- 이번 실행 건너뜀"
+      "detail": "2026-11-18 실행 실패: 110_collect 실패(rc=3): 다른 110 실행이 진행 중 -- 이번 실행 건너뜀"
     },
     {
       "key": "evidence_10q_crosscheck",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(25일), FIX(26일), BE(26일), HUBB(21일), STX(21일), GEV(20일), HUBB(20일), VRT(20일), MSFT(20일), GOOGL(20일), KLAC(20일), VRT(20일), GOOGL(19일), PWR(19일), EME(19일), AMZN(19일), INTC(19일), KLAC(19일), SNDK(19일), STX(19일), AMZN(18일), INTC(18일), SNDK(18일), MRVL(15일), LITE(15일), AAPL(15일), PLTR(15일), PLTR(14일), AAPL(14일), ETN(14일), AMD(14일), ANET(14일), LITE(14일), MOD(14일), AMD(13일), ANET(13일), MOD(13일), QCOM(13일), ARM(13일), COHR(13일), EME(19일), VST(11일), CEG(8일), VST(8일), CEG(8일), TSM(7일), TSM(5일), TSM(4일), AMAT(5일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(26일), FIX(27일), BE(27일), HUBB(22일), STX(22일), GEV(21일), HUBB(21일), VRT(21일), MSFT(21일), GOOGL(21일), KLAC(21일), VRT(21일), GOOGL(20일), PWR(20일), EME(20일), AMZN(20일), INTC(20일), KLAC(20일), SNDK(20일), STX(20일), AMZN(19일), INTC(19일), SNDK(19일), MRVL(16일), LITE(16일), AAPL(16일), PLTR(16일), PLTR(15일), AAPL(15일), ETN(15일), AMD(15일), ANET(15일), LITE(15일), MOD(15일), AMD(14일), ANET(14일), MOD(14일), QCOM(14일), ARM(14일), COHR(14일), EME(20일), VST(12일), CEG(9일), VST(9일), CEG(9일), TSM(8일), TSM(6일), TSM(5일), AMAT(6일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -102,13 +102,13 @@ const OPS_STATUS_DATA = {
       "key": "quarterly_cashflow_gap",
       "status": "green",
       "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
-      "detail": "비어 있음(아직 기다리는 중): AMAT Q4'26(2026-11-15부터 1거래일)"
+      "detail": "비어 있음(아직 기다리는 중): AMAT Q4'26(2026-11-15부터 2거래일)"
     },
     {
       "key": "ttm_eps_rule",
-      "status": "green",
+      "status": "yellow",
       "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
-      "detail": "분기 합 32종목 · 기존 값·없음 7종목 · 적정가 변화 10종목"
+      "detail": "분기 합 32종목 · 기존 값·없음 7종목 · 적정가 변화 9종목 / 자동 복귀(검증 미완): ASML"
     },
     {
       "key": "earnings_reflection",
@@ -120,7 +120,7 @@ const OPS_STATUS_DATA = {
       "key": "wacc_roic",
       "status": "green",
       "label": "자본 효율(ROIC·WACC) 계산",
-      "detail": "계산 33/39종목 · 계산 불가 0종목 · 10년물 5.15%(2026-11-13, fresh) · 생성 2026-11-17T06:36"
+      "detail": "계산 33/39종목 · 계산 불가 0종목 · 10년물 5.12%(2026-11-16, fresh) · 생성 2026-11-18T06:29"
     },
     {
       "key": "required_tools",
@@ -132,13 +132,13 @@ const OPS_STATUS_DATA = {
       "key": "price_map_daily_run",
       "status": "green",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-11-16(기대 2026-11-16, 실행 2026-11-17 06:35:51)"
+      "detail": "마지막 성공 세션 2026-11-17(기대 2026-11-17, 실행 2026-11-18 06:29:02)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-17 07:06 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-18 07:32 KST 정상 갱신(실패 0개)"
     }
   ]
 };
