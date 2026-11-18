@@ -1675,7 +1675,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794938327.9383175,
+    "_fetched_at": 1795011477.088339,
     "_updated_label": "2026-11-18"
   },
   "INTC": {
@@ -1689,7 +1689,7 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1794938327.9383175,
+    "_fetched_at": 1795011477.088339,
     "_updated_label": "2026-11-18"
   },
   "TSM": {
@@ -1855,12 +1855,12 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1794938327.9383175,
+    "_fetched_at": 1795011477.088339,
     "_updated_label": "2026-11-18"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1794938327.9383175,
+    "_fetched_at": 1795011477.088339,
     "_updated_label": "2026-11-18"
   },
   "AMAT": {
@@ -1890,7 +1890,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794938327.9383175,
+    "_fetched_at": 1795011477.088339,
     "_updated_label": "2026-11-18"
   },
   "LRCX": {
