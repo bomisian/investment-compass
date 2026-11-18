@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794996154.803537,
+  "generatedAt": 1794998089.0134487,
   "records": {
     "AAPL": [
       {
@@ -26148,6 +26148,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "GOOGL": [
       {
+        "changedAt": 1794998089.0134487,
+        "dataAsOf": 1794937508,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.15,
+            "after": 3.5
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -3.5,
+            "after": -3.15
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.62,
+            "after": -2.27
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.75,
+            "after": -1.4
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "TPU 매출 1,000억 달러를 먼저 달성하는 기업은 알파벳일까요, 브로드컴일까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=8518d709dfed5826400302c78cb32db37a87d5b6aa8d488b04b1534e2da08a98",
+        "eventId": "02790fac93f8a8165690",
+        "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.15, \"before\": -3.5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.27, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.4, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"02790fac93f8a8165690\"}"
+      },
+      {
         "changedAt": 1794950892.8213398,
         "dataAsOf": 1794937508,
         "changes": [
@@ -28007,23 +28042,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=13111bd22aeb92c2abbbd84fa29f44e8eaee8fbfcdfabb5cb74c6dd09f5f7365",
         "eventId": "c578eaf61266d71d236e",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.18, \"before\": 1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"c578eaf61266d71d236e\"}"
-      },
-      {
-        "changedAt": 1793977441.7900977,
-        "dataAsOf": 1793970004,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.7,
-            "after": -0.35
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "의료 및 에너지 부문이 투자자를 유치함에 따라 AI 거래, 알파벳, 메타가 활력을 잃습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=13111bd22aeb92c2abbbd84fa29f44e8eaee8fbfcdfabb5cb74c6dd09f5f7365",
-        "eventId": "c578eaf61266d71d236e",
-        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c578eaf61266d71d236e\"}"
       }
     ],
     "HUBB": [
@@ -41710,6 +41728,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1794998089.0134487,
+        "dataAsOf": 1794979515,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.98,
+            "after": -3.33
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Bernstein은 최고가에서 52% 할인된 가격으로 일관된 $350 목표를 유지하고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=0fd44b53f428ec037b5890df56b51de0155bb4e1299b2c503c17e6cd66d5bb4d",
+        "eventId": "c28acc6b866916b7f009",
+        "fingerprint": "{\"changes\": [{\"after\": -3.33, \"before\": -2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c28acc6b866916b7f009\"}"
+      },
+      {
         "changedAt": 1794996154.803537,
         "dataAsOf": 1794975726,
         "changes": [
@@ -43167,35 +43202,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=c77ce486609c3f6be61272348bc58ccc687918bd5eabcb91700a94a5c85800f2",
         "eventId": "759c40ae4a25d7af185c",
         "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.15, \"before\": 2.63, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"759c40ae4a25d7af185c\"}"
-      },
-      {
-        "changedAt": 1794491712.1941535,
-        "dataAsOf": 1794481991,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.8,
-            "after": 2.63
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.45,
-            "after": -2.97
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -3.15,
-            "after": -3.32
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "구글 모기업, AI 부채 매각 주문으로 50억 달러 유치",
-        "newsUrl": "https://finnhub.io/api/news?id=73bdc9d4f10bf2ec95917a945e7dca8e117eb55307bbac0cf4b79771e2eb3774",
-        "eventId": "e1b16a0809b0e1ebca8f",
-        "fingerprint": "{\"changes\": [{\"after\": 2.63, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.97, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.32, \"before\": -3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e1b16a0809b0e1ebca8f\"}"
       }
     ],
     "ORCL": [
