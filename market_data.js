@@ -237,6 +237,34 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
+      "summary": "Ford has started U.S. production and shipments of battery cells for its next-generation EVs using technologies licensed by Chinese battery giant CATL.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html",
+      "datetime": 1795021373
+    },
+    {
+      "headline": "Jim Cramer looks at what turned the market lower and where stocks could go next",
+      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/cramer-looks-at-what-turned-the-market-lower-where-stocks-could-go-next.html",
+      "datetime": 1795020882
+    },
+    {
+      "headline": "Jeffries wins Democratic House speaker race, on track to make history in January",
+      "summary": "Jeffries will still need to win a floor vote in January to officially become House speaker.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html",
+      "datetime": 1795018491
+    },
+    {
+      "headline": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say - Reuters",
+      "summary": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkJqT2oyYk82bDFiWGJYTVlhX2hxNWs5NzFWY01GTUZVLV8zbWgycFhsTjhuOEcxUTF4Y1BiTWNxUWp4THZhdjBYVnMxd1lCY0d0YlpIWlltUV9JckxaMG5zSURFaW5VV1hGVnBzcm04TENiQWpjWFVwU211MW9qYTdwbERzX19CQkY4UVNseVFMSERmemJPTGY5bmRScXRmaUNEOGhhbm4yOHVGRmtZLXgyN1VBRnJvVngw?oc=5",
+      "datetime": 1795016779
+    },
+    {
       "headline": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
       "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are expected to hold a rare trilateral meeting on Thursday.",
       "source": "CNBC",
@@ -244,6 +272,13 @@ const MARKET_DATA = {
       "datetime": 1795016501,
       "headlineKo": "나는 트럼프, 시, 푸틴이 중국에 모이는 것을 지켜보았다. 제가 가장 중요하게 생각하는 내용은 다음과 같습니다.",
       "summaryKo": "도널드 트럼프 미국 대통령, 시진핑 중국 국가주석, 블라디미르 푸틴 러시아 대통령이 목요일 3자 회담을 가질 예정이다."
+    },
+    {
+      "headline": "Sheinbaum says Mexico-US trade talks 'very far along' after meeting Trump at APEC - Reuters",
+      "summary": "Sheinbaum says Mexico-US trade talks 'very far along' after meeting Trump at APEC Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUtHTXhXeG5haF9PeGN6aWVDRzdwejZOZHNyWmZTTXpKc2Fwa3VsZ0Q1VnZNc3lVSmltbFdzMjQtQ2E1ZGxhZlJjX19yRHVKNmF1QmZ1eEJ3UVh2eW1HUU5qMnctQXp1d1NUNkk4XzJ4TWlibHRPXzZmOWdIdU5fdFo4d2h2M1ZhbHpGNmtGZWdGMTg2bFNGV0Z4MzNDd2syblpaa0NmeHhScmRmb0lR?oc=5",
+      "datetime": 1795014732
     },
     {
       "headline": "Tech outages are causing people to panic buy. Costco is benefitting",
@@ -255,6 +290,15 @@ const MARKET_DATA = {
       "summaryKo": "기술적 장애로 인해 비상용품을 사기 위한 경쟁이 치열해지면서 쇼핑객들이 코스트코에서 더 많은 돈을 지출하고 있습니다."
     },
     {
+      "headline": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
+      "summary": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
+      "datetime": 1795013034,
+      "headlineKo": "독점: 2027년까지 지속될 예멘 캠페인을 준비하는 사우디 - 로이터 통신",
+      "summaryKo": "독점: 2027년까지 지속될 예멘 캠페인을 준비하는 사우디 로이터"
+    },
+    {
       "headline": "Israeli military begins a new thrust in Gaza, witnesses say - Reuters",
       "summary": "Israeli military begins a new thrust in Gaza, witnesses say Reuters",
       "source": "Reuters",
@@ -262,15 +306,6 @@ const MARKET_DATA = {
       "datetime": 1795012903,
       "headlineKo": "목격자들에 따르면 이스라엘 군이 가자지구에서 새로운 공세를 시작했다고 한다 - 로이터 통신",
       "summaryKo": "목격자들에 따르면 이스라엘 군이 가자지구에서 새로운 공세를 시작했다고 합니다. 로이터 통신"
-    },
-    {
-      "headline": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
-      "summary": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
-      "datetime": 1795012756,
-      "headlineKo": "독점: 2027년까지 지속될 예멘 캠페인을 준비하는 사우디 - 로이터 통신",
-      "summaryKo": "독점: 2027년까지 지속될 예멘 캠페인을 준비하는 사우디 로이터"
     },
     {
       "headline": "Small investor enthusiasm for Anthropic IPO to rival SpaceX debut",
@@ -298,63 +333,18 @@ const MARKET_DATA = {
       "datetime": 1795010572,
       "headlineKo": "Hims & Hers, 새로운 펩타이드 트리트먼트 출시 — 효능에 대해 더 알아봐야 할 것이 있음을 인정하면서",
       "summaryKo": "이 원격 의료 회사는 이제 FDA의 승인을 받지 않은 세르모렐린, 글루타티온, NAD+, 비타민 B-12 및 L-카르니틴의 복합 제형을 제공할 예정입니다."
-    },
-    {
-      "headline": "Worried about the AI bubble popping? How investing pros say to adjust your strategy",
-      "summary": "Tech concentration and AI-stock volatility are rattling investors. Experts explain how to diversify without abandoning long-term stock exposure.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/11/18/how-to-diversify-your-portfolio-amid-ai-bubble-fears.html",
-      "datetime": 1795007971,
-      "headlineKo": "AI 버블이 터지는 게 걱정되시나요? 투자 전문가들이 말하는 전략 조정 방법",
-      "summaryKo": "기술 집중과 AI 주식 변동성은 투자자들을 불안하게 만들고 있습니다. 전문가들이 장기적인 주식 노출을 포기하지 않고 다각화하는 방법을 설명합니다."
-    },
-    {
-      "headline": "Luxury goods sales seen returning to growth in 2026, but outlook fragile - Reuters",
-      "summary": "Luxury goods sales seen returning to growth in 2026, but outlook fragile Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdWtJbHFlcVlYVkRpS01FLTFuaE9UWS1sN29vbXJmY09SWDN3QVQ4VEcxeTFleGhtYk5vZzl1UzhIdHIzSGhNdFlGMklmc0xkWjZpR0lrTHJXSW9sejlVSEtONUw3S3MwV3ZpUVhFeG10dk5idTI0a09wbFBCR2NTTVc2a1JDUktVek83WDlLa2FQdEt3aU1Xel9QN1VNUE5WMW50Y3JMcHRudnpDN1ROU0ZUaUxzR0pwZGhVNmEwQQ?oc=5",
-      "datetime": 1795006657,
-      "headlineKo": "2026년 명품 판매 증가세로 돌아올 것으로 예상되나 전망은 취약 - Reuters",
-      "summaryKo": "2026년 명품 판매는 다시 성장세로 돌아올 것으로 보이나 전망은 취약 - Reuters"
-    },
-    {
-      "headline": "Paris Hilton, Alexandria Ocasio-Cortez press House to pass Defiance Act to fight AI deepfake pornography",
-      "summary": "Paris Hilton, backed by Alexandria Ocasio-Cortez, is pushing for the anti-AI deepfake pornography Defiance Act, already passed by the Senate, to become law.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/paris-hilton-aoc-defiance-act-ai-porn-deep-fake-congress.html",
-      "datetime": 1795006513,
-      "headlineKo": "패리스 힐튼, 알렉산드리아 오카시오-코르테스, 하원에서 AI 딥페이크 포르노에 맞서기 위한 항의법 통과",
-      "summaryKo": "알렉산드리아 오카시오-코르테스(Alexandria Ocasio-Cortez)의 후원을 받는 패리스 힐튼(Paris Hilton)은 이미 상원에서 통과된 AI 딥페이크 포르노 반대법(Defiance Act)을 법으로 추진하고 있습니다."
-    },
-    {
-      "headline": "Booking Holdings creates new enterprise division as AI reshapes travel planning",
-      "summary": "The future for online travel agencies increasingly relies on scaling business-to-business travel platforms.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/booking-holdings-enterprise.html",
-      "datetime": 1795006501,
-      "headlineKo": "부킹홀딩스(Booking Holdings), AI로 여행 계획 재편해 새로운 사업부 신설",
-      "summaryKo": "온라인 여행사의 미래는 B2B 여행 플랫폼의 확장에 점점 더 의존하고 있습니다."
-    },
-    {
-      "headline": "Fed officials set to raise rates again in December, but the future still looks murky",
-      "summary": "continued inflation above the Fed's 2% target might push officials into a more aggressive stance.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-      "datetime": 1795005452,
-      "headlineKo": "연준 관계자들은 12월에 다시 금리를 인상할 예정이지만, 미래는 여전히 불투명해 보입니다.",
-      "summaryKo": "연준의 목표인 2%를 초과하는 인플레이션이 계속되면 관리들이 더욱 공격적인 입장을 취하게 될 수 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795019252.1456296,
+  "_news_last_success_at": 1795023183.2955651,
   "fgi": {
-    "score": 24.7111969111969,
+    "score": 24.9111969111969,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795019242.3390994,
-  "_updated_label": "2026-11-19 01:28",
-  "_last_attempt_at": 1795019242.3390994,
-  "_last_success_at": 1795019242.3390994,
+  "_fetched_at": 1795023161.2497313,
+  "_updated_label": "2026-11-19 02:33",
+  "_last_attempt_at": 1795023161.2497313,
+  "_last_success_at": 1795023161.2497313,
   "_collection_status": "ok",
   "_collection_errors": []
 };
