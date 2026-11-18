@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html",
+      "datetime": 1795031009,
+      "headlineKo": "Anthropic의 뜨거운 IPO가 판매자를 끌어들이는 이유 - 플러스 하락 시장의 은색 안감",
+      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
+    },
+    {
+      "headline": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows - Reuters",
+      "summary": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS21BSEJXWHdIUGpZcWRtZm0tT084cTd5WFpvbFZUeE9wdHkyelI4Y2pFamp5YmY3S09BRm9zMWQ3VE5NcHVnSGZNM20yZ3B5NE1mXzZ4VVg3NUZ5RTVuQ2owQzE4MkxpaTBIcEhCNng4MDE1ZnpyTUVOMUVHVFdzcm14Mkl2TlNGZmNuVFQ1NFMwdGFOT1JSTEFURDNOQ005cWVaUG5ybmtyNWQyTW1QMG82SHhGQXNmb3VMTUtB?oc=5",
+      "datetime": 1795030338,
+      "headlineKo": "미국, 해상 석유 운송 제한으로 이란 봉쇄 강화",
+      "summaryKo": "미국, 해상 석유 운송 제한으로 이란 봉쇄 강화"
+    },
+    {
       "headline": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
       "summary": "Nvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.",
       "source": "CNBC",
@@ -282,6 +300,15 @@ const MARKET_DATA = {
       "summaryKo": "민주당, 차기 미국 하원 의장으로 하킴 제프리스 지명 - 최신"
     },
     {
+      "headline": "US single-family housing starts rebound, but trend remains subdued - Reuters",
+      "summary": "US single-family housing starts rebound, but trend remains subdued Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHNvWXhTdjFvTnd2ZWpsdjVvM29QLWdyUzZOMWFTTjdHUEdTazZZMGxPWFdtZk9TdVZ5WlhJb2FPbmtQbURFd1pTWUlnSS1LTk54Wk1RY2FSRWJ5cGdHOGl3NEVBaEZlcWlJVW1LblcySGxZVjUtdFNuMUlNbmhiNHJiM2tYZUZpdHg2LVdiS3dTZ1RmVjZqZzlhaXJua2JMc2FORFdFMTlNZTRSTUZpbWFIMExWdnM?oc=5",
+      "datetime": 1795027880,
+      "headlineKo": "미국 단독 주택 반등 시작, 추세는 여전히 둔화 - Reuters",
+      "summaryKo": "미국 단독 주택 반등 시작, 추세는 여전히 둔화 Reuters"
+    },
+    {
       "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
       "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
       "source": "Reuters",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795024071,
       "headlineKo": "IAEA 사무총장, 미국-사우디 핵협상 계획 “사찰에서 매우 만족스럽다” - 로이터",
       "summaryKo": "IAEA 사무총장, 미국-사우디 핵협상 계획 “사찰에 있어 매우 만족스럽다” - 로이터"
-    },
-    {
-      "headline": "Investigators make progress in hunt for cause of FAA ground stop",
-      "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
-      "datetime": 1795022971,
-      "headlineKo": "조사관은 FAA 지상 정지 원인을 찾는 데 진전을 이루었습니다.",
-      "summaryKo": "엔지니어와 분석가들은 여전히 ​​문제의 근본 원인을 찾고 있으며, 이로 인해 금요일에 4시간 동안 지상 정지가 이루어졌습니다."
-    },
-    {
-      "headline": "Threats from Iran have increased substantially, US intelligence director says - Reuters",
-      "summary": "Threats from Iran have increased substantially, US intelligence director says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVVIOHhPWnFWVF94TVJ0cTI0YU5hNERTcWNyU0phOVlSejlUbVFmYmkwSlZUNGNHenVpZHlydHpHdW9kWHc2UFF6aXJfQVZYcElYVlFsT0Y1RUV4Wnl2aVloNU1nY196aHRMNmV0NTFhWDhtVFlSV19MTElzZVRpUEJNYkpKcURQLUtFd1JfNlB3cmRvYmtONW1vNzBHTmgtYXhmMnNLNE54c1hpd2dZNi1mSlRnOG8?oc=5",
-      "datetime": 1795021825,
-      "headlineKo": "이란의 위협이 크게 증가했다고 미 정보국장이 밝혔습니다 - 로이터",
-      "summaryKo": "이란의 위협이 크게 증가했다고 미국 정보국장이 밝혔습니다."
-    },
-    {
-      "headline": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
-      "summary": "Ford has started U.S. production and shipments of battery cells for its next-generation EVs using technologies licensed by Chinese battery giant CATL.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html",
-      "datetime": 1795021373,
-      "headlineKo": "포드, 지정학적 긴장 속에 중국 기술 활용해 미국 배터리셀 생산 시작",
-      "summaryKo": "포드가 중국 배터리 대기업 CATL의 라이선스 기술을 사용해 차세대 EV용 배터리 셀을 미국에서 생산 및 출하하기 시작했다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795031027.1153903,
+  "_news_last_success_at": 1795034925.7166862,
   "fgi": {
-    "score": 24.6648648648649,
+    "score": 24.5111969111969,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795031011.5908504,
-  "_updated_label": "2026-11-19 04:44",
-  "_last_attempt_at": 1795031011.5908504,
-  "_last_success_at": 1795031011.5908504,
+  "_fetched_at": 1795034914.5464942,
+  "_updated_label": "2026-11-19 05:49",
+  "_last_attempt_at": 1795034914.5464942,
+  "_last_success_at": 1795034914.5464942,
   "_collection_status": "ok",
   "_collection_errors": []
 };
