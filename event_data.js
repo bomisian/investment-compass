@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795005794.3091178,
+  "generatedAt": 1795007694.7564726,
   "events": [
     {
       "id": "c28acc6b866916b7f009",
@@ -14271,7 +14271,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
         "publishedAt": 1794841200.0,
-        "collectedAt": 1794984421.5514998
+        "collectedAt": 1795007674.9901154
       },
       "confirmedFacts": [
         "NVDA가 2026-11-17에 SEC Form 8-K을 제출했습니다.",
@@ -14310,7 +14310,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1794984421.5514998,
+        "analyzedAt": 1795007674.9901154,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14372,7 +14372,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926129104/tm2630100d1_8k.htm",
         "publishedAt": 1794841200.0,
-        "collectedAt": 1794984421.5514998
+        "collectedAt": 1795007674.9901154
       },
       "confirmedFacts": [
         "FIX가 2026-11-17에 SEC Form 8-K을 제출했습니다.",
@@ -17346,7 +17346,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554/d162653d8k.htm",
         "publishedAt": 1794754800.0,
-        "collectedAt": 1794984421.5514998
+        "collectedAt": 1795007674.9901154
       },
       "confirmedFacts": [
         "WDC가 2026-11-16에 SEC Form 8-K을 제출했습니다.",
@@ -17411,7 +17411,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126044139/ef20085745_8k.htm",
         "publishedAt": 1794754800.0,
-        "collectedAt": 1794984421.5514998
+        "collectedAt": 1795007674.9901154
       },
       "confirmedFacts": [
         "VST가 2026-11-16에 SEC Form 8-K을 제출했습니다.",
@@ -17475,7 +17475,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926128553/tm2629849d1_8k.htm",
         "publishedAt": 1794754800.0,
-        "collectedAt": 1794984421.5514998
+        "collectedAt": 1795007674.9901154
       },
       "confirmedFacts": [
         "MOD가 2026-11-16에 SEC Form 8-K을 제출했습니다.",
