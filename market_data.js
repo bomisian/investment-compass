@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+      "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
+      "datetime": 1795034600,
+      "headlineKo": "이스라엘, 가자 중심부 지상작전 개시… 수십명 도주 - 로이터 통신",
+      "summaryKo": "이스라엘, 가자 중심부에서 지상작전 개시, 수십명 탈출 - 로이터"
+    },
+    {
       "headline": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
       "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "source": "CNBC",
@@ -309,15 +318,6 @@ const MARKET_DATA = {
       "summaryKo": "미국 단독 주택 반등 시작, 추세는 여전히 둔화 Reuters"
     },
     {
-      "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
-      "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
-      "datetime": 1795025871,
-      "headlineKo": "이스라엘, 가자 중심부 지상작전 개시… 수십명 도주 - 로이터 통신",
-      "summaryKo": "이스라엘, 가자 중심부에서 지상작전 개시, 수십명 탈출 - 로이터"
-    },
-    {
       "headline": "Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China",
       "summary": "Interim CEO Kress sat down with CNBC’s Jim Cramer Tuesday evening shortly after the AI chip giant delivered a quarterly beat and strong guidance.",
       "source": "CNBC",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795038791.3662395,
+  "_news_last_success_at": 1795042852.5405016,
   "fgi": {
     "score": 24.607722007722,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795038784.1073546,
-  "_updated_label": "2026-11-19 06:53",
-  "_last_attempt_at": 1795038784.1073546,
-  "_last_success_at": 1795038784.1073546,
+  "_fetched_at": 1795042845.1897938,
+  "_updated_label": "2026-11-19 08:01",
+  "_last_attempt_at": 1795042845.1897938,
+  "_last_success_at": 1795042845.1897938,
   "_collection_status": "ok",
   "_collection_errors": []
 };

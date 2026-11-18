@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795041192.2652748,
+  "generatedAt": 1795042844.7903402,
   "events": [
     {
       "id": "331682798993155ffdde",
@@ -3014,37 +3014,37 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "986e248241967ef7a355",
+      "id": "02d01efc770fc2af2d3a",
       "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "PLTR",
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "COHR",
       "relatedTickers": [
-        "PLTR"
+        "COHR"
       ],
       "relatedEntities": [],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
-      "headline": "How NHS Contract Extension Will Impact Palantir Stock Investors",
-      "headlineKo": "NHS 계약 연장이 Palantir 주식 투자자에게 미치는 영향",
+      "headline": "What Citi Sees in Coherent (COHR) Two Days After Earnings",
+      "headlineKo": "Citi가 수익 창출 2일 후 Coherent(COHR)에서 보는 내용",
       "source": {
         "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=85c0e3da39a9e541cbbcad17cfa22ed49c3b96fac51a9299b09eaef900007e19",
-        "publishedAt": 1795018207,
-        "collectedAt": 1795040669.596025
+        "url": "https://finnhub.io/api/news?id=347695e16eaa7342371b31451ea346ea0f06d968c1bca0ee04773e29059fce03",
+        "publishedAt": 1795018224,
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "NHS 계약 연장이 Palantir 주식 투자자에게 미치는 영향"
+        "Citi가 수익 창출 2일 후 Coherent(COHR)에서 보는 내용"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -3061,13 +3061,80 @@ const EVENT_DATA = {
       ],
       "impacts": [
         {
-          "ticker": "PLTR",
-          "direction": "positive",
+          "ticker": "COHR",
+          "direction": "mixed",
           "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
           "basis": "rule"
         }
       ],
       "watch": []
+    },
+    {
+      "id": "986e248241967ef7a355",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "PLTR",
+      "relatedTickers": [
+        "PLTR"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "How NHS Contract Extension Will Impact Palantir Stock Investors",
+      "headlineKo": "NHS 계약 연장이 Palantir 주식 투자자에게 미치는 영향",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=85c0e3da39a9e541cbbcad17cfa22ed49c3b96fac51a9299b09eaef900007e19",
+        "publishedAt": 1795018207,
+        "collectedAt": 1795040669.596025
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "NHS 계약 연장이 Palantir 주식 투자자에게 미치는 영향",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "PLTR에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "PLTR",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "f71736d21090356284f9",
@@ -4445,7 +4512,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c70ce02f49c2209c10406b034e1ed491457da2ff7e472c4c91c0bae9f7613bb5",
         "publishedAt": 1795008317,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5910,7 +5977,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0fd44b53f428ec037b5890df56b51de0155bb4e1299b2c503c17e6cd66d5bb4d",
         "publishedAt": 1794979515,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11655,7 +11722,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=be93af0f607ee237b0fcf37eb173ca200793dfcb03f971ec9a2781ff14c8b1e9",
         "publishedAt": 1794927148,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12016,7 +12083,9 @@ const EVENT_DATA = {
       "primaryTicker": "COHR",
       "relatedTickers": [
         "COHR",
-        "LITE"
+        "LITE",
+        "QQQ",
+        "SPY"
       ],
       "relatedEntities": [],
       "importance": "high",
@@ -12027,7 +12096,7 @@ const EVENT_DATA = {
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
       "direction": "risk",
-      "expectedHorizon": "단기·장기",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Coherent Jumps 8%, Applied Optoelectronics Climbs 7% as U.S. Pushes Ahead With Curbs on Chinese Optical Gear; Lumentum Gains 4%",
@@ -12036,34 +12105,47 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a5240ccbfb3c9b1cd517680be0718dc3da5add3c2212db434c3f6843789aec21",
         "publishedAt": 1794925071,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "미국이 중국 광학 장비에 대한 규제를 추진함에 따라 코히런트는 8% 상승하고 응용 광전자공학은 7% 상승합니다. 루멘텀 4% 증가"
+        "Coherent는 미국에서 8% 상승, Applied Optoelectronics는 7% 상승",
+        "중국 광학 장비에 대한 억제 조치 추진; Lumentum은 24/7 Wall St.에서 4%를 얻습니다.",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,360.80 +0.11% Dow Jones 50,821.30 +0.06% Nasdaq 100 27,148.50 +0.30% Russell 2000 2,706.37 −0.04% S&P 500 7,360.80 +0.11% 다우존스 50,821.30 +0.06% 나스닥 100 27,148.50 +0.30% 러셀 20"
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 8%, 7%, 4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "COHR에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 8%, 7%, 4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "COHR",
-          "direction": "risk",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
+      ]
     },
     {
       "id": "e2dac4b34c9688c4196d",
@@ -12790,17 +12872,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=33307d6799513072970cc00ce2d29d1a482bd64c15ca20c16ffc39a8b9f801a2",
         "publishedAt": 1794921219,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "QQQ는 잊어라: 그 뒤에 있는 회사는 $100,000 잔고로 연간 $30 적은 비용으로 동일한 지수를 운영합니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,300.40 −0.71% Dow Jones 50,182.80 −1.20% Nasdaq 100 26,904.00 −0.61% Russell 2000 2,714.77 +0.27% S&P 500 7,300.40 −0.71% 다우존스 50,182.80 −1.20% 나스닥 100 26,904.00 −0.61% 러셀 20",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,327.20 −0.34% Dow Jones 50,217.50 −1.13% Nasdaq 100 27,131.90 +0.24% Russell 2000 2,718.50 +0.41% S&P 500 7,327.20 −0.34% 다우존스 50,217.50 −1.13% 나스닥 100 27,131.90 +0.24% 러셀 20",
         "𝕏 f ⧉ 이 게시물에는 후원사 및 제휴사의 링크가 포함될 수 있으며, Flywheel Publishing은 이를 통해 취한 조치에 대해 보상을 받을 수 있습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $30, $100, 0.71% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: $30, $100, 0.34% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -12815,7 +12897,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $30, $100, 0.71% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: $30, $100, 0.34% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -12993,7 +13075,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2889fa7a98508bc1193068d763898cb033ace990e7fa550a589a86f809d21b65",
         "publishedAt": 1794920492,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13286,17 +13368,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5ed7ccd9ea1a52be1b62604470bcf46ab5496cf83109995a567276ac7925f3a6",
         "publishedAt": 1794919706,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "나스닥-100 지수는 2008년 이후 최악의 11월을 향하고 있습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,300.40 −0.71% Dow Jones 50,182.80 −1.20% Nasdaq 100 26,904.00 −0.61% Russell 2000 2,714.77 +0.27% S&P 500 7,300.40 −0.71% 다우존스 50,182.80 −1.20% 나스닥 100 26,904.00 −0.61% 러셀 20",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,327.20 −0.34% Dow Jones 50,217.50 −1.13% Nasdaq 100 27,131.90 +0.24% Russell 2000 2,718.50 +0.41% S&P 500 7,327.20 −0.34% 다우존스 50,217.50 −1.13% 나스닥 100 27,131.90 +0.24% 러셀 20",
         "조명이 켜진 나스닥 표지판과 거래 화면은 기술 중심 지수가 높은 국채 수익률을 탐색하는 동안에도 역동적인 시장 활동을 반영합니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.71%, 1.20%, 0.61% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.34%, 1.13%, 0.24% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -13311,7 +13393,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.71%, 1.20%, 0.61% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.34%, 1.13%, 0.24% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -14516,7 +14598,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d26de029fe02a97ea745094b67fc6ff4cef2bd1318e3b7ccd087f1e6746e6a47",
         "publishedAt": 1794908437,
-        "collectedAt": 1795021218.5891922
+        "collectedAt": 1795042819.6389675
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17682,83 +17764,6 @@ const EVENT_DATA = {
         "수주잔고와 매출 인식 시점",
         "관련 사업부 매출총이익률"
       ]
-    },
-    {
-      "id": "ae9d8fd1f4df1a6a8992",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "NVDA",
-      "relatedTickers": [
-        "NVDA",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Prediction: Nvidia Stock Will Beat the Market Over the Next 10 Years",
-      "headlineKo": "예측: Nvidia 주식은 향후 10년 동안 시장을 이길 것입니다",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6768914b85916447c838453ececc5d1dc95af699b865fb3e5df014f9578c7365",
-        "publishedAt": 1794851461,
-        "collectedAt": 1795040669.596025
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "예측: Nvidia 주식은 향후 10년 동안 시장을 이길 것입니다 | The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,422.00 -1.8% -139.67 DJI 51,613.76 -1.4% -733.79 NASDAQ 24,55",
-        "AI 수요는 여전히 급증하고 있으며 Nvidia의 상당한 무료 현금 흐름은 이러한 전환을 완화하는 데 도움이 될 것입니다.",
-        "훌륭한 기업은 훌륭한 리더보다 오래 지속될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 3.93%, 28%, 1.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 3.93%, 28%, 1.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
@@ -17873,8 +17878,7 @@ const EVENT_DATA = {
       "f0861d17134d48154816",
       "5bbc7d9886944ae5c09a",
       "0e27fca9beec730f8d37",
-      "cbec0954b09828b4f0b5",
-      "ae9d8fd1f4df1a6a8992"
+      "cbec0954b09828b4f0b5"
     ],
     "INTC": [
       "f3e4b4a9de007b5ea6c4",
@@ -17973,6 +17977,7 @@ const EVENT_DATA = {
       "718b19cad3c901695137",
       "12e819599c268dc63da7",
       "c39fd97216f25643cf68",
+      "249199bd812f772b5639",
       "e2dac4b34c9688c4196d",
       "6d21968eeeb5999651c6",
       "86371e5c73d706ce9df6",
@@ -18003,8 +18008,7 @@ const EVENT_DATA = {
       "5c7ffef54e8330c64654",
       "5bbc7d9886944ae5c09a",
       "cbec0954b09828b4f0b5",
-      "4771956b7e0d4639b1b6",
-      "ae9d8fd1f4df1a6a8992"
+      "4771956b7e0d4639b1b6"
     ],
     "SPY": [
       "f3e4b4a9de007b5ea6c4",
@@ -18071,6 +18075,7 @@ const EVENT_DATA = {
       "718b19cad3c901695137",
       "12e819599c268dc63da7",
       "c39fd97216f25643cf68",
+      "249199bd812f772b5639",
       "e2dac4b34c9688c4196d",
       "6d21968eeeb5999651c6",
       "86371e5c73d706ce9df6",
@@ -18102,8 +18107,7 @@ const EVENT_DATA = {
       "5c7ffef54e8330c64654",
       "5bbc7d9886944ae5c09a",
       "cbec0954b09828b4f0b5",
-      "4771956b7e0d4639b1b6",
-      "ae9d8fd1f4df1a6a8992"
+      "4771956b7e0d4639b1b6"
     ],
     "AMD": [
       "52ad1348fb55bd441bb9",
@@ -18375,6 +18379,15 @@ const EVENT_DATA = {
       "740b6e04a3bd5be5dea9",
       "5f96b06ada5b1bbf4fe9"
     ],
+    "COHR": [
+      "02d01efc770fc2af2d3a",
+      "cd9a15eecc365eb136c0",
+      "c28acc6b866916b7f009",
+      "b2fd7201b71892d88912",
+      "249199bd812f772b5639",
+      "197b35e1cf6cbf6fff83",
+      "71d809d4849140850800"
+    ],
     "AMAT": [
       "d9bcfb0cc55a6879abd3",
       "7544d1f2cd448c3ea7e2",
@@ -18391,14 +18404,6 @@ const EVENT_DATA = {
     "ARM": [
       "1a9f65321ed2a4a8d00b",
       "0d9a5005e9ce160eaa85"
-    ],
-    "COHR": [
-      "cd9a15eecc365eb136c0",
-      "c28acc6b866916b7f009",
-      "b2fd7201b71892d88912",
-      "249199bd812f772b5639",
-      "197b35e1cf6cbf6fff83",
-      "71d809d4849140850800"
     ],
     "KLAC": [
       "0aedc9140a303d3c91c3"
