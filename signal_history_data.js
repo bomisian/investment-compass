@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795019242.0717201,
+  "generatedAt": 1795021234.4593174,
   "records": {
     "AAPL": [
       {
@@ -17261,6 +17261,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "COHR": [
       {
+        "changedAt": 1795021234.4593174,
+        "dataAsOf": 1795008317,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.52,
+            "after": 0.87
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.35,
+            "after": 0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.87,
+            "after": -0.52
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "일관된 주주들이 이 숫자를 주목해야 하는 이유는 무엇입니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=c70ce02f49c2209c10406b034e1ed491457da2ff7e472c4c91c0bae9f7613bb5",
+        "eventId": "cd9a15eecc365eb136c0",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.35, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"cd9a15eecc365eb136c0\"}"
+      },
+      {
         "changedAt": 1794952853.9575372,
         "dataAsOf": 1794927148,
         "changes": [
@@ -19000,35 +19035,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=6d34451c97b4198aecadba904305f0519140fdc87caa0ee01adc989df39b4f5b",
         "eventId": "b6d37edd07f93a2607bd",
         "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"b6d37edd07f93a2607bd\"}"
-      },
-      {
-        "changedAt": 1790911696.7741401,
-        "dataAsOf": 1790780952,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.7,
-            "after": 1.05
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.35,
-            "after": 0.7
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "중립·확인 대기",
-            "after": "우호적 변화"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Coherent의 PhotonLink 푸시는 투자자를 위한 AI 데이터 센터 광학 엣지(COHR)를 재구성하고 있습니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=53f315e8d6ee6d1832aa8da105118ee59f97c1fcf44db7f6578e6d350ddf49c4",
-        "eventId": "b2a7b0306e701a097adc",
-        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.7, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"b2a7b0306e701a097adc\"}"
       }
     ],
     "CRM": [
@@ -40358,6 +40364,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1795021234.4593174,
+        "dataAsOf": 1795009505,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.2,
+            "after": 4.55
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "Broadcom은 포트폴리오의 AI 앵커로서 Taiwan Semiconductor보다 270억 달러의 우위를 점하고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=00794a6399b9f74683a55ad569611c5f8277c00865ea13217b32c4f00a5b247b",
+        "eventId": "e3f8150a71ea8241a06b",
+        "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 4.2, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e3f8150a71ea8241a06b\"}"
+      },
+      {
         "changedAt": 1795018124.5589597,
         "dataAsOf": 1795009505,
         "changes": [
@@ -41713,29 +41736,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=afd91d04486bc538be8c8e2cdfb353f360d26c957363829bd42b79f91c173a64",
         "eventId": "ee0f8bdb08bc26b6cca6",
         "fingerprint": "{\"changes\": [{\"after\": 3.15, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.27, \"before\": 1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ee0f8bdb08bc26b6cca6\"}"
-      },
-      {
-        "changedAt": 1794229499.3442106,
-        "dataAsOf": 1794196020,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 3.15,
-            "after": 2.8
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.27,
-            "after": 1.92
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "마이크로소프트의 오라클 움직임은 투자자들에게 새로운 질문을 제기합니다",
-        "newsUrl": "https://finnhub.io/api/news?id=afd91d04486bc538be8c8e2cdfb353f360d26c957363829bd42b79f91c173a64",
-        "eventId": "ee0f8bdb08bc26b6cca6",
-        "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.92, \"before\": 2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ee0f8bdb08bc26b6cca6\"}"
       }
     ],
     "NVDA": [
