@@ -168,7 +168,7 @@ const MARKET_DATA = {
       "prevClose": 50759.421875,
       "changeAbs": -669.7109375,
       "changePct": -1.3193825161153887,
-      "pctRank": 89.7211155378486,
+      "pctRank": 89.71291866028707,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
@@ -180,7 +180,7 @@ const MARKET_DATA = {
       "chg1mPct": -4.5835368773367255,
       "chg3mPct": -5.059779993985055,
       "lastDate": "2026-11-18",
-      "bars": 1255,
+      "bars": 1254,
       "symbol": "^DJI",
       "label": "다우존스 지수",
       "unit": "",
@@ -230,7 +230,7 @@ const MARKET_DATA = {
       "AI 전력·인프라"
     ],
     "corr60": 0.6179637506319217,
-    "corrPctRank": 40.33472803347281,
+    "corrPctRank": 40.36850921273032,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.6885277581817688,
     "corrMax5y": 0.9306761077384692
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795034925.7166862,
+  "_news_last_success_at": 1795038791.3662395,
   "fgi": {
-    "score": 24.5111969111969,
+    "score": 24.607722007722,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795034914.5464942,
-  "_updated_label": "2026-11-19 05:49",
-  "_last_attempt_at": 1795034914.5464942,
-  "_last_success_at": 1795034914.5464942,
+  "_fetched_at": 1795038784.1073546,
+  "_updated_label": "2026-11-19 06:53",
+  "_last_attempt_at": 1795038784.1073546,
+  "_last_success_at": 1795038784.1073546,
   "_collection_status": "ok",
   "_collection_errors": []
 };
