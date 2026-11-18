@@ -237,32 +237,84 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China",
+      "summary": "Interim CEO Kress sat down with CNBC’s Jim Cramer Tuesday evening shortly after the AI chip giant delivered a quarterly beat and strong guidance.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html",
+      "datetime": 1795025682,
+      "headlineKo": "Nvidia의 Colette Kress와 Jim Cramer의 전체 인터뷰 읽기: 수요, 환매 및 중국",
+      "summaryKo": "임시 CEO 크레스(Kress)는 AI 칩 대기업이 분기별 성과와 강력한 지침을 전달한 직후 화요일 저녁 CNBC의 짐 크레이머(Jim Cramer)와 자리를 잡았습니다."
+    },
+    {
+      "headline": "Is Apple the safe haven investors think it is? Here's a way to trade it with less risk",
+      "summary": "Traders have flocked to Apple's perceived safety in the wake of Nvidia's scandal. It may not be so safe, says Mike Khouw",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/is-apple-the-safe-haven-investors-think-it-is-heres-a-way-to-trade-it-with-less-risk.html",
+      "datetime": 1795025421,
+      "headlineKo": "애플은 투자자들이 생각하는 안전한 피난처인가? 위험을 덜 감수하고 거래할 수 있는 방법이 있습니다.",
+      "summaryKo": "엔비디아 스캔들로 인해 거래자들은 애플이 안전하다고 인식한 쪽으로 몰려들었습니다. Mike Khouw는 그렇게 안전하지 않을 수도 있다고 말합니다."
+    },
+    {
+      "headline": "Investigators make progress in hunt for cause of FAA ground stop",
+      "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
+      "datetime": 1795022971,
+      "headlineKo": "조사관은 FAA 지상 정지 원인을 찾는 데 진전을 이루었습니다.",
+      "summaryKo": "엔지니어와 분석가들은 여전히 ​​문제의 근본 원인을 찾고 있으며, 이로 인해 금요일에 4시간 동안 지상 정지가 이루어졌습니다."
+    },
+    {
+      "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+      "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
+      "datetime": 1795022434,
+      "headlineKo": "이스라엘, 가자 중심부 지상작전 개시… 수십명 도주 - 로이터 통신",
+      "summaryKo": "이스라엘, 가자 중심부에서 지상작전 개시, 수십명 탈출 - 로이터"
+    },
+    {
       "headline": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
       "summary": "Ford has started U.S. production and shipments of battery cells for its next-generation EVs using technologies licensed by Chinese battery giant CATL.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html",
-      "datetime": 1795021373
+      "datetime": 1795021373,
+      "headlineKo": "포드, 지정학적 긴장 속에 중국 기술 활용해 미국 배터리셀 생산 시작",
+      "summaryKo": "포드가 중국 배터리 대기업 CATL의 라이선스 기술을 사용해 차세대 EV용 배터리 셀을 미국에서 생산 및 출하하기 시작했다."
     },
     {
       "headline": "Jim Cramer looks at what turned the market lower and where stocks could go next",
       "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/11/18/cramer-looks-at-what-turned-the-market-lower-where-stocks-could-go-next.html",
-      "datetime": 1795020882
+      "datetime": 1795020882,
+      "headlineKo": "짐 크레이머(Jim Cramer)는 무엇이 시장을 하락시켰는지, 그리고 주식이 다음에는 어디로 갈 수 있는지 살펴봅니다.",
+      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
+    },
+    {
+      "headline": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses - Reuters",
+      "summary": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONTZfWHVZQkZBSHhzWl9pY3ZMUk9HQVhEUmtmckJNcVBYUXFHQ2ZDZF9XUkpESEF2bjM1cjh3S2R6T3N4cG8xeDJCS0NOQ1JLMDRRcFZvUjl0X3YzREVxM1RheFRESF9QekdKTnpFRC1oaW51Mkwwb0w1REYwSngzRjh1VXA1ZVJick5SczdmTjltWExrV0JEeXRVUmVpbDhEQ0lORlAzWGpWaG50UWJFOGpValMzd09jZGhQNQ?oc=5",
+      "datetime": 1795020259,
+      "headlineKo": "민주당은 Lutnick이 Cantor Fitzgerald가 Nvidia와 관련된 손실을 피하도록 도왔는지 조사합니다 - Reuters",
+      "summaryKo": "민주당은 Lutnick이 Cantor Fitzgerald가 Nvidia와 관련된 손실을 피하도록 도왔는지 여부를 조사합니다."
     },
     {
       "headline": "Jeffries wins Democratic House speaker race, on track to make history in January",
       "summary": "Jeffries will still need to win a floor vote in January to officially become House speaker.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html",
-      "datetime": 1795018491
+      "datetime": 1795018491,
+      "headlineKo": "Jeffries는 1월에 역사를 만들 예정인 민주당 하원의장 선거에서 승리했습니다.",
+      "summaryKo": "Jeffries가 공식적으로 하원 의장이 되려면 1월에 투표에서 승리해야 합니다."
     },
     {
       "headline": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say - Reuters",
       "summary": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkJqT2oyYk82bDFiWGJYTVlhX2hxNWs5NzFWY01GTUZVLV8zbWgycFhsTjhuOEcxUTF4Y1BiTWNxUWp4THZhdjBYVnMxd1lCY0d0YlpIWlltUV9JckxaMG5zSURFaW5VV1hGVnBzcm04TENiQWpjWFVwU211MW9qYTdwbERzX19CQkY4UVNseVFMSERmemJPTGY5bmRScXRmaUNEOGhhbm4yOHVGRmtZLXgyN1VBRnJvVngw?oc=5",
-      "datetime": 1795016779
+      "datetime": 1795016779,
+      "headlineKo": "이스라엘 정보국장은 미국 방문 중 이란의 합동 공격을 위해 로비를 했다고 소식통이 전했습니다."
     },
     {
       "headline": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
@@ -274,77 +326,32 @@ const MARKET_DATA = {
       "summaryKo": "도널드 트럼프 미국 대통령, 시진핑 중국 국가주석, 블라디미르 푸틴 러시아 대통령이 목요일 3자 회담을 가질 예정이다."
     },
     {
+      "headline": "IAEA chief says planned US-Saudi nuclear deal 'very satisfactory' on inspections - Reuters",
+      "summary": "IAEA chief says planned US-Saudi nuclear deal 'very satisfactory' on inspections Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMzlxSmdSMTR5SXRiTDJwTFUyMmJ2ZTZZN0FhSXg4aGI3YUxhUFNYWnAwLVR6cFR2b2ltY0ZtMzBfa1prLTJmX1p5ekFvQXFKMGZfcEFjS1FKdnlMQ2JEaW5DQnR4Uk5mdm1iaWlPQ2FIaHhFZnMzY3g0RjkzamdvcExHWGVTMXM2S0R4WEl0RUNINi0xb2MxUUQ4V1h5aS1tN1FCTHdCNkRYQVVaa0JPQ0J2eU9WWmJIakhpTGZqMXZhLVEwMk5JWg?oc=5",
+      "datetime": 1795014845,
+      "headlineKo": "IAEA 사무총장, 미국-사우디 핵협상 계획 “사찰에서 매우 만족스럽다” - 로이터"
+    },
+    {
       "headline": "Sheinbaum says Mexico-US trade talks 'very far along' after meeting Trump at APEC - Reuters",
       "summary": "Sheinbaum says Mexico-US trade talks 'very far along' after meeting Trump at APEC Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUtHTXhXeG5haF9PeGN6aWVDRzdwejZOZHNyWmZTTXpKc2Fwa3VsZ0Q1VnZNc3lVSmltbFdzMjQtQ2E1ZGxhZlJjX19yRHVKNmF1QmZ1eEJ3UVh2eW1HUU5qMnctQXp1d1NUNkk4XzJ4TWlibHRPXzZmOWdIdU5fdFo4d2h2M1ZhbHpGNmtGZWdGMTg2bFNGV0Z4MzNDd2syblpaa0NmeHhScmRmb0lR?oc=5",
-      "datetime": 1795014732
-    },
-    {
-      "headline": "Tech outages are causing people to panic buy. Costco is benefitting",
-      "summary": "Shoppers are spending more at Costco as tech outages turn into a race to get emergency goods",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
-      "datetime": 1795013873,
-      "headlineKo": "기술적 장애로 인해 사람들이 공황 구매를 하고 있습니다. 코스트코가 수혜를 보고 있습니다.",
-      "summaryKo": "기술적 장애로 인해 비상용품을 사기 위한 경쟁이 치열해지면서 쇼핑객들이 코스트코에서 더 많은 돈을 지출하고 있습니다."
-    },
-    {
-      "headline": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
-      "summary": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
-      "datetime": 1795013034,
-      "headlineKo": "독점: 2027년까지 지속될 예멘 캠페인을 준비하는 사우디 - 로이터 통신",
-      "summaryKo": "독점: 2027년까지 지속될 예멘 캠페인을 준비하는 사우디 로이터"
-    },
-    {
-      "headline": "Israeli military begins a new thrust in Gaza, witnesses say - Reuters",
-      "summary": "Israeli military begins a new thrust in Gaza, witnesses say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
-      "datetime": 1795012903,
-      "headlineKo": "목격자들에 따르면 이스라엘 군이 가자지구에서 새로운 공세를 시작했다고 한다 - 로이터 통신",
-      "summaryKo": "목격자들에 따르면 이스라엘 군이 가자지구에서 새로운 공세를 시작했다고 합니다. 로이터 통신"
-    },
-    {
-      "headline": "Small investor enthusiasm for Anthropic IPO to rival SpaceX debut",
-      "summary": "Anthropic is gearing up for a blockbuster initial public offering this week, and excitement among retail investors looks to be off the charts.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
-      "datetime": 1795010957,
-      "headlineKo": "스페이스X 상장에 맞서는 앤트로픽 IPO에 대한 소액 투자자의 열기",
-      "summaryKo": "Anthropic은 이번 주 대대적인 기업공개(IPO)를 준비하고 있으며, 소액 투자자들 사이에서 기대감이 최고조에 달한 것으로 보입니다."
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-      "summary": "Can Nvidia hold these gains after earnings?",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/18/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
-      "datetime": 1795010768,
-      "headlineKo": "짐 크레이머가 꼽은 수요일 주식 시장에서 주목해야 할 10가지 사항",
-      "summaryKo": "Nvidia는 실적 발표 후에도 이러한 상승세를 유지할 수 있을까요?"
-    },
-    {
-      "headline": "Hims & Hers launches new peptide treatments — while admitting there's more to learn about efficacy",
-      "summary": "The telehealth company will now offer compounded forms of sermorelin, glutathione, NAD+, vitamin B-12 and L-carnitine, none of which are approved by the FDA.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/hims-hers-peptides-plus-treatments.html",
-      "datetime": 1795010572,
-      "headlineKo": "Hims & Hers, 새로운 펩타이드 트리트먼트 출시 — 효능에 대해 더 알아봐야 할 것이 있음을 인정하면서",
-      "summaryKo": "이 원격 의료 회사는 이제 FDA의 승인을 받지 않은 세르모렐린, 글루타티온, NAD+, 비타민 B-12 및 L-카르니틴의 복합 제형을 제공할 예정입니다."
+      "datetime": 1795014732,
+      "headlineKo": "Sheinbaum은 APEC에서 트럼프를 만난 후 멕시코-미국 무역 협상이 '매우 진행 중'이라고 말했습니다-Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795023183.2955651,
+  "_news_last_success_at": 1795027117.3158355,
   "fgi": {
-    "score": 24.9111969111969,
+    "score": 24.7505791505792,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795023161.2497313,
-  "_updated_label": "2026-11-19 02:33",
-  "_last_attempt_at": 1795023161.2497313,
-  "_last_success_at": 1795023161.2497313,
+  "_fetched_at": 1795027096.9384546,
+  "_updated_label": "2026-11-19 03:39",
+  "_last_attempt_at": 1795027096.9384546,
+  "_last_success_at": 1795027096.9384546,
   "_collection_status": "ok",
   "_collection_errors": []
 };
