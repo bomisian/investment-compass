@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794960283.3158824,
+  "generatedAt": 1794962204.2673566,
   "events": [
     {
       "id": "2278c54c71fd1eb5e980",
@@ -11531,6 +11531,171 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "7e71bd83c5fe97735d98",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적·재무 공식 공시",
+      "primaryTicker": "NVDA",
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "NVDA SEC Form 8-K filed",
+      "headlineKo": "NVDA SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+        "publishedAt": 1794841200.0,
+        "collectedAt": 1794962185.1999657
+      },
+      "confirmedFacts": [
+        "NVDA가 2026-11-17에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q3'26: 매출 $96.22B · 영업이익 $63.73B · 순이익 $59.69B"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 2.68 / 예상 2.525 (+6.14%). SEC 공식 수치와는 별도 출처입니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
+      ],
+      "whyItMatters": [
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
+      ],
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1794962185.1999657,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "endDate": "2026-07-26",
+          "metrics": {
+            "revenue": 96221000000,
+            "opIncome": 63734000000,
+            "netIncome": 59688000000
+          }
+        },
+        "guidance": {
+          "status": "unavailable",
+          "metrics": [],
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 2.68,
+          "estimate": 2.525,
+          "providerPeriod": "2026-12-31",
+          "label": "beat",
+          "surprisePct": 6.14,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "unavailable",
+          "reason": "실적발표 Exhibit 99 첨부자료를 찾지 못함"
+        }
+      }
+    },
+    {
+      "id": "a3f15d945f9872c874ad",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "FIX",
+      "relatedTickers": [
+        "FIX"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "FIX SEC Form 8-K filed",
+      "headlineKo": "FIX SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926129104/tm2630100d1_8k.htm",
+        "publishedAt": 1794841200.0,
+        "collectedAt": 1794962185.1999657
+      },
+      "confirmedFacts": [
+        "FIX가 2026-11-17에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 기타 중요 사건 · 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "FIX",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
       "id": "2489aff5a77a8d7d6e80",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -14439,7 +14604,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554/d162653d8k.htm",
         "publishedAt": 1794754800.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "WDC가 2026-11-16에 SEC Form 8-K을 제출했습니다.",
@@ -14504,7 +14669,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126044139/ef20085745_8k.htm",
         "publishedAt": 1794754800.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "VST가 2026-11-16에 SEC Form 8-K을 제출했습니다.",
@@ -14568,7 +14733,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926128553/tm2629849d1_8k.htm",
         "publishedAt": 1794754800.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "MOD가 2026-11-16에 SEC Form 8-K을 제출했습니다.",
@@ -16659,7 +16824,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/tm2629667d1_8k.htm",
         "publishedAt": 1794495600.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "QCOM가 2026-11-13에 SEC Form 8-K을 제출했습니다.",
@@ -16724,7 +16889,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/tsm-fsx20261113x6k.htm",
         "publishedAt": 1794495600.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "TSM가 2026-11-13에 SEC Form 6-K을 제출했습니다."
@@ -16787,7 +16952,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026073564/vrt-20261113.htm",
         "publishedAt": 1794495600.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "VRT가 2026-11-13에 SEC Form 8-K을 제출했습니다.",
@@ -16907,7 +17072,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
         "publishedAt": 1794409200.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "META가 2026-11-12에 SEC Form 8-K을 제출했습니다.",
@@ -16971,7 +17136,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
         "publishedAt": 1794409200.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "NVDA가 2026-11-12에 SEC Form 8-K을 제출했습니다.",
@@ -17035,7 +17200,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm",
         "publishedAt": 1794409200.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "MRVL가 2026-11-12에 SEC Form 8-K을 제출했습니다.",
@@ -17099,7 +17264,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
         "publishedAt": 1794409200.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "TSM가 2026-11-12에 SEC Form 6-K을 제출했습니다."
@@ -17162,7 +17327,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026073360/amat-20261112.htm",
         "publishedAt": 1794409200.0,
-        "collectedAt": 1794940337.5859618
+        "collectedAt": 1794962185.1999657
       },
       "confirmedFacts": [
         "AMAT가 2026-11-12에 SEC Form 8-K을 제출했습니다.",
@@ -17202,7 +17367,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1794940337.5859618,
+        "analyzedAt": 1794962185.1999657,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -17371,120 +17536,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "0ce38e6a5635226382f5",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "HUBB",
-      "relatedTickers": [
-        "HUBB"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "JP Morgan Maintains Neutral on Hubbell, Lowers Price Target to $470",
-      "headlineKo": "JP Morgan, Hubbell에 대해 중립 유지, 목표 가격을 470달러로 낮춤",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=42baaeef13941311c7e1a6980d43956b803ba5728e3b3708fbc9290e30c90f38",
-        "publishedAt": 1794377831,
-        "collectedAt": 1794950100.9446285
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "JP Morgan, Hubbell에 대해 중립 유지, 목표 가격을 470달러로 낮춤"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "HUBB",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "75935bdd2b885df34ca3",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "EME",
-      "relatedTickers": [
-        "EME"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "JP Morgan Initiates Coverage On EMCOR Group with Neutral Rating, Announces Price Target of $700",
-      "headlineKo": "JP Morgan, 중립 등급으로 EMCOR 그룹에 대한 보도 개시, 목표 가격 700달러 발표",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=efa3ed66ca254b0f7c7b7bcd842dcd94b0ca81831f2f75bbfa124a8a08b7d699",
-        "publishedAt": 1794303119,
-        "collectedAt": 1794950100.9446285
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "JP Morgan, 중립 등급으로 EMCOR 그룹에 대한 보도 개시, 목표 가격 700달러 발표"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "EME",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -17541,6 +17592,7 @@ const EVENT_DATA = {
       "cc6ebc978cdfce294d27",
       "b027713d6a1cdcc95008",
       "bf1d71746a67ac3ca8d5",
+      "7e71bd83c5fe97735d98",
       "2489aff5a77a8d7d6e80",
       "f5742506fd714da9c816",
       "85e2e50150dff802d2d8",
@@ -18110,11 +18162,11 @@ const EVENT_DATA = {
     ],
     "EME": [
       "ef2d2bfc10bc9882b99b",
-      "0d296982db813c310c57",
-      "75935bdd2b885df34ca3"
+      "0d296982db813c310c57"
     ],
     "FIX": [
-      "1255ce6e581f58ef1d68"
+      "1255ce6e581f58ef1d68",
+      "a3f15d945f9872c874ad"
     ],
     "PWR": [
       "9ca376b9495c35d9632e",
@@ -18130,8 +18182,7 @@ const EVENT_DATA = {
       "c57656216d76fa2ed4c4"
     ],
     "HUBB": [
-      "adec62ae9203c21bb113",
-      "0ce38e6a5635226382f5"
+      "adec62ae9203c21bb113"
     ]
   }
 };
