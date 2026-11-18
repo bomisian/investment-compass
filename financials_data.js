@@ -5514,16 +5514,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795011476.5871432,
-    "_updated_label": "2026-11-18 23:17"
+    "_fetched_at": 1795013373.213311,
+    "_updated_label": "2026-11-18 23:49"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795011476.5871432,
-    "_updated_label": "2026-11-18 23:17"
+    "_fetched_at": 1795013373.213311,
+    "_updated_label": "2026-11-18 23:49"
   },
   "ORCL": {
     "annual": [
@@ -11684,8 +11684,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1794406976.4589834,
-    "_updated_label": "2026-11-18 00:47",
+    "_fetched_at": 1795013373.213311,
+    "_updated_label": "2026-11-18 23:49",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -11712,7 +11712,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794930441.492004,
+    "_yahoo_verified_at": 1795013382.0290577,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CEG": {
@@ -13928,8 +13928,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1794406976.4589834,
-    "_updated_label": "2026-11-18 00:47",
+    "_fetched_at": 1795013373.213311,
+    "_updated_label": "2026-11-18 23:49",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -13956,7 +13956,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794930441.492004,
+    "_yahoo_verified_at": 1795013382.0290577,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VRT": {
