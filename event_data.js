@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795029067.620892,
+  "generatedAt": 1795031011.3018382,
   "events": [
     {
       "id": "6e5c369bc33734004884",
@@ -7669,6 +7669,70 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "c62a7166909cf4037db5",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "MOD",
+      "relatedTickers": [
+        "MOD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "MOD SEC Form 8-K filed",
+      "headlineKo": "MOD SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926129392/mod-20261113x8k.htm",
+        "publishedAt": 1794927600.0,
+        "collectedAt": 1795030993.202496
+      },
+      "confirmedFacts": [
+        "MOD가 2026-11-18에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 기타 중요 사건 · 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MOD",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "2cccb952f3b170c69e22",
@@ -16192,7 +16256,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
         "publishedAt": 1794841200.0,
-        "collectedAt": 1795007674.9901154
+        "collectedAt": 1795030993.202496
       },
       "confirmedFacts": [
         "NVDA가 2026-11-17에 SEC Form 8-K을 제출했습니다.",
@@ -16231,7 +16295,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1795007674.9901154,
+        "analyzedAt": 1795030993.202496,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -16293,7 +16357,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926129104/tm2630100d1_8k.htm",
         "publishedAt": 1794841200.0,
-        "collectedAt": 1795007674.9901154
+        "collectedAt": 1795030993.202496
       },
       "confirmedFacts": [
         "FIX가 2026-11-17에 SEC Form 8-K을 제출했습니다.",
@@ -17725,83 +17789,6 @@ const EVENT_DATA = {
         "재고와 리드타임",
         "매출총이익률·대체 공급처"
       ]
-    },
-    {
-      "id": "1355dc098be9ec94162e",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "워런트·신주·희석 가능성",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "INTC",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "What Has Changed About Owning Intel Stock?",
-      "headlineKo": "인텔 주식 소유에 있어 무엇이 바뀌었나요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fb0ef93d4a3489af2b50fbdc395a54a92a9ef44ade7e79cd4f95555053812e3f",
-        "publishedAt": 1794829331,
-        "collectedAt": 1795017622.8284826
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "인텔 주식 소유에 있어 무엇이 바뀌었나요?",
-        "| Trefis Trefis 스토리라인 인텔 주식 소유에 있어 무엇이 바뀌었나요?",
-        "2026년 11월 16일 · 작성자 Trefis Team INTC YTD +61.7% SPY YTD +11.5% QQQ YTD +11.1% INTC 분석 → 이 기사 또는 기본 연구에 대한 질문이 있는 경우 help@trefis.com으로 이메일을 보내세요."
-      ],
-      "marketInterpretation": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 61.7%, 11.5%, 11.1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "INTC에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 61.7%, 11.5%, 11.1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "신규 주식 수·행사가격",
-        "조달 자금 사용처",
-        "완전희석 주식수와 EPS"
-      ]
     }
   ],
   "byTicker": {
@@ -17983,8 +17970,7 @@ const EVENT_DATA = {
       "ef5ed92a9caa8b4fe02f",
       "2489aff5a77a8d7d6e80",
       "693192507f8cfed02dba",
-      "3d95f8417013f9999973",
-      "1355dc098be9ec94162e"
+      "3d95f8417013f9999973"
     ],
     "SPY": [
       "6e5c369bc33734004884",
@@ -18079,8 +18065,7 @@ const EVENT_DATA = {
       "3234d7982b41f3acbc8e",
       "2489aff5a77a8d7d6e80",
       "693192507f8cfed02dba",
-      "3d95f8417013f9999973",
-      "1355dc098be9ec94162e"
+      "3d95f8417013f9999973"
     ],
     "INTC": [
       "8ac532ff50300b47baf6",
@@ -18099,8 +18084,7 @@ const EVENT_DATA = {
       "1acf5b9c3899d029370f",
       "1b178a1bf0b95a39e5b7",
       "b027713d6a1cdcc95008",
-      "e9db5583b6bca746d828",
-      "1355dc098be9ec94162e"
+      "e9db5583b6bca746d828"
     ],
     "AMD": [
       "e3f8150a71ea8241a06b",
@@ -18478,6 +18462,9 @@ const EVENT_DATA = {
       "0d9a5005e9ce160eaa85",
       "49f01e62ebf7ae40d028",
       "0e1015f97f442561e12e"
+    ],
+    "MOD": [
+      "c62a7166909cf4037db5"
     ],
     "ANET": [
       "12e819599c268dc63da7",

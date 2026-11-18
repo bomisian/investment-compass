@@ -237,6 +237,60 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+      "summary": "Nvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+      "datetime": 1795028988,
+      "headlineKo": "Nvidia 임시 CEO Kress는 Jensen Huang 퇴사 이후 첫 전체 회의에서 직원들에게 '앞으로 나아가자'라고 말했습니다.",
+      "summaryKo": "Nvidia의 임시 CEO인 Colette Kress는 Jensen Huang이 퇴사한 후 직원들의 발전을 촉구하고 급여 인상을 제안했습니다."
+    },
+    {
+      "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "datetime": 1795028924,
+      "headlineKo": "연준 관계자들은 더 많은 금리 인상을 예상하고 AI가 인플레이션에 미치는 영향에 대해 우려하고 있습니다.",
+      "summaryKo": "연준은 수요일 10월 정책 회의에서 기준 금리를 3.75%~4% 범위에서 유지하기로 투표한 회의록을 발표했습니다."
+    },
+    {
+      "headline": "Nvidia's earnings report had something for the bulls, bears and everyone in between",
+      "summary": "Nvidia's commentary on its buyback and AI ecosystem support was encouraging. But it's not a shock to see the stock down Wednesday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/18/nvidias-earnings-report-had-something-for-the-bulls-bears-and-everyone-in-between.html",
+      "datetime": 1795028859,
+      "headlineKo": "Nvidia의 수익 보고서에는 황소, 곰 및 그 사이의 모든 사람을 위한 내용이 포함되어 있습니다.",
+      "summaryKo": "자사 매입 및 AI 생태계 지원에 대한 Nvidia의 논평은 고무적이었습니다. 그러나 수요일에 주가가 하락하는 것은 놀라운 일이 아닙니다."
+    },
+    {
+      "headline": "Nvidia reverses, metals crash ahead of Anthropic IPO: Options Action Live",
+      "summary": "Big moves have options traders wondering if Anthropic's IPO is spurring a rotation trade.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-reverses-metals-crash-ahead-of-anthropic-ipo-options-action-live.html",
+      "datetime": 1795028222,
+      "headlineKo": "Nvidia가 반전하고 Anthropic IPO를 앞두고 금속이 충돌합니다: 옵션 액션 라이브",
+      "summaryKo": "큰 움직임으로 인해 옵션 거래자들은 Anthropic의 IPO가 순환 거래를 촉진하는지 궁금해합니다."
+    },
+    {
+      "headline": "Democrats nominate Hakeem Jeffries for next US House speaker - Reuters",
+      "summary": "Democrats nominate Hakeem Jeffries for next US House speaker Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFJMeDVVWnRDWmUydUhCQ0lieV9kZjdRc0xKbHA5ZDlMeG1WZ29rTWJpcGxLSE1EZEttb1Vwd2Zrdl8tX0Q1RVNEbGR0OEZqdWxLdnpkZnFBenNBclduTWhENTdhYnY1WXdjZ2RGRTVDMjFPVkpnZnJVZEZ4VngweEtJWTVlakU2ZEtDWUxTMTliZktETXlvcXFXWTFhdU5GeUIyRUxqUkV4aGFX?oc=5",
+      "datetime": 1795027917,
+      "headlineKo": "민주당, 차기 미국 하원 의장으로 하킴 제프리스 지명 - 로이터",
+      "summaryKo": "민주당, 차기 미국 하원 의장으로 하킴 제프리스 지명 - 최신"
+    },
+    {
+      "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+      "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
+      "datetime": 1795025871,
+      "headlineKo": "이스라엘, 가자 중심부 지상작전 개시… 수십명 도주 - 로이터 통신",
+      "summaryKo": "이스라엘, 가자 중심부에서 지상작전 개시, 수십명 탈출 - 로이터"
+    },
+    {
       "headline": "Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China",
       "summary": "Interim CEO Kress sat down with CNBC’s Jim Cramer Tuesday evening shortly after the AI chip giant delivered a quarterly beat and strong guidance.",
       "source": "CNBC",
@@ -255,6 +309,15 @@ const MARKET_DATA = {
       "summaryKo": "엔비디아 스캔들로 인해 거래자들은 애플이 안전하다고 인식한 쪽으로 몰려들었습니다. Mike Khouw는 그렇게 안전하지 않을 수도 있다고 말합니다."
     },
     {
+      "headline": "IAEA chief says planned US-Saudi nuclear deal 'very satisfactory' on inspections - Reuters",
+      "summary": "IAEA chief says planned US-Saudi nuclear deal 'very satisfactory' on inspections Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMzlxSmdSMTR5SXRiTDJwTFUyMmJ2ZTZZN0FhSXg4aGI3YUxhUFNYWnAwLVR6cFR2b2ltY0ZtMzBfa1prLTJmX1p5ekFvQXFKMGZfcEFjS1FKdnlMQ2JEaW5DQnR4Uk5mdm1iaWlPQ2FIaHhFZnMzY3g0RjkzamdvcExHWGVTMXM2S0R4WEl0RUNINi0xb2MxUUQ4V1h5aS1tN1FCTHdCNkRYQVVaa0JPQ0J2eU9WWmJIakhpTGZqMXZhLVEwMk5JWg?oc=5",
+      "datetime": 1795024071,
+      "headlineKo": "IAEA 사무총장, 미국-사우디 핵협상 계획 “사찰에서 매우 만족스럽다” - 로이터",
+      "summaryKo": "IAEA 사무총장, 미국-사우디 핵협상 계획 “사찰에 있어 매우 만족스럽다” - 로이터"
+    },
+    {
       "headline": "Investigators make progress in hunt for cause of FAA ground stop",
       "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
       "source": "CNBC",
@@ -264,13 +327,13 @@ const MARKET_DATA = {
       "summaryKo": "엔지니어와 분석가들은 여전히 ​​문제의 근본 원인을 찾고 있으며, 이로 인해 금요일에 4시간 동안 지상 정지가 이루어졌습니다."
     },
     {
-      "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
-      "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+      "headline": "Threats from Iran have increased substantially, US intelligence director says - Reuters",
+      "summary": "Threats from Iran have increased substantially, US intelligence director says Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
-      "datetime": 1795022434,
-      "headlineKo": "이스라엘, 가자 중심부 지상작전 개시… 수십명 도주 - 로이터 통신",
-      "summaryKo": "이스라엘, 가자 중심부에서 지상작전 개시, 수십명 탈출 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVVIOHhPWnFWVF94TVJ0cTI0YU5hNERTcWNyU0phOVlSejlUbVFmYmkwSlZUNGNHenVpZHlydHpHdW9kWHc2UFF6aXJfQVZYcElYVlFsT0Y1RUV4Wnl2aVloNU1nY196aHRMNmV0NTFhWDhtVFlSV19MTElzZVRpUEJNYkpKcURQLUtFd1JfNlB3cmRvYmtONW1vNzBHTmgtYXhmMnNLNE54c1hpd2dZNi1mSlRnOG8?oc=5",
+      "datetime": 1795021825,
+      "headlineKo": "이란의 위협이 크게 증가했다고 미 정보국장이 밝혔습니다 - 로이터",
+      "summaryKo": "이란의 위협이 크게 증가했다고 미국 정보국장이 밝혔습니다."
     },
     {
       "headline": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
@@ -280,78 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795021373,
       "headlineKo": "포드, 지정학적 긴장 속에 중국 기술 활용해 미국 배터리셀 생산 시작",
       "summaryKo": "포드가 중국 배터리 대기업 CATL의 라이선스 기술을 사용해 차세대 EV용 배터리 셀을 미국에서 생산 및 출하하기 시작했다."
-    },
-    {
-      "headline": "Jim Cramer looks at what turned the market lower and where stocks could go next",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/18/cramer-looks-at-what-turned-the-market-lower-where-stocks-could-go-next.html",
-      "datetime": 1795020882,
-      "headlineKo": "짐 크레이머(Jim Cramer)는 무엇이 시장을 하락시켰는지, 그리고 주식이 다음에는 어디로 갈 수 있는지 살펴봅니다.",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
-    },
-    {
-      "headline": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses - Reuters",
-      "summary": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONTZfWHVZQkZBSHhzWl9pY3ZMUk9HQVhEUmtmckJNcVBYUXFHQ2ZDZF9XUkpESEF2bjM1cjh3S2R6T3N4cG8xeDJCS0NOQ1JLMDRRcFZvUjl0X3YzREVxM1RheFRESF9QekdKTnpFRC1oaW51Mkwwb0w1REYwSngzRjh1VXA1ZVJick5SczdmTjltWExrV0JEeXRVUmVpbDhEQ0lORlAzWGpWaG50UWJFOGpValMzd09jZGhQNQ?oc=5",
-      "datetime": 1795020259,
-      "headlineKo": "민주당은 Lutnick이 Cantor Fitzgerald가 Nvidia와 관련된 손실을 피하도록 도왔는지 조사합니다 - Reuters",
-      "summaryKo": "민주당은 Lutnick이 Cantor Fitzgerald가 Nvidia와 관련된 손실을 피하도록 도왔는지 여부를 조사합니다."
-    },
-    {
-      "headline": "Jeffries wins Democratic House speaker race, on track to make history in January",
-      "summary": "Jeffries will still need to win a floor vote in January to officially become House speaker.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html",
-      "datetime": 1795018491,
-      "headlineKo": "Jeffries는 1월에 역사를 만들 예정인 민주당 하원의장 선거에서 승리했습니다.",
-      "summaryKo": "Jeffries가 공식적으로 하원 의장이 되려면 1월에 투표에서 승리해야 합니다."
-    },
-    {
-      "headline": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say - Reuters",
-      "summary": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkJqT2oyYk82bDFiWGJYTVlhX2hxNWs5NzFWY01GTUZVLV8zbWgycFhsTjhuOEcxUTF4Y1BiTWNxUWp4THZhdjBYVnMxd1lCY0d0YlpIWlltUV9JckxaMG5zSURFaW5VV1hGVnBzcm04TENiQWpjWFVwU211MW9qYTdwbERzX19CQkY4UVNseVFMSERmemJPTGY5bmRScXRmaUNEOGhhbm4yOHVGRmtZLXgyN1VBRnJvVngw?oc=5",
-      "datetime": 1795016779,
-      "headlineKo": "이스라엘 정보국장은 미국 방문 중 이란의 합동 공격을 위해 로비를 했다고 소식통이 전했습니다."
-    },
-    {
-      "headline": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
-      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are expected to hold a rare trilateral meeting on Thursday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
-      "datetime": 1795016501,
-      "headlineKo": "나는 트럼프, 시, 푸틴이 중국에 모이는 것을 지켜보았다. 제가 가장 중요하게 생각하는 내용은 다음과 같습니다.",
-      "summaryKo": "도널드 트럼프 미국 대통령, 시진핑 중국 국가주석, 블라디미르 푸틴 러시아 대통령이 목요일 3자 회담을 가질 예정이다."
-    },
-    {
-      "headline": "IAEA chief says planned US-Saudi nuclear deal 'very satisfactory' on inspections - Reuters",
-      "summary": "IAEA chief says planned US-Saudi nuclear deal 'very satisfactory' on inspections Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMzlxSmdSMTR5SXRiTDJwTFUyMmJ2ZTZZN0FhSXg4aGI3YUxhUFNYWnAwLVR6cFR2b2ltY0ZtMzBfa1prLTJmX1p5ekFvQXFKMGZfcEFjS1FKdnlMQ2JEaW5DQnR4Uk5mdm1iaWlPQ2FIaHhFZnMzY3g0RjkzamdvcExHWGVTMXM2S0R4WEl0RUNINi0xb2MxUUQ4V1h5aS1tN1FCTHdCNkRYQVVaa0JPQ0J2eU9WWmJIakhpTGZqMXZhLVEwMk5JWg?oc=5",
-      "datetime": 1795014845,
-      "headlineKo": "IAEA 사무총장, 미국-사우디 핵협상 계획 “사찰에서 매우 만족스럽다” - 로이터"
-    },
-    {
-      "headline": "Sheinbaum says Mexico-US trade talks 'very far along' after meeting Trump at APEC - Reuters",
-      "summary": "Sheinbaum says Mexico-US trade talks 'very far along' after meeting Trump at APEC Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUtHTXhXeG5haF9PeGN6aWVDRzdwejZOZHNyWmZTTXpKc2Fwa3VsZ0Q1VnZNc3lVSmltbFdzMjQtQ2E1ZGxhZlJjX19yRHVKNmF1QmZ1eEJ3UVh2eW1HUU5qMnctQXp1d1NUNkk4XzJ4TWlibHRPXzZmOWdIdU5fdFo4d2h2M1ZhbHpGNmtGZWdGMTg2bFNGV0Z4MzNDd2syblpaa0NmeHhScmRmb0lR?oc=5",
-      "datetime": 1795014732,
-      "headlineKo": "Sheinbaum은 APEC에서 트럼프를 만난 후 멕시코-미국 무역 협상이 '매우 진행 중'이라고 말했습니다-Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795027117.3158355,
+  "_news_last_success_at": 1795031027.1153903,
   "fgi": {
-    "score": 24.7505791505792,
+    "score": 24.6648648648649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795027096.9384546,
-  "_updated_label": "2026-11-19 03:39",
-  "_last_attempt_at": 1795027096.9384546,
-  "_last_success_at": 1795027096.9384546,
+  "_fetched_at": 1795031011.5908504,
+  "_updated_label": "2026-11-19 04:44",
+  "_last_attempt_at": 1795031011.5908504,
+  "_last_success_at": 1795031011.5908504,
   "_collection_status": "ok",
   "_collection_errors": []
 };

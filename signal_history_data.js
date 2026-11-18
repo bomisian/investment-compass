@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795029067.6433847,
+  "generatedAt": 1795031011.3250968,
   "records": {
     "AAPL": [
       {
@@ -28262,6 +28262,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1795031011.3250968,
+        "dataAsOf": 1795009678,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -2.1,
+            "after": -1.05
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "NVIDIA는 Intel 지분을 삭감했습니다. 인텔은 한 달 만에 40% 하락했습니다. 주식은 어디로 향하고 있나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=95c2c2533957a8a358a2f15975dc3beb623e9cd2699f23e36ac522f7c64bb6db",
+        "eventId": "8ac532ff50300b47baf6",
+        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"8ac532ff50300b47baf6\"}"
+      },
+      {
         "changedAt": 1795018124.5589597,
         "dataAsOf": 1795009678,
         "changes": [
@@ -29773,35 +29790,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=b21cef3ebc0910c73bbe478c66b8c5fd3cb42c32fbdf81fdf94a6eba2cff37fc",
         "eventId": "f7e2a4658d66849aae9d",
         "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -2.98, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"f7e2a4658d66849aae9d\"}"
-      },
-      {
-        "changedAt": 1793600594.7459462,
-        "dataAsOf": 1793591953,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.22,
-            "after": 0.87
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -1.4,
-            "after": -2.98
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.97,
-            "after": -3.5
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "INTC, AMZN, GOOGL 주식은 잔인한 주간 이후 밤새 상승했습니다. Dan Niles는 AI 위험이 거대 기술 수익에 나타나는 것으로 봅니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=30aa5dda2d596d829977f6075669b16b1e52117a6236f79be95fc221a960e4cc",
-        "eventId": "4ff29e520199f7581e30",
-        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -2.98, \"before\": -1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.5, \"before\": -2.97, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"4ff29e520199f7581e30\"}"
       }
     ],
     "KLAC": [
