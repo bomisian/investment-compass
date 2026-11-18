@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794973146.2242281,
+  "generatedAt": 1794975078.703067,
   "events": [
     {
       "id": "147329e6eccdb514e50a",
@@ -4770,7 +4770,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=be93af0f607ee237b0fcf37eb173ca200793dfcb03f971ec9a2781ff14c8b1e9",
         "publishedAt": 1794927148,
-        "collectedAt": 1794952817.889784
+        "collectedAt": 1794975055.4782917
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5153,13 +5153,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a5240ccbfb3c9b1cd517680be0718dc3da5add3c2212db434c3f6843789aec21",
         "publishedAt": 1794925071,
-        "collectedAt": 1794952817.889784
+        "collectedAt": 1794975055.4782917
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Coherent는 미국에서 8% 상승, Applied Optoelectronics는 7% 상승",
         "중국 광학 장비에 대한 억제 조치 추진; Lumentum은 24/7 Wall St.에서 4%를 얻습니다.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,363.80 −0.79% Dow Jones 50,817.40 −1.55% Nasdaq 100 27,183.90 −0.16% Russell 2000 2,709.38 −1.21% S&P 500 7,363.80 −0.79% 다우존스 50,817.40 −1.55% 나스닥 100 27,183.90 −0.16% 러셀 20"
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,360.80 +0.11% Dow Jones 50,821.30 +0.06% Nasdaq 100 27,148.50 +0.30% Russell 2000 2,706.37 −0.04% S&P 500 7,360.80 +0.11% 다우존스 50,821.30 +0.06% 나스닥 100 27,148.50 +0.30% 러셀 20"
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
@@ -5881,6 +5881,76 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "64fc1021b5be4e54fff8",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Forget QQQ: The Company Behind It Runs the Same Index for $30 Less a Year on a $100K Balance",
+      "headlineKo": "QQQ는 잊어라: 그 뒤에 있는 회사는 $100,000 잔고에서 연간 $30 적은 비용으로 동일한 지수를 운영합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=33307d6799513072970cc00ce2d29d1a482bd64c15ca20c16ffc39a8b9f801a2",
+        "publishedAt": 1794921219,
+        "collectedAt": 1794975055.4782917
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "QQQ는 잊어라: 그 뒤에 있는 회사는 $100,000 잔고로 연간 $30 적은 비용으로 동일한 지수를 운영합니다 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,360.80 +0.11% Dow Jones 50,821.30 +0.06% Nasdaq 100 27,148.50 +0.30% Russell 2000 2,706.37 −0.04% S&P 500 7,360.80 +0.11% 다우존스 50,821.30 +0.06% 나스닥 100 27,148.50 +0.30% 러셀 20",
+        "𝕏 f ⧉ 이 게시물에는 후원사 및 제휴사의 링크가 포함될 수 있으며, Flywheel Publishing은 이를 통해 취한 조치에 대해 보상을 받을 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $30, $100, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $30, $100, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
       "id": "a3ffead3ed62dbb8e8fc",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -6041,7 +6111,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2889fa7a98508bc1193068d763898cb033ace990e7fa550a589a86f809d21b65",
         "publishedAt": 1794920492,
-        "collectedAt": 1794952817.889784
+        "collectedAt": 1794975055.4782917
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6295,6 +6365,76 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "SNDK",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "f30888f7d7720d19885d",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "The Nasdaq-100 Is Headed for Its Worst November Since 2008",
+      "headlineKo": "나스닥-100 지수는 2008년 이후 최악의 11월을 향하고 있습니다",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5ed7ccd9ea1a52be1b62604470bcf46ab5496cf83109995a567276ac7925f3a6",
+        "publishedAt": 1794919706,
+        "collectedAt": 1794975055.4782917
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "나스닥-100 지수는 2008년 이후 최악의 11월을 향하고 있습니다 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,360.80 +0.11% Dow Jones 50,821.30 +0.06% Nasdaq 100 27,148.50 +0.30% Russell 2000 2,706.37 −0.04% S&P 500 7,360.80 +0.11% 다우존스 50,821.30 +0.06% 나스닥 100 27,148.50 +0.30% 러셀 20",
+        "조명이 켜진 나스닥 표지판과 거래 화면은 기술 중심 지수가 높은 국채 수익률을 탐색하는 동안에도 역동적인 시장 활동을 반영합니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.11%, 0.06%, 0.30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.11%, 0.06%, 0.30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -7437,7 +7577,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d26de029fe02a97ea745094b67fc6ff4cef2bd1318e3b7ccd087f1e6746e6a47",
         "publishedAt": 1794908437,
-        "collectedAt": 1794952817.889784
+        "collectedAt": 1794975055.4782917
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13211,6 +13351,69 @@ const EVENT_DATA = {
       "earningsEvidence": null
     },
     {
+      "id": "ef5ed92a9caa8b4fe02f",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "NVDA",
+        "QQQ"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
+      "headlineKo": "오늘의 주식 시장: Nvidia가 Jensen Huang 없이 첫 수익을 내면서 Nasdaq-100은 1% 하락했습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=19de83e061863c2f512ed5247a7d0b4e275f0b00268dcedc2772e42470e1dda6",
+        "publishedAt": 1794841090,
+        "collectedAt": 1794975055.4782917
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "오늘의 주식 시장: Nvidia가 Jensen Huang 없이 첫 수익을 내면서 Nasdaq-100은 1% 하락했습니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
+    {
       "id": "2489aff5a77a8d7d6e80",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -13245,7 +13448,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=19de83e061863c2f512ed5247a7d0b4e275f0b00268dcedc2772e42470e1dda6",
         "publishedAt": 1794841090,
-        "collectedAt": 1794952817.889784
+        "collectedAt": 1794975055.4782917
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13539,7 +13742,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3ad731b274c1c63aab6cccd69bfc3d79c80f2956cfa22ef9da581ea1a46dd4e5",
         "publishedAt": 1794839554,
-        "collectedAt": 1794952817.889784
+        "collectedAt": 1794975055.4782917
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15794,7 +15997,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b5fbbf2a52d4b4682074a95f99b6f457c4c18bb96e5b5ee0b46cce7b30c5b8cf",
         "publishedAt": 1794804422,
-        "collectedAt": 1794952817.889784
+        "collectedAt": 1794975055.4782917
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17433,189 +17636,6 @@ const EVENT_DATA = {
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
       ]
-    },
-    {
-      "id": "b5564dafe8efde358a79",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "WDC",
-      "relatedTickers": [
-        "WDC"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Western Digital Stock Gains Fresh Attention After Earnings Beat and AI Storage Demand Strengthens",
-      "headlineKo": "Western Digital 주식은 실적이 좋아지고 AI 스토리지 수요가 강화된 후 새로운 주목을 받습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=74fbaba326deb381dbcf1adee2f91005caf762d77fae8c0a5cd15ff16716bd75",
-        "publishedAt": 1794600433,
-        "collectedAt": 1794972649.086911
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Western Digital 주식은 실적이 좋아지고 AI 스토리지 수요가 강화된 후 새로운 주목을 받습니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "WDC",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "cb6e6934b0feec954a28",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "COHR",
-      "relatedTickers": [
-        "COHR",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "AXTQ 2X Short AXT ETF Surges 15% as AXT Retraces From 147% Year-to-Date Rally; Coherent Drops 8%",
-      "headlineKo": "AXTQ 2X Short AXT ETF는 AXT가 연초 대비 147% 랠리에서 회복되면서 15% 급등합니다. 일관된 드롭 8%",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=baa4debb5bb231c3f00245d0cd0b925b5e079df88f29b2f7d0e6bd67944185d3",
-        "publishedAt": 1794596584,
-        "collectedAt": 1794952817.889784
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AXTQ 2X Short AXT ETF는 AXT가 연초 대비 147% 랠리에서 회복되면서 15% 급등합니다. 일관된 드롭 8% - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 7,512.00 −0.42% Dow Jones 52,265.50 −0.02% Nasdaq 100 27,565.80 −1.02% Russell 2000 2,775.51 −0.37% S&P 500 7,512.00 −0.42% 다우존스 52,265.50 −0.02% 나스닥 100 27,565.80 −1.02% 러셀 20",
-        "𝕏 f ⧉ 이 게시물에는 후원사 및 제휴사의 링크가 포함될 수 있으며, Flywheel Publishing은 이를 통해 취한 조치에 대해 보상을 받을 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 15%, 147%, 8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "COHR에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 15%, 147%, 8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "COHR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
-    },
-    {
-      "id": "7f951137c36c4f57f727",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "AMAT",
-      "relatedTickers": [
-        "AMAT"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "AMAT Q4 Earnings Call Highlights AI Demand and 2027 Growth Outlook",
-      "headlineKo": "AMAT Q4 수익 회의에서 AI 수요와 2027년 성장 전망 강조",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0b37669475ef6d0decd46eaf002bb5265c9be4d2771b5695b0b6c120c1292874",
-        "publishedAt": 1794593640,
-        "collectedAt": 1794972649.086911
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AMAT Q4 수익 회의에서 AI 수요와 2027년 성장 전망 강조"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMAT",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -17677,6 +17697,7 @@ const EVENT_DATA = {
       "b027713d6a1cdcc95008",
       "bf1d71746a67ac3ca8d5",
       "7e71bd83c5fe97735d98",
+      "ef5ed92a9caa8b4fe02f",
       "2489aff5a77a8d7d6e80",
       "f5742506fd714da9c816",
       "85e2e50150dff802d2d8",
@@ -17841,9 +17862,11 @@ const EVENT_DATA = {
       "197b35e1cf6cbf6fff83",
       "92a16a25891301096a0c",
       "5b964c26b657c838351e",
+      "64fc1021b5be4e54fff8",
       "9517e528a8b6d26db4d7",
       "38df75aa8c3388b77a0c",
       "740b6e04a3bd5be5dea9",
+      "f30888f7d7720d19885d",
       "0287be809793f3a44ef8",
       "9360e011cdf86e6c85ad",
       "d878c91a89789128d262",
@@ -17877,6 +17900,7 @@ const EVENT_DATA = {
       "164bee69a3a830ae00cb",
       "9063e7107d7a901d8bcb",
       "3234d7982b41f3acbc8e",
+      "ef5ed92a9caa8b4fe02f",
       "2489aff5a77a8d7d6e80",
       "693192507f8cfed02dba",
       "3d95f8417013f9999973",
@@ -17890,8 +17914,7 @@ const EVENT_DATA = {
       "f77e0df2e77dddd4c998",
       "048bba1084a07c6a0613",
       "61029359415450de3acd",
-      "970425ee8c73d961bcd0",
-      "cb6e6934b0feec954a28"
+      "970425ee8c73d961bcd0"
     ],
     "SPY": [
       "e2c309883ca688cad730",
@@ -17930,9 +17953,11 @@ const EVENT_DATA = {
       "86371e5c73d706ce9df6",
       "92a16a25891301096a0c",
       "5b964c26b657c838351e",
+      "64fc1021b5be4e54fff8",
       "9517e528a8b6d26db4d7",
       "38df75aa8c3388b77a0c",
       "740b6e04a3bd5be5dea9",
+      "f30888f7d7720d19885d",
       "0287be809793f3a44ef8",
       "9360e011cdf86e6c85ad",
       "d878c91a89789128d262",
@@ -17980,8 +18005,7 @@ const EVENT_DATA = {
       "aff754608d162d02fc12",
       "048bba1084a07c6a0613",
       "61029359415450de3acd",
-      "970425ee8c73d961bcd0",
-      "cb6e6934b0feec954a28"
+      "970425ee8c73d961bcd0"
     ],
     "VST": [
       "e2c309883ca688cad730",
@@ -18239,8 +18263,7 @@ const EVENT_DATA = {
       "249199bd812f772b5639",
       "197b35e1cf6cbf6fff83",
       "71d809d4849140850800",
-      "85e2e50150dff802d2d8",
-      "cb6e6934b0feec954a28"
+      "85e2e50150dff802d2d8"
     ],
     "LRCX": [
       "718b19cad3c901695137"
@@ -18256,8 +18279,7 @@ const EVENT_DATA = {
       "e2f836a90a356400a429",
       "b224d5d92f242e6ad732",
       "840c4301082d9d32cab9",
-      "cb5768adb4deab06d036",
-      "7f951137c36c4f57f727"
+      "cb5768adb4deab06d036"
     ],
     "STX": [
       "740b6e04a3bd5be5dea9",
@@ -18268,8 +18290,7 @@ const EVENT_DATA = {
       "cff0a28bf369946b4a8e",
       "693192507f8cfed02dba",
       "f7e9340a8c79bbd3160a",
-      "a96aefb154e89d8bc77d",
-      "b5564dafe8efde358a79"
+      "a96aefb154e89d8bc77d"
     ],
     "EME": [
       "ef2d2bfc10bc9882b99b"
