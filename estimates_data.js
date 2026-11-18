@@ -17482,14 +17482,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 371287851008,
+    "quoteMarketCap": 358536413184,
     "week52High": 250.25,
     "week52Low": 109.21,
     "financialCurrency": "USD",
     "ttmRevenue": 71776002048,
     "ttmNetIncome": 18736001024,
-    "_fetched_at": 1794874234.7710657,
-    "_updated_label": "2026-11-17 09:10",
+    "_fetched_at": 1794965097.0098302,
+    "_updated_label": "2026-11-18 10:24",
     "_history": [
       {
         "date": "2026-08-10",
@@ -18596,6 +18596,18 @@ const ESTIMATES_DATA = {
       {
         "date": "2026-11-17",
         "fetchedAt": 1794874234.7710657,
+        "targetMean": 236.184,
+        "analystCount": 40,
+        "eps0": 8.15047,
+        "endDate0": "2027-05-31",
+        "eps1": 11.05881,
+        "revenue1": 131818007890,
+        "epsGrowth1": 0.3568,
+        "revenueGrowth1": 0.45720002
+      },
+      {
+        "date": "2026-11-18",
+        "fetchedAt": 1794965097.0098302,
         "targetMean": 236.184,
         "analystCount": 40,
         "eps0": 8.15047,
@@ -29130,14 +29142,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 105158631424,
+    "quoteMarketCap": 106057007104,
     "week52High": 799.87,
     "week52Low": 132.43,
     "financialCurrency": "USD",
     "ttmRevenue": 14481999872,
     "ttmNetIncome": 9912999936,
-    "_fetched_at": 1794874234.7710657,
-    "_updated_label": "2026-11-17 09:11",
+    "_fetched_at": 1794965097.0098302,
+    "_updated_label": "2026-11-18 10:24",
     "_history": [
       {
         "date": "2026-08-10",
@@ -30244,6 +30256,18 @@ const ESTIMATES_DATA = {
       {
         "date": "2026-11-17",
         "fetchedAt": 1794874234.7710657,
+        "targetMean": 613.375,
+        "analystCount": 24,
+        "eps0": 24.72477,
+        "endDate0": "2027-06-30",
+        "eps1": 40.40484,
+        "revenue1": 29946586910,
+        "epsGrowth1": 0.6342,
+        "revenueGrowth1": 0.4049
+      },
+      {
+        "date": "2026-11-18",
+        "fetchedAt": 1794965097.0098302,
         "targetMean": 613.375,
         "analystCount": 24,
         "eps0": 24.72477,
