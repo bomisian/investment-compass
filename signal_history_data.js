@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795048655.8416457,
+  "generatedAt": 1795050514.6668744,
   "records": {
     "AAPL": [
       {
