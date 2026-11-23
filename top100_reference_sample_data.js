@@ -6,10 +6,10 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
   "benchmarkNote": "TOP100 유니버스는 섹터 ETF가 지정돼 있지 않아 전부 SPY 대비로 계산함",
   "minSampleForRate": 20,
   "aggregate": {
-    "n": 5,
-    "label": "표본 부족(5개)",
-    "hit_rate": 40.0,
-    "avg_excess": -8.01
+    "n": 7,
+    "label": "표본 부족(7개)",
+    "hit_rate": 42.9,
+    "avg_excess": -4.59
   },
   "rows": [
     {
@@ -56,19 +56,27 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
       "excess": 1.03,
       "hit": true,
       "benchmark": "SPY"
-    }
-  ],
-  "skipped": [
+    },
     {
       "t": "META",
       "d": "2026-10-22",
-      "reason": "20거래일 뒤 데이터 아직 없음"
+      "ret": -8.11,
+      "benchmark_ret": -6.29,
+      "excess": -1.82,
+      "hit": false,
+      "benchmark": "SPY"
     },
     {
       "t": "APH",
       "d": "2026-10-22",
-      "reason": "20거래일 뒤 데이터 아직 없음"
-    },
+      "ret": 3.48,
+      "benchmark_ret": -6.29,
+      "excess": 9.77,
+      "hit": true,
+      "benchmark": "SPY"
+    }
+  ],
+  "skipped": [
     {
       "t": "AMD",
       "d": "2026-11-02",
@@ -112,6 +120,36 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
     {
       "t": "CRWD",
       "d": "2026-11-17",
+      "reason": "20거래일 뒤 데이터 아직 없음"
+    },
+    {
+      "t": "PFE",
+      "d": "2026-11-18",
+      "reason": "20거래일 뒤 데이터 아직 없음"
+    },
+    {
+      "t": "PM",
+      "d": "2026-11-19",
+      "reason": "20거래일 뒤 데이터 아직 없음"
+    },
+    {
+      "t": "DE",
+      "d": "2026-11-19",
+      "reason": "20거래일 뒤 데이터 아직 없음"
+    },
+    {
+      "t": "MSFT",
+      "d": "2026-11-20",
+      "reason": "20거래일 뒤 데이터 아직 없음"
+    },
+    {
+      "t": "TXN",
+      "d": "2026-11-20",
+      "reason": "20거래일 뒤 데이터 아직 없음"
+    },
+    {
+      "t": "CRWD",
+      "d": "2026-11-23",
       "reason": "20거래일 뒤 데이터 아직 없음"
     }
   ]

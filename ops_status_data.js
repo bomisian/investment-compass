@@ -1,24 +1,24 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-18T07:35:42+09:00",
+  "generatedAt": "2026-11-23T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
-      "status": "green",
+      "status": "red",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-18 07:32"
+      "detail": "기록 없음(한 번도 성공한 적 없음)"
     },
     {
       "key": "public_verify",
-      "status": "green",
+      "status": "red",
       "label": "공개 페이지 일치",
-      "detail": "matched"
+      "detail": "None (matched 기록 없음)"
     },
     {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 3분 전부터)"
+      "detail": "대기 중(다음 주기, 10분 전부터)"
     },
     {
       "key": "loop_count",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-11-17 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-20 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-18 07:32 생성 → 거래일 2026-11-17 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-23 07:24 생성 → 거래일 2026-11-20 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 34일째(기준 14일)"
+      "detail": "COHR 39일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -76,9 +76,9 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "smart_money_quarter_auto",
-      "status": "red",
+      "status": "green",
       "label": "13F 자동 수집 실행",
-      "detail": "2026-11-18 실행 실패: 110_collect 실패(rc=3): 다른 110 실행이 진행 중 -- 이번 실행 건너뜀"
+      "detail": "2026-11-21 정상 실행됨(성공 시각 2026-11-21T09:58:24.193121+09:00)"
     },
     {
       "key": "evidence_10q_crosscheck",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(26일), FIX(27일), BE(27일), HUBB(22일), STX(22일), GEV(21일), HUBB(21일), VRT(21일), MSFT(21일), GOOGL(21일), KLAC(21일), VRT(21일), GOOGL(20일), PWR(20일), EME(20일), AMZN(20일), INTC(20일), KLAC(20일), SNDK(20일), STX(20일), AMZN(19일), INTC(19일), SNDK(19일), MRVL(16일), LITE(16일), AAPL(16일), PLTR(16일), PLTR(15일), AAPL(15일), ETN(15일), AMD(15일), ANET(15일), LITE(15일), MOD(15일), AMD(14일), ANET(14일), MOD(14일), QCOM(14일), ARM(14일), COHR(14일), EME(20일), VST(12일), CEG(9일), VST(9일), CEG(9일), TSM(8일), TSM(6일), TSM(5일), AMAT(6일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(31일), FIX(32일), BE(32일), HUBB(27일), STX(27일), GEV(26일), HUBB(26일), VRT(26일), MSFT(26일), GOOGL(26일), KLAC(26일), VRT(26일), GOOGL(25일), PWR(25일), EME(25일), AMZN(25일), INTC(25일), KLAC(25일), SNDK(25일), STX(25일), AMZN(24일), INTC(24일), SNDK(24일), MRVL(21일), LITE(21일), AAPL(21일), PLTR(21일), PLTR(20일), AAPL(20일), ETN(20일), AMD(20일), ANET(20일), LITE(20일), MOD(20일), AMD(19일), ANET(19일), MOD(19일), QCOM(19일), ARM(19일), COHR(19일), EME(25일), VST(17일), CEG(14일), VST(14일), CEG(14일), TSM(13일), TSM(11일), TSM(10일), AMAT(11일), NVDA(6일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -100,45 +100,45 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "quarterly_cashflow_gap",
-      "status": "green",
+      "status": "yellow",
       "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
-      "detail": "비어 있음(아직 기다리는 중): AMAT Q4'26(2026-11-15부터 2거래일)"
+      "detail": "3거래일 넘게 빈 종목: AMAT Q4'26(ocf·capex·fcf 없음, 2026-11-15부터 5거래일)"
     },
     {
       "key": "ttm_eps_rule",
       "status": "yellow",
       "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
-      "detail": "분기 합 32종목 · 기존 값·없음 7종목 · 적정가 변화 9종목 / 자동 복귀(검증 미완): ASML"
+      "detail": "분기 합 32종목 · 기존 값·없음 7종목 · 적정가 변화 10종목 / 자동 복귀(검증 미완): ASML"
     },
     {
       "key": "earnings_reflection",
       "status": "yellow",
       "label": "실적 반영 상태(가격지도)",
-      "detail": "가격지도 반영 대기 2종목: AMAT(11/12 발표, 최신 2026-12-31 / 반영 2026-10-31), MRVL(11/02 발표, 최신 2026-09-30 / 반영 2026-08-01)"
+      "detail": "가격지도 반영 대기 3종목: AMAT(11/12 발표, 최신 2026-12-31 / 반영 2026-10-31), NVDA(11/17 발표, 최신 2026-12-31 / 반영 2026-07-26), MRVL(11/02 발표, 최신 2026-09-30 / 반영 2026-08-01) / EPS 컨센서스가 발표 전 추정치 1종목: NVDA"
     },
     {
       "key": "wacc_roic",
       "status": "green",
       "label": "자본 효율(ROIC·WACC) 계산",
-      "detail": "계산 33/39종목 · 계산 불가 0종목 · 10년물 5.12%(2026-11-16, fresh) · 생성 2026-11-18T06:29"
+      "detail": "계산 33/39종목 · 계산 불가 0종목 · 10년물 5.1%(2026-11-17, fresh) · 생성 2026-11-19T06:22"
     },
     {
       "key": "required_tools",
       "status": "green",
       "label": "필수 실행 파일(git·node)",
-      "detail": "git C:\\Program Files\\Git\\cmd\\git.exe, node C:\\Program Files\\nodejs\\node.exe"
+      "detail": "git C:\\Program Files\\Git\\cmd\\git.EXE, node C:\\Program Files\\nodejs\\node.EXE"
     },
     {
       "key": "price_map_daily_run",
-      "status": "green",
+      "status": "yellow",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-11-17(기대 2026-11-17, 실행 2026-11-18 06:29:02)"
+      "detail": "마지막 성공 세션 2026-11-18(기대 2026-11-20, 2거래일 뒤처짐) / 39종목 확정 봉 준비됨(엔진 실행 실패 가능 - buy_signal.log 확인)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-18 07:32 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-23 07:24 KST 정상 갱신(실패 0개)"
     }
   ]
 };

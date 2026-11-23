@@ -1,241 +1,241 @@
 // earnings_evidence_watch.py가 자동 생성 - 직접 수정하지 마세요.
 const EVIDENCE_REVIEW_QUEUE_STATUS = {
   "META": {
-    "pendingDays": 28,
+    "pendingDays": 33,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "TSLA": {
-    "pendingDays": 28,
+    "pendingDays": 33,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "LRCX": {
-    "pendingDays": 28,
+    "pendingDays": 33,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "WDC": {
-    "pendingDays": 27,
+    "pendingDays": 32,
     "form": "10-Q",
     "filingDate": "2026-10-23",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "FIX": {
-    "pendingDays": 28,
+    "pendingDays": 33,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "BE": {
-    "pendingDays": 28,
+    "pendingDays": 33,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "HUBB": {
-    "pendingDays": 23,
+    "pendingDays": 28,
     "form": "8-K",
     "filingDate": "2026-10-27",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "STX": {
-    "pendingDays": 23,
+    "pendingDays": 28,
     "form": "8-K",
     "filingDate": "2026-10-27",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "GEV": {
-    "pendingDays": 22,
+    "pendingDays": 27,
     "form": "10-Q",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "VRT": {
-    "pendingDays": 22,
+    "pendingDays": 27,
     "form": "8-K",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "MSFT": {
-    "pendingDays": 22,
+    "pendingDays": 27,
     "form": "10-Q",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "GOOGL": {
-    "pendingDays": 22,
+    "pendingDays": 27,
     "form": "8-K",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "KLAC": {
-    "pendingDays": 22,
+    "pendingDays": 27,
     "form": "8-K",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "PWR": {
-    "pendingDays": 21,
+    "pendingDays": 26,
     "form": "10-Q",
     "filingDate": "2026-10-29",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "EME": {
-    "pendingDays": 21,
+    "pendingDays": 26,
     "form": "8-K",
     "filingDate": "2026-10-29",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "AMZN": {
-    "pendingDays": 21,
+    "pendingDays": 26,
     "form": "8-K",
     "filingDate": "2026-10-29",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "INTC": {
-    "pendingDays": 21,
+    "pendingDays": 26,
     "form": "8-K",
     "filingDate": "2026-10-29",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "SNDK": {
-    "pendingDays": 21,
+    "pendingDays": 26,
     "form": "8-K",
     "filingDate": "2026-10-29",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "MRVL": {
-    "pendingDays": 17,
+    "pendingDays": 22,
     "form": "8-K",
     "filingDate": "2026-11-02",
     "level": "danger",
     "confidenceLevel": "confirmed"
   },
   "LITE": {
-    "pendingDays": 17,
+    "pendingDays": 22,
     "form": "8-K",
     "filingDate": "2026-11-02",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "AAPL": {
-    "pendingDays": 17,
+    "pendingDays": 22,
     "form": "8-K",
     "filingDate": "2026-11-02",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "PLTR": {
-    "pendingDays": 17,
+    "pendingDays": 22,
     "form": "8-K",
     "filingDate": "2026-11-02",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "ETN": {
-    "pendingDays": 16,
+    "pendingDays": 21,
     "form": "10-Q",
     "filingDate": "2026-11-03",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "AMD": {
-    "pendingDays": 16,
+    "pendingDays": 21,
     "form": "8-K",
     "filingDate": "2026-11-03",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "ANET": {
-    "pendingDays": 16,
+    "pendingDays": 21,
     "form": "8-K",
     "filingDate": "2026-11-03",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "MOD": {
-    "pendingDays": 16,
+    "pendingDays": 21,
     "form": "8-K",
     "filingDate": "2026-11-03",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "QCOM": {
-    "pendingDays": 15,
+    "pendingDays": 20,
     "form": "10-K",
     "filingDate": "2026-11-04",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "ARM": {
-    "pendingDays": 15,
+    "pendingDays": 20,
     "form": "6-K",
     "filingDate": "2026-11-04",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "COHR": {
-    "pendingDays": 15,
+    "pendingDays": 20,
     "form": "10-Q",
     "filingDate": "2026-11-04",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "VST": {
-    "pendingDays": 13,
+    "pendingDays": 18,
     "form": "8-K",
     "filingDate": "2026-11-06",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "CEG": {
-    "pendingDays": 10,
+    "pendingDays": 15,
     "form": "8-K",
     "filingDate": "2026-11-09",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "TSM": {
-    "pendingDays": 9,
+    "pendingDays": 14,
     "form": "6-K",
     "filingDate": "2026-11-10",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "AMAT": {
-    "pendingDays": 7,
+    "pendingDays": 12,
     "form": "8-K",
     "filingDate": "2026-11-12",
     "level": "danger",
     "confidenceLevel": "confirmed"
   },
   "NVDA": {
-    "pendingDays": 2,
+    "pendingDays": 7,
     "form": "8-K",
     "filingDate": "2026-11-17",
-    "level": "ok",
+    "level": "danger",
     "confidenceLevel": "confirmed"
   }
 };
