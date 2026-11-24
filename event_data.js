@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795479479.1104872,
+  "generatedAt": 1795481380.407248,
   "events": [
     {
       "id": "258e36566a341d9f2809",
@@ -9133,7 +9133,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526470750/d115240d424b2.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795459693.909188
+        "collectedAt": 1795481355.773649
       },
       "confirmedFacts": [
         "GOOGL가 2026-11-23에 SEC Form 424B2을 제출했습니다.",
@@ -9171,6 +9171,70 @@ const EVENT_DATA = {
       "earningsEvidence": null
     },
     {
+      "id": "0a5d383237927568a76a",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "META",
+      "relatedTickers": [
+        "META"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "META SEC Form 8-K filed",
+      "headlineKo": "META SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+        "publishedAt": 1795359600.0,
+        "collectedAt": 1795481355.773649
+      },
+      "confirmedFacts": [
+        "META가 2026-11-23에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 기타 중요 사건"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "META",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
       "id": "11a0a2ce868176d89e3c",
       "schemaVersion": 1,
       "eventType": "official_filing",
@@ -9197,7 +9261,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795459693.909188
+        "collectedAt": 1795481355.773649
       },
       "confirmedFacts": [
         "NVDA가 2026-11-23에 SEC Form 8-K을 제출했습니다.",
@@ -9235,6 +9299,70 @@ const EVENT_DATA = {
       "earningsEvidence": null
     },
     {
+      "id": "dab44a3c6abe8d194f5d",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMD SEC Form S-3ASR filed",
+      "headlineKo": "AMD SEC Form S-3ASR 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526472370/d171551ds3asr.htm",
+        "publishedAt": 1795359600.0,
+        "collectedAt": 1795481355.773649
+      },
+      "confirmedFacts": [
+        "AMD가 2026-11-23에 SEC Form S-3ASR을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ],
+      "earningsEvidence": null
+    },
+    {
       "id": "7d458da24a0f54e25621",
       "schemaVersion": 1,
       "eventType": "official_filing",
@@ -9261,7 +9389,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000155/arm-20261123.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795459693.909188
+        "collectedAt": 1795481355.773649
       },
       "confirmedFacts": [
         "ARM가 2026-11-23에 SEC Form 6-K을 제출했습니다."
@@ -9285,6 +9413,70 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "ARM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "7dd04fac10d68616d345",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "LITE",
+      "relatedTickers": [
+        "LITE"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "LITE SEC Form 8-K filed",
+      "headlineKo": "LITE SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026075535/lite-20261118.htm",
+        "publishedAt": 1795359600.0,
+        "collectedAt": 1795481355.773649
+      },
+      "confirmedFacts": [
+        "LITE가 2026-11-23에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "LITE",
           "direction": "중립·원문 확인",
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
           "basis": "official_filing"
@@ -18238,216 +18430,6 @@ const EVENT_DATA = {
         "재고와 리드타임",
         "매출총이익률·대체 공급처"
       ]
-    },
-    {
-      "id": "6d8d0ff53953e1da96a6",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "BE",
-      "relatedTickers": [
-        "BE",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Where Will Bloom Energy Stock Be in 5 Years After More Than Doubling Its Revenue in 2026?",
-      "headlineKo": "2026년 수익이 두 배 이상 증가한 Bloom Energy 주식은 5년 후에 어디에 있을까요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=da775b31c4332e89b14c101f628f7425bf20225f2aec031bdbb7eae830612813",
-        "publishedAt": 1795198982,
-        "collectedAt": 1795475182.7546952
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "2026년 수익이 두 배 이상 증가한 Bloom Energy 주식은 5년 후에 어디에 있을까요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,237.17 +4.7% +326.78 DJI 49,595.31 +3.0% +1,447.98 NASDAQ 24,089.56 +6.5% +1,471.82 비트코인 $61,321.00 +0.9% +$518.05 개미 $87.64 -",
-        "단기적인 역풍에 직면해 있지만 핵심 사업은 여전히 ​​빠르게 성장하고 있습니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 18.09%, 530%, 40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "BE에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 18.09%, 530%, 40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "BE",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
-    },
-    {
-      "id": "89a935e6c23818dcdc96",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "WDC",
-      "relatedTickers": [
-        "QQQ",
-        "SPY",
-        "WDC"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Western Digital Cratered 40% in The Last 3 Months: This Wall Street Desk Now Predicts 200% Returns After Raising Its Target Price",
-      "headlineKo": "Western Digital은 지난 3개월 동안 40% 폭락했습니다: 이 월스트리트 데스크는 이제 목표 가격을 올린 후 200% 수익률을 예측합니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c01e95c28d4a617f84058cb5caee04346482b1ab87824f9ace9b2459ffb81136",
-        "publishedAt": 1795196709,
-        "collectedAt": 1795475182.7546952
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Western Digital은 지난 3개월 동안 40% 하락했습니다: 이 월스트리트 데스크는 이제 목표 가격을 올린 후 200% 수익률을 예측합니다. - 연중무휴 Wall St.",
-        "내용으로 건너뛰기 ❚❚ ● 시장 개시 종료 시 S&P 500 6,954.60 −3.00% Dow Jones 48,350.30 −1.47% Nasdaq 100 25,237.50 −4.63% Russell 2000 2,594.94 −2.25% S&P 500 6,954.60 −3.00% 다우존스 48,350.30 −1.47% 나스닥 100 25,237.50 −4.63% 러셀 20",
-        "Western Digital 본사의 현대적인 유리 외관은 AI 기반 HDD 업사이클을 탐색하는 회사의 미래지향적 접근 방식을 상징합니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 40%, 200%, $296.78. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "WDC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 40%, 200%, $296.78. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "WDC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
-    },
-    {
-      "id": "c136a914f3e7874e34d3",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "AVGO",
-      "relatedTickers": [
-        "AVGO",
-        "GOOGL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Google",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Broadcom",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Broadcom Stock Falls on Report Google is Cutting AI Chip Shipments",
-      "headlineKo": "구글이 AI 칩 출하량을 줄인다는 보도에 브로드컴 주가 하락",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3157e07af65287d2509805cb5c44baab956baaba35c354de8f7772dc8621cfe1",
-        "publishedAt": 1795196520,
-        "collectedAt": 1795475182.7546952
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "구글이 AI 칩 출하량을 줄인다는 보도에 브로드컴 주가 하락"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AVGO",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -18479,6 +18461,7 @@ const EVENT_DATA = {
       "fbd5efc6fce7cf759278",
       "aec95c1b2034bc883350",
       "10a6ec54f789f7190db1",
+      "dab44a3c6abe8d194f5d",
       "163147465d94844b33a9",
       "0a78832667281ffdeb3b",
       "eb15f59b2782add68333",
@@ -18514,8 +18497,7 @@ const EVENT_DATA = {
       "bc6b7c208e9388993415",
       "07944397c849bea54dcf",
       "3523708765ba42da2302",
-      "8a60f957881b0bad3f13",
-      "c136a914f3e7874e34d3"
+      "8a60f957881b0bad3f13"
     ],
     "GOOGL": [
       "258e36566a341d9f2809",
@@ -18542,8 +18524,7 @@ const EVENT_DATA = {
       "3c93a19e101f7d64d7a9",
       "8c57a206ad859008e31e",
       "493999a91707463f8f25",
-      "8a60f957881b0bad3f13",
-      "c136a914f3e7874e34d3"
+      "8a60f957881b0bad3f13"
     ],
     "NVDA": [
       "258e36566a341d9f2809",
@@ -18721,9 +18702,7 @@ const EVENT_DATA = {
       "9a50c8f18c3977bbb9ec",
       "89448f45e3df805523da",
       "97b9cb82a89f4050bd4f",
-      "f16cfa4f386459d3b715",
-      "6d8d0ff53953e1da96a6",
-      "89a935e6c23818dcdc96"
+      "f16cfa4f386459d3b715"
     ],
     "SPY": [
       "0cf240775a02b01bf665",
@@ -18820,13 +18799,12 @@ const EVENT_DATA = {
       "9a50c8f18c3977bbb9ec",
       "89448f45e3df805523da",
       "97b9cb82a89f4050bd4f",
-      "f16cfa4f386459d3b715",
-      "6d8d0ff53953e1da96a6",
-      "89a935e6c23818dcdc96"
+      "f16cfa4f386459d3b715"
     ],
     "LITE": [
       "7588fd253560da6fad46",
       "9b6aaca90f0449b539d5",
+      "7dd04fac10d68616d345",
       "c491cd5f4b24e52e013f",
       "9ea4d6ec078f9dd6a7bf",
       "f74c51300d9c9ffa555e",
@@ -18968,6 +18946,7 @@ const EVENT_DATA = {
       "7bd6fcb5e235b88e1dd4",
       "30de52d1978f44c69aad",
       "737b7926a21991a9030f",
+      "0a5d383237927568a76a",
       "b6457d9c29e47b07c9a6",
       "ac28efdbd83d2f8fef5b",
       "879839b274822abd4208",
@@ -19143,12 +19122,10 @@ const EVENT_DATA = {
     "WDC": [
       "72a7383b657d47df8219",
       "d38e0ba461b7030468c6",
-      "1b804a69ee0c9e5b3eb6",
-      "89a935e6c23818dcdc96"
+      "1b804a69ee0c9e5b3eb6"
     ],
     "BE": [
-      "66ae34bd29109b42b389",
-      "6d8d0ff53953e1da96a6"
+      "66ae34bd29109b42b389"
     ],
     "CEG": [
       "8e52a59b450e5e876c75"
