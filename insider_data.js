@@ -4,13 +4,13 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "MSFT": {
     "transactions": [
@@ -175,8 +175,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "GOOGL": {
     "transactions": [
@@ -213,8 +213,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "AMZN": {
     "transactions": [
@@ -283,8 +283,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "META": {
     "transactions": [
@@ -629,8 +629,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "ORCL": {
     "transactions": [
@@ -697,11 +697,123 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "PLTR": {
     "transactions": [
+      {
+        "name": "Sankar Shyam",
+        "share": 2659,
+        "transactionPrice": 166.7005,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 18142,
+        "transactionPrice": 165.8477,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 19050,
+        "transactionPrice": 164.9207,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 5778,
+        "transactionPrice": 163.6374,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 32070,
+        "transactionPrice": 162.9946,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 39534,
+        "transactionPrice": 161.8085,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 58718,
+        "transactionPrice": 160.839,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 19043,
+        "transactionPrice": 159.9064,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 7100,
+        "transactionPrice": 158.8228,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 8200,
+        "transactionPrice": 157.7887,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 7802,
+        "transactionPrice": 156.7365,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 19000,
+        "transactionPrice": 155.7193,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 24648,
+        "transactionPrice": 154.8525,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Sankar Shyam",
+        "share": 38256,
+        "transactionPrice": 153.828,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
       {
         "name": "Moore Alexander D.",
         "share": 191,
@@ -749,125 +861,109 @@ const INSIDER_DATA = {
         "transactionDate": "2026-11-13",
         "filingDate": "2026-11-17",
         "code": "S"
-      },
-      {
-        "name": "Moore Alexander D.",
-        "share": 1602,
-        "transactionPrice": 165.5718,
-        "transactionDate": "2026-11-13",
-        "filingDate": "2026-11-17",
-        "code": "S"
-      },
-      {
-        "name": "Sankar Shyam",
-        "share": 84680,
-        "transactionPrice": 175.0701,
-        "transactionDate": "2026-11-11",
-        "filingDate": "2026-11-13",
-        "code": "S"
-      },
-      {
-        "name": "Sankar Shyam",
-        "share": 300,
-        "transactionPrice": 169.29,
-        "transactionDate": "2026-11-10",
-        "filingDate": "2026-11-13",
-        "code": "S"
-      },
-      {
-        "name": "Sankar Shyam",
-        "share": 64685,
-        "transactionPrice": 168.5672,
-        "transactionDate": "2026-11-10",
-        "filingDate": "2026-11-13",
-        "code": "S"
-      },
-      {
-        "name": "Sankar Shyam",
-        "share": 92847,
-        "transactionPrice": 167.5265,
-        "transactionDate": "2026-11-10",
-        "filingDate": "2026-11-13",
-        "code": "S"
-      },
-      {
-        "name": "Sankar Shyam",
-        "share": 64178,
-        "transactionPrice": 166.566,
-        "transactionDate": "2026-11-10",
-        "filingDate": "2026-11-13",
-        "code": "S"
-      },
-      {
-        "name": "Sankar Shyam",
-        "share": 58790,
-        "transactionPrice": 165.7614,
-        "transactionDate": "2026-11-10",
-        "filingDate": "2026-11-13",
-        "code": "S"
-      },
-      {
-        "name": "Sankar Shyam",
-        "share": 19200,
-        "transactionPrice": 164.8119,
-        "transactionDate": "2026-11-10",
-        "filingDate": "2026-11-13",
-        "code": "S"
-      },
-      {
-        "name": "Stat Lauren Elaina Friedman",
-        "share": 1358,
-        "transactionPrice": 186.29,
-        "transactionDate": "2026-11-02",
-        "filingDate": "2026-11-04",
-        "code": "S"
-      },
-      {
-        "name": "Woersching Eric H.",
-        "share": 1000,
-        "transactionPrice": 205,
-        "transactionDate": "2026-10-09",
-        "filingDate": "2026-10-14",
-        "code": "S"
-      },
-      {
-        "name": "Stat Lauren Elaina Friedman",
-        "share": 5026,
-        "transactionPrice": 199,
-        "transactionDate": "2026-10-08",
-        "filingDate": "2026-10-13",
-        "code": "S"
-      },
-      {
-        "name": "Taylor Ryan D.",
-        "share": 18000,
-        "transactionPrice": 201.15,
-        "transactionDate": "2026-10-08",
-        "filingDate": "2026-10-13",
-        "code": "S"
-      },
-      {
-        "name": "Stat Lauren Elaina Friedman",
-        "share": 1337,
-        "transactionPrice": 189.95,
-        "transactionDate": "2026-10-01",
-        "filingDate": "2026-10-05",
-        "code": "S"
-      },
-      {
-        "name": "Moore Alexander D.",
-        "share": 510,
-        "transactionPrice": 176.1055,
-        "transactionDate": "2026-09-15",
-        "filingDate": "2026-09-17",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "NVDA": {
     "transactions": [
+      {
+        "name": "Teter Timothy S.",
+        "share": 1410,
+        "transactionPrice": 157.4947,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 2383,
+        "transactionPrice": 156.7099,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 2312,
+        "transactionPrice": 155.5607,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 1459,
+        "transactionPrice": 154.5982,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 2971,
+        "transactionPrice": 153.3654,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 4104,
+        "transactionPrice": 152.6977,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 930,
+        "transactionPrice": 151.7508,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 1160,
+        "transactionPrice": 150.4106,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 2760,
+        "transactionPrice": 149.3466,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 4860,
+        "transactionPrice": 148.4804,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 4217,
+        "transactionPrice": 147.2413,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
+      {
+        "name": "Teter Timothy S.",
+        "share": 1434,
+        "transactionPrice": 146.0298,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
       {
         "name": "Teter Timothy S.",
         "share": 4499,
@@ -931,106 +1027,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-09-17",
         "filingDate": "2026-09-18",
         "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 4611,
-        "transactionPrice": 234.0043,
-        "transactionDate": "2026-09-04",
-        "filingDate": "2026-09-08",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 182628,
-        "transactionPrice": 233.4615,
-        "transactionDate": "2026-09-04",
-        "filingDate": "2026-09-08",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 237820,
-        "transactionPrice": 231.1677,
-        "transactionDate": "2026-09-04",
-        "filingDate": "2026-09-08",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 197180,
-        "transactionPrice": 230.4039,
-        "transactionDate": "2026-09-04",
-        "filingDate": "2026-09-08",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 200000,
-        "transactionPrice": 229.8705,
-        "transactionDate": "2026-09-03",
-        "filingDate": "2026-09-08",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 1293,
-        "transactionPrice": 228.2703,
-        "transactionDate": "2026-09-03",
-        "filingDate": "2026-09-08",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 198707,
-        "transactionPrice": 227.6954,
-        "transactionDate": "2026-09-03",
-        "filingDate": "2026-09-08",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 300000,
-        "transactionPrice": 226.2704,
-        "transactionDate": "2026-09-02",
-        "filingDate": "2026-09-02",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 300000,
-        "transactionPrice": 224.0715,
-        "transactionDate": "2026-09-02",
-        "filingDate": "2026-09-02",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 300000,
-        "transactionPrice": 222.9204,
-        "transactionDate": "2026-09-02",
-        "filingDate": "2026-09-02",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 300000,
-        "transactionPrice": 220.0761,
-        "transactionDate": "2026-09-02",
-        "filingDate": "2026-09-02",
-        "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 63501,
-        "transactionPrice": 220.0589,
-        "transactionDate": "2026-09-01",
-        "filingDate": "2026-09-02",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "AMD": {
     "transactions": [
@@ -1195,8 +1195,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "AVGO": {
     "transactions": [
@@ -1329,11 +1329,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "QCOM": {
     "transactions": [
+      {
+        "name": "Grech Patricia Y",
+        "share": 628,
+        "transactionPrice": 163.19,
+        "transactionDate": "2026-11-23",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
       {
         "name": "Palkhiwala Akash J.",
         "share": 12,
@@ -1485,21 +1493,21 @@ const INSIDER_DATA = {
         "transactionDate": "2026-10-16",
         "filingDate": "2026-10-16",
         "code": "S"
-      },
-      {
-        "name": "Grech Patricia Y",
-        "share": 98,
-        "transactionPrice": 186.55,
-        "transactionDate": "2026-10-02",
-        "filingDate": "2026-10-02",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "ARM": {
     "transactions": [
+      {
+        "name": "Child Jason",
+        "share": 10400,
+        "transactionPrice": 189.73,
+        "transactionDate": "2026-11-19",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
       {
         "name": "Grisenthwaite Richard Roy",
         "share": 5762,
@@ -1525,8 +1533,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "MRVL": {
     "transactions": [
@@ -1880,8 +1888,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "KLAC": {
     "transactions": [
@@ -1902,8 +1910,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "MU": {
     "transactions": [
@@ -2068,8 +2076,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "SNDK": {
     "transactions": [
@@ -2234,11 +2242,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "WDC": {
     "transactions": [
+      {
+        "name": "Tregillis Cynthia L",
+        "share": 684,
+        "transactionPrice": 302.47,
+        "transactionDate": "2026-11-23",
+        "filingDate": "2026-11-23",
+        "code": "S"
+      },
       {
         "name": "Tan Irving",
         "share": 3124,
@@ -2390,18 +2406,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-10-29",
         "filingDate": "2026-10-30",
         "code": "S"
-      },
-      {
-        "name": "Tregillis Cynthia L",
-        "share": 807,
-        "transactionPrice": 380,
-        "transactionDate": "2026-10-21",
-        "filingDate": "2026-10-22",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "ANET": {
     "transactions": [
@@ -2566,8 +2574,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "COHR": {
     "transactions": [
@@ -2644,8 +2652,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "LITE": {
     "transactions": [
@@ -2810,18 +2818,18 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "CEG": {
     "transactions": [],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "VST": {
     "transactions": [
@@ -2890,11 +2898,27 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "ETN": {
     "transactions": [
+      {
+        "name": "RUIZ STERNADT PAULO",
+        "share": 300,
+        "transactionPrice": 322.63,
+        "transactionDate": "2026-11-20",
+        "filingDate": "2026-11-23",
+        "code": "P"
+      },
+      {
+        "name": "Foster David B",
+        "share": 150,
+        "transactionPrice": 323.6,
+        "transactionDate": "2026-11-20",
+        "filingDate": "2026-11-23",
+        "code": "P"
+      },
       {
         "name": "Johnson Gerald",
         "share": 300,
@@ -2912,18 +2936,18 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "HUBB": {
     "transactions": [],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "VRT": {
     "transactions": [
@@ -2992,8 +3016,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "MOD": {
     "transactions": [
@@ -3006,8 +3030,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "STX": {
     "transactions": [
@@ -3172,8 +3196,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "EME": {
     "transactions": [],
@@ -3181,18 +3205,9 @@ const INSIDER_DATA = {
     "_updated_label": "2026-11-24"
   },
   "FIX": {
-    "transactions": [
-      {
-        "name": "Lane Brian E.",
-        "share": 16024,
-        "transactionPrice": 1608.2079,
-        "transactionDate": "2026-08-26",
-        "filingDate": "2026-08-27",
-        "code": "S"
-      }
-    ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "transactions": [],
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   },
   "BE": {
     "transactions": [
@@ -3277,7 +3292,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795518250.2309318,
-    "_updated_label": "2026-11-24"
+    "_fetched_at": 1795590810.3317351,
+    "_updated_label": "2026-11-25"
   }
 };
