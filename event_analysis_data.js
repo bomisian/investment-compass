@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795612080.3091931,
+  "generatedAt": 1795612187.7039156,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795535101,
       "signal": "우호적 변화",
       "netScore": 4.55,
@@ -172,7 +172,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795600108,
       "signal": "주의 강화",
       "netScore": -3.91,
@@ -387,7 +387,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795575357,
       "signal": "중립·확인 대기",
       "netScore": 0.69,
@@ -593,7 +593,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795568646,
       "signal": "주의 강화",
       "netScore": -9.51,
@@ -759,11 +759,11 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1795612080.3091931,
-      "dataAsOf": 1795579819,
-      "signal": "주의 강화",
-      "netScore": -2.59,
-      "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
+      "updatedAt": 1795612187.7039156,
+      "dataAsOf": 1795531260,
+      "signal": "중립·확인 대기",
+      "netScore": -0.7,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -772,8 +772,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.7,
-          "level": "중립"
+          "score": 1.22,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -792,13 +792,13 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.62,
+          "score": -1.57,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -1.05,
-          "level": "주의"
+          "score": -0.52,
+          "level": "중립"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -807,20 +807,6 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
-        {
-          "eventId": "c1334bb82828e86660b1",
-          "headline": "TSMC: 저렴한 가격으로 AI Kingmaker 거래",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1795579819,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e18527b6ab2a9b1b063c442439d4a928d39227e425adf1015cc4e2b4e709c9da",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
-        },
         {
           "eventId": "ece45c107007ce09c442",
           "headline": "글로벌 신경 프로세서 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | NVIDIA, Apple, Alphabet 및 Intel Accelerate Edge AI로 CAGR 22.2% 활용",
@@ -892,12 +878,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 6,
+      "unverifiedEvidenceCount": 5,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795553995,
       "signal": "주의 강화",
       "netScore": -4.69,
@@ -1008,7 +994,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795589778,
       "signal": "중립·확인 대기",
       "netScore": -0.78,
@@ -1162,7 +1148,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795474231,
       "signal": "중립·확인 대기",
       "netScore": 0.21,
@@ -1246,7 +1232,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795551602,
       "signal": "주의 강화",
       "netScore": -2.23,
@@ -1371,11 +1357,11 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795599602,
-      "signal": "주의 강화",
-      "netScore": -2.83,
-      "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
+      "signal": "중립·확인 대기",
+      "netScore": -1.78,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -1409,7 +1395,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.45,
+          "score": -1.4,
           "level": "주의"
         },
         "insiderSignal": {
@@ -1478,20 +1464,6 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1795581637,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=e0500c32fdfaebd4176969edc06743f868ead5d6c1243cf48a90766d4e792d6c",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "c1334bb82828e86660b1",
-          "headline": "TSMC: 저렴한 가격으로 AI Kingmaker 거래",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1795579819,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e18527b6ab2a9b1b063c442439d4a928d39227e425adf1015cc4e2b4e709c9da",
           "factorChanges": {
             "businessRisk": -2,
             "growth": -1,
@@ -1582,15 +1554,30 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "6b7bf22706b6acfd8502",
+          "headline": "비스트라 주식에 무슨 일이 일어났나요?",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1795544943,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=276df7c09e95311d0172dbf1cd6afb81ce3ee8508725aee37bf472f1ab858035",
+          "factorChanges": {
+            "growth": -1,
+            "valuationBurden": -1,
+            "businessRisk": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 75,
+      "unverifiedEvidenceCount": 73,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795599602,
       "signal": "우호적 변화",
       "netScore": 3.05,
@@ -1800,10 +1787,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795605602,
       "signal": "주의 강화",
-      "netScore": -8.41,
+      "netScore": -6.01,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1813,8 +1800,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -1.05,
-          "level": "주의"
+          "score": -0.17,
+          "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -1833,12 +1820,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -5,
+          "score": -4.2,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.45,
+          "score": -1.57,
           "level": "주의"
         },
         "insiderSignal": {
@@ -1876,16 +1863,15 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
-          "eventId": "bfe2dd593dff1e89eed5",
+          "eventId": "f76f73eb2538dbafe478",
           "headline": "ASML, 칩 대패 속에 시장 전 하락: 네덜란드 국회의원들이 미국의 중국 판매 억제 제안을 철회",
-          "eventLabel": "규제·소송·수출 제한",
+          "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1795598735,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=c5acd245466d1fb279b14a316ff44629d9539c761e6cdc584594b7e30ded8983",
           "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
+            "growth": 1,
+            "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
         },
@@ -2004,7 +1990,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795542560,
       "signal": "중립·확인 대기",
       "netScore": 0.21,
@@ -2110,7 +2096,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795466986,
       "signal": "우호적 변화",
       "netScore": 4.2,
@@ -2193,7 +2179,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795558073,
       "signal": "주의 강화",
       "netScore": -9.24,
@@ -2304,7 +2290,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795599602,
       "signal": "중립·확인 대기",
       "netScore": -0.83,
@@ -2506,10 +2492,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1795612080.3091931,
-      "dataAsOf": 1795579819,
+      "updatedAt": 1795612187.7039156,
+      "dataAsOf": 1795519800,
       "signal": "주의 강화",
-      "netScore": -7.7,
+      "netScore": -5.8,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2519,7 +2505,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -0.7,
+          "score": -0.17,
           "level": "중립"
         },
         "valuationBurden": {
@@ -2539,12 +2525,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -3.15,
+          "score": -2.1,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.8,
+          "score": -2.27,
           "level": "주의"
         },
         "insiderSignal": {
@@ -2554,20 +2540,6 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
-        {
-          "eventId": "c1334bb82828e86660b1",
-          "headline": "TSMC: 저렴한 가격으로 AI Kingmaker 거래",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1795579819,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e18527b6ab2a9b1b063c442439d4a928d39227e425adf1015cc4e2b4e709c9da",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        },
         {
           "eventId": "cc94730914e7701ad7d4",
           "headline": "TSMC: AI 시장 패닉을 두 배로 늘릴 놀라운 기회",
@@ -2625,15 +2597,15 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 5,
+      "unverifiedEvidenceCount": 4,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1795612080.3091931,
-      "dataAsOf": 1795598735,
+      "updatedAt": 1795612187.7039156,
+      "dataAsOf": 1795588950,
       "signal": "주의 강화",
-      "netScore": -6.71,
+      "netScore": -4.83,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2643,8 +2615,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -1.22,
-          "level": "주의"
+          "score": -0.7,
+          "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -2663,12 +2635,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.97,
+          "score": -1.92,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.27,
+          "score": -1.75,
           "level": "주의"
         },
         "insiderSignal": {
@@ -2678,20 +2650,6 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
-        {
-          "eventId": "bfe2dd593dff1e89eed5",
-          "headline": "ASML, 칩 대패 속에 시장 전 하락: 네덜란드 국회의원들이 미국의 중국 판매 억제 제안을 철회",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1795598735,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=c5acd245466d1fb279b14a316ff44629d9539c761e6cdc584594b7e30ded8983",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        },
         {
           "eventId": "72876ccff2017a3a561b",
           "headline": "ASML에 '재앙': 네덜란드 국회의원들이 중국 칩 규제를 강화하려는 미국의 추진에 반발",
@@ -2736,12 +2694,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 4,
+      "unverifiedEvidenceCount": 3,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795553209,
       "signal": "중립·확인 대기",
       "netScore": -0.48,
@@ -2824,7 +2782,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2878,7 +2836,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2932,7 +2890,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795606689,
       "signal": "우호적 변화",
       "netScore": 6.8,
@@ -3146,7 +3104,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795551902,
       "signal": "중립·확인 대기",
       "netScore": 0.34,
@@ -3269,7 +3227,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3323,7 +3281,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3377,7 +3335,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795581637,
       "signal": "주의 강화",
       "netScore": -4.07,
@@ -3500,7 +3458,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795532304,
       "signal": "주의 강화",
       "netScore": -4.83,
@@ -3611,7 +3569,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795597461,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -3678,7 +3636,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3732,7 +3690,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795543525,
       "signal": "중립·확인 대기",
       "netScore": -0.91,
@@ -3815,7 +3773,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795579958,
       "signal": "중립·확인 대기",
       "netScore": 1.05,
@@ -3896,7 +3854,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3950,7 +3908,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4004,7 +3962,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795453411,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -4073,7 +4031,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4127,7 +4085,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 1795455234,
       "signal": "우호적 변화",
       "netScore": 3.49,
@@ -4210,7 +4168,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4264,7 +4222,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4318,7 +4276,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1795612080.3091931,
+      "updatedAt": 1795612187.7039156,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
