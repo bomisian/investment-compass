@@ -18742,14 +18742,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 354421047296,
+    "quoteMarketCap": 341389017088,
     "week52High": 250.25,
     "week52Low": 100.25,
     "financialCurrency": "USD",
     "ttmRevenue": 71776002048,
     "ttmNetIncome": 18736001024,
-    "_fetched_at": 1795491067.9671302,
-    "_updated_label": "2026-11-24 12:31",
+    "_fetched_at": 1795578963.7699678,
+    "_updated_label": "2026-11-25 12:56",
     "_history": [
       {
         "date": "2026-08-10",
@@ -19940,6 +19940,18 @@ const ESTIMATES_DATA = {
       {
         "date": "2026-11-24",
         "fetchedAt": 1795491067.9671302,
+        "targetMean": 236.184,
+        "analystCount": 40,
+        "eps0": 8.15047,
+        "endDate0": "2027-05-31",
+        "eps1": 11.05881,
+        "revenue1": 131818019210,
+        "epsGrowth1": 0.3568,
+        "revenueGrowth1": 0.45720002
+      },
+      {
+        "date": "2026-11-25",
+        "fetchedAt": 1795578963.7699678,
         "targetMean": 236.184,
         "analystCount": 40,
         "eps0": 8.15047,
@@ -31202,7 +31214,7 @@ const ESTIMATES_DATA = {
     ]
   },
   "WDC": {
-    "targetMean": 607.75,
+    "targetMean": 600.4583,
     "targetMedian": 622.5,
     "targetLow": 300.0,
     "targetHigh": 900.0,
@@ -31230,14 +31242,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 111267594240,
+    "quoteMarketCap": 102545866752,
     "week52High": 799.87,
-    "week52Low": 142.55,
+    "week52Low": 147.7,
     "financialCurrency": "USD",
     "ttmRevenue": 14481999872,
     "ttmNetIncome": 9912999936,
-    "_fetched_at": 1795491067.9671302,
-    "_updated_label": "2026-11-24 12:31",
+    "_fetched_at": 1795578963.7699678,
+    "_updated_label": "2026-11-25 12:56",
     "_history": [
       {
         "date": "2026-08-10",
@@ -32429,6 +32441,18 @@ const ESTIMATES_DATA = {
         "date": "2026-11-24",
         "fetchedAt": 1795491067.9671302,
         "targetMean": 607.75,
+        "analystCount": 24,
+        "eps0": 24.68757,
+        "endDate0": "2027-06-30",
+        "eps1": 39.92773,
+        "revenue1": 29733482390,
+        "epsGrowth1": 0.6173,
+        "revenueGrowth1": 0.3962
+      },
+      {
+        "date": "2026-11-25",
+        "fetchedAt": 1795578963.7699678,
+        "targetMean": 600.4583,
         "analystCount": 24,
         "eps0": 24.68757,
         "endDate0": "2027-06-30",
