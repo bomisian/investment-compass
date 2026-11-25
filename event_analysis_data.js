@@ -1,14 +1,14 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795569425.5203195,
+  "generatedAt": 1795571352.797533,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795535101,
       "signal": "우호적 변화",
-      "netScore": 2.66,
+      "netScore": 4.55,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -18,7 +18,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 2.45,
+          "score": 2.97,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -38,13 +38,13 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.45,
+          "score": -1.4,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.7,
-          "level": "중립"
+          "score": 1.23,
+          "level": "우호적"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -164,32 +164,18 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "09f00dd7edab0e56617d",
-          "headline": "머스크는 AI에 “내년에는 현금 부족도 심할 것”이라고 경고했다. 신용 시장은 SpaceX를 Oracle 옆에 두었습니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1795355429,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=efa66d542b807142af98da3927226379b497cf72943515f1bc8df778fb072930",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 9,
+      "unverifiedEvidenceCount": 8,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795531260,
       "signal": "주의 강화",
-      "netScore": -10,
+      "netScore": -8.75,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -199,7 +185,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.0,
+          "score": 0.52,
           "level": "중립"
         },
         "valuationBurden": {
@@ -219,12 +205,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -5,
+          "score": -4.5,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -3.4,
+          "score": -2.88,
           "level": "주의"
         },
         "insiderSignal": {
@@ -330,6 +316,16 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
+          "eventId": "591d61e3518e85fc8928",
+          "headline": "GOOGL SEC Form 8-K 공식 제출",
+          "eventLabel": "중요사항 공시",
+          "publishedAt": 1795446000.0,
+          "verificationStatus": "confirmed",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+          "factorChanges": {},
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
+        },
+        {
           "eventId": "30de52d1978f44c69aad",
           "headline": "블록버스터 인류학 IPO 이후 OpenAI는 AI 경쟁자들이 개발 '한계'에 동의하기를 원하는 반면 Meta는 통제된 접근 방식을 요구합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -385,32 +381,18 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -2
           },
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-        },
-        {
-          "eventId": "09f00dd7edab0e56617d",
-          "headline": "머스크는 AI에 “내년에는 현금 부족도 심할 것”이라고 경고했다. 신용 시장은 SpaceX를 Oracle 옆에 두었습니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1795355429,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=efa66d542b807142af98da3927226379b497cf72943515f1bc8df778fb072930",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
-      "confirmedEvidenceCount": 1,
-      "unverifiedEvidenceCount": 11,
+      "confirmedEvidenceCount": 2,
+      "unverifiedEvidenceCount": 10,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795538535,
       "signal": "주의 강화",
-      "netScore": -4.42,
+      "netScore": -2.59,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -420,8 +402,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.88,
-          "level": "중립"
+          "score": 1.4,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -440,13 +422,13 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -5,
+          "score": -4.02,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -1.05,
-          "level": "주의"
+          "score": -0.52,
+          "level": "중립"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -605,29 +587,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "09f00dd7edab0e56617d",
-          "headline": "머스크는 AI에 “내년에는 현금 부족도 심할 것”이라고 경고했다. 신용 시장은 SpaceX를 Oracle 옆에 두었습니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1795355429,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=efa66d542b807142af98da3927226379b497cf72943515f1bc8df778fb072930",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 12,
+      "unverifiedEvidenceCount": 11,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795533597,
       "signal": "주의 강화",
       "netScore": -9.51,
@@ -803,7 +771,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795531260,
       "signal": "중립·확인 대기",
       "netScore": -1.96,
@@ -942,7 +910,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795553995,
       "signal": "주의 강화",
       "netScore": -6.57,
@@ -1067,10 +1035,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795535101,
       "signal": "중립·확인 대기",
-      "netScore": -0.78,
+      "netScore": 1.11,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1080,8 +1048,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.87,
-          "level": "중립"
+          "score": 1.4,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -1100,12 +1068,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.8,
+          "score": -1.75,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.35,
+          "score": 0.17,
           "level": "중립"
         },
         "insiderSignal": {
@@ -1199,29 +1167,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "클라우드 수요와 자본 부담 동시 확대"
-        },
-        {
-          "eventId": "09f00dd7edab0e56617d",
-          "headline": "머스크는 AI에 “내년에는 현금 부족도 심할 것”이라고 경고했다. 신용 시장은 SpaceX를 Oracle 옆에 두었습니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1795355429,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=efa66d542b807142af98da3927226379b497cf72943515f1bc8df778fb072930",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 7,
+      "unverifiedEvidenceCount": 6,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795474231,
       "signal": "중립·확인 대기",
       "netScore": 0.21,
@@ -1305,7 +1259,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795551602,
       "signal": "주의 강화",
       "netScore": -4.12,
@@ -1444,10 +1398,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795550431,
       "signal": "주의 강화",
-      "netScore": -3.0,
+      "netScore": -3.53,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1482,7 +1436,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.62,
+          "score": -3.15,
           "level": "주의"
         },
         "insiderSignal": {
@@ -1664,15 +1618,15 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 1,
-      "unverifiedEvidenceCount": 74,
+      "unverifiedEvidenceCount": 73,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795541642,
       "signal": "중립·확인 대기",
-      "netScore": 1.48,
+      "netScore": 0.95,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1707,7 +1661,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 3.43,
+          "score": 2.9,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -1876,12 +1830,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 1,
-      "unverifiedEvidenceCount": 38,
+      "unverifiedEvidenceCount": 37,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795537322,
       "signal": "중립·확인 대기",
       "netScore": -1.67,
@@ -1992,7 +1946,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795542560,
       "signal": "중립·확인 대기",
       "netScore": 0.21,
@@ -2068,6 +2022,16 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
+          "eventId": "aba2a2034d7ae0ec17e4",
+          "headline": "QCOM SEC Form 8-K 공식 제출",
+          "eventLabel": "중요사항 공시",
+          "publishedAt": 1795446000.0,
+          "verificationStatus": "confirmed",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000138/qcom-20261120.htm",
+          "factorChanges": {},
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
+        },
+        {
           "eventId": "e75ee1703502f2e952da",
           "headline": "AI 매각으로 퀄컴은 42%, SK하이닉스는 48% 급락했다. 2027년에 어느 주식을 구매하는 것이 더 좋습니까?",
           "eventLabel": "규제·소송·수출 제한",
@@ -2082,13 +2046,13 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "회사 실적과의 연결고리 확인"
         }
       ],
-      "confirmedEvidenceCount": 0,
+      "confirmedEvidenceCount": 1,
       "unverifiedEvidenceCount": 3,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795466986,
       "signal": "중립·확인 대기",
       "netScore": 1.89,
@@ -2195,7 +2159,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795528016,
       "signal": "주의 강화",
       "netScore": -9.24,
@@ -2306,7 +2270,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795549802,
       "signal": "주의 강화",
       "netScore": -6.5,
@@ -2511,7 +2475,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795519800,
       "signal": "주의 강화",
       "netScore": -5.8,
@@ -2621,7 +2585,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795473384,
       "signal": "주의 강화",
       "netScore": -3.57,
@@ -2704,7 +2668,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795553209,
       "signal": "중립·확인 대기",
       "netScore": -0.48,
@@ -2787,7 +2751,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2841,7 +2805,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2895,7 +2859,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795551902,
       "signal": "우호적 변화",
       "netScore": 7.72,
@@ -3102,12 +3066,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 40,
+      "unverifiedEvidenceCount": 39,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795551902,
       "signal": "중립·확인 대기",
       "netScore": 0.34,
@@ -3230,7 +3194,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3284,7 +3248,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3338,7 +3302,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795532304,
       "signal": "주의 강화",
       "netScore": -4.62,
@@ -3421,7 +3385,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795532304,
       "signal": "주의 강화",
       "netScore": -6.93,
@@ -3528,7 +3492,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3582,7 +3546,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3636,7 +3600,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795543525,
       "signal": "중립·확인 대기",
       "netScore": -0.91,
@@ -3719,7 +3683,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795462519,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -3786,7 +3750,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3840,7 +3804,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3894,7 +3858,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795453411,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -3963,7 +3927,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4017,7 +3981,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 1795455234,
       "signal": "우호적 변화",
       "netScore": 3.49,
@@ -4100,7 +4064,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4154,7 +4118,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4208,7 +4172,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1795569425.5203195,
+      "updatedAt": 1795571352.797533,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

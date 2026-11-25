@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795569425.4531996,
+  "generatedAt": 1795571352.7699468,
   "events": [
     {
       "id": "8dbf49fe41af30a14ccb",
@@ -13365,6 +13365,135 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "591d61e3518e85fc8928",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "GOOGL",
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "GOOGL SEC Form 8-K filed",
+      "headlineKo": "GOOGL SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+        "publishedAt": 1795446000.0,
+        "collectedAt": 1795571333.0918849
+      },
+      "confirmedFacts": [
+        "GOOGL가 2026-11-24에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 기타 중요 사건 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "GOOGL",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "aba2a2034d7ae0ec17e4",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "QCOM",
+      "relatedTickers": [
+        "QCOM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "QCOM SEC Form 8-K filed",
+      "headlineKo": "QCOM SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000138/qcom-20261120.htm",
+        "publishedAt": 1795446000.0,
+        "collectedAt": 1795571333.0918849
+      },
+      "confirmedFacts": [
+        "QCOM가 2026-11-24에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상 · 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QCOM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
       "id": "eeeb005d6c6ba2996b4b",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -17848,7 +17977,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526470750/d115240d424b2.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795548143.7233086
+        "collectedAt": 1795571333.0918849
       },
       "confirmedFacts": [
         "GOOGL가 2026-11-23에 SEC Form 424B2을 제출했습니다.",
@@ -17912,7 +18041,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795548143.7233086
+        "collectedAt": 1795571333.0918849
       },
       "confirmedFacts": [
         "META가 2026-11-23에 SEC Form 8-K을 제출했습니다.",
@@ -17976,7 +18105,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795548143.7233086
+        "collectedAt": 1795571333.0918849
       },
       "confirmedFacts": [
         "NVDA가 2026-11-23에 SEC Form 8-K을 제출했습니다.",
@@ -18040,7 +18169,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526472370/d171551ds3asr.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795548143.7233086
+        "collectedAt": 1795571333.0918849
       },
       "confirmedFacts": [
         "AMD가 2026-11-23에 SEC Form S-3ASR을 제출했습니다.",
@@ -18104,7 +18233,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000155/arm-20261123.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795548143.7233086
+        "collectedAt": 1795571333.0918849
       },
       "confirmedFacts": [
         "ARM가 2026-11-23에 SEC Form 6-K을 제출했습니다."
@@ -18167,7 +18296,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026075535/lite-20261118.htm",
         "publishedAt": 1795359600.0,
-        "collectedAt": 1795548143.7233086
+        "collectedAt": 1795571333.0918849
       },
       "confirmedFacts": [
         "LITE가 2026-11-23에 SEC Form 8-K을 제출했습니다.",
@@ -18203,198 +18332,6 @@ const EVENT_DATA = {
         "다음 실적과 현금흐름 영향"
       ],
       "earningsEvidence": null
-    },
-    {
-      "id": "09f00dd7edab0e56617d",
-      "schemaVersion": 1,
-      "eventType": "supply_chain",
-      "eventLabel": "공급망 문제",
-      "primaryTicker": "ORCL",
-      "relatedTickers": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "ORCL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Alphabet",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Microsoft",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Amazon",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Oracle",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Musk Warns AI’s “Cash Shortage Is Also Going to Be Nuts Next Year.” Credit Markets Put SpaceX Beside Oracle",
-      "headlineKo": "머스크는 AI에 “내년에는 현금 부족도 심할 것”이라고 경고했다. 신용 시장은 SpaceX를 Oracle 옆에 두었습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=efa66d542b807142af98da3927226379b497cf72943515f1bc8df778fb072930",
-        "publishedAt": 1795355429,
-        "collectedAt": 1795565245.3501143
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "머스크는 AI에 “내년에는 현금 부족도 심할 것”이라고 경고했다. 신용 시장은 Oracle 옆에 SpaceX를 추가 | TIKR.com General Investing Musk는 AI의 \"내년에는 현금 부족도 문제가 될 것\"이라고 경고합니다. 신용 시장은 SpaceX를 옆에 두거나",
-        "SpaceX는 CFO의 자체 자금 조달 메시지에서 제시하는 것보다 외부 신용에 더 많이 의존합니다.",
-        "Morgan의 신용 불이행 스왑 데이터에 따르면 SpaceX는 약 275bp로 Oracle 옆에 있으며 Microsoft, Alphabet 및 Amazon의 경우 약 80bp입니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $146 billion, $32 billion, $25.2 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "ORCL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $146 billion, $32 billion, $25.2 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ORCL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
-    },
-    {
-      "id": "163147465d94844b33a9",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "GOOGL",
-      "relatedTickers": [
-        "AMD",
-        "GOOGL",
-        "MU",
-        "NVDA",
-        "ORCL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Alphabet",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기 투자 사이클",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
-      "headlineKo": "억만장자 체이스 콜먼(Chase Coleman)의 타이거 글로벌(Tiger Global), 알파벳 지분 42% 삭감",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01",
-        "publishedAt": 1795355389,
-        "collectedAt": 1795565245.3501143
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "기사에서 언급된 규모: 42%, 42.3%, $1.15 billion, 5.7%, 5.76%, 13.59%, $127.577 billion, 24.65%.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 GOOGL의 사업과 관련된 'Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-      ],
-      "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
     }
   ],
   "byTicker": {
@@ -18486,8 +18423,7 @@ const EVENT_DATA = {
       "9a05873d99a7cc1bcd23",
       "aec95c1b2034bc883350",
       "10a6ec54f789f7190db1",
-      "11a0a2ce868176d89e3c",
-      "163147465d94844b33a9"
+      "11a0a2ce868176d89e3c"
     ],
     "SPY": [
       "8dbf49fe41af30a14ccb",
@@ -18770,8 +18706,7 @@ const EVENT_DATA = {
       "57a23e21c352cafc46f4",
       "fbd5efc6fce7cf759278",
       "aec95c1b2034bc883350",
-      "10a6ec54f789f7190db1",
-      "163147465d94844b33a9"
+      "10a6ec54f789f7190db1"
     ],
     "SNDK": [
       "e07b80ee5ffb84b2ed82",
@@ -18817,8 +18752,7 @@ const EVENT_DATA = {
       "84c17a24af683209442f",
       "78c804a55eeecbf0f439",
       "402a38e13048e694c98f",
-      "1f53b95f627bac028516",
-      "09f00dd7edab0e56617d"
+      "1f53b95f627bac028516"
     ],
     "CRM": [
       "75128d70beba69e0a6a3",
@@ -18870,9 +18804,7 @@ const EVENT_DATA = {
       "fbd5efc6fce7cf759278",
       "aec95c1b2034bc883350",
       "10a6ec54f789f7190db1",
-      "92f0129b090505816499",
-      "09f00dd7edab0e56617d",
-      "163147465d94844b33a9"
+      "92f0129b090505816499"
     ],
     "INTC": [
       "7acc1b767d2d9dcd4f3c",
@@ -18944,8 +18876,7 @@ const EVENT_DATA = {
       "fbd5efc6fce7cf759278",
       "aec95c1b2034bc883350",
       "10a6ec54f789f7190db1",
-      "dab44a3c6abe8d194f5d",
-      "163147465d94844b33a9"
+      "dab44a3c6abe8d194f5d"
     ],
     "BE": [
       "33baba6afac7f59fcfc0"
@@ -18965,6 +18896,7 @@ const EVENT_DATA = {
       "1616e49e5bc54f0e1cdd",
       "95e1041eb1b66359e0bd",
       "7d419f006a33477fae38",
+      "aba2a2034d7ae0ec17e4",
       "e75ee1703502f2e952da"
     ],
     "MRVL": [
@@ -18990,15 +18922,14 @@ const EVENT_DATA = {
       "120f9e02bea58080acc2",
       "94bb50144fd2137f3479",
       "b86ace5436a1359cac97",
+      "591d61e3518e85fc8928",
       "f7ae7f54ccc44385fdc5",
       "78c804a55eeecbf0f439",
       "ce4c93f64f63d27a546f",
       "30de52d1978f44c69aad",
       "4f7dcd7caf3422267e47",
       "737b7926a21991a9030f",
-      "480c0f3ec8ad9b512608",
-      "09f00dd7edab0e56617d",
-      "163147465d94844b33a9"
+      "480c0f3ec8ad9b512608"
     ],
     "AAPL": [
       "5b64be3f41aa7c8a9eb5",
@@ -19034,8 +18965,7 @@ const EVENT_DATA = {
       "36ab406a23d5e0831321",
       "d092df254f43be7b55e7",
       "c93328f9581755968b3b",
-      "92cd19066a5dfdbb6e5c",
-      "09f00dd7edab0e56617d"
+      "92cd19066a5dfdbb6e5c"
     ],
     "AVGO": [
       "446c2a90ec54e2666501",
