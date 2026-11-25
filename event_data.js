@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795592826.61969,
+  "generatedAt": 1795594773.4714954,
   "events": [
     {
       "id": "8a425e2c4410bbbafcca",
@@ -14697,7 +14697,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
         "publishedAt": 1795446000.0,
-        "collectedAt": 1795571333.0918849
+        "collectedAt": 1795594753.8548477
       },
       "confirmedFacts": [
         "GOOGL가 2026-11-24에 SEC Form 8-K을 제출했습니다.",
@@ -14762,7 +14762,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000138/qcom-20261120.htm",
         "publishedAt": 1795446000.0,
-        "collectedAt": 1795571333.0918849
+        "collectedAt": 1795594753.8548477
       },
       "confirmedFacts": [
         "QCOM가 2026-11-24에 SEC Form 8-K을 제출했습니다.",
