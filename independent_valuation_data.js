@@ -186,7 +186,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -218,18 +218,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $120.7200(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 10.182664109589041,
+          "eps": 10.185682328767124,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 11.855443715070676,
+          "per": 11.851930712560824,
           "per_price_basis_note": "현재가 $120.7200(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -245,24 +245,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "VST",
       "peerTicker": "CEG",
-      "targetEps1": 10.182664109589041,
+      "targetEps1": 10.185682328767124,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 18.406489014293925,
+      "peerForwardPe": 18.4033941671335,
       "peerPrice": 244.83999633789062,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 187.4270950693957,
+      "appliedPrice": 187.45112675750764,
       "targetCurrentPrice": 120.72000122070312,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -278,10 +278,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 10.29132
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2026-12-31",
@@ -290,10 +290,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 13.38236
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -333,9 +333,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 360.0783118208432,
-      "rangeHigh": 416.7818408187031,
-      "rangeMid": 388.43007631977315,
+      "rangeLow": 360.1017285060188,
+      "rangeHigh": 416.8471642462447,
+      "rangeMid": 388.4744463761317,
       "bandStatus": "BELOW_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 323.760009765625,
@@ -366,9 +366,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-11-25T23:45:44.591200+09:00",
-      "asOfDate": "2026-11-25",
+      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($19.6602 -> $19.6746); KLAC forward P/E 변경 (21.1992x -> 21.1871x); LRCX forward P/E 변경 (18.3150x -> 18.3029x)",
+      "generatedAt": "2026-11-26T00:19:00.618921+09:00",
+      "asOfDate": "2026-11-26",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
@@ -379,7 +379,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-11-25",
+      "builtAt": "2026-11-26",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -449,13 +449,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $323.7600(2026-11-24) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 19.660244931506853,
+            "eps": 19.674606328767123,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-11-25",
-            "window_end": "2027-11-25",
+            "window_start": "2026-11-26",
+            "window_end": "2027-11-26",
             "eps_basis_note": "0y 2027-10-31(가중93%) / +1y 2028-10-31(가중7%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 16.467750574499608,
+            "per": 16.455730008292008,
             "per_price_basis_note": "현재가 $323.7600(2026-11-24) / 해당 기간 EPS"
           }
         },
@@ -487,7 +487,7 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 9.345193990593614
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 21.49753295938202,
+              "required_eps_if_multiple_unchanged": 21.513236457076022,
               "vs_same_period_eps_pct": 9.345193990593636
             }
           }
@@ -835,7 +835,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "text": "반도체장비 업종은 설비투자 사이클에 강하게 연동돼, 실적과 배수가 함께 오르내리는 경향이 이 종목 자신의 8년 EPS 이력(역성장~63% 성장)과 8년 트레일링 PER 이력(10.1배~26.3배)에서도 확인된다. 지금은 AI 데이터센터발 설비투자 확대로 사이클의 상승 구간(FY2026~FY2027 급성장, 패키징 CY2026 +70%대) 한가운데에 있다. 다만 회사 매출의 73.3%를 차지하는 반도체장비 (Semiconductor Systems) 부문은 이 사이클성이 가장 강하고, 22.5%를 차지하는 서비스(AGS) 부문은 회사가 스스로 '지속가능한 장기 중간 10%대 성장'이라고 밝힌 만큼 상대적으로 안정적인 성장 기반이다 -- 다만 AGS의 실제 3년 실현 매출 CAGR(약 4.8%, segment_revenue_history)은 이 가이던스보다 낮아, 가이던스를 우선한 이상 그 괴리를 인식한 채로 쓴다는 것을 의미한다. 이 둘을 매출 비중으로 가중해 전사 장기 성장 경로를 추정하는 것이, FY2028 이후에도 현재 급성장률(연 35~44%)이 그대로 이어진다고 가정하는 것이나, 반대로 부문별 실제 3년 실현 CAGR(반도체장비 3.4%·서비스 4.8%)로만 되돌아간다고 가정하는 것보다 사업 구성과 회사 가이던스를 함께 반영한 접근이라고 본다."
         }
       },
-      "as_of_execution": "2026-11-25",
+      "as_of_execution": "2026-11-26",
       "growth_rate_assumption": 0.08821212121212119,
       "exit_per_assumption": 22.0,
       "is_primary_recommended_assumption": true,
@@ -848,7 +848,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "base_fiscal_year": 2027,
       "target_fiscal_year": 2031,
       "estimates_fetched_at": "2026-11-25",
-      "estimates_age_days": 0,
+      "estimates_age_days": 1,
       "base_eps_fact": 19.30121,
       "base_eps_end_date": "2027-10-31",
       "base_eps_analysts": 34,
@@ -1825,9 +1825,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 176.37486795613594,
-      "rangeHigh": 227.050407473514,
-      "rangeMid": 201.71263771482498,
+      "rangeLow": 176.363398656133,
+      "rangeHigh": 227.07122680116925,
+      "rangeMid": 201.7173127286511,
       "bandStatus": "WITHIN_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 196.16000366210938,
@@ -1858,9 +1858,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-11-25T23:45:44.923939+09:00",
-      "asOfDate": "2026-11-25",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (16.4678x -> 16.4557x); KLAC forward P/E 변경 (21.1992x -> 21.1871x)",
+      "generatedAt": "2026-11-26T00:19:00.950876+09:00",
+      "asOfDate": "2026-11-26",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
@@ -1871,7 +1871,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-11-25",
+      "builtAt": "2026-11-26",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -1933,13 +1933,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $196.1600(2026-11-24) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 10.710319369863015,
+            "eps": 10.717446054794522,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-11-25",
-            "window_end": "2027-11-25",
+            "window_start": "2026-11-26",
+            "window_end": "2027-11-26",
             "eps_basis_note": "0y 2027-06-30(가중59%) / +1y 2028-06-30(가중41%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 18.315047095053924,
+            "per": 18.302868300825818,
             "per_price_basis_note": "현재가 $196.1600(2026-11-24) / 해당 기간 EPS"
           }
         },
@@ -1961,7 +1961,7 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 10.000000000000009
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 11.781351306849317,
+              "required_eps_if_multiple_unchanged": 11.789190660273976,
               "vs_same_period_eps_pct": 10.000000000000009
             }
           }
@@ -2082,7 +2082,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "note": "base_eps로 쓰는 FY2028 컨센서스는 그 자체로 이미 AI 슈퍼사이클 지속을 상당 부분 반영한 값이다 -- 이 사실을 감추지 않고, 그 이후(FY2029~FY2032) 성장은 이 컨센서스를 연장하지 않는다."
         }
       },
-      "as_of_execution": "2026-11-25",
+      "as_of_execution": "2026-11-26",
       "growth_rate_assumption": 0.14512326995765146,
       "exit_per_assumption": 21.0,
       "is_primary_recommended_assumption": true,
@@ -2095,7 +2095,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "annualized_dividend_per_share": 1.32,
       "dividend_source_note": "연배당 $1.32/주(분기 $0.33 x4, 2026-09-22 확인) -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 가정).",
       "estimates_fetched_at": "2026-11-25",
-      "estimates_age_days": 0,
+      "estimates_age_days": 1,
       "base_eps_fact": 12.25681,
       "base_eps_end_date": "2028-06-30",
       "base_eps_analysts": 28,
@@ -2283,9 +2283,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 103.82055812245392,
-      "rangeHigh": 115.4667969280501,
-      "rangeMid": 109.643677525252,
+      "rangeLow": 103.80428857503334,
+      "rangeHigh": 115.45621020109041,
+      "rangeMid": 109.63024938806188,
       "bandStatus": "ABOVE_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 133.64999389648438,
@@ -2316,9 +2316,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-11-25T23:45:45.242356+09:00",
-      "asOfDate": "2026-11-25",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (16.4678x -> 16.4557x); LRCX forward P/E 변경 (18.3150x -> 18.3029x)",
+      "generatedAt": "2026-11-26T00:19:01.267840+09:00",
+      "asOfDate": "2026-11-26",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
@@ -2329,7 +2329,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-11-25",
+      "builtAt": "2026-11-26",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -2393,13 +2393,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $133.6500(2026-11-24) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 6.304477205479452,
+            "eps": 6.308093808219178,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-11-25",
-            "window_end": "2027-11-25",
+            "window_start": "2026-11-26",
+            "window_end": "2027-11-26",
             "eps_basis_note": "0y 2027-06-30(가중59%) / +1y 2028-06-30(가중41%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 21.19921914862731,
+            "per": 21.187065056379492,
             "per_price_basis_note": "현재가 $133.6500(2026-11-24) / 해당 기간 EPS"
           }
         },
@@ -2421,7 +2421,7 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 10.000000000000009
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 6.9349249260273975,
+              "required_eps_if_multiple_unchanged": 6.938903189041096,
               "vs_same_period_eps_pct": 10.000000000000009
             }
           }
@@ -2580,7 +2580,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "used_in_calculation": false,
         "reason": "target_eps는 회사가 발표한 2030 목표값을 그대로 쓴다 -- 그 목표 안에 회사 자신의 자사주매입 계획이 이미 내재돼 있다고 보고, 이 모듈이 추가로 주식수 감소를 적용하면 이중 반영이 된다. 이 관측값은 '회사의 실현 속도가 합리적 범위인지' 참고용으로만 남긴다(계산에 연결되지 않음)."
       },
-      "as_of_execution": "2026-11-25",
+      "as_of_execution": "2026-11-26",
       "growth_rate_assumption": 0.19524787250137576,
       "exit_per_assumption": 23.0,
       "is_primary_recommended_assumption": true,
@@ -2761,7 +2761,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-11-25T23:45:45.551246+09:00",
+      "withheldCheckedAt": "2026-11-26T00:19:01.576400+09:00",
       "neverSucceeded": true
     },
     "longTermScenario": {
@@ -2913,7 +2913,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "relationship_to_this_module": "이 장기투자 시나리오 모듈은 그 검사 함수를 호출하지 않고 (상대가치 밴드와 완전히 별개 계산 경로), 독자적인 환전 설계(currency_and_fx_methodology)로 이 문제를 우회한다 -- 상대가치 모듈 자체는 이 작업으로 고쳐지지 않으며 여전히 JUDGMENT_WITHHELD 상태로 남는다."
         }
       },
-      "as_of_execution": "2026-11-25",
+      "as_of_execution": "2026-11-26",
       "currency_note": "재무 기준통화 EUR, 시세·매입가상한·목표가 표시통화 USD(환율은 currency_and_fx_methodology 참조) -- LRCX/KLAC/AMAT(모두 USD 단일통화)과 달리 이 필드가 반드시 필요한 첫 종목이다.",
       "gross_margin_assumption_pct": 58.0,
       "revenue_assumption_eur_m": 52000.0,
@@ -3095,7 +3095,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK_WITHHELD",
       "lastCheckNote": "가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": false,
       "reason": "가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
       "diagnosticKind": null,
@@ -3110,8 +3110,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "quoteCurrency": null,
       "estimatesFetchedAt": null,
       "multiples": null,
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "missing",
@@ -3133,8 +3133,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(444.27458950053995)<=band_low(444.27458950053995) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-11-25T23:45:45.670598+09:00",
+      "withheldReason": "band_high(444.26190025290003)<=band_low(444.26190025290003) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-11-26T00:19:01.697870+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3151,24 +3151,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "STX",
       "peerTicker": "WDC",
-      "targetEps1": 50.05835410958904,
+      "targetEps1": 50.12463616438356,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 8.875133779427157,
+      "peerForwardPe": 8.863144638016818,
       "peerPrice": 273.95001220703125,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 444.27458950053995,
+      "appliedPrice": 444.26190025290003,
       "targetCurrentPrice": 482.4800109863281,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3184,10 +3184,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 64.44156
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2027-06-30",
@@ -3196,10 +3196,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 39.92773
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -3240,8 +3240,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(297.5083608719254)<=band_low(297.5083608719254) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-11-25T23:45:45.732681+09:00",
+      "withheldReason": "band_high(297.5168584659435)<=band_low(297.5168584659435) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-11-26T00:19:01.760085+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3258,24 +3258,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "WDC",
       "peerTicker": "STX",
-      "targetEps1": 30.867141726027395,
+      "targetEps1": 30.908895589041094,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 9.638351471366207,
+      "peerForwardPe": 9.62560624687702,
       "peerPrice": 482.4800109863281,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 297.5083608719254,
+      "appliedPrice": 297.5168584659435,
       "targetCurrentPrice": 273.95001220703125,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3291,10 +3291,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 39.92773
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2027-06-30",
@@ -3303,10 +3303,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 64.44156
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -3348,7 +3348,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-11-25T23:45:45.794277+09:00",
+      "withheldCheckedAt": "2026-11-26T00:19:01.822304+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3365,7 +3365,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -3397,18 +3397,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $77.9500(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 31.476207397260275,
+          "eps": 31.49653109589041,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2027-06-30(가중59%) / +1y 2028-06-30(가중41%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 2.4764736095565008,
+          "per": 2.4748756207763116,
           "per_price_basis_note": "현재가 $77.9500(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3429,7 +3429,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-11-25T23:45:45.826805+09:00",
+      "withheldCheckedAt": "2026-11-26T00:19:01.854027+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3446,7 +3446,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -3478,18 +3478,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $589.6400(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 21.4421721369863,
+          "eps": 21.452080410958906,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 27.499080358157755,
+          "per": 27.486379099493625,
           "per_price_basis_note": "현재가 $589.6400(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3505,24 +3505,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "PWR",
       "peerTicker": "MTZ",
-      "targetEps1": 21.4421721369863,
+      "targetEps1": 21.452080410958906,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 12.66530742375279,
+      "peerForwardPe": 12.655968499054879,
       "peerPrice": 152.4199981689453,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 271.5717019479578,
+      "appliedPrice": 271.4968539202882,
       "targetCurrentPrice": 589.6400146484375,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3538,10 +3538,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 21.79887
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2026-12-31",
@@ -3550,10 +3550,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 12.35414
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -3579,7 +3579,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "peerPriceUsedInCalculation": 152.4199981689453,
       "peerPriceUsedInCalculationAsOf": "2026-11-24",
       "peerLastCollectionStatus": {
-        "checkedAt": "2026-11-25T23:45:46.108675+09:00",
+        "checkedAt": "2026-11-26T00:19:02.145671+09:00",
         "pricesLastAttempt": {
           "outcome": "cache_fresh",
           "errorDetail": null,
@@ -3609,8 +3609,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(675.5795867667574)<=band_low(675.5795867667574) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-11-25T23:45:45.858674+09:00",
+      "withheldReason": "band_high(675.3957981690781)<=band_low(675.3957981690781) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-11-26T00:19:01.886528+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3627,24 +3627,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "EME",
       "peerTicker": "FIX",
-      "targetEps1": 40.45829791780822,
+      "targetEps1": 40.47508575342465,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 16.698171241390575,
+      "peerForwardPe": 16.68670456397815,
       "peerPrice": 1096.56005859375,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 675.5795867667574,
+      "appliedPrice": 675.3957981690781,
       "targetCurrentPrice": 631.97998046875,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3660,10 +3660,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 41.06266
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2026-12-31",
@@ -3672,10 +3672,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 67.29402
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -3716,8 +3716,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(1025.7918060098934)<=band_low(1025.7918060098934) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-11-25T23:45:45.919500+09:00",
+      "withheldReason": "band_high(1026.0709443137569)<=band_low(1026.0709443137569) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-11-26T00:19:01.949743+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3734,24 +3734,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "FIX",
       "peerTicker": "EME",
-      "targetEps1": 65.66947019178082,
+      "targetEps1": 65.71459657534247,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 15.620528123862973,
+      "peerForwardPe": 15.614049203472716,
       "peerPrice": 631.97998046875,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 1025.7918060098934,
+      "appliedPrice": 1026.0709443137569,
       "targetCurrentPrice": 1096.56005859375,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3767,10 +3767,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 67.29402
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2026-12-31",
@@ -3779,10 +3779,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 41.06266
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -3821,24 +3821,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "COHR",
       "peerTicker": "LITE",
-      "targetEps1": 12.565028712328768,
+      "targetEps1": 12.57984106849315,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 15.662522554924758,
+      "peerForwardPe": 15.641586026915139,
       "peerPrice": 487.1199951171875,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 196.80004561012652,
+      "appliedPrice": 196.76866627775567,
       "targetCurrentPrice": 196.24000549316406,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3854,10 +3854,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 15.77931
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2027-06-30",
@@ -3866,10 +3866,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 40.13453
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -3908,24 +3908,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "LITE",
       "peerTicker": "COHR",
-      "targetEps1": 31.100992410958902,
+      "targetEps1": 31.142621616438355,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 15.617951218894865,
+      "peerForwardPe": 15.599561586247468,
       "peerPrice": 196.24000549316406,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 485.7337823335755,
+      "appliedPrice": 485.81124386283176,
       "targetCurrentPrice": 487.1199951171875,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3941,10 +3941,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 40.13453
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2027-06-30",
@@ -3953,10 +3953,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 15.77931
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.5945205479452055,
-        "weight_1y": 0.4054794520547945,
-        "days_in_0y": 217,
-        "days_in_1y": 148
+        "weight_0y": 0.5917808219178082,
+        "weight_1y": 0.40821917808219177,
+        "days_in_0y": 216,
+        "days_in_1y": 149
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -3995,7 +3995,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4027,18 +4027,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $354.0700(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 9.608899287671232,
+          "eps": 9.612103917808218,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
-          "eps_basis_note": "0y 2027-09-30(가중85%) / +1y 2028-09-30(가중15%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 36.84813387299322,
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
+          "eps_basis_note": "0y 2027-09-30(가중84%) / +1y 2028-09-30(가중16%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 36.835848878853454,
           "per_price_basis_note": "현재가 $354.0700(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4056,7 +4056,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4088,18 +4088,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $413.2700(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 16.675660657534245,
+          "eps": 16.701773972602737,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 24.78282555041992,
+          "per": 24.744077466956018,
           "per_price_basis_note": "현재가 $413.2700(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4117,7 +4117,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4149,18 +4149,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $252.2900(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 10.880328739726025,
+          "eps": 10.874498219178081,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 23.187717882546778,
+          "per": 23.2001503150921,
           "per_price_basis_note": "현재가 $252.2900(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4178,7 +4178,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4210,18 +4210,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $168.5600(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 5.873262136986301,
+          "eps": 5.8778104109589036,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 28.699552927682802,
+          "per": 28.677345095092125,
           "per_price_basis_note": "현재가 $168.5600(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4239,7 +4239,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4271,18 +4271,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $161.5600(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 2.803979945205479,
+          "eps": 2.806225342465753,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
-          "eps_basis_note": "0y 2027-03-31(가중35%) / +1y 2028-03-31(가중65%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 57.618100241709975,
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
+          "eps_basis_note": "0y 2027-03-31(가중34%) / +1y 2028-03-31(가중66%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 57.5719971998526,
           "per_price_basis_note": "현재가 $161.5600(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4300,7 +4300,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4333,11 +4333,11 @@ const INDEPENDENT_VALUATION_DATA = {
         },
         "ntm": {
           "ok": false,
-          "error_message": "창 끝(2027-11-25)이 +1y 마감일(2027-10-31)을 넘어감 -- 그 이후 구간은 이 두 추정치로 답할 수 없어 억지로 채우지 않고 산출 보류 (재현: as_of가 늦어질수록 이 조건에 걸리게 됨)"
+          "error_message": "창 끝(2027-11-26)이 +1y 마감일(2027-10-31)을 넘어감 -- 그 이후 구간은 이 두 추정치로 답할 수 없어 억지로 채우지 않고 산출 보류 (재현: as_of가 늦어질수록 이 조건에 걸리게 됨)"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4355,7 +4355,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4387,18 +4387,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $156.4100(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 5.148368821917807,
+          "eps": 5.154082465753424,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 30.380497021937416,
+          "per": 30.346818216701806,
           "per_price_basis_note": "현재가 $156.4100(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4416,7 +4416,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4448,18 +4448,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $244.8400(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 13.301830465753424,
+          "eps": 13.304067397260273,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 18.406489014293925,
+          "per": 18.4033941671335,
           "per_price_basis_note": "현재가 $244.8400(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4475,24 +4475,24 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:48.846635+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:04.880598+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
       "peerCount": 1,
       "targetTicker": "CEG",
       "peerTicker": "VST",
-      "targetEps1": 13.301830465753424,
+      "targetEps1": 13.304067397260273,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 11.855443715070676,
+      "peerForwardPe": 11.851930712560824,
       "peerPrice": 120.72000122070312,
       "peerPriceAsOf": "2026-11-24",
-      "appliedPrice": 157.69910239415208,
+      "appliedPrice": 157.67888498756818,
       "targetCurrentPrice": 244.83999633789062,
       "targetCurrentPriceAsOf": "2026-11-24",
       "targetCurrentPriceType": "confirmed_close",
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:48.846635+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:04.880598+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4508,10 +4508,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 13.38236
       },
       "targetEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "peerEpsPeriodDetail": {
         "0y_end": "2026-12-31",
@@ -4520,10 +4520,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "1y_eps": 10.29132
       },
       "peerEpsNtmWeight": {
-        "weight_0y": 0.09863013698630137,
-        "weight_1y": 0.9013698630136986,
-        "days_in_0y": 36,
-        "days_in_1y": 329
+        "weight_0y": 0.0958904109589041,
+        "weight_1y": 0.9041095890410958,
+        "days_in_0y": 35,
+        "days_in_1y": 330
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
@@ -4562,7 +4562,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4594,18 +4594,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $193.2600(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 16.165223232876713,
+          "eps": 16.163242438356164,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2027-01-31(가중18%) / +1y 2028-01-31(가중82%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 11.95529388754652,
+          "per": 11.956759000794328,
           "per_price_basis_note": "현재가 $193.2600(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4623,7 +4623,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4655,18 +4655,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $319.2700(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 16.22620282191781,
+          "eps": 16.233602465753425,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 19.67619858556265,
+          "per": 19.667229728411,
           "per_price_basis_note": "현재가 $319.2700(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4684,7 +4684,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4716,18 +4716,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $720.6500(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 26.78349939726027,
+          "eps": 26.768262191780824,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 26.906492453625347,
+          "per": 26.92180834343955,
           "per_price_basis_note": "현재가 $720.6500(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4745,7 +4745,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4777,18 +4777,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $279.0500(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 15.35511898630137,
+          "eps": 15.342400958904108,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 18.17309185568117,
+          "per": 18.18815637398783,
           "per_price_basis_note": "현재가 $279.0500(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4806,7 +4806,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4838,18 +4838,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $422.1000(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 22.820924849315066,
+          "eps": 22.827710547945205,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 18.49618316920159,
+          "per": 18.4906850477614,
           "per_price_basis_note": "현재가 $422.1000(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4867,7 +4867,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4899,18 +4899,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $54.8000(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 1.7598826575342466,
+          "eps": 1.7607139726027394,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 31.138439260399476,
+          "per": 31.123737353008888,
           "per_price_basis_note": "현재가 $54.8000(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4928,7 +4928,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4960,18 +4960,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $589.8200(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 33.26964884931507,
+          "eps": 33.2826005479452,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 17.728471075713248,
+          "per": 17.72157216124246,
           "per_price_basis_note": "현재가 $589.8200(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4989,7 +4989,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5021,18 +5021,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $131.1300(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 8.460947753424657,
+          "eps": 8.47548904109589,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
-          "eps_basis_note": "0y 2027-03-31(가중35%) / +1y 2028-03-31(가중65%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 15.498264343936677,
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
+          "eps_basis_note": "0y 2027-03-31(가중34%) / +1y 2028-03-31(가중66%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 15.471674170893298,
           "per_price_basis_note": "현재가 $131.1300(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5050,7 +5050,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5082,18 +5082,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $131.5700(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 6.798559150684931,
+          "eps": 6.8072133424657535,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2027-01-31(가중18%) / +1y 2028-01-31(가중82%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 19.352631110220397,
+          "per": 19.328027594410695,
           "per_price_basis_note": "현재가 $131.5700(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5111,7 +5111,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5143,18 +5143,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $496.1300(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 21.731275534246574,
+          "eps": 21.742780301369862,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2027-06-30(가중59%) / +1y 2028-06-30(가중41%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 22.83022936693041,
+          "per": 22.8181491973938,
           "per_price_basis_note": "현재가 $496.1300(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5172,7 +5172,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5204,18 +5204,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $629.7900(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 182.97082597260274,
+          "eps": 183.04974673972603,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2027-08-31(가중76%) / +1y 2028-08-31(가중24%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 3.4420240203847894,
+          "per": 3.4405400129989077,
           "per_price_basis_note": "현재가 $629.7900(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5233,7 +5233,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5265,18 +5265,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $155.3800(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 15.33209093150685,
+          "eps": 15.351093753424658,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2027-01-31(가중18%) / +1y 2028-01-31(가중82%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 10.134299723171655,
+          "per": 10.121754669640328,
           "per_price_basis_note": "현재가 $155.3800(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5294,7 +5294,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5326,18 +5326,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $109.5000(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 9.568783753424658,
+          "eps": 9.576751808219178,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2027-05-31(가중51%) / +1y 2028-05-31(가중49%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 11.443460613352253,
+          "per": 11.433939418375907,
           "per_price_basis_note": "현재가 $109.5000(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5355,7 +5355,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5387,18 +5387,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $161.1800(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 2.456204739726027,
+          "eps": 2.4584982191780824,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 65.62156243284498,
+          "per": 65.5603455062361,
           "per_price_basis_note": "현재가 $161.1800(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5416,7 +5416,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5448,18 +5448,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $164.9600(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 10.016185671232877,
+          "eps": 10.023193808219178,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
-          "eps_basis_note": "0y 2027-09-30(가중85%) / +1y 2028-09-30(가중15%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 16.46934393275504,
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
+          "eps_basis_note": "0y 2027-09-30(가중84%) / +1y 2028-09-30(가중16%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 16.457828699131547,
           "per_price_basis_note": "현재가 $164.9600(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5477,7 +5477,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5509,18 +5509,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $384.6800(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 2.1208640547945206,
+          "eps": 2.1220561643835616,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 181.37890158784876,
+          "per": 181.27700818301733,
           "per_price_basis_note": "현재가 $384.6800(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5538,7 +5538,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK_WITHHELD",
       "lastCheckNote": "가격 자료상태 문제: 통화 불일치: financial_currency='TWD', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": false,
       "reason": "가격 자료상태 문제: 통화 불일치: financial_currency='TWD', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
       "diagnosticKind": null,
@@ -5553,8 +5553,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "quoteCurrency": null,
       "estimatesFetchedAt": null,
       "multiples": null,
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "missing",
@@ -5574,7 +5574,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-11-25T23:45:49.898752+09:00",
+      "lastCheckCheckedAt": "2026-11-26T00:19:05.916014+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5606,18 +5606,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "per_price_basis_note": "현재가 $173.8200(2026-11-24) / 해당 기간 EPS"
         },
         "ntm": {
-          "eps": 9.638306767123286,
+          "eps": 9.645746301369861,
           "period_end": null,
           "period_label": "NTM(향후 365일 일수보간)",
-          "window_start": "2026-11-25",
-          "window_end": "2027-11-25",
+          "window_start": "2026-11-26",
+          "window_end": "2027-11-26",
           "eps_basis_note": "0y 2026-12-31(가중10%) / +1y 2027-12-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-          "per": 18.03428875257705,
+          "per": 18.020379335452077,
           "per_price_basis_note": "현재가 $173.8200(2026-11-24) / 해당 기간 EPS"
         }
       },
-      "asOfDate": "2026-11-25",
-      "generatedAt": "2026-11-25T23:45:49.898752+09:00",
+      "asOfDate": "2026-11-26",
+      "generatedAt": "2026-11-26T00:19:05.916014+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
