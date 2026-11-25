@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795615920.7459555,
+  "generatedAt": 1795617855.922797,
   "events": [
     {
       "id": "cba7957342d622aeed04",
@@ -6694,6 +6694,133 @@ const EVENT_DATA = {
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
       ]
+    },
+    {
+      "id": "e87aa8a72970d84de809",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "TSM SEC Form 6-K filed",
+      "headlineKo": "TSM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000807/tsm-dividendadjustmentx202.htm",
+        "publishedAt": 1795532400.0,
+        "collectedAt": 1795617833.7346392
+      },
+      "confirmedFacts": [
+        "TSM가 2026-11-25에 SEC Form 6-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "8760add990a0a8927669",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "TSM SEC Form 6-K filed",
+      "headlineKo": "TSM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000805/tsm-monthend6kx20261125.htm",
+        "publishedAt": 1795532400.0,
+        "collectedAt": 1795617833.7346392
+      },
+      "confirmedFacts": [
+        "TSM가 2026-11-25에 SEC Form 6-K을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 인수·매각"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "023d19010d3043148a1c",
@@ -16317,7 +16444,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
         "publishedAt": 1795446000.0,
-        "collectedAt": 1795594753.8548477
+        "collectedAt": 1795617833.7346392
       },
       "confirmedFacts": [
         "GOOGL가 2026-11-24에 SEC Form 8-K을 제출했습니다.",
@@ -16382,7 +16509,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000138/qcom-20261120.htm",
         "publishedAt": 1795446000.0,
-        "collectedAt": 1795594753.8548477
+        "collectedAt": 1795617833.7346392
       },
       "confirmedFacts": [
         "QCOM가 2026-11-24에 SEC Form 8-K을 제출했습니다.",
@@ -18290,143 +18417,6 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "c16625aefa30e6890655",
-      "schemaVersion": 1,
-      "eventType": "guidance_change",
-      "eventLabel": "실적 전망 변경",
-      "primaryTicker": "ASML",
-      "relatedTickers": [
-        "ASML",
-        "QQQ"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "ASML Stock Fell 25% In The AI Selloff, But Its Outlook Hasn't Budged",
-      "headlineKo": "ASML 주식은 AI 매도세로 인해 25% 하락했지만 전망은 흔들리지 않았습니다.",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b3fdb14a7c548357fa7d200917e65154d7b87dce413b46747080d701b497f05a",
-        "publishedAt": 1795425973,
-        "collectedAt": 1795611772.3645513
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "ASML 주식은 AI 매도세로 인해 25% 하락했지만 전망은 꺾이지 않았습니다(NASDAQ:ASML) | Alpha Rick Orford 찾기 5.32K 팔로워 요약 팔로우 ASML Holding N.V.",
-        "Strong Buy로 유지됨: AI 매도는 사업 전망을 그대로 유지하면서 약 25%의 주가를 하락시켰습니다.",
-        "ASML은 4분기 지침에 따른 연간 수익이 10월의 26배에 비해 거의 20배에 달하며 2028년까지 수요가 공급을 초과할 것으로 예상됩니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 25%, €100 million, 1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "ASML에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 25%, €100 million, 1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ASML",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
-    },
-    {
-      "id": "6d0b508c057b08764d7d",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "HUBB",
-      "relatedTickers": [
-        "HUBB"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Baird Maintains Outperform on Hubbell, Lowers Price Target to $488",
-      "headlineKo": "Baird, Hubbell에서 우수한 성과를 유지하고 목표 가격을 488달러로 낮춤",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=6b80ec96e6ac7b83a0826d2ee29fe403d91442aec02332b14512198baeedfff4",
-        "publishedAt": 1795420846,
-        "collectedAt": 1795611772.3645513
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Baird Maintains Outperform on Hubbell, Lowers Price Target to $488",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "HUBB의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "HUBB에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "HUBB의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "HUBB",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18719,8 +18709,7 @@ const EVENT_DATA = {
       "1e24268c40e7430a5b25",
       "e75ee1703502f2e952da",
       "aa5af971146e7ca6b642",
-      "6c671ad2a4bf126ae143",
-      "c16625aefa30e6890655"
+      "6c671ad2a4bf126ae143"
     ],
     "NVDA": [
       "b507e0b53ff7f37c802a",
@@ -18980,8 +18969,7 @@ const EVENT_DATA = {
       "f76f73eb2538dbafe478",
       "72876ccff2017a3a561b",
       "382dd6eba4711402966a",
-      "20da6ec2196b96c253d5",
-      "c16625aefa30e6890655"
+      "20da6ec2196b96c253d5"
     ],
     "SNDK": [
       "9610f0f320c2c026b072",
@@ -19123,6 +19111,8 @@ const EVENT_DATA = {
     ],
     "TSM": [
       "4107d2d6a83edcdd3a57",
+      "e87aa8a72970d84de809",
+      "8760add990a0a8927669",
       "cc94730914e7701ad7d4",
       "59c9a14cc526fb6c3ad0",
       "b73634e136a69b6c1f17",
@@ -19168,9 +19158,6 @@ const EVENT_DATA = {
     ],
     "CEG": [
       "422bb5718559e41265dc"
-    ],
-    "HUBB": [
-      "6d0b508c057b08764d7d"
     ]
   }
 };
