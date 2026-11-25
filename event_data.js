@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795565689.3079972,
+  "generatedAt": 1795567561.206906,
   "events": [
     {
       "id": "8dbf49fe41af30a14ccb",
@@ -2387,13 +2387,14 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "e8c5ffcb1cd8221e029a",
+      "id": "94e15d14ee61c4a9c026",
       "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
       "primaryTicker": "AMZN",
       "relatedTickers": [
-        "AMZN"
+        "AMZN",
+        "QQQ"
       ],
       "relatedEntities": [
         {
@@ -2409,8 +2410,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon’s $7.5 billion Decart tech deal makes Wedbush’s case for chip choice",
@@ -2423,30 +2424,43 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Amazon의 75억 달러 규모 Decart 기술 거래로 Wedbush의 칩 선택 사례 제공"
+        "Amazon의 75억 달러 규모 Decart 기술 거래로 Wedbush의 칩 선택 사례 | NASDAQ:ANT 무엇을 찾고 계십니까?",
+        "회사 뉴스 일치하는 모든 회사 보기 일치하는 모든 뉴스 보기 기술 작성자: Luis Vincent Gochoco 고지 사항 투자 조언 없음 이 콘텐츠에 대해 편집 표준 및 정책 기사 공유 이 콘텐츠 정보 × Luis Vincent Go 정보",
+        "그의 배경은 재무 보고 및 편집 분야이며 글로벌 시장, 비즈니스 및 뉴스 속보를 다룬 경험이 있습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $7.5 billion, 1.9 times, $4 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "AMZN에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $7.5 billion, 1.9 times, $4 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "AMZN",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
+      ]
     },
     {
       "id": "446c2a90ec54e2666501",
@@ -18611,6 +18625,7 @@ const EVENT_DATA = {
       "ffab3f74ad4a5ee697d6",
       "8102b30d056516346aa6",
       "5b64be3f41aa7c8a9eb5",
+      "94e15d14ee61c4a9c026",
       "446c2a90ec54e2666501",
       "ee4b1d3a479054211722",
       "9cc8350699de1bc6b220",
@@ -18785,7 +18800,7 @@ const EVENT_DATA = {
     "AMZN": [
       "6b1cb5351e37b3de5052",
       "38fab0c8ec4be3e5a1ba",
-      "e8c5ffcb1cd8221e029a",
+      "94e15d14ee61c4a9c026",
       "b4c898a7952be92e2290",
       "df98a070b75d395bf5c1",
       "e0a0f9d3059e0b07176f",
