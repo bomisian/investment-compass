@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 103.77300262451172,
+      "current": 103.7750015258789,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.10300445556640625,
-      "changePct": 0.09935801812067704,
+      "changeAbs": 0.10500335693359375,
+      "changePct": 0.10128615683244784,
       "pctRank": 62.877583465818766,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.5243453526770248,
-      "ma20": 102.92065086364747,
-      "ma60": 101.73088353474935,
-      "chg1m": 1.5830001831054688,
-      "chg3m": 4.073005676269531,
-      "chg1mPct": 1.5490753941542668,
-      "chg3mPct": 4.085261585698918,
+      "drawdown1y": -0.5224292278945941,
+      "ma20": 102.92075080871582,
+      "ma60": 101.73091684977213,
+      "chg1m": 1.5849990844726562,
+      "chg3m": 4.075004577636719,
+      "chg1mPct": 1.551031457682432,
+      "chg3mPct": 4.087266501875821,
       "lastDate": "2026-11-26",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 3596.10009765625,
+      "current": 3593.39990234375,
       "prevClose": 3535.800048828125,
-      "changeAbs": 60.300048828125,
-      "changePct": 1.7054145595170271,
+      "changeAbs": 57.599853515625,
+      "changePct": 1.6290472515468006,
       "pctRank": 75.45671167593329,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -32.383796561227086,
-      "ma20": 3849.6149780273436,
-      "ma60": 4110.344982910156,
-      "chg1m": -455.5,
-      "chg3m": -933.7998046875,
-      "chg1mPct": -11.242471838805006,
-      "chg3mPct": -20.614137725302854,
+      "drawdown1y": -32.434567382565845,
+      "ma20": 3849.4799682617186,
+      "ma60": 4110.2999796549475,
+      "chg1m": -458.2001953125,
+      "chg3m": -936.5,
+      "chg1mPct": -11.309116997443985,
+      "chg3mPct": -20.673746002984725,
       "lastDate": "2026-11-26",
       "bars": 1259,
       "symbol": "GC=F",
@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Settlers smash foundations of Palestinian family's homes in West Bank - Reuters",
+      "summary": "Settlers smash foundations of Palestinian family's homes in West Bank Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1JfSF9vcWp6cVBxNTNjV2NnZkd4aUN5ektmYU4wSF9Qa18weEFlbGhTZlRtTEhuY1haWW1pTk4wZjExSHo3Rk5jY1VHd09FblJPSHJfazNMenFsYWRlVDdYYjJobXd2TnRFRlYwWXBvaWlLWjQyWTFIZnF0VWNVSHYzQmxMRVVxYUlad21JWXBseHJ3VUlqOXVFRk5EQXpHODZoUExmMWFVVW5HT1Nrd1ZCMklXVHc?oc=5",
+      "datetime": 1795717783,
+      "headlineKo": "정착민들이 서안 지구의 팔레스타인 가족 집의 기초를 부수다 - 로이터 통신",
+      "summaryKo": "정착민들이 서안 지구에 있는 팔레스타인 가족의 집 기초를 부수고 있습니다."
+    },
+    {
+      "headline": "Two Italians killed in attack on Kuwait site, Iran denies involvement - Reuters",
+      "summary": "Two Italians killed in attack on Kuwait site, Iran denies involvement Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeE9DZXQ0VUMxV052eWlmWWlKM3R0LTFiMS1ITm93Ty1NOWpta1ZVNU5MeWVVMHRlcmdXd0NpZmxJeGlGZEhCeklaaEs2VWlSWnR0RVRLUHhCNm9MeFNTMmNUZFEyWWdoUVVBWUZTcVc0LVNFY0gxN050ZHNtS3psSVRHQWtBVEM5N3dPYVl6T1Flb0tBb1BlUGVxQ3ZaNURWVU9vTHYtTGxFRDJSQVhaMU1Tbw?oc=5",
+      "datetime": 1795716080,
+      "headlineKo": "쿠웨이트 기지 공격으로 이탈리아인 2명 사망, 이란은 개입 부인 - 로이터",
+      "summaryKo": "쿠웨이트 현장 공격으로 이탈리아인 2명 사망, 이란 개입 부인 - 로이터"
+    },
+    {
       "headline": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
       "summary": "President Donald Trump on Thursday deemed the latest gross domestic product revision a historic mistake, claiming that it should be \"immediately investigated.\"",
       "source": "CNBC",
@@ -273,6 +291,33 @@ const MARKET_DATA = {
       "summaryKo": "아르헨티나 상원, 예비선거 중단…밀레이의 재선 도전에 힘을 실어 - 로이터통신"
     },
     {
+      "headline": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery - Reuters",
+      "summary": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5",
+      "datetime": 1795709109,
+      "headlineKo": "사우디 주도 연합군, 후티 반군이 아람코 자잔 정유소 공격했다고 발표 - 로이터 통신",
+      "summaryKo": "사우디 주도 연합군, 후티 반군이 아람코 자잔 정유소 공격했다고 발표 - 로이터통신"
+    },
+    {
+      "headline": "Trump demands probe of GDP data released before midterms - Reuters",
+      "summary": "Trump demands probe of GDP data released before midterms Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdjAtVm85ZE55RGw0MXhaM3NVV1NlaHdlazNjODRQQjRPOGh2eDQ5aWYzcmxNSHpVWHNacEhhMDFaRDZ3YWIxalJzY3JCTXdjLVE4RXpmbktlZXNZTUc3RlE0LVhtTlo5Rl8xMm9nOXVPZmZ1eEd2XzJjcXQxX2otajdiUHN6djBScGpldmJvUXBIaG9UeUJxeW5kSWtnTTQ?oc=5",
+      "datetime": 1795709067,
+      "headlineKo": "트럼프, 중간고사 전 발표된 GDP 데이터 조사 요구 - 로이터",
+      "summaryKo": "트럼프, 중간고사 전에 발표되는 GDP 데이터 조사 요구 - 로이터"
+    },
+    {
+      "headline": "Stocks rally, Europe sizes up next ECB chief - Reuters",
+      "summary": "Stocks rally, Europe sizes up next ECB chief Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWRTQ2N0czgwTVhPdVhvZDUzeDNDRUJ6cFd0MWx1N05aSTJHaUlOdTQ5X2xieEVueHJ3VTRrb0ppNEtzbFVBRm1fU3VvV0xpMWVlUWg3c0NvWXJxS2ZabkwwejhwenhCVmhYRUdweUwwdHhTTWd1bTh2QlR1dFpvVDFHVQ?oc=5",
+      "datetime": 1795708284,
+      "headlineKo": "증시 반등, 유럽은 차기 ECB 총재 규모 확대 - Reuters",
+      "summaryKo": "주식 반등, 유럽은 차기 ECB 총재 규모 확대 Reuters"
+    },
+    {
       "headline": "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
       "summary": "Hamas weighs response after Israel kills 10 people in Gaza Reuters",
       "source": "Reuters",
@@ -280,15 +325,6 @@ const MARKET_DATA = {
       "datetime": 1795707625,
       "headlineKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터",
       "summaryKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터"
-    },
-    {
-      "headline": "Two Italians killed in Iranian drone attack in Kuwait, Italy says - Reuters",
-      "summary": "Two Italians killed in Iranian drone attack in Kuwait, Italy says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeE9DZXQ0VUMxV052eWlmWWlKM3R0LTFiMS1ITm93Ty1NOWpta1ZVNU5MeWVVMHRlcmdXd0NpZmxJeGlGZEhCeklaaEs2VWlSWnR0RVRLUHhCNm9MeFNTMmNUZFEyWWdoUVVBWUZTcVc0LVNFY0gxN050ZHNtS3psSVRHQWtBVEM5N3dPYVl6T1Flb0tBb1BlUGVxQ3ZaNURWVU9vTHYtTGxFRDJSQVhaMU1Tbw?oc=5",
-      "datetime": 1795707617,
-      "headlineKo": "쿠웨이트에서 이란의 드론 공격으로 이탈리아인 2명이 사망했다고 이탈리아가 밝혔습니다.",
-      "summaryKo": "쿠웨이트에서 이란 드론 공격으로 이탈리아인 2명 사망, 이탈리아 로이터 통신"
     },
     {
       "headline": "Iraqi Kurds protest against Baghdad leader's moves to assert central control - Reuters",
@@ -307,54 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795705042,
       "headlineKo": "스페인 데 코스, 유럽연합(EU) 차기 ECB 의장으로 지명 - 로이터",
       "summaryKo": "스페인 데 코스, 유럽연합(EU) 차기 ECB 의장으로 지명 예정 Reuters"
-    },
-    {
-      "headline": "Two Italian workers killed in Iranian strike in Kuwait, source says - Reuters",
-      "summary": "Two Italian workers killed in Iranian strike in Kuwait, source says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2hPQWhhdW9HTWxtRndjQkN3aFhQTzhyWV9sQ0NTbHNsRFpINkRjMHhKRGN4QTk1NTJYWU1yVHhmYVJSazJEVGtOdVIzZ2xsNFJFeHF0YXNEbXBqTF94bnBDOEFnMV9JdGRRbWVROFJGRmZISmZWUXhtYTlJTXFFMlBWa2IwdXBfUXY4OENRd2tVeWh0Q1M1OThsMl9kMkVEamJiTjMzdWxwZHRzdlVHYmtwTUI?oc=5",
-      "datetime": 1795701739,
-      "headlineKo": "쿠웨이트에서 이란의 공습으로 이탈리아 노동자 2명이 사망했다고 소식통이 전했습니다.",
-      "summaryKo": "쿠웨이트에서 이란의 공습으로 이탈리아 노동자 2명이 사망했다고 소식통이 로이터통신을 인용해 보도했다."
-    },
-    {
-      "headline": "Airline Norse Atlantic flags bankruptcy risk as flights suspended - Reuters",
-      "summary": "Airline Norse Atlantic flags bankruptcy risk as flights suspended Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
-      "datetime": 1795701486,
-      "headlineKo": "노르웨이 항공 애틀랜틱, 항공편 중단으로 파산 위험 경고 - 로이터 통신",
-      "summaryKo": "노르웨이 항공 대서양, 항공편 중단으로 파산 위험 표시 - 최신"
-    },
-    {
-      "headline": "Spain's de Cos to become ECB's next president, FT reports - Reuters",
-      "summary": "Spain's de Cos to become ECB's next president, FT reports Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWxGUjk3QjBiVW11a0hIVTN4R21ScVdhVXZTY2ZEeU5oRXp6U3VWWHNqblR6MUNJcWVHc0xQSEZwd2l4cDkwNmZ1N0NxbHF3c1g4TlZiZTVKemRnZktkWENldWhOMkN6N0t2MTc0Z0daLUtFOGtXLWlWSTVZa0FUeUNYZjhKdTNnc2lCMVgyc2VtMkNmUzlhaDhDang2Yndad2c?oc=5",
-      "datetime": 1795701106,
-      "headlineKo": "스페인의 데 코스가 ECB의 차기 총재가 될 것이라고 FT가 보도했습니다.",
-      "summaryKo": "스페인의 데 코스가 ECB의 차기 총재가 될 것이라고 FT가 보도했습니다."
-    },
-    {
-      "headline": "Iran's supreme leader urges Guards-linked Basij volunteers to broaden social reach - Reuters",
-      "summary": "Iran's supreme leader urges Guards-linked Basij volunteers to broaden social reach Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYmt1bHZnbVJoU3dJN3o2VEQ1c1c2WXRPeTRxRVFRT0I5bHc5MEJweVVlZ1J1aXNVd0NCZ0piWlg1OU14dVJiR3FyZTVicHoxc3FIS2tZbXdvU3gxLXBQRi1mOGhmaEZGUkV4elpkWk94MVdtVDBtTngyT0FaSm1OQ1BZV0dNNnBqTWNZcTR0U1FfU3pLQlNKN2NYWkJFWlFIRmdlOURCWTlaWHN6ZEpYTXhuelJiSUstVDQ4TQ?oc=5",
-      "datetime": 1795700864,
-      "headlineKo": "이란 최고 지도자, 경비대와 연계된 바시즈 자원봉사자들에게 사회적 범위 확대 촉구 - 로이터 통신",
-      "summaryKo": "이란 최고 지도자, 경비대와 연계된 바시즈 자원봉사자들에게 사회적 범위 확대 촉구 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795719634.2617087,
+  "_news_last_success_at": 1795723237.759973,
   "fgi": {
     "score": 14.9967450271248,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795719619.3313558,
-  "_updated_label": "2026-11-27 04:01",
-  "_last_attempt_at": 1795719619.3313558,
-  "_last_success_at": 1795719619.3313558,
+  "_fetched_at": 1795723218.9676855,
+  "_updated_label": "2026-11-27 05:01",
+  "_last_attempt_at": 1795723218.9676855,
+  "_last_success_at": 1795723218.9676855,
   "_collection_status": "ok",
   "_collection_errors": []
 };
