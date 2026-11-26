@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 103.78099822998047,
+      "current": 103.75399780273438,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.11100006103515625,
-      "changePct": 0.1070705729677602,
-      "pctRank": 62.877583465818766,
+      "changeAbs": 0.0839996337890625,
+      "changePct": 0.08102598174273419,
+      "pctRank": 62.79809220985692,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.5166808535472911,
-      "ma20": 102.92105064392089,
-      "ma60": 101.7310167948405,
-      "chg1m": 1.5909957885742188,
-      "chg3m": 4.081001281738281,
-      "chg1mPct": 1.5568996482669277,
-      "chg3mPct": 4.093281250406531,
+      "drawdown1y": -0.542563165016885,
+      "ma20": 102.9197006225586,
+      "ma60": 101.73056678771972,
+      "chg1m": 1.563995361328125,
+      "chg3m": 4.0540008544921875,
+      "chg1mPct": 1.5304778588540395,
+      "chg3mPct": 4.066199577314695,
       "lastDate": "2026-11-26",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
+      "summary": "Hamas weighs response after Israel kills 10 people in Gaza Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzFiM29KUVhvZHZUYTV1SWtlLXNYbXg3ZzRodFVmanZkNzJsczZ4UldfRkNkSW1fVDhMaTFYOW9ETUxXaXFKcktCTThoYnBYS21mVjQxYkNWM19MR1h0WHNSdjlGenRTNkExU2RKU0ZKNUhCRWR0OVU2VmFqTUJHeE5QMVNybDE4Qk1WTmp5VGgyWDV0NjhaM3h4Ulp1bWZDUThnSlI0TFMwMnQzNk5KQnZXVTRCUUxvc2FLbmlDYVREeHpwOUpV?oc=5",
+      "datetime": 1795726614,
+      "headlineKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터",
+      "summaryKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터"
+    },
+    {
       "headline": "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations - Reuters",
       "summary": "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795708284,
       "headlineKo": "증시 반등, 유럽은 차기 ECB 총재 규모 확대 - Reuters",
       "summaryKo": "주식 반등, 유럽은 차기 ECB 총재 규모 확대 Reuters"
-    },
-    {
-      "headline": "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
-      "summary": "Hamas weighs response after Israel kills 10 people in Gaza Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzFiM29KUVhvZHZUYTV1SWtlLXNYbXg3ZzRodFVmanZkNzJsczZ4UldfRkNkSW1fVDhMaTFYOW9ETUxXaXFKcktCTThoYnBYS21mVjQxYkNWM19MR1h0WHNSdjlGenRTNkExU2RKU0ZKNUhCRWR0OVU2VmFqTUJHeE5QMVNybDE4Qk1WTmp5VGgyWDV0NjhaM3h4Ulp1bWZDUThnSlI0TFMwMnQzNk5KQnZXVTRCUUxvc2FLbmlDYVREeHpwOUpV?oc=5",
-      "datetime": 1795707625,
-      "headlineKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터",
-      "summaryKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795730433.1132145,
+  "_news_last_success_at": 1795734048.781538,
   "fgi": {
     "score": 14.9967450271248,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795730418.481185,
-  "_updated_label": "2026-11-27 07:01",
-  "_last_attempt_at": 1795730418.481185,
-  "_last_success_at": 1795730418.481185,
+  "_fetched_at": 1795734041.779071,
+  "_updated_label": "2026-11-27 08:01",
+  "_last_attempt_at": 1795734041.779071,
+  "_last_success_at": 1795734041.779071,
   "_collection_status": "ok",
   "_collection_errors": []
 };
