@@ -38,7 +38,7 @@ const EPS_DATA = {
         "revenueAvg": 477761576700.0
       }
     ],
-    "updatedAt": "2026-11-25T01:00:21+09:00"
+    "updatedAt": "2026-11-26T17:12:47+09:00"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -78,7 +78,7 @@ const EPS_DATA = {
         "revenueAvg": 636424058670.0
       }
     ],
-    "updatedAt": "2026-11-25T01:00:34+09:00"
+    "updatedAt": "2026-11-26T17:13:00+09:00"
   },
   "AMZN": {
     "symbol": "AMZN",
@@ -118,7 +118,7 @@ const EPS_DATA = {
         "revenueAvg": 960459304210.0
       }
     ],
-    "updatedAt": "2026-11-25T01:00:48+09:00"
+    "updatedAt": "2026-11-26T17:13:15+09:00"
   },
   "META": {
     "symbol": "META",
@@ -158,7 +158,7 @@ const EPS_DATA = {
         "revenueAvg": 312953453690.0
       }
     ],
-    "updatedAt": "2026-11-25T01:01:02+09:00"
+    "updatedAt": "2026-11-26T17:13:29+09:00"
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -198,7 +198,7 @@ const EPS_DATA = {
         "revenueAvg": 571120334580.0
       }
     ],
-    "updatedAt": "2026-11-25T01:01:15+09:00"
+    "updatedAt": "2026-11-26T17:13:43+09:00"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -238,7 +238,7 @@ const EPS_DATA = {
         "revenueAvg": 122382285730.0
       }
     ],
-    "updatedAt": "2026-11-25T01:01:29+09:00"
+    "updatedAt": "2026-11-26T17:13:56+09:00"
   },
   "ORCL": {
     "symbol": "ORCL",
@@ -278,7 +278,7 @@ const EPS_DATA = {
         "revenueAvg": 131818019210.0
       }
     ],
-    "updatedAt": "2026-11-25T01:01:42+09:00"
+    "updatedAt": "2026-11-26T17:14:10+09:00"
   },
   "CRM": {
     "symbol": "CRM",
@@ -318,7 +318,7 @@ const EPS_DATA = {
         "revenueAvg": 50744653780.0
       }
     ],
-    "updatedAt": "2026-11-25T01:01:56+09:00"
+    "updatedAt": "2026-11-26T17:14:23+09:00"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -358,7 +358,7 @@ const EPS_DATA = {
         "revenueAvg": 13140330230.0
       }
     ],
-    "updatedAt": "2026-11-25T01:02:09+09:00"
+    "updatedAt": "2026-11-26T17:14:37+09:00"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -398,7 +398,7 @@ const EPS_DATA = {
         "revenueAvg": 725521609680.0
       }
     ],
-    "updatedAt": "2026-11-25T01:02:23+09:00"
+    "updatedAt": "2026-11-26T17:14:50+09:00"
   },
   "AMD": {
     "symbol": "AMD",
@@ -438,20 +438,20 @@ const EPS_DATA = {
         "revenueAvg": 95879348180.0
       }
     ],
-    "updatedAt": "2026-11-25T01:02:37+09:00"
+    "updatedAt": "2026-11-26T17:15:04+09:00"
   },
   "AVGO": {
     "symbol": "AVGO",
     "targetLabel": "현재 회계연도",
     "fiscalDate": "2027-10-31",
-    "analystCount": 49.0,
-    "epsNow": 19.386,
-    "eps7d": 19.436,
+    "analystCount": 50.0,
+    "epsNow": 19.3547,
+    "eps7d": 19.4037,
     "eps30d": 19.3693,
     "eps60d": 19.3558,
     "eps90d": 19.5369,
-    "change30dPct": 0.09,
-    "change90dPct": -0.77,
+    "change30dPct": -0.08,
+    "change90dPct": -0.93,
     "revisionUp30": 2,
     "revisionDown30": 0,
     "revisionUp7": 0,
@@ -462,14 +462,14 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-10-31",
-        "epsAvg": 19.386,
+        "epsAvg": 19.3547,
         "epsHigh": 22.44,
         "epsLow": 17.4665,
-        "analystCount": 49.0,
-        "revenueAvg": 174984617760.0
+        "analystCount": 50.0,
+        "revenueAvg": 174882115360.0
       }
     ],
-    "updatedAt": "2026-11-23T08:02:29+09:00"
+    "updatedAt": "2026-11-26T17:15:17+09:00"
   },
   "QCOM": {
     "symbol": "QCOM",
@@ -509,7 +509,7 @@ const EPS_DATA = {
         "revenueAvg": 52372072320.0
       }
     ],
-    "updatedAt": "2026-11-23T08:02:42+09:00"
+    "updatedAt": "2026-11-26T17:15:31+09:00"
   },
   "ARM": {
     "symbol": "ARM",
@@ -549,7 +549,7 @@ const EPS_DATA = {
         "revenueAvg": 8369037730.0
       }
     ],
-    "updatedAt": "2026-11-23T08:02:56+09:00"
+    "updatedAt": "2026-11-26T17:15:44+09:00"
   },
   "MRVL": {
     "symbol": "MRVL",
@@ -589,7 +589,7 @@ const EPS_DATA = {
         "revenueAvg": 19836300290.0
       }
     ],
-    "updatedAt": "2026-11-23T08:03:09+09:00"
+    "updatedAt": "2026-11-26T17:15:58+09:00"
   },
   "INTC": {
     "symbol": "INTC",
@@ -629,7 +629,7 @@ const EPS_DATA = {
         "revenueAvg": 69132470610.0
       }
     ],
-    "updatedAt": "2026-11-23T08:03:23+09:00"
+    "updatedAt": "2026-11-26T17:16:11+09:00"
   },
   "TSM": {
     "symbol": "TSM",
@@ -669,7 +669,7 @@ const EPS_DATA = {
         "revenueAvg": 7696020737480.0
       }
     ],
-    "updatedAt": "2026-11-23T08:03:36+09:00"
+    "updatedAt": "2026-11-26T17:16:25+09:00"
   },
   "ASML": {
     "symbol": "ASML",
@@ -709,20 +709,20 @@ const EPS_DATA = {
         "revenueAvg": 57389468110.0
       }
     ],
-    "updatedAt": "2026-11-23T08:03:50+09:00"
+    "updatedAt": "2026-11-26T17:16:39+09:00"
   },
   "AMAT": {
     "symbol": "AMAT",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2028-10-31",
     "analystCount": 29.0,
-    "epsNow": 24.617,
-    "eps7d": 24.035,
+    "epsNow": 24.6254,
+    "eps7d": 24.708,
     "eps30d": 23.6945,
     "eps60d": 23.5965,
     "eps90d": 23.4446,
-    "change30dPct": 3.89,
-    "change90dPct": 5.0,
+    "change30dPct": 3.93,
+    "change90dPct": 5.04,
     "revisionUp30": 5,
     "revisionDown30": 3,
     "revisionUp7": 1,
@@ -733,23 +733,23 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-10-31",
-        "epsAvg": 19.2954,
+        "epsAvg": 19.3005,
         "epsHigh": 20.77,
         "epsLow": 18.3,
         "analystCount": 34.0,
-        "revenueAvg": 47998502100.0
+        "revenueAvg": 47998507600.0
       },
       {
         "label": "다음 회계연도",
         "date": "2028-10-31",
-        "epsAvg": 24.617,
+        "epsAvg": 24.6254,
         "epsHigh": 30.5078,
         "epsLow": 18.07,
         "analystCount": 29.0,
-        "revenueAvg": 57920850160.0
+        "revenueAvg": 57920838850.0
       }
     ],
-    "updatedAt": "2026-11-23T08:04:03+09:00"
+    "updatedAt": "2026-11-26T17:16:52+09:00"
   },
   "LRCX": {
     "symbol": "LRCX",
@@ -789,7 +789,7 @@ const EPS_DATA = {
         "revenueAvg": 42684682940.0
       }
     ],
-    "updatedAt": "2026-11-23T08:04:17+09:00"
+    "updatedAt": "2026-11-26T17:17:06+09:00"
   },
   "KLAC": {
     "symbol": "KLAC",
@@ -1552,4 +1552,4 @@ const EPS_DATA = {
     "updatedAt": "2026-10-15T04:29:02"
   }
 };
-const EPS_DATA_GENERATED_AT = "2026-11-25T21:00:27";
+const EPS_DATA_GENERATED_AT = "2026-11-26T17:17:06";

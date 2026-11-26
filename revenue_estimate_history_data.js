@@ -505,6 +505,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 18878302630.0,
       "analystCount": 25.0,
       "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 18878302630.0,
+      "analystCount": 25.0,
+      "fiscalDate": "2027-06-30"
     }
   ],
   "MU": [
@@ -1008,6 +1014,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 275888402110.0,
+      "analystCount": 36.0,
+      "fiscalDate": "2027-08-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 275888402110.0,
       "analystCount": 36.0,
       "fiscalDate": "2027-08-31"
@@ -1517,6 +1529,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 49573915650.0,
       "analystCount": 21.0,
       "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 49573915650.0,
+      "analystCount": 21.0,
+      "fiscalDate": "2027-06-30"
     }
   ],
   "WDC": [
@@ -2020,6 +2038,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 21315271910.0,
+      "analystCount": 23.0,
+      "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 21315271910.0,
       "analystCount": 23.0,
       "fiscalDate": "2027-06-30"
@@ -2529,6 +2553,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 13383127330.0,
       "analystCount": 28.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 13383127330.0,
+      "analystCount": 28.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "COHR": [
@@ -3002,6 +3032,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 10629628430.0,
+      "analystCount": 23.0,
+      "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 10629628430.0,
       "analystCount": 23.0,
       "fiscalDate": "2027-06-30"
@@ -3481,6 +3517,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 6331438580.0,
       "analystCount": 25.0,
       "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 6331438580.0,
+      "analystCount": 25.0,
+      "fiscalDate": "2027-06-30"
     }
   ],
   "GEV": [
@@ -3954,6 +3996,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 46312279530.0,
+      "analystCount": 19.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 46312279530.0,
       "analystCount": 19.0,
       "fiscalDate": "2026-12-31"
@@ -4433,6 +4481,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 35469754280.0,
       "analystCount": 18.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 35469754280.0,
+      "analystCount": 18.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "VST": [
@@ -4906,6 +4960,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 22484501220.0,
+      "analystCount": 9.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 22484501220.0,
       "analystCount": 9.0,
       "fiscalDate": "2026-12-31"
@@ -5385,6 +5445,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 32863245570.0,
       "analystCount": 26.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 32863245570.0,
+      "analystCount": 26.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "PWR": [
@@ -5858,6 +5924,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 39570905960.0,
+      "analystCount": 26.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 39570905960.0,
       "analystCount": 26.0,
       "fiscalDate": "2026-12-31"
@@ -6337,6 +6409,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 6868676560.0,
       "analystCount": 13.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 6868676560.0,
+      "analystCount": 13.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "VRT": [
@@ -6810,6 +6888,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 14007621630.0,
+      "analystCount": 29.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 14007621630.0,
       "analystCount": 29.0,
       "fiscalDate": "2026-12-31"
@@ -7289,6 +7373,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 3980883820.0,
       "analystCount": 7.0,
       "fiscalDate": "2027-03-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 3980883820.0,
+      "analystCount": 7.0,
+      "fiscalDate": "2027-03-31"
     }
   ],
   "STX": [
@@ -7762,6 +7852,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 18970710420.0,
+      "analystCount": 21.0,
+      "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 18970710420.0,
       "analystCount": 21.0,
       "fiscalDate": "2027-06-30"
@@ -8241,6 +8337,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 20319659700.0,
       "analystCount": 9.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 20319659700.0,
+      "analystCount": 9.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "FIX": [
@@ -8717,6 +8819,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 12982378220.0,
       "analystCount": 10.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 12982378220.0,
+      "analystCount": 10.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "BE": [
@@ -9190,6 +9298,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 4115851600.0,
+      "analystCount": 26.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 4115851600.0,
       "analystCount": 26.0,
       "fiscalDate": "2026-12-31"
@@ -9699,6 +9813,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 5582137421670.0,
       "analystCount": 11.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 5582137421670.0,
+      "analystCount": 11.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "ASML": [
@@ -10202,6 +10322,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 44490989200.0,
+      "analystCount": 24.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 44490989200.0,
       "analystCount": 24.0,
       "fiscalDate": "2026-12-31"
@@ -10711,6 +10837,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 47998502100.0,
       "analystCount": 34.0,
       "fiscalDate": "2027-10-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 47998507600.0,
+      "analystCount": 34.0,
+      "fiscalDate": "2027-10-31"
     }
   ],
   "LRCX": [
@@ -11217,6 +11349,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 35393246530.0,
       "analystCount": 31.0,
       "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 35393246530.0,
+      "analystCount": 31.0,
+      "fiscalDate": "2027-06-30"
     }
   ],
   "MSFT": [
@@ -11714,6 +11852,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 395966031800.0,
+      "analystCount": 32.0,
+      "fiscalDate": "2027-06-30"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 395966031800.0,
       "analystCount": 32.0,
       "fiscalDate": "2027-06-30"
@@ -12217,6 +12361,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 499665746860.0,
       "analystCount": 47.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 499665746860.0,
+      "analystCount": 47.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "AMZN": [
@@ -12714,6 +12864,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 829229009560.0,
+      "analystCount": 53.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 829229009560.0,
       "analystCount": 53.0,
       "fiscalDate": "2026-12-31"
@@ -13217,6 +13373,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 256853051780.0,
       "analystCount": 55.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 256853051780.0,
+      "analystCount": 55.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "AAPL": [
@@ -13714,6 +13876,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 528236958590.0,
+      "analystCount": 40.0,
+      "fiscalDate": "2027-09-30"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 528236958590.0,
       "analystCount": 40.0,
       "fiscalDate": "2027-09-30"
@@ -14217,6 +14385,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 107828762880.0,
       "analystCount": 32.0,
       "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 107828762880.0,
+      "analystCount": 32.0,
+      "fiscalDate": "2026-12-31"
     }
   ],
   "ORCL": [
@@ -14714,6 +14888,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 90462336210.0,
+      "analystCount": 39.0,
+      "fiscalDate": "2027-05-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 90462336210.0,
       "analystCount": 39.0,
       "fiscalDate": "2027-05-31"
@@ -15217,6 +15397,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 46296851870.0,
       "analystCount": 52.0,
       "fiscalDate": "2027-01-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 46296851870.0,
+      "analystCount": 52.0,
+      "fiscalDate": "2027-01-31"
     }
   ],
   "PLTR": [
@@ -15714,6 +15900,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 8550631299.0,
+      "analystCount": 30.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 8550631299.0,
       "analystCount": 30.0,
       "fiscalDate": "2026-12-31"
@@ -16217,6 +16409,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 423753606620.0,
       "analystCount": 53.0,
       "fiscalDate": "2027-01-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 423753606620.0,
+      "analystCount": 53.0,
+      "fiscalDate": "2027-01-31"
     }
   ],
   "AMD": [
@@ -16714,6 +16912,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 52234334570.0,
+      "analystCount": 45.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 52234334570.0,
       "analystCount": 45.0,
       "fiscalDate": "2026-12-31"
@@ -17217,6 +17421,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 174882115360.0,
       "analystCount": 50.0,
       "fiscalDate": "2027-10-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 174882115360.0,
+      "analystCount": 50.0,
+      "fiscalDate": "2027-10-31"
     }
   ],
   "QCOM": [
@@ -17714,6 +17924,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 45382519280.0,
+      "analystCount": 30.0,
+      "fiscalDate": "2027-09-30"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 45382519280.0,
       "analystCount": 30.0,
       "fiscalDate": "2027-09-30"
@@ -18217,6 +18433,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 6100833560.0,
       "analystCount": 35.0,
       "fiscalDate": "2027-03-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 6100833560.0,
+      "analystCount": 35.0,
+      "fiscalDate": "2027-03-31"
     }
   ],
   "MRVL": [
@@ -18717,6 +18939,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "revenueAvg": 12070314840.0,
       "analystCount": 41.0,
       "fiscalDate": "2027-01-31"
+    },
+    {
+      "date": "2026-11-26",
+      "revenueAvg": 12070314840.0,
+      "analystCount": 41.0,
+      "fiscalDate": "2027-01-31"
     }
   ],
   "INTC": [
@@ -19214,6 +19442,12 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
     },
     {
       "date": "2026-11-25",
+      "revenueAvg": 61741235210.0,
+      "analystCount": 39.0,
+      "fiscalDate": "2026-12-31"
+    },
+    {
+      "date": "2026-11-26",
       "revenueAvg": 61741235210.0,
       "analystCount": 39.0,
       "fiscalDate": "2026-12-31"
