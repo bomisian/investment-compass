@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 103.77200317382812,
+      "current": 103.78099822998047,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.1020050048828125,
-      "changePct": 0.09839394876479166,
+      "changeAbs": 0.11100006103515625,
+      "changePct": 0.1070705729677602,
       "pctRank": 62.877583465818766,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.5253034150682456,
-      "ma20": 102.92060089111328,
-      "ma60": 101.73086687723796,
-      "chg1m": 1.582000732421875,
-      "chg3m": 4.0720062255859375,
-      "chg1mPct": 1.5480973623901841,
-      "chg3mPct": 4.084259127610466,
+      "drawdown1y": -0.5166808535472911,
+      "ma20": 102.92105064392089,
+      "ma60": 101.7310167948405,
+      "chg1m": 1.5909957885742188,
+      "chg3m": 4.081001281738281,
+      "chg1mPct": 1.5568996482669277,
+      "chg3mPct": 4.093281250406531,
       "lastDate": "2026-11-26",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations - Reuters",
+      "summary": "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5",
+      "datetime": 1795726588,
+      "headlineKo": "사우디 아람코 자잔(Jazan) 정유공장 공격으로 근로자 사망, 일부 운영 중단 - 로이터 통신",
+      "summaryKo": "사우디 아람코 자잔(Jazan) 정유소 공격으로 작업자 사망, 일부 운영 중단 - 최신"
+    },
+    {
       "headline": "Two Italians killed in attack on Kuwait site, Iran denies involvement - Reuters",
       "summary": "Two Italians killed in attack on Kuwait site, Iran denies involvement Reuters",
       "source": "Reuters",
@@ -262,6 +271,24 @@ const MARKET_DATA = {
       "datetime": 1795715852,
       "headlineKo": "트럼프, 3분기 GDP 수치 대폭 수정 후 '기록 설정 오류' 조사 요구",
       "summaryKo": "도널드 트럼프 미국 대통령은 지난 목요일 국내총생산(GDP) 개정안을 역사적인 실수로 간주하며 “즉각 조사해야 한다”고 주장했다."
+    },
+    {
+      "headline": "Turkish elections to be held in 2028, ruling alliance agrees on Erdogan candidacy, vice president says - Reuters",
+      "summary": "Turkish elections to be held in 2028, ruling alliance agrees on Erdogan candidacy, vice president says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOWczelB1MldEZ2RSX1luOHBST0ZrMGtNMl81TTgwVE5fQTZtNnJxeElKMmlzSmdnLVpVTDRfVjluMVZSa09QaTluWGk5X2VTcEw2aFlPcmx1VmlsVHd5eUFMaWM4Nm5EX29OYlhlMzZyZW9fMmcxLUxkZ2kycGFiLWtQbU1jSVBsbWRwM3p0RDFEUU8yXzVOOGM5T3pRTWx0ZDZkTmptem0teU1WVjZCdk5lcDFpZ2F2UU1mbTVHOHJqRWVnRUFYdmR3?oc=5",
+      "datetime": 1795714903,
+      "headlineKo": "2028년 터키 총선, 여당 연합, 에르도안 출마 동의",
+      "summaryKo": "2028년 터키 총선, 여당 연합, 에르도안 후보에 동의"
+    },
+    {
+      "headline": "Iraq closes two border crossings in Kurdistan region with Syria and Iran - Reuters",
+      "summary": "Iraq closes two border crossings in Kurdistan region with Syria and Iran Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXo4cXNsVjIzOVYyWnIxR1JOUjY5UUkzU0xCSXc2ampKcnhKajJ2VjdjWWdzSkY3QlV5Z0xNQkd1aUtKUWh6d19mMXlsTEc5RTk3T0NvbkJyM2Y4VWZ5bW9sRFhUX2Q4aGx5dGhLLXVLb0VDWDFaSGQ0eGZaZVRacTVlWkx1eVYwZEwwUWNSZEFpVGlQbVA5dkRGWXVmeHlpYzE5VFB3NVo5TzBmWHk1YXZjZmN2XzZjdS0w?oc=5",
+      "datetime": 1795714361,
+      "headlineKo": "이라크, 시리아·이란과의 쿠르드 지역 국경 두 곳 폐쇄 - 로이터",
+      "summaryKo": "이라크, 시리아 및 이란과의 쿠르드 지역 국경 통과 두 곳 폐쇄 - 최신"
     },
     {
       "headline": "Russia arrests deputy aerospace commander in reported corruption case - Reuters",
@@ -291,15 +318,6 @@ const MARKET_DATA = {
       "summaryKo": "아르헨티나 상원, 예비선거 중단…밀레이의 재선 도전에 힘을 실어 - 로이터통신"
     },
     {
-      "headline": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery - Reuters",
-      "summary": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5",
-      "datetime": 1795709109,
-      "headlineKo": "사우디 주도 연합군, 후티 반군이 아람코 자잔 정유소 공격했다고 발표 - 로이터 통신",
-      "summaryKo": "사우디 주도 연합군, 후티 반군이 아람코 자잔 정유소 공격했다고 발표 - 로이터통신"
-    },
-    {
       "headline": "Trump demands probe of GDP data released before midterms - Reuters",
       "summary": "Trump demands probe of GDP data released before midterms Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795707625,
       "headlineKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터",
       "summaryKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터"
-    },
-    {
-      "headline": "Iraqi Kurds protest against Baghdad leader's moves to assert central control - Reuters",
-      "summary": "Iraqi Kurds protest against Baghdad leader's moves to assert central control Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ2xrakttQVBBRkRuMG9VbFRZaFJxcnIxZE1TV3EzdTFtV0w2anEwMWgxb2VDdzhFazVicDR0cW45TExKWFZlbVAzd05hUEhwVUt6YzBGVXJBOGtFYk5pUjRsVVJJYVNrRjFwSGk2bGdiY0poRXBqNDBFT3QybWZKT0FHUmRSdEZJUU5TWUJNQ205UmlpbFpiajFXTVZ1X3dxMU5NZEwyN2pEa2ZOVWtrcFFfbWcxczcyektCWlRlWnlyZw?oc=5",
-      "datetime": 1795706506,
-      "headlineKo": "이라크 쿠르드족, 바그다드 지도자의 중앙 통제권 주장에 항의 - 로이터 통신",
-      "summaryKo": "이라크 쿠르드족, 바그다드 지도자의 중앙 통제권 주장에 항의 - 최신"
-    },
-    {
-      "headline": "Spain's De Cos set to be nominated by EU countries as next head of ECB - Reuters",
-      "summary": "Spain's De Cos set to be nominated by EU countries as next head of ECB Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOV8wZkxRVTY5U0ZQeVZwSGtCMVZJTjV2d2t5TlhsSVoxQmpLRXI4OTV1R0QwQkV1QmZma3BDN0lrOEJTNGFVeloyeE5HbnhmWDZfR1VrbzN5TzZrck5WTTlKNTBaeFhVbDd4RldhY0hZMnFsczlsTURLY0FpWWgzeE5YVVc2NUZqMy1KbldQVDJfcUtsVEhINHF2emJ5SEFrMXozWUdTM3BFQQ?oc=5",
-      "datetime": 1795705042,
-      "headlineKo": "스페인 데 코스, 유럽연합(EU) 차기 ECB 의장으로 지명 - 로이터",
-      "summaryKo": "스페인 데 코스, 유럽연합(EU) 차기 ECB 의장으로 지명 예정 Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795726826.4367733,
+  "_news_last_success_at": 1795730433.1132145,
   "fgi": {
     "score": 14.9967450271248,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795726819.165322,
-  "_updated_label": "2026-11-27 06:00",
-  "_last_attempt_at": 1795726819.165322,
-  "_last_success_at": 1795726819.165322,
+  "_fetched_at": 1795730418.481185,
+  "_updated_label": "2026-11-27 07:01",
+  "_last_attempt_at": 1795730418.481185,
+  "_last_success_at": 1795730418.481185,
   "_collection_status": "ok",
   "_collection_errors": []
 };
