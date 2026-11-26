@@ -3184,8 +3184,8 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1795091149.869411,
-    "_updated_label": "2026-11-25 22:02",
+    "_fetched_at": 1795696159.373093,
+    "_updated_label": "2026-11-26 21:29",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -3212,7 +3212,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1795611764.2568462,
+    "_yahoo_verified_at": 1795696168.0199213,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSLA": {
@@ -3651,8 +3651,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1795091149.869411,
-    "_updated_label": "2026-11-25 22:02",
+    "_fetched_at": 1795696159.373093,
+    "_updated_label": "2026-11-26 21:29",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -3679,7 +3679,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1795611764.2568462,
+    "_yahoo_verified_at": 1795696168.0199213,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MU": {
@@ -5528,16 +5528,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795694415.4267077,
-    "_updated_label": "2026-11-26 21:00"
+    "_fetched_at": 1795696159.373093,
+    "_updated_label": "2026-11-26 21:29"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795694415.4267077,
-    "_updated_label": "2026-11-26 21:00"
+    "_fetched_at": 1795696159.373093,
+    "_updated_label": "2026-11-26 21:29"
   },
   "ORCL": {
     "annual": [
