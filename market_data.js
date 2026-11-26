@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 103.7750015258789,
+      "current": 103.77200317382812,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.10500335693359375,
-      "changePct": 0.10128615683244784,
+      "changeAbs": 0.1020050048828125,
+      "changePct": 0.09839394876479166,
       "pctRank": 62.877583465818766,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.5224292278945941,
-      "ma20": 102.92075080871582,
-      "ma60": 101.73091684977213,
-      "chg1m": 1.5849990844726562,
-      "chg3m": 4.075004577636719,
-      "chg1mPct": 1.551031457682432,
-      "chg3mPct": 4.087266501875821,
+      "drawdown1y": -0.5253034150682456,
+      "ma20": 102.92060089111328,
+      "ma60": 101.73086687723796,
+      "chg1m": 1.582000732421875,
+      "chg3m": 4.0720062255859375,
+      "chg1mPct": 1.5480973623901841,
+      "chg3mPct": 4.084259127610466,
       "lastDate": "2026-11-26",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Two Italians killed in attack on Kuwait site, Iran denies involvement - Reuters",
+      "summary": "Two Italians killed in attack on Kuwait site, Iran denies involvement Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeE9DZXQ0VUMxV052eWlmWWlKM3R0LTFiMS1ITm93Ty1NOWpta1ZVNU5MeWVVMHRlcmdXd0NpZmxJeGlGZEhCeklaaEs2VWlSWnR0RVRLUHhCNm9MeFNTMmNUZFEyWWdoUVVBWUZTcVc0LVNFY0gxN050ZHNtS3psSVRHQWtBVEM5N3dPYVl6T1Flb0tBb1BlUGVxQ3ZaNURWVU9vTHYtTGxFRDJSQVhaMU1Tbw?oc=5",
+      "datetime": 1795719252,
+      "headlineKo": "쿠웨이트 기지 공격으로 이탈리아인 2명 사망, 이란은 개입 부인 - 로이터",
+      "summaryKo": "쿠웨이트 현장 공격으로 이탈리아인 2명 사망, 이란 개입 부인 - 로이터"
+    },
+    {
       "headline": "Settlers smash foundations of Palestinian family's homes in West Bank - Reuters",
       "summary": "Settlers smash foundations of Palestinian family's homes in West Bank Reuters",
       "source": "Reuters",
@@ -244,15 +253,6 @@ const MARKET_DATA = {
       "datetime": 1795717783,
       "headlineKo": "정착민들이 서안 지구의 팔레스타인 가족 집의 기초를 부수다 - 로이터 통신",
       "summaryKo": "정착민들이 서안 지구에 있는 팔레스타인 가족의 집 기초를 부수고 있습니다."
-    },
-    {
-      "headline": "Two Italians killed in attack on Kuwait site, Iran denies involvement - Reuters",
-      "summary": "Two Italians killed in attack on Kuwait site, Iran denies involvement Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeE9DZXQ0VUMxV052eWlmWWlKM3R0LTFiMS1ITm93Ty1NOWpta1ZVNU5MeWVVMHRlcmdXd0NpZmxJeGlGZEhCeklaaEs2VWlSWnR0RVRLUHhCNm9MeFNTMmNUZFEyWWdoUVVBWUZTcVc0LVNFY0gxN050ZHNtS3psSVRHQWtBVEM5N3dPYVl6T1Flb0tBb1BlUGVxQ3ZaNURWVU9vTHYtTGxFRDJSQVhaMU1Tbw?oc=5",
-      "datetime": 1795716080,
-      "headlineKo": "쿠웨이트 기지 공격으로 이탈리아인 2명 사망, 이란은 개입 부인 - 로이터",
-      "summaryKo": "쿠웨이트 현장 공격으로 이탈리아인 2명 사망, 이란 개입 부인 - 로이터"
     },
     {
       "headline": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795723237.759973,
+  "_news_last_success_at": 1795726826.4367733,
   "fgi": {
     "score": 14.9967450271248,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795723218.9676855,
-  "_updated_label": "2026-11-27 05:01",
-  "_last_attempt_at": 1795723218.9676855,
-  "_last_success_at": 1795723218.9676855,
+  "_fetched_at": 1795726819.165322,
+  "_updated_label": "2026-11-27 06:00",
+  "_last_attempt_at": 1795726819.165322,
+  "_last_success_at": 1795726819.165322,
   "_collection_status": "ok",
   "_collection_errors": []
 };
