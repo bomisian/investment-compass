@@ -4104,7 +4104,7 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1795184984.9829066,
-    "_updated_label": "2026-11-26 00:49",
+    "_updated_label": "2026-11-27 01:00",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -4131,7 +4131,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1795621779.3761833,
+    "_yahoo_verified_at": 1795708816.6951451,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMD": {
@@ -5528,16 +5528,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795708022.4261446,
-    "_updated_label": "2026-11-27 00:47"
+    "_fetched_at": 1795708816.6707046,
+    "_updated_label": "2026-11-27 01:00"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795708022.4261446,
-    "_updated_label": "2026-11-27 00:47"
+    "_fetched_at": 1795708816.6707046,
+    "_updated_label": "2026-11-27 01:00"
   },
   "ORCL": {
     "annual": [
