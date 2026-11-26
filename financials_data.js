@@ -5528,16 +5528,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795706086.2000818,
-    "_updated_label": "2026-11-27 00:14"
+    "_fetched_at": 1795708022.4261446,
+    "_updated_label": "2026-11-27 00:47"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795706086.2000818,
-    "_updated_label": "2026-11-27 00:14"
+    "_fetched_at": 1795708022.4261446,
+    "_updated_label": "2026-11-27 00:47"
   },
   "ORCL": {
     "annual": [
@@ -13484,8 +13484,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1795102583.6283307,
-    "_updated_label": "2026-11-26 02:27",
+    "_fetched_at": 1795708022.4261446,
+    "_updated_label": "2026-11-27 00:47",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -13512,7 +13512,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1795627621.7786515,
+    "_yahoo_verified_at": 1795708032.14176,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "HUBB": {
@@ -15329,8 +15329,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1795102583.6283307,
-    "_updated_label": "2026-11-26 02:27",
+    "_fetched_at": 1795708022.4261446,
+    "_updated_label": "2026-11-27 00:47",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -15357,7 +15357,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1795627621.7786515,
+    "_yahoo_verified_at": 1795708032.14176,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "FIX": {
