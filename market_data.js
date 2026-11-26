@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.62000274658203,
+      "current": 84.62999725341797,
       "prevClose": 83.68000030517578,
-      "changeAbs": 0.94000244140625,
-      "changePct": 1.1233298733008117,
+      "changeAbs": 0.9499969482421875,
+      "changePct": 1.1352735955755346,
       "pctRank": 70.27027027027027,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.081890187781053,
-      "ma20": 87.77800025939942,
-      "ma60": 93.53933385213216,
-      "chg1m": -18.159996032714844,
-      "chg3m": 1.220001220703125,
-      "chg1mPct": -17.668803510798288,
-      "chg3mPct": 1.4628311731200152,
+      "drawdown1y": -25.073041575912104,
+      "ma20": 87.77849998474122,
+      "ma60": 93.5395004272461,
+      "chg1m": -18.150001525878906,
+      "chg3m": 1.2299957275390625,
+      "chg1mPct": -17.659079335905663,
+      "chg3mPct": 1.4748149940469684,
       "lastDate": "2026-11-26",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 103.78099822998047,
+      "current": 103.78700256347656,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.11100006103515625,
-      "changePct": 0.1070705729677602,
+      "changeAbs": 0.11700439453125,
+      "changePct": 0.11286234841113274,
       "pctRank": 62.877583465818766,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.5166808535472911,
-      "ma20": 102.92105064392089,
-      "ma60": 101.7310167948405,
-      "chg1m": 1.5909957885742188,
-      "chg3m": 4.081001281738281,
-      "chg1mPct": 1.5568996482669277,
-      "chg3mPct": 4.093281250406531,
+      "drawdown1y": -0.510925165746623,
+      "ma20": 102.92135086059571,
+      "ma60": 101.73111686706542,
+      "chg1m": 1.5970001220703125,
+      "chg3m": 4.087005615234375,
+      "chg1mPct": 1.5627753047427522,
+      "chg3mPct": 4.099303651289062,
       "lastDate": "2026-11-26",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 3599.199951171875,
+      "current": 3594.10009765625,
       "prevClose": 3535.800048828125,
-      "changeAbs": 63.39990234375,
-      "changePct": 1.7930850576452342,
+      "changeAbs": 58.300048828125,
+      "changePct": 1.6488502749879046,
       "pctRank": 75.45671167593329,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -32.325511107471364,
-      "ma20": 3849.769970703125,
-      "ma60": 4110.396647135417,
-      "chg1m": -452.400146484375,
-      "chg3m": -930.699951171875,
-      "chg1mPct": -11.165962473593513,
-      "chg3mPct": -20.54570677577964,
+      "drawdown1y": -32.4214018567431,
+      "ma20": 3849.5149780273437,
+      "ma60": 4110.311649576823,
+      "chg1m": -457.5,
+      "chg3m": -935.7998046875,
+      "chg1mPct": -11.291835052147729,
+      "chg3mPct": -20.65828881126758,
       "lastDate": "2026-11-26",
       "bars": 1259,
       "symbol": "GC=F",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam - Reuters",
+      "summary": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQnltOGlBZG16OU1LUGlBS25WVUFhN2VnM0NhWHpzTlVscC1iOE5kdFZnaGhBbmNOdm80b05IQWttZm9MV0liVmZzVE56bXVxSHJXYXBmMktWSVQwZ2hfNmVGdWVJQmp5RkRtS1dXR0wwT0pXX1dFdUM5dDJrUWNTNHVsYjRNWXBWcmx3RTlqQ0ZQNEJWWFVxalA1Z0tkRExSbGJVOWpWX1pMY25aZHB3VnlvTWF0QUNvaElpM0FORVM5a1ZPa05mWDBXQQ?oc=5",
+      "datetime": 1795709789,
+      "headlineKo": "이스라엘 아이젠코트, 연합 회담이 활발해지면서 좌파 세력과 협상 타결 - 로이터 통신",
+      "summaryKo": "이스라엘의 아이젠코트, 연합 회담이 뜨거워지면서 좌파 세력과 거래 체결 - 최신"
+    },
+    {
       "headline": "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
       "summary": "Hamas weighs response after Israel kills 10 people in Gaza Reuters",
       "source": "Reuters",
@@ -246,6 +255,15 @@ const MARKET_DATA = {
       "summaryKo": "하마스, 이스라엘 가자지구에서 10명 살해 후 대응 검토 - 로이터"
     },
     {
+      "headline": "Two Italians killed in Iranian drone attack in Kuwait, Italy says - Reuters",
+      "summary": "Two Italians killed in Iranian drone attack in Kuwait, Italy says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeE9DZXQ0VUMxV052eWlmWWlKM3R0LTFiMS1ITm93Ty1NOWpta1ZVNU5MeWVVMHRlcmdXd0NpZmxJeGlGZEhCeklaaEs2VWlSWnR0RVRLUHhCNm9MeFNTMmNUZFEyWWdoUVVBWUZTcVc0LVNFY0gxN050ZHNtS3psSVRHQWtBVEM5N3dPYVl6T1Flb0tBb1BlUGVxQ3ZaNURWVU9vTHYtTGxFRDJSQVhaMU1Tbw?oc=5",
+      "datetime": 1795707617,
+      "headlineKo": "쿠웨이트에서 이란의 드론 공격으로 이탈리아인 2명이 사망했다고 이탈리아가 밝혔습니다.",
+      "summaryKo": "쿠웨이트에서 이란 드론 공격으로 이탈리아인 2명 사망, 이탈리아 로이터 통신"
+    },
+    {
       "headline": "Spain's De Cos set to be nominated by EU countries as next head of ECB - Reuters",
       "summary": "Spain's De Cos set to be nominated by EU countries as next head of ECB Reuters",
       "source": "Reuters",
@@ -253,15 +271,6 @@ const MARKET_DATA = {
       "datetime": 1795705042,
       "headlineKo": "스페인 데 코스, 유럽연합(EU) 차기 ECB 의장으로 지명 - 로이터",
       "summaryKo": "스페인 데 코스, 유럽연합(EU) 차기 ECB 의장으로 지명 예정 Reuters"
-    },
-    {
-      "headline": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam - Reuters",
-      "summary": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQnltOGlBZG16OU1LUGlBS25WVUFhN2VnM0NhWHpzTlVscC1iOE5kdFZnaGhBbmNOdm80b05IQWttZm9MV0liVmZzVE56bXVxSHJXYXBmMktWSVQwZ2hfNmVGdWVJQmp5RkRtS1dXR0wwT0pXX1dFdUM5dDJrUWNTNHVsYjRNWXBWcmx3RTlqQ0ZQNEJWWFVxalA1Z0tkRExSbGJVOWpWX1pMY25aZHB3VnlvTWF0QUNvaElpM0FORVM5a1ZPa05mWDBXQQ?oc=5",
-      "datetime": 1795704634,
-      "headlineKo": "이스라엘 아이젠코트, 연합 회담이 활발해지면서 좌파 세력과 협상 타결 - 로이터 통신",
-      "summaryKo": "이스라엘의 아이젠코트, 연합 회담이 뜨거워지면서 좌파 세력과 거래 체결 - 최신"
     },
     {
       "headline": "Two Italian workers killed in Iranian strike in Kuwait, source says - Reuters",
@@ -282,6 +291,15 @@ const MARKET_DATA = {
       "summaryKo": "노르웨이 항공 대서양, 항공편 중단으로 파산 위험 표시 - 최신"
     },
     {
+      "headline": "Spain's de Cos to become ECB's next president, FT reports - Reuters",
+      "summary": "Spain's de Cos to become ECB's next president, FT reports Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWxGUjk3QjBiVW11a0hIVTN4R21ScVdhVXZTY2ZEeU5oRXp6U3VWWHNqblR6MUNJcWVHc0xQSEZwd2l4cDkwNmZ1N0NxbHF3c1g4TlZiZTVKemRnZktkWENldWhOMkN6N0t2MTc0Z0daLUtFOGtXLWlWSTVZa0FUeUNYZjhKdTNnc2lCMVgyc2VtMkNmUzlhaDhDang2Yndad2c?oc=5",
+      "datetime": 1795701106,
+      "headlineKo": "스페인의 데 코스가 ECB의 차기 총재가 될 것이라고 FT가 보도했습니다.",
+      "summaryKo": "스페인의 데 코스가 ECB의 차기 총재가 될 것이라고 FT가 보도했습니다."
+    },
+    {
       "headline": "Iran's supreme leader urges Guards-linked Basij volunteers to broaden social reach - Reuters",
       "summary": "Iran's supreme leader urges Guards-linked Basij volunteers to broaden social reach Reuters",
       "source": "Reuters",
@@ -300,6 +318,15 @@ const MARKET_DATA = {
       "summaryKo": "OPEC+ 석유 생산 능력 분쟁은 2027년 할당량에 대한 일요일 회의를 앞두고 계속되고 있다고 소식통은 말했습니다."
     },
     {
+      "headline": "Planes, trains and automobiles: The best ways to beat travel fatigue—so you can come home feeling rested and fulfilled",
+      "summary": "Visiting loved ones for the holidays? Here's how to manage the travel fatigue, from a travel expert and a sleep medicine specialist.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/11/26/travel-fatigue-holiday-tips.html",
+      "datetime": 1795698001,
+      "headlineKo": "비행기, 기차, 자동차: 여행의 피로를 풀 수 있는 가장 좋은 방법 - 편안하고 만족스러운 기분으로 집에 돌아올 수 있습니다.",
+      "summaryKo": "휴일에 사랑하는 사람을 방문하시나요? 여행 전문가와 수면의학 전문의가 들려주는 여행 피로 관리 방법을 알려드립니다."
+    },
+    {
       "headline": "Serbia presidential election set for December 27 - Reuters",
       "summary": "Serbia presidential election set for December 27 Reuters",
       "source": "Reuters",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795696205,
       "headlineKo": "우크라이나는 러시아가 오데사 항구 근처에서 곡물 선박 2척을 공격했다고 밝혔습니다.",
       "summaryKo": "우크라이나, 러시아가 오데사 항구 근처에서 곡물 선박 두 척을 공격했다고 밝혔습니다 - 최신"
-    },
-    {
-      "headline": "German police arrest two Iraqis over alleged Cologne synagogue bomb plot - Reuters",
-      "summary": "German police arrest two Iraqis over alleged Cologne synagogue bomb plot Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnk2X1RfVHc3VF8ybnZCVzdIbjFrdTNMbzI2SXhxVW9VTGx4RV94OV8zdU9yRzJPS1daUUZzMXBKM0o5aW1HMklsR1Y5OUlxMEhWTVpNX0tXclphbWhDcE1kb050ekVqaWtrcEpyenZQdS1MWlE2ZVp3ZjNJUjg4ay1HM2VPa0l3emJ0MHpGNHFmdUhsWGIwRXdfMUFuRlBWNDZSNXNzcE9kTkFLd2VnREE1Vl8zOVU0REpaT3o5dkhtTElF?oc=5",
-      "datetime": 1795696108,
-      "headlineKo": "독일 경찰, 쾰른 회당 폭탄 테러 혐의로 이라크인 2명 체포 - 로이터 통신",
-      "summaryKo": "독일 경찰은 쾰른 유대교 회당 폭탄 음모 혐의로 이라크인 2명을 체포했습니다."
-    },
-    {
-      "headline": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab - Reuters",
-      "summary": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcHNnYmJXdWlaS3JfaTRfQUhza0lkR0lSNjhWNVJoY1Mxd3VSVVZyOHV0R0xZbHl2TS1FX2VROGg0bmg1dHFUbG9ZckxfT2lSaFotSmNFczlabFRHWjZZUEYycHA3S0tXN0p4cHFvbjUyam9IcDBwYkFBSTJfbFZwLTVickFLaFU0bTYxeHI3eHVGTmQyV3ozMTQzWm4tWGduQi00RHJoclptRnlsQjJqdTdMTU9yX2w0OXRmanYtUndOZmtaSy1JdmRuRzg?oc=5",
-      "datetime": 1795694778,
-      "headlineKo": "이란 혁명수비대, 유조선 2척이 오만의 카사브 인근 해상 기뢰에 충돌했다고 밝혔습니다.",
-      "summaryKo": "이란 혁명수비대는 유조선 2척이 오만 카사브 인근 해상 지뢰에 충돌했다고 밝혔습니다."
-    },
-    {
-      "headline": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
-      "summary": "The microdrama category has exploded at a time when traditional forms of media face waning interest and YouTube claims more viewing hours.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
-      "datetime": 1795694401,
-      "headlineKo": "헐리우드가 짧은 세로형 비디오로 전환함에 따라 마이크로드라마 앱은 수익을 추구합니다.",
-      "summaryKo": "마이크로드라마 카테고리는 전통적인 미디어 형식이 관심을 잃고 YouTube가 시청 시간을 늘리겠다고 주장하는 가운데 폭발적으로 증가했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795712437.7089095,
+  "_news_last_success_at": 1795715827.1242266,
   "fgi": {
     "score": 14.9967450271248,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795712422.7006743,
-  "_updated_label": "2026-11-27 02:01",
-  "_last_attempt_at": 1795712422.7006743,
-  "_last_success_at": 1795712422.7006743,
+  "_fetched_at": 1795715816.0770001,
+  "_updated_label": "2026-11-27 02:57",
+  "_last_attempt_at": 1795715816.0770001,
+  "_last_success_at": 1795715816.0770001,
   "_collection_status": "ok",
   "_collection_errors": []
 };
