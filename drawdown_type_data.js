@@ -1,6 +1,6 @@
 // build_104_drawdown_type.py 자동 생성 -- 설명용, 예측 신호 아님
 window.DRAWDOWN_TYPE = {
-  "generated": "2026-11-26T12:54:11",
+  "generated": "2026-11-26T13:26:56",
   "consensus_as_of": "2026-11-26",
   "method": "104 -- 현재 워치리스트 '하락 유형' 분류(설명용 표시, 예측 신호 아님). [2026-10-11 재구성판 -- 원본 스크립트 소실 확인 후 method 설명+ORCL 샘플 1건 근거로 재구성, 코드 상단 docstring 참고] forward_90d: 최근 90일 가격 변화 vs NTM EPS 추정치 변화(선행 PER 변화). trailing_since_high: 52주 종가 고점 -> 지금, SEC EDGAR 분기 희석 EPS 합산 TTM 변화. 범주(허용오차 5%p): A 가격만 조정(이익 유지) / B 이익↓·가격 더↓(배수 하락) / C 이익이 가격만큼·더↓(배수 안 낮아짐) / D 적자 / X 자료부족 / N 가격 하락 없음. 네트워크: SEC EDGAR만 사용.",
   "rows": {
@@ -1179,15 +1179,15 @@ window.DRAWDOWN_TYPE = {
         "fy1_end": "2028-06-30",
         "w_fy0": 0.5918,
         "eps_fy0": 24.68757,
-        "eps_fy1": 39.92773,
-        "ntm_eps_now": 30.908895589041094,
+        "eps_fy1": 39.80817,
+        "ntm_eps_now": 30.86008890410959,
         "ntm_eps_90d_ago": 21.91201,
         "ntm_eps_90d_ago_actual_lag_days": 92,
         "price_90d_ago": 459.45001220703125,
         "price_90d_ago_date": "2026-08-28",
         "price_chg_90d": -0.4070083687705651,
-        "eps_est_chg_90d": 0.41059152442158875,
-        "fpe_now": 8.814614919584178,
+        "eps_est_chg_90d": 0.4083641301783629,
+        "fpe_now": 8.828555648481931,
         "fpe_90d_ago": 20.96795374806014,
         "revisions_30d": {
           "0y_up": null,
