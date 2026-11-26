@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-26T07:35:42+09:00",
+  "generatedAt": "2026-11-27T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-26 07:29"
+      "detail": "2026-11-27 07:22"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 6분 전부터)"
+      "detail": "대기 중(다음 주기, 13분 전부터)"
     },
     {
       "key": "loop_count",
@@ -42,13 +42,13 @@ const OPS_STATUS_DATA = {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-26 07:28 생성 → 거래일 2026-11-25 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-27 07:21 생성 → 거래일 2026-11-25 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 42일째(기준 14일)"
+      "detail": "COHR 43일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(34일), FIX(35일), BE(35일), HUBB(30일), STX(30일), GEV(29일), HUBB(29일), VRT(29일), MSFT(29일), GOOGL(29일), KLAC(29일), VRT(29일), GOOGL(28일), PWR(28일), EME(28일), AMZN(28일), INTC(28일), KLAC(28일), SNDK(28일), STX(28일), AMZN(27일), INTC(27일), SNDK(27일), MRVL(24일), LITE(24일), AAPL(24일), PLTR(24일), PLTR(23일), AAPL(23일), ETN(23일), AMD(23일), ANET(23일), LITE(23일), MOD(23일), AMD(22일), ANET(22일), MOD(22일), QCOM(22일), ARM(22일), COHR(22일), EME(28일), VST(20일), CEG(17일), VST(17일), CEG(17일), TSM(16일), TSM(14일), TSM(13일), AMAT(14일), NVDA(9일), ARM(3일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(35일), FIX(36일), BE(36일), HUBB(31일), STX(31일), GEV(30일), HUBB(30일), VRT(30일), MSFT(30일), GOOGL(30일), KLAC(30일), VRT(30일), GOOGL(29일), PWR(29일), EME(29일), AMZN(29일), INTC(29일), KLAC(29일), SNDK(29일), STX(29일), AMZN(28일), INTC(28일), SNDK(28일), MRVL(25일), LITE(25일), AAPL(25일), PLTR(25일), PLTR(24일), AAPL(24일), ETN(24일), AMD(24일), ANET(24일), LITE(24일), MOD(24일), AMD(23일), ANET(23일), MOD(23일), QCOM(23일), ARM(23일), COHR(23일), EME(29일), VST(21일), CEG(18일), VST(18일), CEG(18일), TSM(17일), TSM(15일), TSM(14일), AMAT(15일), NVDA(10일), ARM(4일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -138,7 +138,7 @@ const OPS_STATUS_DATA = {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-26 07:28 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-27 07:21 KST 정상 갱신(실패 0개)"
     }
   ]
 };
