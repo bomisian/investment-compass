@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795753119.3705118,
+  "generatedAt": 1795755154.122749,
   "events": [
     {
       "id": "9c15c7ce23d54a6bb3a2",
@@ -17120,7 +17120,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000807/tsm-dividendadjustmentx202.htm",
         "publishedAt": 1795532400.0,
-        "collectedAt": 1795731700.2743373
+        "collectedAt": 1795755137.5533066
       },
       "confirmedFacts": [
         "TSM가 2026-11-25에 SEC Form 6-K을 제출했습니다."
@@ -17183,7 +17183,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000805/tsm-monthend6kx20261125.htm",
         "publishedAt": 1795532400.0,
-        "collectedAt": 1795731700.2743373
+        "collectedAt": 1795755137.5533066
       },
       "confirmedFacts": [
         "TSM가 2026-11-25에 SEC Form 6-K을 제출했습니다.",
