@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.91000366210938,
+      "current": 86.23999786376953,
       "prevClose": 83.68000030517578,
-      "changeAbs": 2.2300033569335938,
-      "changePct": 2.664917959848123,
-      "pctRank": 72.89348171701113,
+      "changeAbs": 2.55999755859375,
+      "changePct": 3.0592704938546813,
+      "pctRank": 73.29093799682035,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -23.93979107279084,
-      "ma20": 87.84250030517578,
-      "ma60": 93.56083386739095,
-      "chg1m": -16.8699951171875,
-      "chg3m": 2.5100021362304688,
-      "chg1mPct": -16.413694607462524,
-      "chg3mPct": 3.009594832503233,
+      "drawdown1y": -23.647631523807966,
+      "ma20": 87.85900001525879,
+      "ma60": 93.56633377075195,
+      "chg1m": -16.540000915527344,
+      "chg3m": 2.839996337890625,
+      "chg1mPct": -16.09262610621768,
+      "chg3mPct": 3.4052713260555256,
       "lastDate": "2026-11-27",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 103.72799682617188,
+      "current": 103.69499969482422,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.0579986572265625,
-      "changePct": 0.05594545987359359,
-      "pctRank": 62.55961844197139,
+      "changeAbs": 0.02500152587890625,
+      "changePct": 0.024116452513255216,
+      "pctRank": 62.4006359300477,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.5674874140952579,
-      "ma20": 102.91840057373047,
-      "ma60": 101.73013343811036,
-      "chg1m": 1.537994384765625,
-      "chg3m": 4.0279998779296875,
-      "chg1mPct": 1.5050341012052337,
-      "chg3mPct": 4.04012036231131,
+      "drawdown1y": -0.5991180999121548,
+      "ma20": 102.91675071716308,
+      "ma60": 101.72958348592122,
+      "chg1m": 1.5049972534179688,
+      "chg3m": 3.9950027465820312,
+      "chg1mPct": 1.4727441212078498,
+      "chg3mPct": 4.0070239406887636,
       "lastDate": "2026-11-27",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 3666.800048828125,
+      "current": 3668.10009765625,
       "prevClose": 3535.800048828125,
-      "changeAbs": 131.0,
-      "changePct": 3.7049606366575367,
+      "changeAbs": 132.300048828125,
+      "changePct": 3.7417288025654445,
       "pctRank": 75.77442414614774,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -31.05445028283387,
-      "ma20": 3853.1499755859377,
-      "ma60": 4111.5233154296875,
-      "chg1m": -384.800048828125,
-      "chg3m": -863.099853515625,
-      "chg1mPct": -9.497483452296347,
-      "chg3mPct": -19.053397914357024,
+      "drawdown1y": -31.030005922650428,
+      "ma20": 3853.214978027344,
+      "ma60": 4111.544982910156,
+      "chg1m": -383.5,
+      "chg3m": -861.7998046875,
+      "chg1mPct": -9.465396158467003,
+      "chg3mPct": -19.02469863057258,
       "lastDate": "2026-11-27",
       "bars": 1259,
       "symbol": "GC=F",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Australia sanctions two alleged Iranian agents over antisemitic attacks - Reuters",
+      "summary": "Australia sanctions two alleged Iranian agents over antisemitic attacks Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSHBtblZnbWZBQUo5LVNGb2sxQkpHOFdJTGI0YlozM0YxUGh0bnZkLWZOeWJrMFBoX0h3aGNkTEtCVVA3Zjg0WEpuYi1MdjBEa2dKVDg3Rk5yWFJCNEs1NDFnYTRrVmpJeVQ1Y1lMR0daaDItcWczSEhzT3VfVTRxVno4Zm9HVGdTN2RDT2NtYmk5NlZqTGJnekNMSTI5dERMY1dZaFpFUy1IM01aVUFjbzI3MDEteXFNS2FvaEhFLTJhZnBvRTVRbzln?oc=5",
+      "datetime": 1795749420,
+      "headlineKo": "호주, 반유대주의 공격 혐의 이란 요원 2명 제재 - 로이터",
+      "summaryKo": "호주, 반유대주의 공격 혐의 이란 요원 2명 제재 - 로이터"
+    },
+    {
       "headline": "Shares find footing after bruising month, dollar set for third monthly gain - Reuters",
       "summary": "Shares find footing after bruising month, dollar set for third monthly gain Reuters",
       "source": "Reuters",
@@ -246,13 +255,13 @@ const MARKET_DATA = {
       "summaryKo": "주가는 부진한 달 이후 기반을 찾았고, 달러는 세 번째 월간 상승세를 기록했습니다."
     },
     {
-      "headline": "Brent trades near month's high as Mideast conflict threatens supply - Reuters",
-      "summary": "Brent trades near month's high as Mideast conflict threatens supply Reuters",
+      "headline": "Oil on track to snap 3-week losing streak over supply fears - Reuters",
+      "summary": "Oil on track to snap 3-week losing streak over supply fears Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?oc=5",
       "datetime": 1795744500,
-      "headlineKo": "중동 분쟁으로 공급이 위협받으면서 브렌트유는 이달 최고치에 근접했습니다 - Reuters",
-      "summaryKo": "중동 분쟁으로 공급이 위협받는 가운데 브렌트유는 이달 최고치에 가까워졌습니다."
+      "headlineKo": "원유 공급 우려로 3주 연속 하락세 - Reuters",
+      "summaryKo": "석유 공급 우려로 3주 연속 하락세 기록 Reuters"
     },
     {
       "headline": "Trump says Putin can come to G20 if he wants - Reuters",
@@ -271,6 +280,15 @@ const MARKET_DATA = {
       "datetime": 1795739100,
       "headlineKo": "트럼프는 수요일 시장이 주가가 회복되기 전에 잠시 '우려했다'고 말했다 - 로이터",
       "summaryKo": "트럼프는 주식이 회복되기 전에 수요일 시장이 잠시 '우려했다'고 말했습니다 - 최신"
+    },
+    {
+      "headline": "US, Qatar to help Venezuela clear regional development bank arrears, sources say - Reuters",
+      "summary": "US, Qatar to help Venezuela clear regional development bank arrears, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYnZ1a0tWZGRjN19GNkZNS0JoYmlDZGNHSkVZMmM1d2xsTEN1QmhsNkZtWVZfelZCUzdid05hSkVYa0hNVmpRazY0MUtWdWJQR2FydkFUeWtqZUotbXVvQ1JPVWg2Y0tGdWZOQ0hHUkNLRGh6Nm5SMjBNVldmRm1YZU1iaG5DSjdaSmFTcXpIdDZwUExwOFQzNWxSMk1QV1NaWWVONy02Y2FSa2xZbV8wUWMtd0h1clBxZ01aYTdpd0xYYjZMXzVrVQ?oc=5",
+      "datetime": 1795728543,
+      "headlineKo": "미국과 카타르가 베네수엘라의 지역 개발 은행 연체금 청산을 돕겠다고 소식통이 전했습니다. - 로이터 통신",
+      "summaryKo": "미국과 카타르는 베네수엘라가 지역 개발 은행의 연체금을 청산하도록 돕습니다. 소식통에 따르면 로이터"
     },
     {
       "headline": "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
@@ -300,6 +318,15 @@ const MARKET_DATA = {
       "summaryKo": "쿠웨이트 현장 공격으로 이탈리아인 2명 사망, 이란 개입 부인 - 로이터"
     },
     {
+      "headline": "Turkey's capital markets catch cold from funds crisis - Reuters",
+      "summary": "Turkey's capital markets catch cold from funds crisis Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS3lROFVRYjM4YU8zM0VfZjVwMEVLZC1oNWtyUmRzZThnYkNwa28yZlNMRDhBaHAwMkdfQ0lObE1ZSjZEb1dMNzdORFdBSEI3aXZpRl9Rb2xOTEI2SklOellmVHVlVG1qT1BMM0JKdWhpX2NyRWowOVoxTnA4TnVOSDJuTURmd0xHR3VKakhHblU0M3NwVGpZQ0JZU0swbmZtcUxR?oc=5",
+      "datetime": 1795719000,
+      "headlineKo": "터키 자본시장, 자금 위기로 얼어붙다 - Reuters",
+      "summaryKo": "터키 자본 시장은 자금 위기로 인해 차가워졌습니다 - 최신"
+    },
+    {
       "headline": "Settlers smash foundations of Palestinian family's homes in West Bank - Reuters",
       "summary": "Settlers smash foundations of Palestinian family's homes in West Bank Reuters",
       "source": "Reuters",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795715852,
       "headlineKo": "트럼프, 3분기 GDP 수치 대폭 수정 후 '기록 설정 오류' 조사 요구",
       "summaryKo": "도널드 트럼프 미국 대통령은 지난 목요일 국내총생산(GDP) 개정안을 역사적인 실수로 간주하며 “즉각 조사해야 한다”고 주장했다."
-    },
-    {
-      "headline": "Turkish elections to be held in 2028, ruling alliance agrees on Erdogan candidacy, vice president says - Reuters",
-      "summary": "Turkish elections to be held in 2028, ruling alliance agrees on Erdogan candidacy, vice president says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOWczelB1MldEZ2RSX1luOHBST0ZrMGtNMl81TTgwVE5fQTZtNnJxeElKMmlzSmdnLVpVTDRfVjluMVZSa09QaTluWGk5X2VTcEw2aFlPcmx1VmlsVHd5eUFMaWM4Nm5EX29OYlhlMzZyZW9fMmcxLUxkZ2kycGFiLWtQbU1jSVBsbWRwM3p0RDFEUU8yXzVOOGM5T3pRTWx0ZDZkTmptem0teU1WVjZCdk5lcDFpZ2F2UU1mbTVHOHJqRWVnRUFYdmR3?oc=5",
-      "datetime": 1795714903,
-      "headlineKo": "2028년 터키 총선, 여당 연합, 에르도안 출마 동의",
-      "summaryKo": "2028년 터키 총선, 여당 연합, 에르도안 후보에 동의"
-    },
-    {
-      "headline": "UK's Imperial Brands says Altria weighs possible offer - Reuters",
-      "summary": "UK's Imperial Brands says Altria weighs possible offer Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWHV2aHhOY1ZmZ2N0bFZXLUxSSHNlaGtRZnVLWlJwNHY0RlB5b2VFLThsUkhwa3pEY29SMVB2X1kzT19XVlNkamxnQkJlbHREd0F5cmo1VTRvU3ZzTUlUWnBpUzVkejg4V1NkVTA3UDlsTlhucEp3OWxfR3M5NFJwYTdSRS1fbVJGX3poWmlzNlp4VWtiYnVBWng1amxrclE?oc=5",
-      "datetime": 1795714649,
-      "headlineKo": "영국 Imperial Brands는 Altria가 가능한 제안에 무게를 두고 있다고 말합니다 - Reuters",
-      "summaryKo": "영국 임페리얼 브랜드(Imperial Brands), 알트리아가 가능한 제안에 무게를 두고 있다고 말 -로이터"
-    },
-    {
-      "headline": "Iraq closes two border crossings in Kurdistan region with Syria and Iran - Reuters",
-      "summary": "Iraq closes two border crossings in Kurdistan region with Syria and Iran Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXo4cXNsVjIzOVYyWnIxR1JOUjY5UUkzU0xCSXc2ampKcnhKajJ2VjdjWWdzSkY3QlV5Z0xNQkd1aUtKUWh6d19mMXlsTEc5RTk3T0NvbkJyM2Y4VWZ5bW9sRFhUX2Q4aGx5dGhLLXVLb0VDWDFaSGQ0eGZaZVRacTVlWkx1eVYwZEwwUWNSZEFpVGlQbVA5dkRGWXVmeHlpYzE5VFB3NVo5TzBmWHk1YXZjZmN2XzZjdS0w?oc=5",
-      "datetime": 1795714361,
-      "headlineKo": "이라크, 시리아·이란과의 쿠르드 지역 국경 두 곳 폐쇄 - 로이터",
-      "summaryKo": "이라크, 시리아 및 이란과의 쿠르드 지역 국경 통과 두 곳 폐쇄 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795757044.6304142,
+  "_news_last_success_at": 1795760849.4374392,
   "fgi": {
     "score": 14.9967450271248,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795757037.445738,
-  "_updated_label": "2026-11-27 14:24",
-  "_last_attempt_at": 1795757037.445738,
-  "_last_success_at": 1795757037.445738,
+  "_fetched_at": 1795760835.5451334,
+  "_updated_label": "2026-11-27 15:27",
+  "_last_attempt_at": 1795760835.5451334,
+  "_last_success_at": 1795760835.5451334,
   "_collection_status": "ok",
   "_collection_errors": []
 };
