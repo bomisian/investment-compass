@@ -5528,16 +5528,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795784416.1084132,
-    "_updated_label": "2026-11-27 22:00"
+    "_fetched_at": 1795785946.5989077,
+    "_updated_label": "2026-11-27 22:25"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795784416.1084132,
-    "_updated_label": "2026-11-27 22:00"
+    "_fetched_at": 1795785946.5989077,
+    "_updated_label": "2026-11-27 22:25"
   },
   "ORCL": {
     "annual": [
@@ -12580,7 +12580,7 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1795436078.9771852,
-    "_updated_label": "2026-11-26 22:00",
+    "_updated_label": "2026-11-27 22:25",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -12607,7 +12607,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1795698016.3385193,
+    "_yahoo_verified_at": 1795785946.622373,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ETN": {
