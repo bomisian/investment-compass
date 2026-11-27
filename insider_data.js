@@ -537,8 +537,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795739469.0066555,
-    "_updated_label": "2026-11-27"
+    "_fetched_at": 1795811910.9072478,
+    "_updated_label": "2026-11-28"
   },
   "AAPL": {
     "transactions": [
@@ -703,8 +703,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795739469.0066555,
-    "_updated_label": "2026-11-27"
+    "_fetched_at": 1795811910.9072478,
+    "_updated_label": "2026-11-28"
   },
   "TSLA": {
     "transactions": [
@@ -755,8 +755,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1795739469.0066555,
-    "_updated_label": "2026-11-27"
+    "_fetched_at": 1795811910.9072478,
+    "_updated_label": "2026-11-28"
   },
   "CRM": {
     "transactions": [
@@ -3345,8 +3345,8 @@ const INSIDER_DATA = {
   },
   "EME": {
     "transactions": [],
-    "_fetched_at": 1795739469.0066555,
-    "_updated_label": "2026-11-27"
+    "_fetched_at": 1795811910.9072478,
+    "_updated_label": "2026-11-28"
   },
   "FIX": {
     "transactions": [],

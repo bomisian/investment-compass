@@ -89,8 +89,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 70.12,
     "name": "Apple Inc.",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1795739443.5679412,
-    "_updated_label": "2026-11-27 09:30"
+    "_fetched_at": 1795811883.5544426,
+    "_updated_label": "2026-11-28 05:38"
   },
   "GOOGL": {
     "forwardPE": 17.65699,
@@ -859,8 +859,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 12.57,
     "name": "Marvell Technology, Inc.",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1795739443.5679412,
-    "_updated_label": "2026-11-27 09:30"
+    "_fetched_at": 1795811883.5544426,
+    "_updated_label": "2026-11-28 05:38"
   },
   "ASML": {
     "forwardPE": 30.59394,
