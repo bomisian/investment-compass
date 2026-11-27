@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-27T07:35:42+09:00",
+  "generatedAt": "2026-11-28T07:35:43+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-27 07:22"
+      "detail": "2026-11-28 07:22"
     },
     {
       "key": "public_verify",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-11-25 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-27 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-27 07:21 생성 → 거래일 2026-11-25 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-28 07:22 생성 → 거래일 2026-11-27 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 43일째(기준 14일)"
+      "detail": "COHR 44일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(35일), FIX(36일), BE(36일), HUBB(31일), STX(31일), GEV(30일), HUBB(30일), VRT(30일), MSFT(30일), GOOGL(30일), KLAC(30일), VRT(30일), GOOGL(29일), PWR(29일), EME(29일), AMZN(29일), INTC(29일), KLAC(29일), SNDK(29일), STX(29일), AMZN(28일), INTC(28일), SNDK(28일), MRVL(25일), LITE(25일), AAPL(25일), PLTR(25일), PLTR(24일), AAPL(24일), ETN(24일), AMD(24일), ANET(24일), LITE(24일), MOD(24일), AMD(23일), ANET(23일), MOD(23일), QCOM(23일), ARM(23일), COHR(23일), EME(29일), VST(21일), CEG(18일), VST(18일), CEG(18일), TSM(17일), TSM(15일), TSM(14일), AMAT(15일), NVDA(10일), ARM(4일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(36일), FIX(37일), BE(37일), HUBB(32일), STX(32일), GEV(31일), HUBB(31일), VRT(31일), MSFT(31일), GOOGL(31일), KLAC(31일), VRT(31일), GOOGL(30일), PWR(30일), EME(30일), AMZN(30일), INTC(30일), KLAC(30일), SNDK(30일), STX(30일), AMZN(29일), INTC(29일), SNDK(29일), MRVL(26일), LITE(26일), AAPL(26일), PLTR(26일), PLTR(25일), AAPL(25일), ETN(25일), AMD(25일), ANET(25일), LITE(25일), MOD(25일), AMD(24일), ANET(24일), MOD(24일), QCOM(24일), ARM(24일), COHR(24일), EME(30일), VST(22일), CEG(19일), VST(19일), CEG(19일), TSM(18일), TSM(16일), TSM(15일), AMAT(16일), NVDA(11일), ARM(5일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -102,7 +102,7 @@ const OPS_STATUS_DATA = {
       "key": "quarterly_cashflow_gap",
       "status": "yellow",
       "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
-      "detail": "3거래일 넘게 빈 종목: AMAT Q4'26(ocf·capex·fcf 없음, 2026-11-15부터 8거래일)"
+      "detail": "3거래일 넘게 빈 종목: NVDA Q4'26(ocf·capex·fcf 없음, 2026-11-20부터 4거래일), AMAT Q4'26(ocf·capex·fcf 없음, 2026-11-15부터 9거래일)"
     },
     {
       "key": "ttm_eps_rule",
@@ -132,13 +132,13 @@ const OPS_STATUS_DATA = {
       "key": "price_map_daily_run",
       "status": "yellow",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-11-18(기대 2026-11-25, 5거래일 뒤처짐) / 39종목 확정 봉 준비됨(엔진 실행 실패 가능 - buy_signal.log 확인)"
+      "detail": "마지막 성공 세션 2026-11-18(기대 2026-11-27, 6거래일 뒤처짐) / 39종목 확정 봉 준비됨(엔진 실행 실패 가능 - buy_signal.log 확인)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-27 07:21 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-28 07:14 KST 정상 갱신(실패 0개)"
     }
   ]
 };

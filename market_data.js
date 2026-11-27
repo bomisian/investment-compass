@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 104.04199981689453,
+      "current": 104.01399993896484,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.37200164794921875,
-      "changePct": 0.35883250170699155,
-      "pctRank": 66.5871121718377,
+      "changeAbs": 0.34400177001953125,
+      "changePct": 0.33182384112608015,
+      "pctRank": 66.34844868735084,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.2664876138256722,
-      "ma20": 102.9341007232666,
-      "ma60": 101.73536682128906,
-      "chg1m": 1.8519973754882812,
-      "chg3m": 4.342002868652344,
-      "chg1mPct": 1.812307790627738,
-      "chg3mPct": 4.355068206177009,
+      "drawdown1y": -0.29332798768648694,
+      "ma20": 102.93270072937011,
+      "ma60": 101.7349001566569,
+      "chg1m": 1.8239974975585938,
+      "chg3m": 4.314002990722656,
+      "chg1mPct": 1.7849079694507675,
+      "chg3mPct": 4.326984074996721,
       "lastDate": "2026-11-27",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
+      "summary": "Son of Hamas chief survives Israeli strike, Hamas says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5",
+      "datetime": 1795813864,
+      "headlineKo": "하마스 추장의 아들, 이스라엘 공격에서 살아남았다고 하마스가 밝혔습니다 - 로이터 통신",
+      "summaryKo": "하마스 추장의 아들, 이스라엘 공습에서 살아남았다"
+    },
+    {
       "headline": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
       "summary": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform Reuters",
       "source": "Reuters",
@@ -262,15 +271,6 @@ const MARKET_DATA = {
       "datetime": 1795805180,
       "headlineKo": "Jensen Huang의 복귀는 AI 불안감을 완화하는 데 거의 도움이 되지 않았습니다. 우리는 약점을 이용하여 구매했습니다.",
       "summaryKo": "Jensen Huang의 복귀는 일시적인 AI 랠리를 촉발시켰지만 지속적인 시장 변동성은 우리에게 현금을 투입할 수 있는 또 다른 기회를 제공했습니다."
-    },
-    {
-      "headline": "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
-      "summary": "Son of Hamas chief survives Israeli strike, Hamas says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5",
-      "datetime": 1795804424,
-      "headlineKo": "하마스 추장의 아들, 이스라엘 공격에서 살아남았다고 하마스가 밝혔습니다 - 로이터 통신",
-      "summaryKo": "하마스 추장의 아들, 이스라엘 공습에서 살아남았다"
     },
     {
       "headline": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795815775.8770812,
+  "_news_last_success_at": 1795820006.835457,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795815767.8225307,
-  "_updated_label": "2026-11-28 06:43",
-  "_last_attempt_at": 1795815767.8225307,
-  "_last_success_at": 1795815767.8225307,
+  "_fetched_at": 1795819999.654169,
+  "_updated_label": "2026-11-28 07:53",
+  "_last_attempt_at": 1795819999.654169,
+  "_last_success_at": 1795819999.654169,
   "_collection_status": "ok",
   "_collection_errors": []
 };
