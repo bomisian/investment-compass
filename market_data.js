@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 104.03299713134766,
+      "current": 104.04199981689453,
       "prevClose": 103.66999816894531,
-      "changeAbs": 0.36299896240234375,
-      "changePct": 0.35014851819596277,
-      "pctRank": 66.4280031821798,
+      "changeAbs": 0.37200164794921875,
+      "changePct": 0.35883250170699155,
+      "pctRank": 66.5871121718377,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 104.31999969482422,
-      "drawdown1y": -0.27511748879999187,
-      "ma20": 102.93365058898925,
-      "ma60": 101.73521677652995,
-      "chg1m": 1.8429946899414062,
-      "chg3m": 4.333000183105469,
-      "chg1mPct": 1.8034980388596658,
-      "chg3mPct": 4.346038431029124,
+      "drawdown1y": -0.2664876138256722,
+      "ma20": 102.9341007232666,
+      "ma60": 101.73536682128906,
+      "chg1m": 1.8519973754882812,
+      "chg3m": 4.342002868652344,
+      "chg1mPct": 1.812307790627738,
+      "chg3mPct": 4.355068206177009,
       "lastDate": "2026-11-27",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -237,13 +237,22 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
-      "summary": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform Reuters",
+      "headline": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
+      "summary": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
-      "datetime": 1795809610,
-      "headlineKo": "독점적인 해커들이 미 공군의 주력 Cloud One 컴퓨팅 플랫폼을 침해했습니다 - Reuters",
-      "summaryKo": "독점 해커들이 미 공군의 주력 Cloud One 컴퓨팅 플랫폼을 침해했습니다."
+      "datetime": 1795812961,
+      "headlineKo": "독점: 해커들이 미 공군의 주력 Cloud One 컴퓨팅 플랫폼을 침해했습니다 - Reuters",
+      "summaryKo": "독점: 해커들이 미 공군의 주력 Cloud One 컴퓨팅 플랫폼을 침해했습니다."
+    },
+    {
+      "headline": "US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
+      "summary": "US disables ship trying to leave Iran, as Tehran vows to confront blockade Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+      "datetime": 1795810017,
+      "headlineKo": "테헤란이 봉쇄에 맞서겠다고 다짐함에 따라 미국은이란을 떠나려는 선박을 무력화시켰다 - 로이터 통신",
+      "summaryKo": "테헤란이 봉쇄에 맞서겠다고 다짐하자 미국은이란을 떠나려는 선박을 무력화시켰다 - 최신"
     },
     {
       "headline": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
@@ -262,15 +271,6 @@ const MARKET_DATA = {
       "datetime": 1795804424,
       "headlineKo": "하마스 추장의 아들, 이스라엘 공격에서 살아남았다고 하마스가 밝혔습니다 - 로이터 통신",
       "summaryKo": "하마스 추장의 아들, 이스라엘 공습에서 살아남았다"
-    },
-    {
-      "headline": "US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
-      "summary": "US disables ship trying to leave Iran, as Tehran vows to confront blockade Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
-      "datetime": 1795802514,
-      "headlineKo": "테헤란이 봉쇄에 맞서겠다고 다짐함에 따라 미국은이란을 떠나려는 선박을 무력화시켰다 - 로이터 통신",
-      "summaryKo": "테헤란이 봉쇄에 맞서겠다고 다짐하자 미국은이란을 떠나려는 선박을 무력화시켰다 - 최신"
     },
     {
       "headline": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795811928.3875177,
+  "_news_last_success_at": 1795815775.8770812,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795811916.3621974,
-  "_updated_label": "2026-11-28 05:39",
-  "_last_attempt_at": 1795811916.3621974,
-  "_last_success_at": 1795811916.3621974,
+  "_fetched_at": 1795815767.8225307,
+  "_updated_label": "2026-11-28 06:43",
+  "_last_attempt_at": 1795815767.8225307,
+  "_last_success_at": 1795815767.8225307,
   "_collection_status": "ok",
   "_collection_errors": []
 };
