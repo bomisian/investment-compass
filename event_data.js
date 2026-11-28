@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1795885641.0240364,
+  "generatedAt": 1795886006.497394,
   "events": [
     {
       "id": "8c0904e81438b873cf12",
@@ -36,7 +36,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f68dc69e911569cd24bf590b95c3294a650dfac53d7cec417a681e1679172bcb",
         "publishedAt": 1795879219,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -105,7 +105,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=862b90265c501c6d4614567dad7f83b28a358202dc3e7666eed8ae81a6512506",
         "publishedAt": 1795878669,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -181,12 +181,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=74c6f461f7f9614e6358539a6a2c7a4e2a7af2073897f21578cb1e5591aa1aff",
         "publishedAt": 1795878122,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Tesla: 2027년에는 어느 자동차 제조업체의 거대 주식이 더 나은 매수인가요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,297.49 +1.6% +114.71 DJI 50,774.94 +1.2% +591.99 NASDAQ 24,129.50 +2.3% +543.70 비트코인 $59,403.00 -1.3% -$804.54 ANT $91.88 +11.0",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,297.49 +1.6% +114.71 DJI 50,774.94 +1.2% +591.99 NASDAQ 24,129.50 +2.3% +543.70 비트코인 $59,512.00 -0.8% -$501.64 ANT $91.88 +11.0",
         "Tesla는 에너지 저장 및 인공 지능 분야의 전문 지식을 활용하면서 글로벌 전기 자동차 시장을 선도하고 있습니다."
       ],
       "marketInterpretation": [
@@ -258,7 +258,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c30f0e78b82d26021fe3b178e6b1398398ac0496fc2d651aa8797a2b4886d2f",
         "publishedAt": 1795877042,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -339,7 +339,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=193205b782c247309c4251a8e411ffc2cd0c648969e4fef5267c565363854a0b",
         "publishedAt": 1795876245,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -408,7 +408,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=edc882eae82dc2c3daf0abdc90261314d8cb9f91f5b3e1c3c8bac00998682138",
         "publishedAt": 1795876182,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -485,7 +485,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=82cd173ddfc2d4dc82d5d97164323d768d885c61a434d5496bff3bad0e136d46",
         "publishedAt": 1795874025,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -574,12 +574,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=386e9a9dc836dc06542e3667e2ef8113dd0b908235cc03e76c75a1576879fdd0",
         "publishedAt": 1795872842,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "QQQ: 2027년에는 어떤 기술 ETF가 더 나은 매수인가요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,297.49 +1.6% +114.71 DJI 50,774.94 +1.2% +591.99 NASDAQ 24,129.50 +2.3% +543.70 비트코인 $59,403.00 -1.3% -$804.54 ANT $91.88 +11.0",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,297.49 +1.6% +114.71 DJI 50,774.94 +1.2% +591.99 NASDAQ 24,129.50 +2.3% +543.70 비트코인 $59,512.00 -0.8% -$501.64 ANT $91.88 +11.0",
         "Nvidia, Apple, Microsoft는 VGT의 거의 47%, QQQ의 22%를 차지합니다."
       ],
       "marketInterpretation": [
@@ -651,7 +651,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a07ebdc17e3755f3dbe43eba68c6fba15af933038dba58ac6bb777badc8cec29",
         "publishedAt": 1795871849,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -726,7 +726,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dec13071b8b2f6b2e6de2311d44ec2a1651610fe08f1d1068f5d01febd12ed08",
         "publishedAt": 1795871448,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -788,7 +788,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=896893544f7f93a3d592b00080419bece5d599f4b1bdd067852df500ada2ac86",
         "publishedAt": 1795871333,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -863,7 +863,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d4167528aa5a7ae082faf51149081335cd239205b9846c195eb9be630e8178c2",
         "publishedAt": 1795870661,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -932,7 +932,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5473b238c299222d4ae43e923159a033115acebbaab6eaa32658d44741cb9bc3",
         "publishedAt": 1795870220,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1001,7 +1001,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=095bcd41e36ac548bc14382a52691497a148d268665e4418eb65285e50fd874b",
         "publishedAt": 1795870217,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1071,7 +1071,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=72c35dfed349e1285f23f367ecd2548f78749bf54624cc931b022faadd72f9f0",
         "publishedAt": 1795869519,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1148,7 +1148,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3b146041f0b8237fe20a3f57183ee41bcc00645922b236cbc25fd034223ea174",
         "publishedAt": 1795868317,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1223,7 +1223,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0c2b7d0e74bc43684aeaa2848b4b5303f64ecdcb7b146c0d181e5191284cb245",
         "publishedAt": 1795864751,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1299,7 +1299,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=e6ae31c03f78de5ab79498215c628db7e3b4e609ef91455e2b912a9083551390",
         "publishedAt": 1795863600,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1366,7 +1366,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8a655e305df4957ca38bcac1f845aaa634bc05bcec65ef112ea2e356789b7980",
         "publishedAt": 1795862048,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1444,7 +1444,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fe1c19063084d51e521b53e319c7ed70d1fd429dcd813321dbb95c644c568fe5",
         "publishedAt": 1795858382,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1521,7 +1521,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9fb7e9f15df051e09c2589f20d3583f5e63d524086cf6dcead0d426187814dc8",
         "publishedAt": 1795857401,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1593,7 +1593,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2e08d3bf31d461d91375e5b5cf1ac179cc82528f015a568c3613d4e2f4a66e57",
         "publishedAt": 1795856380,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1682,7 +1682,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bdce91b2e3f70ae05cedd1b7aea6a0d462a11fca80787f6708d8fb8f4617a275",
         "publishedAt": 1795854590,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1740,7 +1740,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bdce91b2e3f70ae05cedd1b7aea6a0d462a11fca80787f6708d8fb8f4617a275",
         "publishedAt": 1795854590,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1809,7 +1809,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ba83911a899fc673df39102955a3f2c084d8fbe61633c346fa03858bbbb9862f",
         "publishedAt": 1795852285,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1892,11 +1892,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3ee61dd21242fe7e628550dffcc31705602c3432cc700bb40a314931ae9b7e6a",
         "publishedAt": 1795852109,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Elon Musk는 GOOGL이 SPCX AI 에이전트로부터 더 많은 컴퓨팅을 임대하는 데 '관심을 표명'했다고 밝혔습니다. Trending News Earnings All DIA 1.42% SPY 2.04% QQQ 2.64% Trending WLFI 54.06% TRUMP 14.02% NIGHT 3.73% LUNC 0.50% MELANIA 11.30% MLTX 3.56% UEC 6.33%A",
+        "Elon Musk는 GOOGL이 SPCX AI 에이전트로부터 더 많은 컴퓨팅을 임대하는 데 '관심을 표명'했다고 밝혔습니다. Trending News Earnings All DIA 1.42% SPY 2.04% QQQ 2.64% Trending WLFI 53.72% TRUMP 13.39% NIGHT 3.93% MELANIA 11.15% LUNC 0.41% MLTX 3.56% UEC 6.33% 유",
         "Elon Musk는 GOOGL이 더 많은 컴퓨팅을 임대하는 데 '관심을 표명'했다고 말합니다. SPCX에서 Musk의 최근 의견은 회사가 자체 AI 야망에 대한 질문에 직면하고 있음에도 불구하고 SpaceX의 인프라 사업이 점점 수익성이 높아지고 있음을 나타냅니다.",
         ": Google Sundar Pichai CEO(왼쪽)와 Tesla, SpaceX, X CEO Elon Musk가 미국 취임식에 앞서 연설하고 있습니다."
       ],
@@ -1961,7 +1961,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7afee53d257de429214831e0fd24e413daf58e83996e8440cb7e295d29efdb10",
         "publishedAt": 1795847605,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2030,7 +2030,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ff063b6f5816a9abdf1b2fc0f707db6f47333a40c54c4a7a3335ef7410f3f63f",
         "publishedAt": 1795831778,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2097,7 +2097,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3cd4c26ec9995848a25417202e35db02cb15fb58f04014522968d4279e75629d",
         "publishedAt": 1795829820,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2172,7 +2172,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=99b36f5e91cfa5424783695ea2d69d16329b9a486abca7ca930c536d37fbae7d",
         "publishedAt": 1795828750,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2249,7 +2249,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e07d3a43315060afd5e0d3bc3c2192d50d0b4a848235681d146e184299fe362c",
         "publishedAt": 1795828280,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2321,7 +2321,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e8ed0fc146db752869efcd6e65ad9a94066caa2bbfcafcc545b25780435fe870",
         "publishedAt": 1795826460,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2412,7 +2412,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=59433e33c2f3553078f3e55465f5776438db2bcbdafddf5045d3a3965fb82e54",
         "publishedAt": 1795826403,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2488,7 +2488,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=685e72c5b074ef6edd86498674bb355490a45f6c5b7a1507151479afe641abe0",
         "publishedAt": 1795823426,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2569,7 +2569,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e299fe88567a7a659bfd5f2a6daa4f621b9279aa134e42209b2c5a991d644c68",
         "publishedAt": 1795821835,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2644,7 +2644,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6c0b1d8a81b7a16611173daa81e760f9518d0e515d9496b2b0ffc6437b553dc5",
         "publishedAt": 1795821833,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2717,7 +2717,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8153645d613ea30a27601556b33d74a143425db59f257658d76f0f4af8743e36",
         "publishedAt": 1795821683,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2779,7 +2779,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8153645d613ea30a27601556b33d74a143425db59f257658d76f0f4af8743e36",
         "publishedAt": 1795821683,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2848,7 +2848,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=01c84ff595fc151e621dd0594f77ac26126912a3d408806b2ec9c7aa46cc7fef",
         "publishedAt": 1795821216,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2922,7 +2922,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=424f479f8dfc5374eaeb7d93754fe156f18c030c3b670a177b676bd9908bd801",
         "publishedAt": 1795818920,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2993,11 +2993,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=062c6dc9674f05d9484818878dd1f4fe3421a09d91f9f95f021d086f85ff05c8",
         "publishedAt": 1795814986,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq은 AI 낙관주의가 복귀함에 따라 1년여 만에 최고의 주를 마감합니다 — VZ, ANT, ADBE, TSLA 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 1.42% SPY 2.04% QQQ 2.64% 추세 WLFI 54.06% TRUMP 14.02% NIGHT 3.73% LUNC 0.50% MELANIA 11.",
+        "S&P 500, Nasdaq은 AI 낙관론이 다시 돌아오면서 1년여 만에 최고의 한 주를 마감했습니다 — VZ, ANT, ADBE, TSLA에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 1.42% SPY 2.04% QQQ 2.64% 추세 홈 뉴스 시장 주식 S&P 500, Nasdaq 최고의 주 O 마감",
         "S&P 500, Nasdaq은 AI 낙관주의가 복귀함에 따라 1년여 만에 최고의 주를 종료합니다 — VZ, ANT, ADBE, TSLA In Focus 한편 다우존스 지수는 2022년 10월 이후 최고의 주를 기록했습니다.",
         "거래자들이 2026년 11월 20일 뉴욕시에서 아침 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
       ],
@@ -3068,7 +3068,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9491a22c2c534687927467547dd49c6da73fb76a5db30c33ecbe952c7dfe37d1",
         "publishedAt": 1795814320,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3131,7 +3131,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=29855fa31f3e1aeb9b90a71c6ac4405c1d0fe62c74956217a16b9e1ffff9d6c3",
         "publishedAt": 1795811113,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3207,7 +3207,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d710d9383dd9f54f4dce4ab2f8a23d21703b039faecf2916fcfe668dfadd1a7a",
         "publishedAt": 1795810558,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3282,7 +3282,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9d4de8b3ce299eb8c03a11402f34abe6fe28db92428496722e8ac172df850ea2",
         "publishedAt": 1795810433,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3346,7 +3346,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ca84633dd52240b00db7b72a75d92570875cda4eec12ac7da9ffc80aa5298d64",
         "publishedAt": 1795809354,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3423,7 +3423,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6485c9afc0ccda7c8349157b048306d43cc7dfa4db44f087308da73de51263b5",
         "publishedAt": 1795808889,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3492,7 +3492,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=20e73f7fc5269787b22c8c103ae0cd47e5ef692512023efe37d4c3ebb43a401a",
         "publishedAt": 1795807487,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3548,7 +3548,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7f713f76ed3f459f7a733b1f06414f6728a646a5d99604592097787e65720be4",
         "publishedAt": 1795807403,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3621,7 +3621,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ae2516a501fc74ded5264cd4ab5c2af163def89e4dcebcd7b3280c453ae1eade",
         "publishedAt": 1795807284,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3694,7 +3694,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c4f248232a08a6eeada46dedfc8efb6cc06860300056a0f6da493d69ad558f9f",
         "publishedAt": 1795807119,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3761,7 +3761,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fd013228cd2dde501eb07308249e9a7501beaa6bf5876e5ab04058e1bb9216b4",
         "publishedAt": 1795807117,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3828,7 +3828,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=24334d94081d7544b01701b78be86573b5c5dd2c8ab80535b8380ff556611dab",
         "publishedAt": 1795805376,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3895,7 +3895,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4858721cd24be67d2629e6726ffad93affc6023211e6f054cf2c35f7ecf81c32",
         "publishedAt": 1795804896,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3957,7 +3957,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=66986135b4c9b220e8424e7e29a498a77e30ab6eba64cf17c5162d5d5eeee730",
         "publishedAt": 1795804742,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4019,7 +4019,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=65e5f2744c4d8af91891d526001f2f87f450a8e01794dd5633bde1b2ee6345e8",
         "publishedAt": 1795804203,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4079,7 +4079,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=22c575beb0b4fb0b7a5f694ce71bc31ead3d778818fcd1122ab0a2583915ceb3",
         "publishedAt": 1795804099,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4168,7 +4168,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9193ef89cf78c1f7b46a3afb2a92ba85fedc47aa4c0bacb97d39c5339f627f78",
         "publishedAt": 1795803306,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4230,7 +4230,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7fd8c6e6ffe50a23e4ca0f5932edfd10af5f0440eaba43b41f1d32c515f970df",
         "publishedAt": 1795803114,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4307,7 +4307,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ae8df20ec2c832a41ed56da5bca857c4a93010308a351e918373c0809241d67e",
         "publishedAt": 1795802762,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4378,7 +4378,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6f1302a0fcfde3b9e3751c77e7af693d50ecfa6b764ece161bc70f8253c76a6",
         "publishedAt": 1795802585,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4455,7 +4455,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3f399fcf14a2962c86a6bd2df47d240a7e43b501d9610241b203ea886a39f926",
         "publishedAt": 1795801551,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4534,7 +4534,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fefd8703a835750e1ae202000348b3d630500860da28d5fe5011b3cbce6e6a59",
         "publishedAt": 1795800002,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4626,7 +4626,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9532cb77ebe7bc819d9ded3fc36555a3ae63dc33a6cb1f108a7ebeaa615bb9a1",
         "publishedAt": 1795799198,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4695,7 +4695,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=932f666baded5992c9e98478621fe9d26efbfcefb1ce1a5a57f18c5161532a85",
         "publishedAt": 1795798170,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4765,7 +4765,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=316c0b78816efbd995197d8176953e20ca3dc099fc465421f8c048f2c048972f",
         "publishedAt": 1795798019,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4842,7 +4842,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8db6e9b01db8817051b91eba57b1215fdb2ba12475adde1981b1aba4cff54dbd",
         "publishedAt": 1795794515,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4925,7 +4925,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=17aad9b017356426b964aeb13f02e64d5805b7eaf2162799882f70e2026c0f20",
         "publishedAt": 1795794312,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4996,7 +4996,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=145eda6d80d0cefe96b896fc41c45ce6195945e8e96ed3a0901472001c70a14b",
         "publishedAt": 1795794304,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5071,7 +5071,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8f52c70b73f08cb454719b95fd279412df328ddc109d1544b92bb26c9eec2dbd",
         "publishedAt": 1795793427,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5127,7 +5127,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=14abfddd82341ba89f85b072491980a9177399806e797a342b7a1a95b0051ef2",
         "publishedAt": 1795793427,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5194,7 +5194,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c7193702b6713bee9031a0bf8435b884153b6d8d2e3b887ec09fa010d71d4b4e",
         "publishedAt": 1795793420,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5261,7 +5261,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b558f7641d370620f59bd831c9de8127cb4469c044e0df8092305237db78ab8",
         "publishedAt": 1795793414,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5321,7 +5321,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a20f0686aa2ae7c9328e0a948abc5dce5cd463affd93ef02e7f8b9471a779479",
         "publishedAt": 1795793309,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5412,7 +5412,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d724c0f55500ee4fb07b63b9944eb7d89952a65c42a30ce4b4b4ab5f35b43f38",
         "publishedAt": 1795791153,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5496,7 +5496,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=eb9d9066d9a3db6a399429683ce0a97745760627727005ec4f0cc60049fd28cf",
         "publishedAt": 1795790160,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5591,7 +5591,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d55804588a75331af14e534a186514d9faa7a2f16d44e3b42d62500ce05abb0d",
         "publishedAt": 1795789982,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5655,7 +5655,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d55804588a75331af14e534a186514d9faa7a2f16d44e3b42d62500ce05abb0d",
         "publishedAt": 1795789982,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5736,7 +5736,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a2b297adeeeb3d8722ac8207e190f3fca1cca42269d9c50f7e9dc512fbc40ed9",
         "publishedAt": 1795789920,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5792,7 +5792,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e23df4c036b7f6631978e487d65e10ccf6b349c53ae242be9ed8aa6df34a1acf",
         "publishedAt": 1795789620,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5865,7 +5865,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=b274ad1eb0b710d8b52b1536fa11c393bdb3afc90081fef72d408e88c611fddd",
         "publishedAt": 1795789259,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5942,7 +5942,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0e174697c14fe35be3a0e8d156720f5690979669dc705e87f086cc78d8638438",
         "publishedAt": 1795787250,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6013,7 +6013,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4009b81ee5c89003ee6cae183270c2f7a9c393fb2ff040d25ac59d992e4f5435",
         "publishedAt": 1795787131,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6084,7 +6084,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=36d73bcd49cc1d42c6a0ddd1a459420c47e35d2e9aede5db76a0ebfc14175c00",
         "publishedAt": 1795787122,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6161,7 +6161,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=efb201d0765979c5eb8245c78b13e828fdd7715711d45b91ca1049ae68df7c1d",
         "publishedAt": 1795786679,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6235,7 +6235,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4934603eec6659e69687cbf29f402ef024df68b6895d2367c6bde628adfc5f57",
         "publishedAt": 1795785561,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6324,7 +6324,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd1758ff6784a1cb9b9c4e49769bc109c98afec822cb8b730f411f1242031d50",
         "publishedAt": 1795784400,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6399,7 +6399,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3176609784fa504bb2195b112a6beea081af175754c9c4d7ca5267a8d97c944f",
         "publishedAt": 1795784287,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6468,7 +6468,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6ba34779e15c5a3bcf6c896cfa4dd8978bbdf7839f16e9b33e5df7eed91eb53f",
         "publishedAt": 1795784274,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6526,7 +6526,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6ba34779e15c5a3bcf6c896cfa4dd8978bbdf7839f16e9b33e5df7eed91eb53f",
         "publishedAt": 1795784274,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6595,7 +6595,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dbb15031a6cbc5584d98342acd2db5ee72b501dcb07aec1cf85ef627371cfeea",
         "publishedAt": 1795784197,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6670,7 +6670,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=37896cde23f9c52b8e6b3f394ee100b7b633dd60ed2ac7c1a125a697af14698e",
         "publishedAt": 1795783529,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6746,7 +6746,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=43ec1d5f169128bba1a5e3ea6ea91dc38880ec61cd57dc978d31832d1cbc1c4c",
         "publishedAt": 1795782820,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6815,7 +6815,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6bfad7a6314ae8d0fbc5acdc3d293220e69a03d6131a7753e2d0a10390a2bacf",
         "publishedAt": 1795782349,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6892,7 +6892,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=36a7c34262f82bfba8022fde4b9c0eef783929fcf23892fc89403fa148950de3",
         "publishedAt": 1795781978,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6976,7 +6976,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d44423c82bd27680614ba3147894676f11627f4bd909f4a520fefd323867a11d",
         "publishedAt": 1795781766,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7051,7 +7051,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3100348944a4e737f3f3273b29cc9d0447458ad27bdf8931ab85ef21ba61e8e4",
         "publishedAt": 1795781760,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7115,7 +7115,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1ad595a249cfe3154a5e9f9dacd2553cdd42f836f5366bfe2f9ca3d4d6e35d3e",
         "publishedAt": 1795781725,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7190,7 +7190,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3e124e29fe8a27a5592f1574b1c0380b745bdf385b8f3ac26179a6caf3d0db85",
         "publishedAt": 1795780980,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7247,7 +7247,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=03e963f652576f039df78ca9ce9145ad5feec54809042d76b36a20306e3c590e",
         "publishedAt": 1795780958,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7324,7 +7324,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0f332bdc892350be850485d505a1f73fccdb3f15622b71d7ba6aac380a4fe86b",
         "publishedAt": 1795780747,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7393,7 +7393,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d0a6cb6b652f027638cb46cf2528f94edd9fb00214c0234f9b08461050ae7c12",
         "publishedAt": 1795780542,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7463,7 +7463,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=079fc4ff7c2c2f99bc93c5461e4e6f099b3fa9b8fa3f60164f341c86329e9592",
         "publishedAt": 1795780477,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7539,7 +7539,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=08c7e1fd4c60f0cb7c0cd5f3cf003b698e5411c36a3299bbcc51de098069f4c9",
         "publishedAt": 1795780448,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7620,7 +7620,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9829ce22ba3ae649f1905447962625a669c08b5d71a9ca6286bd1d01f2e6777c",
         "publishedAt": 1795780363,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7695,7 +7695,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5f13141b23f24d1cf2bb75cdc4a313752f32ffd5c764dfe98d91860d932ec64e",
         "publishedAt": 1795780335,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7770,7 +7770,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b9237d3066853fcd407dc89d3d38a748cfa62f4e2afef5541c5189ed8c4cca2e",
         "publishedAt": 1795780239,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7845,7 +7845,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=eb2d624a70a22a770f11309c8f45ff8c8452843f5516ac89cdb3c9f774354681",
         "publishedAt": 1795780117,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7914,7 +7914,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d67eedb348a999b3408c4d29e45e5efd4eb339b47bb7a365c095d83617854f1b",
         "publishedAt": 1795779721,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7997,7 +7997,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6d0a569afff0aed9d27cb9a7eb0bb81e9aa5de357792b91faa80eb57370ea8a2",
         "publishedAt": 1795779182,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8066,7 +8066,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b55134f66b56bf9b71d0e457e91e3272482658a40bad9d1bba90f239e1223830",
         "publishedAt": 1795779137,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8139,7 +8139,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ce72e435d1a5bf91ac789bc3cbec97f5d488b7b718b915405356e54778be6567",
         "publishedAt": 1795778588,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8206,7 +8206,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fc40b2e0abd564a3b0f29c44c91d86dd8cf51afef300d03a944713e0eb72ed6a",
         "publishedAt": 1795777440,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8262,7 +8262,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=25b97f4bbf003c98234b14b3487e43076f3b9b8b30f8253d5cf91424198a3337",
         "publishedAt": 1795764652,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8338,7 +8338,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=939496e0b643ce0dbbf96b87b6097cf073e8fd6a5a7c94d1f7f5b90c0d704245",
         "publishedAt": 1795761088,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8425,7 +8425,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=861bb08fcd0d56acc041536f55b14a416b6682ecb1e751dfda9fc3a40a2e0480",
         "publishedAt": 1795756283,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8514,7 +8514,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=565e84c991efa2f8094016311bd4d7bad12c64a13e14c3570a3103005aea4463",
         "publishedAt": 1795754620,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8577,7 +8577,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a379bd04041b159f4371c933a2ede013632185a2d03e0a51c59c24b6a3543d67",
         "publishedAt": 1795753381,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8653,7 +8653,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5ba7bbfe6332c14ee7092a4b5fa4647e1a0ecb09b8ee56159f9f94b4953b195f",
         "publishedAt": 1795751582,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8728,7 +8728,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c2008483f5159b3671e2f0f2ec9f40f79f7e9ee5bb88e89d275333a273c2766a",
         "publishedAt": 1795751457,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8801,7 +8801,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=ea32c09d230891facc819c2279878d748fe5676d5dbe4e130ebd719a51890c04",
         "publishedAt": 1795735097,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8886,7 +8886,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0e56a35f5645b5a73c26870701de9815fb57d698eaf78dfa2a5bbc1fab6df80f",
         "publishedAt": 1795734884,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8962,7 +8962,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=549d58c0687944ed251bd01b581409ad37503dc43d6b2fba79a06933d06acad9",
         "publishedAt": 1795734049,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9039,7 +9039,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=82bbdc1f980d9510642c4f9b8837ce329a0a724d0d62b617025b5aab498b6725",
         "publishedAt": 1795733449,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9116,7 +9116,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0243a4baabc6f280cd4f621cef4a3775f8bfc6f3cc228a63ada0817630f5c5f9",
         "publishedAt": 1795732502,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9193,7 +9193,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=86259c42f8252a3a0a1f4af0d691afb249d60966cad3a5148ca584f626c715d7",
         "publishedAt": 1795731602,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9268,7 +9268,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6e0745ef3e15f01868ad5073bb07fc23b63278347dd23cb49905db4f46a414c3",
         "publishedAt": 1795730948,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9343,7 +9343,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cf8415427f321c22becf7ce542f6e537f7aed420bc85c95c2ceffd1485506a28",
         "publishedAt": 1795730875,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9413,7 +9413,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=200eccd47a2a75b1a76f454f0d5078e67f55ff1e8350d2d6b9f131603c932d68",
         "publishedAt": 1795725376,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9488,7 +9488,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=80537e2bf13e004e0435ea7bf99051454e99d00295589f87735aee2c7aea9c86",
         "publishedAt": 1795721595,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9555,7 +9555,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=10f81f575156ea385bf6613b39df920763f2e841c8507e9af0e213fed1b1169a",
         "publishedAt": 1795721403,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9628,7 +9628,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=132a2f3c7c34144031468fe47bb822d6b06f5aa111adf9bb86db6d7ba2ba6ac2",
         "publishedAt": 1795716770,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9703,7 +9703,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4cd8554f5708fcd6cfae1095fee78b8b9880f5e8cff5534fd45fb1f5e84f8876",
         "publishedAt": 1795716673,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9778,7 +9778,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=48fd7128b41611d3fe45f172b0f78398950cd83d69902c7a23304639355b954a",
         "publishedAt": 1795716599,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9853,7 +9853,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=57078ac4f1cf97da28d88700a8a08d6701b3d8be0260b1de181edf4ddff5d105",
         "publishedAt": 1795716137,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9933,7 +9933,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=933686949bd26892b9dfaf34b94d6cbd056000419b49f64cfe45d4232220786b",
         "publishedAt": 1795715222,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10004,7 +10004,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8c10a01651ce11908c55b9170b4551a3d00975a090e13a15b7e069e8bf84ee73",
         "publishedAt": 1795715150,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10079,7 +10079,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4feb138a881237cdc526a5d4425cc2ac5dbd2473e6e2d4d0f67a6bb3245bc6a7",
         "publishedAt": 1795714989,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10146,7 +10146,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9955eacbddc843c2adbb7cb1fba6f8cbf11f3944f786b31f609d4a31dbed441c",
         "publishedAt": 1795713960,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10215,7 +10215,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ed3ca7ac448a7c9a0099c9c76e211d6f15c7cb2036a7563a015dd22c556139d",
         "publishedAt": 1795713742,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10295,7 +10295,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5e8f28d7cd2aff6f9291867e211de6c944f3d290e40e6a63503ddb3594eabfe4",
         "publishedAt": 1795713007,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10374,7 +10374,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5777f1d88ea012ca1ab7cffab89be06bbfbdd9b9ef47bfbd0379499ec62dd200",
         "publishedAt": 1795710760,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10471,7 +10471,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b38f3680b51d6a13bde96978f63cd152239796efeef44f764ac4e5845c0a308c",
         "publishedAt": 1795710442,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10541,7 +10541,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=03f38cb1cb453ba672ce13a0e3df51366c1b059d752ca9fabb5702e4d1a10cb8",
         "publishedAt": 1795709640,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10610,7 +10610,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9c817d10f82c6db0f79e431bc217627194450b62f4dda53e6891a4847634169f",
         "publishedAt": 1795709007,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10679,7 +10679,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5166c9fdd26cb0a51ced91bde2057e96f9951236c3e8d1ab52f5a1ddd2be63f5",
         "publishedAt": 1795707935,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10737,7 +10737,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5166c9fdd26cb0a51ced91bde2057e96f9951236c3e8d1ab52f5a1ddd2be63f5",
         "publishedAt": 1795707935,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10806,7 +10806,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=de27cc3e3e0ad79c7a40ab26cad1c153403b5a639041d5609b67e769de958cab",
         "publishedAt": 1795707018,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10879,7 +10879,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=59cfad9c0c780a8bf9be55f442088bd6535f9ab92a929129aab18428c3a9b0d9",
         "publishedAt": 1795706760,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10936,7 +10936,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8e2317fecb64db0c9712126c6e48bca111ed33b0efec9f438487662b50860bca",
         "publishedAt": 1795706126,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11019,7 +11019,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=89e5ce8e0372d1b8ef5e567c8c4ca8e2f6a1b7b7accb3f8aab049f3aa40eaf00",
         "publishedAt": 1795706126,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11090,7 +11090,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=30d265846a01de02c4743ef91327ab7c72094de437ae394af70e514f347228dc",
         "publishedAt": 1795706126,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11163,7 +11163,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=444c5d7b28d221718c5f7a244c00cb3785caf9bafcf18310a366db5cab4b2d05",
         "publishedAt": 1795703280,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11254,7 +11254,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f5f53062f961ffc74408216d3f8efb8086acc0f8baae397f44fad0569f4fd976",
         "publishedAt": 1795701219,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11329,7 +11329,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=216f6001e12a3a527142de5c03db0f20a43df9c178706e609c0c3c74b741ece8",
         "publishedAt": 1795701019,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11406,7 +11406,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5df173fa6a9ffb12cebf74276e03746a82ac73911269eaf137b6c5deecd6edfa",
         "publishedAt": 1795700514,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11481,7 +11481,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6745113b7896266c57b94f61f2e1fe5cabefd0b49c047c86be2e92d289d36353",
         "publishedAt": 1795700460,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11537,7 +11537,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1e1b68ecf3463bfe9079dfd1d7e9feac10b365ecf515d84745b008f8e8d799c4",
         "publishedAt": 1795698902,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11612,7 +11612,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f0b2176c87cc2467f6a3be423a549dd918bd7cec8a863f6442c3787928cdaa3b",
         "publishedAt": 1795697875,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11703,7 +11703,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8bdc426d908017f10bca2c77adfabda1a60a7364765a771393f3e9e5e31e66b7",
         "publishedAt": 1795695305,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11784,7 +11784,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ddb6b035b8e9da0e66351567114e458711fab79ead56c81a3d766b3bc161500e",
         "publishedAt": 1795693883,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11859,7 +11859,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ca7788213e9a1f61b0dd77cfccf3f504925b8609a8a56d277921da43433e570a",
         "publishedAt": 1795693559,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11937,7 +11937,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7e059000bf0610d271662c6e6da88614c059a977e5c6af9c3caa941eef4e0101",
         "publishedAt": 1795693510,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12032,7 +12032,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5cf2f4b5ff4ec31e779c49bc9412efece52ac42cad704f1508a011af50301117",
         "publishedAt": 1795692926,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12107,7 +12107,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b44a028054848b4224e714e4580d92c3b0eafae358513d01bbfb7f912e02f552",
         "publishedAt": 1795692837,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12182,7 +12182,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a248a4254326c9c334673e5463a694d12c27899d6e09c9e31b73f600810f1568",
         "publishedAt": 1795692596,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12255,7 +12255,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d91a6b15adcad438e6da7967d4a690093470026f3d866f56905de994949363a4",
         "publishedAt": 1795691454,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12353,7 +12353,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2f04636a6c47fc970bd019c82066156744d22c84a8c1de6cd2e1e99b2b44b5b8",
         "publishedAt": 1795691211,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12422,7 +12422,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=e3dbb79b1304201c601e08bb6939bfb0e9f4b3d2c7be31da18828e4bce6794e1",
         "publishedAt": 1795690814,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12479,7 +12479,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b1c6e02aba12b0430064804ee4e2e2dca52627a2f067cd5b007355fbfa068ea",
         "publishedAt": 1795687194,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12548,7 +12548,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2027e75ac8d19dc9ce0574430e4181ef40670bab8581f1d75824f49f6e255bb7",
         "publishedAt": 1795685468,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12624,7 +12624,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cf806c87bc09f123ed7e89090174206ef3f2ff7c28eeed0b167f418ebbe3d8a5",
         "publishedAt": 1795683021,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12705,7 +12705,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9f3e25b8b6dc31052278b99a543bbc59832541a1aad00ce40a8ece1e6c868983",
         "publishedAt": 1795681834,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12774,7 +12774,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f809c648dfabb7b08485d594d6711ffcaeb0308b60aae072f62ee9789d49344a",
         "publishedAt": 1795681730,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12843,7 +12843,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=79733b3fe30ffb3b3000e0713f8043abdba8bc82becd03b538c4d3f202f6cc59",
         "publishedAt": 1795681663,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12912,7 +12912,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5d1b192e42b031cf34fc56d193d1c013d911b83e949489e1220a4bc20e6c0098",
         "publishedAt": 1795681576,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12982,7 +12982,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=38b06e49842fe2035f0bcacf7b6e41d6b85a8e1416176cd4d9e9db2395451692",
         "publishedAt": 1795680409,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13058,7 +13058,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=2ede980a35f3b6f66bed0acdf99d20bf1fa4ba27cc85718bbbd40699e32d2c63",
         "publishedAt": 1795680000,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13127,7 +13127,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=35e2b4680ce3710a3a6681d196aa35fe8800ca3fb804e6aa20095d7ea93cda20",
         "publishedAt": 1795673985,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13196,7 +13196,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e0af89655cecebe80cf8a10eeca632b2264e64ec915862d65c234deef04b85c2",
         "publishedAt": 1795673707,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13265,7 +13265,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=21df9492788bb247bd105596f3ede6962cc85b154b8d2a0231b677df9e3342c5",
         "publishedAt": 1795671214,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13340,7 +13340,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0274b704585d2a8c24471e77cd4094530c23fcb51d2bb7dd82131efd4190bffa",
         "publishedAt": 1795671175,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13417,7 +13417,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0f795e97b828fe75c0ad5b79dca686f5a424cf13254852e72294887e130361a3",
         "publishedAt": 1795670402,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13492,7 +13492,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4477e5e6603d215bdd29c214b86d6e011582231a752e552d2208785d3e37ae7e",
         "publishedAt": 1795666740,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13554,7 +13554,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e20a1c6864b0638103683a558a2c7228a0744bf93030d68b2b61b1dbc26e5cd8",
         "publishedAt": 1795663955,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13637,7 +13637,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=93e694d0d5d96ee714e44261e18d84fe92e620d072c98af04c437fc031464488",
         "publishedAt": 1795660782,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13709,7 +13709,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=442e0173216e5623398d76d234b8bed3cc7fb6ba4864c58911444a33195f4caa",
         "publishedAt": 1795659135,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13805,7 +13805,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=dc248dc804f8a89f5070370cb339d0208eedbd91657c66fdf0d643786c6e7967",
         "publishedAt": 1795658620,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13874,7 +13874,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=386a5a97e9cde7407e154a7f4ac01e84d15d15b708941326f8a277c6694fb8da",
         "publishedAt": 1795654562,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13941,7 +13941,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dce155d86f3bc1e10325489775dc75a0d77660cc5907fcc95f962795388d027d",
         "publishedAt": 1795654402,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13997,7 +13997,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1d2461c4df5d4dd52ec712b7a115f14ed059eaab0ec6cd33f8981bbe8f666a8",
         "publishedAt": 1795654093,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14066,7 +14066,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c6dfdcab5190999e3b1cc53253d4a097aa42a9f3abc948ea292b3aea25e0ff60",
         "publishedAt": 1795651790,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14135,7 +14135,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=05c2294356daeb9090b81578d5ed435894a518d99ea693006b86ac8b9e6ee52e",
         "publishedAt": 1795650946,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14210,7 +14210,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=50a30bb11dcb9838d602bc541d5cb1ba3446c6f63216bea4dc6ea7009ee03417",
         "publishedAt": 1795650487,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14280,7 +14280,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=5ba9fccba661ffe23097ee801713a885798837c9a466f84bb06610bd4a142ea7",
         "publishedAt": 1795650362,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14351,7 +14351,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=88ed94e337de657c21469c5a98fb0b7a97f7a6990a67ba3a4e6368a7d2e82cb8",
         "publishedAt": 1795650187,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14432,7 +14432,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28",
         "publishedAt": 1795650186,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14509,7 +14509,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d770f4fdc86e5b30c9d3d6a4d9cf85135d8e263481f11187b0825a7388865971",
         "publishedAt": 1795649942,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14580,7 +14580,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6550472f446ac189e5403c670aeaa84f965d5a38c9a302b7b5e000b83bac1cd1",
         "publishedAt": 1795649464,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14655,7 +14655,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1941f15a07a41c34a8084c1a2b761aff803fe78d8f61ebbbb01e846ba6c475a6",
         "publishedAt": 1795648590,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14727,7 +14727,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=def680434403928ad4731c8de8094f5803e59a7a71323052b08ca43e9853b6d4",
         "publishedAt": 1795646581,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14818,7 +14818,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c843dc350b72bba6bcdf634e88b377227ea7fceb01ed7c1593b35830a3b02824",
         "publishedAt": 1795643939,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14887,7 +14887,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=3d3a2f0296e295db6eaa187f9095e6c157f0befe755d509b3b2ccbf44fbfcfbb",
         "publishedAt": 1795642065,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14952,7 +14952,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b6236334201c9643249d124aa4570edf40accf5cced23e6434560b08e8a94307",
         "publishedAt": 1795641602,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15025,7 +15025,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=95e0a15887cbba508fc760819b5fd476c8a302df1856f13496d88c54936527f4",
         "publishedAt": 1795641065,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15120,7 +15120,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3841556a94f349b3a9090edb8a3ca3b40c7f633aa69b8176232bc8e39fb7605b",
         "publishedAt": 1795639822,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15197,7 +15197,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1d149cad9aaa2aef58d6ef510b98864c6d37a9099eff0eddfe21b99e811ba180",
         "publishedAt": 1795639212,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15283,7 +15283,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8dddda9e784ea509d9f37136165d64d0c78e37e7811e2b73b98aa8e65a9423a5",
         "publishedAt": 1795638121,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15380,7 +15380,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=790c129a66af8f9edaec3ffa0893ae16d1a1b54b959b342dc6b7510c2d604f5d",
         "publishedAt": 1795638002,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15449,7 +15449,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=12f26563f8ad5dfa1114107c9fe813cd1f59b714e41be0ab0e833f048d1c0764",
         "publishedAt": 1795637700,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15521,7 +15521,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7382695e2801a77c6f2041556316435c416f7a219011c7495d5733cf9df6e118",
         "publishedAt": 1795637384,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15596,7 +15596,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=66377c41610ddd5a64a9b229988bc955c6db5c28b75c02b72b702f8f91b9c47f",
         "publishedAt": 1795634433,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15673,7 +15673,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7c2ba8001fe5e027f0278058684c71484bd4b88d24dff7dc137038885d37efe0",
         "publishedAt": 1795634101,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15749,7 +15749,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ceac68d8f871a0e8eb8d4cc9a9827d15a1d74779b2e5460348a32dc657027a9a",
         "publishedAt": 1795633740,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15818,7 +15818,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=892054fe619ed3a627e2ccad04123c09aeb6fbba4a340fd83392459a7c6f325d",
         "publishedAt": 1795633140,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15887,7 +15887,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1cd918db102e7da1d9c710a44bf05d3a855e39a644a6e950430b3c0ea4ce9b87",
         "publishedAt": 1795630191,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15955,7 +15955,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=050246e879c76a3e8b7b38e5d4dd179f91ebea57e86b63fa4f0b80de1e5995a5",
         "publishedAt": 1795629735,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16024,7 +16024,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f36ea0f94a1827e6ad2fa303afe38aed672d768a9567501ef89125689704230c",
         "publishedAt": 1795629665,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16080,7 +16080,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=8f6ed1da5d0268be94bd178ecfaf2bb976c026c5e08314d0966ed9ab93ab8c16",
         "publishedAt": 1795629067,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16157,7 +16157,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=015e3475881621a1f894cbebf893166c1b4603ee153a144dd3e1cac9f9aa2e41",
         "publishedAt": 1795629062,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16232,7 +16232,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c379d7550c186c9d2aad3162d201d0e31a5af558e1727517d7474cff60eae0f6",
         "publishedAt": 1795629000,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16299,7 +16299,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0f0d2c452071fee7558c0537e5a0f0817ac51d168d692fd531c7b633de704fda",
         "publishedAt": 1795628144,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16372,7 +16372,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4ec0093b8cb206aedd8bc4719f1fe048962b8b3afa9f805cb4e4cf84b8678150",
         "publishedAt": 1795627981,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16463,7 +16463,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c7f88142245d0503727ebe762149992f4d0116f66ee78220a41c08176d094ff4",
         "publishedAt": 1795627203,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16535,7 +16535,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c9a3524348fd19abc99596758d1444285e82e053e19f7104939db9f2f5ea8225",
         "publishedAt": 1795627142,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16615,7 +16615,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2e3cfa996ee24a054a8efadb4a54928eb459a3efbf4d78eb0abb2d78edc8e466",
         "publishedAt": 1795626890,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16682,7 +16682,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=768a04695b8a6583ebe218ed2939e17d0a3c811e47db4f278a9aa07c23e76317",
         "publishedAt": 1795626676,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16757,7 +16757,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=012eb766be848879257deaacef71f0adfb745ac8d6604a824b86177f4ea9271d",
         "publishedAt": 1795626658,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16824,7 +16824,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f7f1a1cc0b8220772a28bca86c9862beaabad6698c68ca0a791f5c220dd924ed",
         "publishedAt": 1795626461,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16901,7 +16901,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f7451099374f3cf0717e3b1ccd4860bd91b8ac3caa0f0b356f4df8205f098f9b",
         "publishedAt": 1795626255,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16991,7 +16991,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5f62b5f7f692a5b5fe8ef1644ab71dc22abcc94f68c6d72743d7a716a6265dc3",
         "publishedAt": 1795626110,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17068,7 +17068,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=87d468dc76d07822bdf2bec8fd0a5e851f2f894174365b136e24b53f7e309707",
         "publishedAt": 1795625761,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17143,7 +17143,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e57b03565ecd2646cea45ed6564ac3ff482ab3d2c24f16789ac95785eddb9fc8",
         "publishedAt": 1795625749,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17226,7 +17226,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6960670cbd9919810b2d46f8eca3172bba29c3e10e134a3310abd3c9a3035d9e",
         "publishedAt": 1795625521,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17301,7 +17301,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=03be995f6ee846f422da0f98a93f71127b418aac736751841ff9c0497b2328f8",
         "publishedAt": 1795625504,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17376,7 +17376,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3589c4ce2c7d1de35499a0de8e18c0913456ad6a08dd1bd41e419ed0d2a91d0a",
         "publishedAt": 1795625456,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17453,7 +17453,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=82d5a8c1ea468fba55d8bca0ae308926e237ab4efb984c4cf6ee347a1b71d8a5",
         "publishedAt": 1795624439,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17530,7 +17530,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=92f351eadad0432cc90d3b37f23e944b7e27bd16708e901c04486fc6938c6efe",
         "publishedAt": 1795624301,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17613,7 +17613,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=68707db74465da173a9255dc6e23a776c886cdb67da9413c5d4df9887122ff2b",
         "publishedAt": 1795623948,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17688,7 +17688,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=901b40018919cf3a0535968d6f6df1a430f67812643e36779c8dae548a4c3ac1",
         "publishedAt": 1795622340,
-        "collectedAt": 1795885223.3683941
+        "collectedAt": 1795885634.0223665
       },
       "confirmedFacts": [],
       "reportedClaims": [
