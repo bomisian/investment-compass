@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Armed individuals exit ship off Yemen with crew safe, says UK agency - Reuters",
+      "summary": "Armed individuals exit ship off Yemen with crew safe, says UK agency Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSmJza0RDY1R0YmlvRDBuNkxHYkRHc012MDVlS0stTzcwTVZuNGpTZ3dHZFI4UlFXekZlek1VbE1rYTV2OXhJRUdkLWZDa0dUX0NxNWVUb3FCY3dBSlc0T1Y5d0NHdjhmeXVvSTA4Sk1EamlUaTdYMXJoMHRNWm5TQXJTcWYxRi1qTy1mNzk5NkxQNlhyTTlsYzJNVExXNHBoamlfNTVGbXlkbWwwTkZYcFVpOWVRdXJZZEE?oc=5",
+      "datetime": 1795876547,
+      "headlineKo": "무장한 사람들이 승무원 안전을 가지고 예멘에서 탈출했다고 영국 기관이 밝혔습니다 - 로이터 통신",
+      "summaryKo": "영국 기관인 로이터는 무장한 사람들이 승무원 안전을 가지고 예멘에서 배를 빠져나간다고 말했습니다."
+    },
+    {
       "headline": "The doctor, the patient and the smartwatch: What physicians think of the third voice at your appointment",
       "summary": "Many Americans use a smartwatch or fitness tracker to collect their health data, and doctors say the devices are increasingly becoming part of annual checkups.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795798089,
       "headlineKo": "멕시코, 인신매매 혐의와 공직자 부패 혐의에 대한 DEA 제보에 대해 미국에 불만 제기 - 로이터 통신",
       "summaryKo": "멕시코, 인신매매 혐의와 공직자 부패 혐의에 대한 DEA 제보에 대해 미국에 불만 제기 - 최신"
-    },
-    {
-      "headline": "Fourteen found dead on migrant boat off Spain's Canary Islands - Reuters",
-      "summary": "Fourteen found dead on migrant boat off Spain's Canary Islands Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFg3b1hQNEFySWI3WEZRY21RRGFIQndWTWhVZkdpYUlVczFmR2hiSnZaemxZTzFqYU1uSThFbEVMSkgyVFR1SXE3UEpBd09jOWNzcW9IaXl0TXZIS3k2VXlEUDBVcEJjc25UOHBEXzhJcFBCX2YtdXpqLVVMN1lmVFliYWJ0QnY0YUhOOWJGblFRaXlmbFFpMUZ0aWdvRHRWQ0E4RFd3?oc=5",
-      "datetime": 1795795680,
-      "headlineKo": "스페인 카나리아 제도 해상 이주 보트에서 14명이 숨진 채 발견 - 로이터",
-      "summaryKo": "스페인 카나리아 제도 해상 이주 보트에서 14명이 숨진 채 발견 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795878001.473019,
+  "_news_last_success_at": 1795881636.492712,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795877994.1146884,
-  "_updated_label": "2026-11-29 00:00",
-  "_last_attempt_at": 1795877994.1146884,
-  "_last_success_at": 1795877994.1146884,
+  "_fetched_at": 1795881627.9840527,
+  "_updated_label": "2026-11-29 01:01",
+  "_last_attempt_at": 1795881627.9840527,
+  "_last_success_at": 1795881627.9840527,
   "_collection_status": "ok",
   "_collection_errors": []
 };
