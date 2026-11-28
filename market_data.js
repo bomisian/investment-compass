@@ -273,6 +273,15 @@ const MARKET_DATA = {
       "summaryKo": "Jensen Huang의 복귀는 일시적인 AI 랠리를 촉발시켰지만 지속적인 시장 변동성은 우리에게 현금을 투입할 수 있는 또 다른 기회를 제공했습니다."
     },
     {
+      "headline": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction - Reuters",
+      "summary": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0xwNFVEWnAyNUxEdzNWcUR2X2tPbDZtLTZyTUNKMFY0VlpIaHFMV2ZuT2ZfeEJCcHpjQk9JU1dyeEpRZDZQSnJIbWRGWEZqZEJfQnZyYmNadGJneDNhUnVoUVFYOC1PZXVydXFQOFVvdFVDTjN4QjhhRU5WbTdEZzZCTkFfd2ZtdmZTVWw0YWhhYTFLU05iZUpNMFR3dk9uUXZnLTQxUUxrYW1rM1RBZDBwYk9FWFJscWF2MS1CN2xjY3FYWHc?oc=5",
+      "datetime": 1795804016,
+      "headlineKo": "케냐의 기아 숭배 지도자, 최근 유죄판결을 받아 123명을 살해한 혐의로 유죄 판결 - 로이터",
+      "summaryKo": "케냐 기아종교 지도자, 123명 살해 혐의로 최근 유죄판결 - 로이터"
+    },
+    {
       "headline": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally - Reuters",
       "summary": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally Reuters",
       "source": "Reuters",
@@ -280,6 +289,15 @@ const MARKET_DATA = {
       "datetime": 1795799774,
       "headlineKo": "영국 FTSE 100, 광부와 은행 반등으로 8개월 만에 최대 주간 상승세 기록 - Reuters",
       "summaryKo": "영국의 FTSE 100은 광부와 은행이 랠리를 펼치면서 8개월 만에 가장 큰 주간 상승률을 기록했습니다."
+    },
+    {
+      "headline": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption - Reuters",
+      "summary": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2lSdWtGZDVPZzFmZWxiRm9aZ2ZkcDhYV2lDUHRfRjhpcVpyNk80a2JRSUdhUXBMT0MyUUFZUDFpUi1LRzVDLTBrTTZaYjhyeDh6OVNmSUhKWlZNdUhQZmZ1U2NBcWhoSE1VSFNRMTRlR2VHa1Zwbm9jcDJPdzRMMEJSSFdsaXVfOGZwRjkxOFp6d1YxdXlJZUdza3oyM21fMnQtTE1SZ01xS094NS1TY1pRRXFmMFE1b1VoN2c5cWI4dw?oc=5",
+      "datetime": 1795798089,
+      "headlineKo": "멕시코, 인신매매 혐의와 공직자 부패 혐의에 대한 DEA 제보에 대해 미국에 불만 제기 - 로이터 통신",
+      "summaryKo": "멕시코, 인신매매 혐의와 공직자 부패 혐의에 대한 DEA 제보에 대해 미국에 불만 제기 - 최신"
     },
     {
       "headline": "At least eight found dead on migrant boat off Spain's Canary Islands - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795786651,
       "headlineKo": "Airline Norse Atlantic의 노르웨이 운영 부서가 파산을 선언했습니다 - Reuters",
       "summaryKo": "Airline Norse Atlantic의 노르웨이 운영 부서가 파산을 선언했습니다."
-    },
-    {
-      "headline": "India's Adani Group targets capex of nearly $24 billion in FY27, CFO Singh says - Reuters",
-      "summary": "India's Adani Group targets capex of nearly $24 billion in FY27, CFO Singh says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOHlTQnpYYzNEZjVsMG9Yb3ViN2hTZEFtNmh0M1cwSktEaTRRdUpJY0owNkZoN1VZeUY0WUdGLUU0dXRCRnJ6NzExTHk3MEpRbUhKQ0Z1QkdocDVYUnowY0JFMFZ3VzZJLUVzSUlYUjMtaGNPelNYVVdvV2xKVFExNG10NXRJbHRKaWpBUVNGRm1fekVseXVqXzlsRUNoZkZqU2hQTGNwQXlEZFJCMHFiSm51MzAtZnZ0c2c?oc=5",
-      "datetime": 1795785937,
-      "headlineKo": "인도의 Adani Group은 FY27에 약 240억 달러의 자본 지출을 목표로 삼고 있다고 CFO Singh이 밝혔습니다. - Reuters",
-      "summaryKo": "인도의 Adani Group은 FY27에 약 240억 달러의 자본 지출을 목표로 삼고 있다고 CFO Singh은 말했습니다."
-    },
-    {
-      "headline": "Trump backs Iraqi leader's efforts to assert more state authority - Reuters",
-      "summary": "Trump backs Iraqi leader's efforts to assert more state authority Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdE9aRmVNN0dTb3V4aExjamVrY0F0X3hVb3g5ZWZZY1B1bVNzb2wwQkFXdi1ka3d2RFk1M1FDVGdUSXkwLTlRU3p0Q0RsRHM4cUsxcm5JOVFUN1U5bF9hYWtBVzZRYmhSVHEyaW8tZExhLVhfZmhZWHRXZzRTTXlONm9wTjRwNkxfY2MxVjZUUExpTGdqMU1jSDVxNXRNclIxa1hsRXcxTzhycGcxbW9vRDV0czJ4dw?oc=5",
-      "datetime": 1795785104,
-      "headlineKo": "트럼프, 국가 권위 강화를 위한 이라크 지도자의 노력 지지 - 로이터",
-      "summaryKo": "트럼프는 더 많은 국가 권위를 주장하려는 이라크 지도자의 노력을 지지합니다 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795851180.1646755,
+  "_news_last_success_at": 1795854942.2186377,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795851170.309591,
-  "_updated_label": "2026-11-28 16:33",
-  "_last_attempt_at": 1795851170.309591,
-  "_last_success_at": 1795851170.309591,
+  "_fetched_at": 1795854930.5195863,
+  "_updated_label": "2026-11-28 17:36",
+  "_last_attempt_at": 1795854930.5195863,
+  "_last_success_at": 1795854930.5195863,
   "_collection_status": "ok",
   "_collection_errors": []
 };
