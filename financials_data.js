@@ -5528,16 +5528,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795841700.8517783,
-    "_updated_label": "2026-11-28 13:55"
+    "_fetched_at": 1795843564.8506367,
+    "_updated_label": "2026-11-28 14:26"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1795841700.8517783,
-    "_updated_label": "2026-11-28 13:55"
+    "_fetched_at": 1795843564.8506367,
+    "_updated_label": "2026-11-28 14:26"
   },
   "ORCL": {
     "annual": [
