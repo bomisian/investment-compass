@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -8.075274746687345,
-        "ret3m": -5.675649802908723,
-        "ret6m": -5.514529806255086,
-        "ret1y": 0.2518070545447282,
+        "ret1m": -9.482462324113639,
+        "ret3m": -7.079467633156344,
+        "ret6m": -5.011239788215649,
+        "ret1y": -1.1278427453215611,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -26.321465605590845,
-        "ret3m": -26.4821689062255,
-        "ret6m": -31.781660507787734,
-        "ret1y": 66.32372014507841,
+        "ret1m": -28.019273681037728,
+        "ret3m": -32.54892517426175,
+        "ret6m": -34.896511343174986,
+        "ret1y": 57.74877530458853,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -20.2355543236736,
-        "ret3m": -24.19909086977986,
-        "ret6m": -22.720436413460764,
-        "ret1y": 69.34297972369312,
+        "ret1m": -25.484610061213942,
+        "ret3m": -34.191122536424714,
+        "ret6m": -29.931089627845687,
+        "ret1y": 53.41666242192504,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -12.185170078028829,
-        "ret3m": -16.76463175903965,
-        "ret6m": -25.646115989671525,
-        "ret1y": 12.512525806899877,
+        "ret1m": -11.507772521235971,
+        "ret3m": -21.24586783426824,
+        "ret6m": -27.6639731883499,
+        "ret1y": 10.500105571961416,
         "winRate": null,
         "count": 12
       }
@@ -229,8 +229,8 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.7425930914897819,
-    "corrPctRank": 59.49790794979079,
+    "corr60": 0.7338456856259105,
+    "corrPctRank": 57.87269681742043,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.6870860331148898,
     "corrMax5y": 0.9306761077384692
@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Son of Hamas chief survives Israeli strike, Hamas says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5",
-      "datetime": 1795813864,
+      "datetime": 1795821996,
       "headlineKo": "하마스 추장의 아들, 이스라엘 공격에서 살아남았다고 하마스가 밝혔습니다 - 로이터 통신",
       "summaryKo": "하마스 추장의 아들, 이스라엘 공습에서 살아남았다"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795823802.3180747,
+  "_news_last_success_at": 1795827821.471207,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795823795.3466365,
-  "_updated_label": "2026-11-28 08:57",
-  "_last_attempt_at": 1795823795.3466365,
-  "_last_success_at": 1795823795.3466365,
+  "_fetched_at": 1795827814.6466036,
+  "_updated_label": "2026-11-28 10:04",
+  "_last_attempt_at": 1795827814.6466036,
+  "_last_success_at": 1795827814.6466036,
   "_collection_status": "ok",
   "_collection_errors": []
 };
