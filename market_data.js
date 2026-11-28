@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "MSF charity condemns Israeli strike that killed two staff outside Gaza clinic - Reuters",
-      "summary": "MSF charity condemns Israeli strike that killed two staff outside Gaza clinic Reuters",
+      "headline": "MSF charity condemns Israeli drone strike that killed two staff outside Gaza clinic - Reuters",
+      "summary": "MSF charity condemns Israeli drone strike that killed two staff outside Gaza clinic Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSlN6bWNCajEzSzJDU0o3Qk5qQnJiS3Zxb2VaUnFjM05vM0hkZ2E3NnJNeXlVdEVVMkNwdGRXcmRaTGF3bHI4emRsaVhaTHVtV3dmNDJlWUFGY1YzTTFxNlNkaFViN1FYdlo3WVM4SUJlaTZkc1AyVE9MdmZkMDdYeE1wR3RzRXFzeTVvY0lrczh4N1ZGXzM4NWR2MmF6NkRYeDBWNEtMOEswT3BxU2dxYllRcmM?oc=5",
-      "datetime": 1795877675,
-      "headlineKo": "국경없는의사회 자선단체, 가자지구 병원 밖에서 직원 2명을 살해한 이스라엘 공습 비난 - 로이터",
-      "summaryKo": "국경없는의사회 자선단체, 가자지구 병원 밖에서 직원 2명을 살해한 이스라엘 공습을 규탄 - 최신"
+      "datetime": 1795885357,
+      "headlineKo": "국경없는의사회 자선단체, 가자지구 병원 밖에서 직원 2명 사망한 이스라엘 드론 공격 규탄 - 로이터",
+      "summaryKo": "국경없는의사회 자선단체, 가자지구 병원 밖에서 직원 2명 사망한 이스라엘 드론 공격 규탄 - 최신"
     },
     {
       "headline": "Armed individuals exit ship off Yemen with crew safe, says UK agency - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795885656.1430109,
+  "_news_last_success_at": 1795889798.4636037,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795885648.757421,
-  "_updated_label": "2026-11-29 02:08",
-  "_last_attempt_at": 1795885648.757421,
-  "_last_success_at": 1795885648.757421,
+  "_fetched_at": 1795889790.0014558,
+  "_updated_label": "2026-11-29 03:17",
+  "_last_attempt_at": 1795889790.0014558,
+  "_last_success_at": 1795889790.0014558,
   "_collection_status": "ok",
   "_collection_errors": []
 };
