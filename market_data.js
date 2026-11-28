@@ -237,13 +237,22 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Israeli strike killed two staff outside Gaza clinic, MSF says - Reuters",
-      "summary": "Israeli strike killed two staff outside Gaza clinic, MSF says Reuters",
+      "headline": "The doctor, the patient and the smartwatch: What physicians think of the third voice at your appointment",
+      "summary": "Many Americans use a smartwatch or fitness tracker to collect their health data, and doctors say the devices are increasingly becoming part of annual checkups.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/11/28/wearable-health-trackers-doctors.html",
+      "datetime": 1795870802,
+      "headlineKo": "의사, 환자, 그리고 스마트워치: 진료 예약 시 제3의 목소리에 대해 의사들이 생각하는 것",
+      "summaryKo": "많은 미국인들이 건강 데이터를 수집하기 위해 스마트워치나 피트니스 트래커를 사용하고 있으며, 의사들은 이 장치가 점점 더 연례 검진의 일부가 되고 있다고 말합니다."
+    },
+    {
+      "headline": "MSF charity condemns Israeli strike that killed two staff outside Gaza clinic - Reuters",
+      "summary": "MSF charity condemns Israeli strike that killed two staff outside Gaza clinic Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSlN6bWNCajEzSzJDU0o3Qk5qQnJiS3Zxb2VaUnFjM05vM0hkZ2E3NnJNeXlVdEVVMkNwdGRXcmRaTGF3bHI4emRsaVhaTHVtV3dmNDJlWUFGY1YzTTFxNlNkaFViN1FYdlo3WVM4SUJlaTZkc1AyVE9MdmZkMDdYeE1wR3RzRXFzeTVvY0lrczh4N1ZGXzM4NWR2MmF6NkRYeDBWNEtMOEswT3BxU2dxYllRcmM?oc=5",
-      "datetime": 1795853143,
-      "headlineKo": "이스라엘 공습으로 가자지구 진료소 밖에서 직원 2명이 사망했다고 국경없는의사회가 밝혔습니다 - 로이터",
-      "summaryKo": "이스라엘 공습으로 가자지구 병원 밖에서 직원 2명이 사망했다고 국경없는의사회가 로이터 통신에 밝혔다."
+      "datetime": 1795868950,
+      "headlineKo": "국경없는의사회 자선단체, 가자지구 병원 밖에서 직원 2명을 살해한 이스라엘 공습 비난 - 로이터",
+      "summaryKo": "국경없는의사회 자선단체, 가자지구 병원 밖에서 직원 2명을 살해한 이스라엘 공습을 규탄 - 최신"
     },
     {
       "headline": "Explosion reported at school in Afghanistan, official says - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795795680,
       "headlineKo": "스페인 카나리아 제도 해상 이주 보트에서 14명이 숨진 채 발견 - 로이터",
       "summaryKo": "스페인 카나리아 제도 해상 이주 보트에서 14명이 숨진 채 발견 - 최신"
-    },
-    {
-      "headline": "'The Traitors' ended with a $246,300 prize—here's who won and what they told us about spending it",
-      "summary": "Winning prize money can come with some big financial decisions, including how much to set aside for taxes.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/11/27/the-traitors-ends-with-246300-prize-heres-how-much-goes-to-taxes.html",
-      "datetime": 1795794569,
-      "headlineKo": "'The Traitors'는 $246,300의 상금으로 끝났습니다. 우승자는 누구이며, 상금 지출에 관해 그들이 말한 내용은 다음과 같습니다.",
-      "summaryKo": "상금을 받으려면 세금을 얼마나 따로 떼어 놓을지 등 몇 가지 중요한 재정적 결정을 내려야 할 수 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795870446.6598685,
+  "_news_last_success_at": 1795874242.1053739,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795870438.2039886,
-  "_updated_label": "2026-11-28 21:54",
-  "_last_attempt_at": 1795870438.2039886,
-  "_last_success_at": 1795870438.2039886,
+  "_fetched_at": 1795874232.558269,
+  "_updated_label": "2026-11-28 22:57",
+  "_last_attempt_at": 1795874232.558269,
+  "_last_success_at": 1795874232.558269,
   "_collection_status": "ok",
   "_collection_errors": []
 };
