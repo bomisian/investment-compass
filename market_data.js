@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US military repelled drones at UK airbase this month, FT reports - Reuters",
+      "summary": "US military repelled drones at UK airbase this month, FT reports Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVBLa19DdUlDcGg5RVY2bjFfYS1QYXJRQmE0Z1ZfNm02WmI5RnBhcEhKSGdRR01XdUJhandJSzQ0SEF5bWRlZlBUbUJPbVJLbjROSUozYnJseGhLekl6bEhTTU5tbEVQMWtCU3Z1YzJiTTZNcnBrdVNYQ3ZudHpLVFREbWhkcUNWSVQ0bHdCVUF5RU0?oc=5",
+      "datetime": 1795843080,
+      "headlineKo": "FT는 이번 달 영국 공군기지에서 미군이 드론을 격퇴했다고 보도했다.",
+      "summaryKo": "FT는 이번 달 영국 공군기지에서 미군이 드론을 격퇴했다고 로이터 통신이 보도했다."
+    },
+    {
       "headline": "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
       "summary": "Son of Hamas chief survives Israeli strike, Hamas says Reuters",
       "source": "Reuters",
@@ -244,15 +253,6 @@ const MARKET_DATA = {
       "datetime": 1795821996,
       "headlineKo": "하마스 추장의 아들, 이스라엘 공격에서 살아남았다고 하마스가 밝혔습니다 - 로이터 통신",
       "summaryKo": "하마스 추장의 아들, 이스라엘 공습에서 살아남았다"
-    },
-    {
-      "headline": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
-      "summary": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
-      "datetime": 1795812961,
-      "headlineKo": "독점: 해커들이 미 공군의 주력 Cloud One 컴퓨팅 플랫폼을 침해했습니다 - Reuters",
-      "summaryKo": "독점: 해커들이 미 공군의 주력 Cloud One 컴퓨팅 플랫폼을 침해했습니다."
     },
     {
       "headline": "US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795847417.7752326,
+  "_news_last_success_at": 1795851180.1646755,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795847410.7079134,
-  "_updated_label": "2026-11-28 15:30",
-  "_last_attempt_at": 1795847410.7079134,
-  "_last_success_at": 1795847410.7079134,
+  "_fetched_at": 1795851170.309591,
+  "_updated_label": "2026-11-28 16:33",
+  "_last_attempt_at": 1795851170.309591,
+  "_last_success_at": 1795851170.309591,
   "_collection_status": "ok",
   "_collection_errors": []
 };
