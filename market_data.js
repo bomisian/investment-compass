@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israeli strike killed two staff outside Gaza clinic, MSF says - Reuters",
+      "summary": "Israeli strike killed two staff outside Gaza clinic, MSF says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSlN6bWNCajEzSzJDU0o3Qk5qQnJiS3Zxb2VaUnFjM05vM0hkZ2E3NnJNeXlVdEVVMkNwdGRXcmRaTGF3bHI4emRsaVhaTHVtV3dmNDJlWUFGY1YzTTFxNlNkaFViN1FYdlo3WVM4SUJlaTZkc1AyVE9MdmZkMDdYeE1wR3RzRXFzeTVvY0lrczh4N1ZGXzM4NWR2MmF6NkRYeDBWNEtMOEswT3BxU2dxYllRcmM?oc=5",
+      "datetime": 1795853143,
+      "headlineKo": "이스라엘 공습으로 가자지구 진료소 밖에서 직원 2명이 사망했다고 국경없는의사회가 밝혔습니다 - 로이터",
+      "summaryKo": "이스라엘 공습으로 가자지구 병원 밖에서 직원 2명이 사망했다고 국경없는의사회가 로이터 통신에 밝혔다."
+    },
+    {
       "headline": "Explosion reported at school in Afghanistan, official says - Reuters",
       "summary": "Explosion reported at school in Afghanistan, official says Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795794569,
       "headlineKo": "'The Traitors'는 $246,300의 상금으로 끝났습니다. 우승자는 누구이며, 상금 지출에 관해 그들이 말한 내용은 다음과 같습니다.",
       "summaryKo": "상금을 받으려면 세금을 얼마나 따로 떼어 놓을지 등 몇 가지 중요한 재정적 결정을 내려야 할 수 있습니다."
-    },
-    {
-      "headline": "Top 10 things to watch in the stock market on Black Friday",
-      "summary": "Stocks are on pace for a record Black Friday as Anthropic tries to regain its IPO price.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/27/top-10-things-to-watch-in-the-stock-market-on-black-friday.html",
-      "datetime": 1795789716,
-      "headlineKo": "블랙 프라이데이에 주식 시장에서 주목해야 할 10가지",
-      "summaryKo": "Anthropic이 IPO 가격을 회복하려고 시도함에 따라 주식은 기록적인 블랙 프라이데이를 앞두고 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795866659.05114,
+  "_news_last_success_at": 1795870446.6598685,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795866651.825442,
-  "_updated_label": "2026-11-28 20:51",
-  "_last_attempt_at": 1795866651.825442,
-  "_last_success_at": 1795866651.825442,
+  "_fetched_at": 1795870438.2039886,
+  "_updated_label": "2026-11-28 21:54",
+  "_last_attempt_at": 1795870438.2039886,
+  "_last_success_at": 1795870438.2039886,
   "_collection_status": "ok",
   "_collection_errors": []
 };
