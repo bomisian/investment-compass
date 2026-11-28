@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Explosion reported at school in Afghanistan, official says - Reuters",
+      "summary": "Explosion reported at school in Afghanistan, official says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVRKa09nUTkyZHR6Tnp6aTFwNzFYOHd0WGRtWjFEU2Z4RmFvRzVETWJwbEF4WHROdnpCVU9NMVBYYUJtbVU5NzVqNEVkaEVhNUtmMHFrbFE0cW5OQmdXYkpiV0JvbGoteXRYamR6Mjl0clR1cmp2elB5LU9IOUFjZzcwSXFjTXVxcy1XbmJHdGQwbjZMREhfNzRwS29Jck8zbURsQkdoTXMtZw?oc=5",
+      "datetime": 1795853125,
+      "headlineKo": "아프가니스탄 학교에서 폭발이 보고됐다고 관계자가 밝혔습니다 - 로이터 통신",
+      "summaryKo": "아프가니스탄 학교에서 폭발이 보고됐다고 관계자가 로이터 통신에 말했다."
+    },
+    {
+      "headline": "Iran's flogging of singer was warning from anxious hardliners, insiders say - Reuters",
+      "summary": "Iran's flogging of singer was warning from anxious hardliners, insiders say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHEwNVJXaUs1bXFUR0FoQUQ2TTJWNThDakwyUkMxZk41VlYwYUthWVdNck1vT3pIY1BZdjQ4S3RIOFZuUlRjRUZoRUxxTmRaOVI1ZjU2RURfVzJMSGo0RVpnZ29XTmlXeV9zbExvOWMwdEZ6a0ozQzBZNkhsQWpsamFrTnlLMUgwTnpHd2htUTdrRUw3a0F5V1lTUDI2dDRTbjQ1UjBObzdKUm50N2hfTHNzVE1hSDNGMng0?oc=5",
+      "datetime": 1795850040,
+      "headlineKo": "이란의 가수 채찍질은 불안한 강경파들의 경고였다고 내부자들은 말한다 - 로이터",
+      "summaryKo": "이란의 가수 채찍질은 불안한 강경파들의 경고였다고 내부자들은 말했습니다."
+    },
+    {
       "headline": "US military repelled drones at UK airbase this month, FT reports - Reuters",
       "summary": "US military repelled drones at UK airbase this month, FT reports Reuters",
       "source": "Reuters",
@@ -300,13 +318,13 @@ const MARKET_DATA = {
       "summaryKo": "멕시코, 인신매매 혐의와 공직자 부패 혐의에 대한 DEA 제보에 대해 미국에 불만 제기 - 최신"
     },
     {
-      "headline": "At least eight found dead on migrant boat off Spain's Canary Islands - Reuters",
-      "summary": "At least eight found dead on migrant boat off Spain's Canary Islands Reuters",
+      "headline": "Fourteen found dead on migrant boat off Spain's Canary Islands - Reuters",
+      "summary": "Fourteen found dead on migrant boat off Spain's Canary Islands Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFg3b1hQNEFySWI3WEZRY21RRGFIQndWTWhVZkdpYUlVczFmR2hiSnZaemxZTzFqYU1uSThFbEVMSkgyVFR1SXE3UEpBd09jOWNzcW9IaXl0TXZIS3k2VXlEUDBVcEJjc25UOHBEXzhJcFBCX2YtdXpqLVVMN1lmVFliYWJ0QnY0YUhOOWJGblFRaXlmbFFpMUZ0aWdvRHRWQ0E4RFd3?oc=5",
-      "datetime": 1795797826,
-      "headlineKo": "스페인 카나리아 제도 해상 이주 보트에서 최소 8명이 숨진 채 발견 - 로이터 통신",
-      "summaryKo": "스페인 카나리아 제도 해상 이주 보트에서 최소 8명이 숨진 채 발견 - 로이터"
+      "datetime": 1795795680,
+      "headlineKo": "스페인 카나리아 제도 해상 이주 보트에서 14명이 숨진 채 발견 - 로이터",
+      "summaryKo": "스페인 카나리아 제도 해상 이주 보트에서 14명이 숨진 채 발견 - 최신"
     },
     {
       "headline": "'The Traitors' ended with a $246,300 prize—here's who won and what they told us about spending it",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795789716,
       "headlineKo": "블랙 프라이데이에 주식 시장에서 주목해야 할 10가지",
       "summaryKo": "Anthropic이 IPO 가격을 회복하려고 시도함에 따라 주식은 기록적인 블랙 프라이데이를 앞두고 있습니다."
-    },
-    {
-      "headline": "Czech lower house approves windfall tax on refineries, will hit Orlen - Reuters",
-      "summary": "Czech lower house approves windfall tax on refineries, will hit Orlen Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOUZlQzhOdlJaT2pkWWdHWm9wbFE3UVFYOURGS3Q5R2NpTEZyMmRLY3cxZHRSa3pwNHVSWXlTTkYweDZ5V1NMcDNqNHhjZkZ6MjNVbHJIREpBdkhna2hOUTZVNFZ6SDJOdmNxR1RscDhaNURwZFpvc0dqeF94eUxFeWV3TWF3R05OM1RjeFpIbXFZWmhYdF8wVTNtbC1oVEV2cjY5UA?oc=5",
-      "datetime": 1795786662,
-      "headlineKo": "체코 하원, 정유소에 대한 횡재세 승인, 오를렌에 타격 - Reuters",
-      "summaryKo": "체코 하원, 정유소에 대한 횡재세 승인, Orlen에 타격을 줄 것 Reuters"
-    },
-    {
-      "headline": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy - Reuters",
-      "summary": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjF6SXBzRmpCeHczaU9VZnNGczNjcWtlMXNCMUFrTUxfbUViN3cxUXpPbFU0YVRTQzU0aEY5MGdLY1hnU2I1R21jd2tYNnIyLVVLeEtoSEY2WjZKNTE0QkdLWWFzcmkySGFYUWE4Vmh3OVpzLWJ3V25LX18zSUJ4TS1TcExrVFFoUUVvOS13NmF1dUZJWVo1S2hLRlZaNmMzTWh1dDFsTHpXUzlzN2lWQ01sc1VVR0hOUzlZSTJ3?oc=5",
-      "datetime": 1795786651,
-      "headlineKo": "Airline Norse Atlantic의 노르웨이 운영 부서가 파산을 선언했습니다 - Reuters",
-      "summaryKo": "Airline Norse Atlantic의 노르웨이 운영 부서가 파산을 선언했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795854942.2186377,
+  "_news_last_success_at": 1795858710.879031,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795854930.5195863,
-  "_updated_label": "2026-11-28 17:36",
-  "_last_attempt_at": 1795854930.5195863,
-  "_last_success_at": 1795854930.5195863,
+  "_fetched_at": 1795858699.0208282,
+  "_updated_label": "2026-11-28 18:38",
+  "_last_attempt_at": 1795858699.0208282,
+  "_last_success_at": 1795858699.0208282,
   "_collection_status": "ok",
   "_collection_errors": []
 };
