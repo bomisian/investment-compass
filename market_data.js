@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "At risk of losing power, Netanyahu makes unity appeal to rival Eisenkot - Reuters",
+      "summary": "At risk of losing power, Netanyahu makes unity appeal to rival Eisenkot Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNldPM3Z2QVFKbkFuXzFyT29KandURVRPMzFEYXkyWkRaNWxXRTlXRGpsOTBsc3JOTXQ3WWtIcnhBSHM4bkRUVHBfMWFzVERwQUFBWHZ4MWFrME5IekZtMWpndXZZTERLYmc3NDY3LUx0Njh6Q3oyTHZRS0RTMUpLc0dyQm9DQUZfZG4yU0RVdkhuLTloeXpoODZqdXNWc0tMRTFMdlZLdzNTa2FZSktpd2RsbFJxZWJnWnR6Z3ZHbzZZRmc?oc=5",
+      "datetime": 1795892079,
+      "headlineKo": "네타냐후, 권력 상실 위기에 처해 라이벌 아이젠코트에게 단결 호소 - 로이터 통신",
+      "summaryKo": "네타냐후, 권력 상실 위험에 처해 라이벌 아이젠코트에게 단결 호소 - 로이터"
+    },
+    {
       "headline": "MSF charity condemns Israeli drone strike that killed two staff outside Gaza clinic - Reuters",
       "summary": "MSF charity condemns Israeli drone strike that killed two staff outside Gaza clinic Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1795799774,
       "headlineKo": "영국 FTSE 100, 광부와 은행 반등으로 8개월 만에 최대 주간 상승세 기록 - Reuters",
       "summaryKo": "영국의 FTSE 100은 광부와 은행이 랠리를 펼치면서 8개월 만에 가장 큰 주간 상승률을 기록했습니다."
-    },
-    {
-      "headline": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption - Reuters",
-      "summary": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2lSdWtGZDVPZzFmZWxiRm9aZ2ZkcDhYV2lDUHRfRjhpcVpyNk80a2JRSUdhUXBMT0MyUUFZUDFpUi1LRzVDLTBrTTZaYjhyeDh6OVNmSUhKWlZNdUhQZmZ1U2NBcWhoSE1VSFNRMTRlR2VHa1Zwbm9jcDJPdzRMMEJSSFdsaXVfOGZwRjkxOFp6d1YxdXlJZUdza3oyM21fMnQtTE1SZ01xS094NS1TY1pRRXFmMFE1b1VoN2c5cWI4dw?oc=5",
-      "datetime": 1795798089,
-      "headlineKo": "멕시코, 인신매매 혐의와 공직자 부패 혐의에 대한 DEA 제보에 대해 미국에 불만 제기 - 로이터 통신",
-      "summaryKo": "멕시코, 인신매매 혐의와 공직자 부패 혐의에 대한 DEA 제보에 대해 미국에 불만 제기 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1795889798.4636037,
+  "_news_last_success_at": 1795893583.1336012,
   "fgi": {
     "score": 24.8857142857143,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1795889790.0014558,
-  "_updated_label": "2026-11-29 03:17",
-  "_last_attempt_at": 1795889790.0014558,
-  "_last_success_at": 1795889790.0014558,
+  "_fetched_at": 1795893574.5306437,
+  "_updated_label": "2026-11-29 04:20",
+  "_last_attempt_at": 1795893574.5306437,
+  "_last_success_at": 1795893574.5306437,
   "_collection_status": "ok",
   "_collection_errors": []
 };
